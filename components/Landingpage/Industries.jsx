@@ -80,7 +80,7 @@ const ServiceProcess = () => {
   {/* TOP IMAGE */}
   <div className="w-full  rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/use2.jpg"      // <-- change this to your actual image
+      src="/test2.png"      
       width={600}
       height={400}
       alt="Sustainability visual"

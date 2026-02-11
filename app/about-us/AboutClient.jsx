@@ -14,16 +14,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 const AboutPage = () => {
 
   const sliderImages = [
-  {
-    id: 1,
-    src: "/use1.jpg",
-    alt: "Recycling bins illustration",
-  },
-  {
-    id: 2,
-    src: "/use2.jpg",
-    alt: "Dustbin image",
-  },
+  
   {
     id: 3,
     src: "/test3.png",
