@@ -21,27 +21,23 @@ const About = () => {
   },
   {
     id: 3,
-    src: "/use3.jpeg",
+    src: "/test3.png",
     alt: "Hospital dustbin",
   },
 
    {
     id: 4,
-    src: "/use6.jpeg",
+    src: "/test1.png",
     alt: "Hospital dustbin",
   },
 
    {
     id: 5,
-    src: "/use5.jpg",
+    src: "/test2.png",
     alt: "Hospital dustbin",
   },
 
-     {
-    id: 6,
-    src: "/use4.jpg",
-    alt: "Hospital dustbin",
-  },
+     
 ];
 
 
@@ -107,7 +103,7 @@ const About = () => {
         </div>
 
  {/* RIGHT IMAGE WITH SWIPER */}
-<div className="relative">
+<div className="relative  bg-white">
   <div className="p-4">
     <Swiper
       modules={[Navigation, Autoplay]}

@@ -74,7 +74,7 @@ Contact: ${phone}`;
       <div
         className="relative bg-cover bg-center h-[50vh] md:h-[100vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
-          backgroundImage: "url('/use6.jpg')",
+          backgroundImage: "url('/ctaimg.png')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-blue-400/70 via-[#0A3A49]/60 to-[#0A3A49]/60"></div>

@@ -13,7 +13,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 
 const AboutPage = () => {
 
- const sliderImages = [
+  const sliderImages = [
   {
     id: 1,
     src: "/use1.jpg",
@@ -26,27 +26,23 @@ const AboutPage = () => {
   },
   {
     id: 3,
-    src: "/use3.jpeg",
+    src: "/test3.png",
     alt: "Hospital dustbin",
   },
 
    {
     id: 4,
-    src: "/use6.jpeg",
+    src: "/test1.png",
     alt: "Hospital dustbin",
   },
 
    {
     id: 5,
-    src: "/use5.jpg",
+    src: "/test2.png",
     alt: "Hospital dustbin",
   },
 
-     {
-    id: 6,
-    src: "/use4.jpg",
-    alt: "Hospital dustbin",
-  },
+     
 ];
 
 
@@ -57,7 +53,7 @@ const AboutPage = () => {
         className="relative bg-cover bg-center h-[50vh] md:h-[100vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
           backgroundImage:
-            "url('/use6.jpg ')",
+            "url('/ctaimg.png ')",
         }}
       >
         {/* Overlay Gradient */}
@@ -104,7 +100,7 @@ const AboutPage = () => {
 
          
           {/* RIGHT IMAGE WITH SWIPER */}
-         <div className="relative">
+         <div className="relative bg-white">
            <div className="p-4">
              <Swiper
                modules={[Navigation, Autoplay]}
