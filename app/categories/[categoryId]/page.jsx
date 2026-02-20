@@ -3,7 +3,7 @@ import CategoryClient from "./CategoryClient";
 
 // ✅ Dynamic metadata for each category
 export async function generateMetadata({ params }) {
-  const { categoryId } = params;
+  const { categoryId } = await params;
 
   // find the matching category
   const category = categories.find((c) => c.id === categoryId);

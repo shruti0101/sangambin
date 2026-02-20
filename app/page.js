@@ -12,9 +12,9 @@ import Form from "@/components/Landingpage/Form"
 //  import Form from "@/components/Landingpage/Form"
 import Testimonial from "@/components/Landingpage/Testmonial";
 
-import Enquiry from "@/components/Enquiry"
-// import Citeskeyword from "@/components/Citieskeyword";
-import Check from "@/components/Landingpage/Check";
+// import Enquiry from "@/components/Enquiry"
+import Citeskeyword from "@/components/Citieskeyword";
+// import Check from "@/components/Landingpage/Check";
 export default function Home() {
   return (
 <>
@@ -22,11 +22,11 @@ export default function Home() {
 
 
 <Hero></Hero>
-<Enquiry></Enquiry>
+{/* <Enquiry></Enquiry> */}
 
 
 <AboutUs></AboutUs>
-{/* <Check></Check> */}
+
 <ProductCategorySection></ProductCategorySection>
 
 <Products></Products>
@@ -41,11 +41,11 @@ export default function Home() {
 
 
 <Certificates></Certificates>
-{/* <Form></Form> */}
+
 
 <Testimonial></Testimonial>
 <Faq></Faq>
-{/* <Citeskeyword></Citeskeyword> */}
+<Citeskeyword></Citeskeyword>
 </>
   );
 }

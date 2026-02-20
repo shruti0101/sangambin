@@ -98,7 +98,7 @@ Contact: ${phone}`;
 
         <div className="hidden md:block w-full md:w-1/2 h-64 md:h-auto relative">
           <Image
-            src="/use2.jpg"
+            src="/formbg.jpg"
             alt="Contact Us"
             fill
             className="object-contain bg-white w-full h-full"

@@ -1,14 +1,223 @@
 "use client";
-
+import Image from "next/image";
 import Products from "@/components/Landingpage/Products";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import Citieskeywords from "@/components/Citieskeyword";
  import Form from "@/components/Landingpage/Form"
  import Cta from "@/components/Landingpage/Cta";
+import ProductCategorySection from "@/components/Landingpage/Categories";
+import Certificates from "@/components/Landingpage/Certificates";
+
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
+import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+
+import {
+  Home,
+  Building2,
+  Hospital,
+  Utensils,
+  GraduationCap,
+  Factory,
+  Trees,
+} from "lucide-react";
+import { Boxes, IndianRupee } from "lucide-react";
+
+import {
+  ShieldCheck,
+  
+  Layers,
+  Settings,
+  Leaf,
+  Truck,
+  BadgeCheck,
+  Sparkles,
+} from "lucide-react";
+
+
 export default function HomePage() {
   const params = useParams();
   const city = params.location?.split("-in-")?.[1];
+
+
+
+const points = [
+    {
+      title: "Material Quality",
+      desc: "Ensure the dustbin is made from 100% virgin plastic for long-lasting durability.",
+    },
+    {
+      title: "Manufacturing Process",
+      desc: "Check if it is rotomolded or blow-moulded; rotomoulded dustbins are stronger and more reliable.",
+    },
+    {
+      title: "Size & Design",
+      desc: "Choose the right size and design for household, commercial, or industrial use, with options for lids and compartments.",
+    },
+    {
+      title: "Eco-Friendly & Reliable Brand",
+      desc: `Select dustbins that support proper waste management from a trusted Plastic Dustbin Manufacturer in ${city}.`,
+    },
+  ];
+
+
+   const features = [
+    {
+      icon: <Boxes size={40} />,
+      title: "Diverse Product Range",
+      desc: `Explore our extensive selection of products, including Plastic Dustbins manufacturer in ${city}, Hospital Dustbin Manufacturer and Plastic Pedal Bins etc. designed to meet residential, commercial, and industrial requirements.`,
+    },
+    {
+      icon: <IndianRupee size={40} />,
+      title: "Competitive Pricing",
+      desc: "We provide competitive pricing without compromising on quality, making it easy to choose the right product that fits your budget.",
+    },
+    {
+      icon: <BadgeCheck size={40} />,
+      title: "Quality Assurance",
+      desc: "Each product undergoes strict quality checks to ensure durability, reliability, and long-lasting performance, giving you peace of mind with every purchase.",
+    },
+  ];
+
+
+  const reasons = [
+    {
+      icon: <Factory size={36} />,
+      title: `Trusted Plastic Dustbin Manufacturer in ${city}`,
+      desc: "Years of experience in producing high-quality, durable, and eco-friendly dustbins for homes, offices, and industries.",
+    },
+    {
+      icon: <ShieldCheck size={36} />,
+      title: "Premium-Grade Materials",
+      desc: "We use strong, long-lasting plastics that are resistant to wear, ensuring durability and reliable performance.",
+    },
+    {
+      icon: <Layers size={36} />,
+      title: "Wide Range of Products",
+      desc: "Household dustbins, commercial waste bins, industrial dustbins, and recycling solutions in various sizes and designs.",
+    },
+    {
+      icon: <Settings size={36} />,
+      title: "Custom Solutions Available",
+      desc: "Tailored options in size, color, and design to meet specific client requirements.",
+    },
+    {
+      icon: <Leaf size={36} />,
+      title: "Eco-Friendly & Sustainable",
+      desc: "Our dustbins support proper waste management and environmental responsibility.",
+    },
+    {
+      icon: <Truck size={36} />,
+      title: "Timely Delivery & Customer Support",
+      desc: "Prompt delivery, competitive pricing, and professional assistance for every order.",
+    },
+    {
+      icon: <BadgeCheck size={36} />,
+      title: "Quality Assurance",
+      desc: "Strict quality control at every stage ensures products that last and perform efficiently.",
+    },
+    {
+      icon: <Sparkles size={36} />,
+      title: "Modern & Functional Designs",
+      desc: "Dustbins crafted for convenience, easy maintenance, and long-term usability.",
+    },
+  ];
+
+
+  const industries = [
+    {
+      icon: <Home size={36} />,
+      title: "Residential Sector",
+      desc: "Durable and stylish dustbins for apartments, houses, and gated communities to maintain cleanliness and hygiene.",
+    },
+    {
+      icon: <Building2 size={36} />,
+      title: "Commercial Offices & Workspaces",
+      desc: "Office dustbins in various sizes and designs, ensuring clean and organized work environments.",
+    },
+    {
+      icon: <Hospital size={36} />,
+      title: "Hospitals & Healthcare Facilities",
+      desc: "Specially designed bins for safe disposal of medical and general waste.",
+    },
+    {
+      icon: <Utensils size={36} />,
+      title: "Hotels & Restaurants",
+      desc: "High-quality dustbins for kitchens, lobbies, and guest areas, supporting cleanliness and sanitation standards.",
+    },
+    {
+      icon: <GraduationCap size={36} />,
+      title: "Educational Institutions",
+      desc: "Dustbins suitable for schools, colleges, and universities to encourage proper waste disposal.",
+    },
+    {
+      icon: <Factory size={36} />,
+      title: "Manufacturing Units",
+      desc: "Large-capacity dustbins and industrial waste solutions for factories, warehouses, and production facilities.",
+    },
+    {
+      icon: <Trees size={36} />,
+      title: "Public Spaces & Municipal ",
+      desc: "Eco-friendly dustbins for parks, streets, and public areas, supporting city cleanliness initiatives.",
+    },
+  ];
+
+
+    const faqs = [
+    {
+      "question": `1. Who is the leading Plastic Dustbin Manufacturer in ${city}?`,
+      "answer": `Sangam Plastic Industries Private Limited is a trusted Plastic Dustbin Manufacturer in ${city}, providing high-quality, durable, and eco-friendly dustbins for residential, commercial, and industrial use.`
+    },
+    {
+      "question": "2. What types of plastic dustbins do you manufacture?",
+      "answer": "We manufacture a wide range of plastic dustbins including household bins, commercial waste bins, industrial bins, and recycling bins in various sizes, shapes, and colors."
+    },
+    {
+      "question": "3. Can I get custom-designed plastic dustbins?",
+      "answer": `Yes, as a reliable Plastic Dustbin Manufacturer, we offer customized dustbins based on size, color, design, and branding requirements for clients across ${city}.`
+    },
+    {
+      "question": "4. Are your plastic dustbins eco-friendly?",
+      "answer": "Absolutely! Our plastic dustbins are made from high-quality, recyclable, and eco-friendly materials, ensuring durability while supporting sustainable waste management."
+    },
+    {
+      "question": "5. What is the durability of your plastic dustbins?",
+      "answer": "Our dustbins are manufactured with premium-grade plastic, making them long-lasting, resistant to wear and tear, and easy to maintain even in heavy-duty industrial environments."
+    },
+    {
+      "question": "6. Do you supply plastic dustbins in bulk?",
+      "answer": `Yes, we cater to bulk orders for commercial and industrial clients and can ensure timely delivery across ${city} and nearby regions.`
+    },
+    {
+      "question": "7. How can I place an order with Sangam Plastic Industries?",
+      "answer": `You can place an order by contacting us via phone, email, or visiting our ${city} office. Our team will guide you through product selection, customization, and delivery options.`
+    },
+    {
+      "question": "8. Are your plastic dustbins suitable for outdoor use?",
+      "answer": "Yes, our dustbins are designed to withstand outdoor conditions such as sun exposure, rain, and rough handling, making them ideal for both indoor and outdoor use."
+    },
+    {
+      "question": "9. What makes Sangam Plastic Industries a trusted Plastic Dustbin Manufacturer?",
+      "answer": `We combine years of industry experience, high-quality materials, customization options, and a commitment to customer satisfaction, making us one of the top Plastic Dustbin Manufacturers in ${city}.`
+    },
+    {
+      "question": "10. Do you offer maintenance or replacement services?",
+      "answer": "While our plastic dustbins are highly durable, we provide guidance on maintenance and offer support for replacement in case of manufacturing defects or damage."
+    }
+  ]
+
+  const [openIndex, setOpenIndex] = useState(null);
+  const toggleFAQ = (index) => setOpenIndex(openIndex === index ? null : index);
+
+  // Split the FAQ list into two columns
+  const half = Math.ceil(faqs.length / 2);
+  const col1 = faqs.slice(0, half);
+  const col2 = faqs.slice(half);
 
   return (
     <main className="bg-[#f7f8fa] text-slate-800">
@@ -17,7 +226,7 @@ export default function HomePage() {
         className="relative h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-            "url(https://res.cloudinary.com/dzbkxqqo9/image/upload/v1759728776/aboutbg_xoifk1.webp)",
+            "url(/ctaimg.png)",
         }}
       >
         {/* overlay */}
@@ -26,8 +235,8 @@ export default function HomePage() {
         {/*  CONTENT */}
         <div className="relative z-10 flex h-full items-center justify-center px-6 text-center text-white">
           <div>
-            <h1 className="text-3xl md:text-6xl font-serif font-extrabold tracking-tight drop-shadow-lg capitalize">
-              Titanium Dioxide Wholesaler In {city}
+            <h1 className="text-3xl md:text-6xl px-5 font-serif font-extrabold tracking-tight drop-shadow-lg capitalize leading-snug">
+            Plastic Dustbin Manufacturer in {city}
             </h1>
           </div>
         </div>
@@ -37,867 +246,392 @@ export default function HomePage() {
       <section className="py-18 bg-[#FFFEF7]">
         <div className="w-full mx-auto px-16 grid lg:grid-cols-2 gap-20 items-center">
           <div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-8">
-              About Aanya Enterprise
+            <h2 className="text-3xl  md:text-4xl font-bold mb-8">
+             Plastic Dustbin Manufacturer in <span className="text-[#0A3A49] capitalize">{city}</span> – Sangam Plastic Industries Private Limited
             </h2>
 
             <p className="mb-6 text-md text-black leading-relaxed">
-              Aanya Enterprise is a reputed{" "}
-              <strong className="capitalize">
-                Titanium Dioxide Wholesaler in {city}
-              </strong>
-              , committed to provide high quality chemical solutions to
-              industries in <span className="capitalize">{city}</span>. We are
-              one of the Titanium Dioxide Wholesaler suppliers of highest
-              quality of <strong>Titanium Dioxide (TiO 2 ) </strong> which
-              guarantees the high performance, brightness and longevity of
-              Titanium Dioxide in various industrial uses. Having been in the
-              chemical distribution business over years, Aanya Enterprise has
-              gained reputation as being reliable, consistent and professionally
-              served. Manufacturers and businesses in the country use our
-              products due to their high quality and performance. We offer an
-              end-to-end solution at Aanya Enterprise where each client is
-              furnished with the appropriate grade of{" "}
-              <strong>Titanium Dioxide</strong> to suit his or her needs. Every
-              batch is subjected to stringent quality audit of purity, stability
-              and performance as an expression of our excellence. We have a
-              strong distribution network across the country that guarantees
-              timely and effective deliveries to the major industrial centers,
-              and remote areas. We strive to make industries reliable in supply,
-              high quality, and reliable support.
+             Looking for a <strong>reliable Plastic Dustbin Manufacturer in {city}?</strong>  Sangam Plastic Industries Private Limited is a trusted name in producing high-quality, durable, and eco-friendly plastic dustbins. Our products are designed to meet the needs of homes, offices, commercial spaces, and industrial facilities, offering long-lasting performance and easy maintenance. With years of expertise in the plastic manufacturing industry, we ensure every dustbin is made from premium-grade materials that are both strong and environmentally safe.
+As a leading <strong>Plastic Dustbin Manufacturer,</strong>  we offer a wide range of dustbins, including household bins, commercial waste bins, industrial dustbins, and recycling solutions. We also provide customized options to match specific requirements in size, color, and design. With a focus on quality, timely delivery, and customer satisfaction, <strong>Sangam Plastic Industries Private Limited  is your go-to Plastic Dustbin Manufacturer in {city} </strong> for all waste management needs.
             </p>
-          </div>
 
-          <div className="rounded-3xl border bg-gradient-to-br from-slate-50 to-white p-10 shadow-lg">
-            <ul className="grid gap-4 text-slate-700">
-              {[
-                "Paints & Coatings – Increases whiteness, solidness and UV protection.",
-                "Plastics & Polymers – Enhances the retention of color, brightness, and longevity.",
-                "Cosmetics – Sells safe and high-quality formulations.",
-                "Paper & Printing – Makes it light and more interesting.",
-                "Textiles & Rubber – Increases the color performance and product longevity.",
-              ].map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="text-blue-500">•</span> {item}
-                </li>
-              ))}
-            </ul>
           </div>
+<div className="">
+
+  <Image src="/form.png" width={600} height={400} alt="About Us" />
+
+
+ 
+
+</div>
         </div>
       </section>
+
+
+      <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-8 ">
+      <div className="max-w-7xl mx-auto grid grid-cols-5 gap-6 text-center">
+
+     
+        <div className="flex flex-col items-center gap-2">
+          <img src="/3.webp" className="h-18 w-18" />
+          <p className="font-semibold text-gray-900 text-xl">ISO 50001</p>
+          <p className="text-gray-800 text-lg">Certification</p>
+        </div>
+
+        <div className="flex flex-col items-center gap-2">
+          <img src="/5.webp" className="h-18 w-18" />
+          <p className="font-semibold text-gray-900 text-xl">Lower Carbon</p>
+          <p className="text-gray-800 text-lg">Emission</p>
+        </div>
+
+    
+        <div className="flex flex-col items-center gap-2">
+          <img src="/4.webp" className="h-18 w-18" />
+          <p className="font-semibold text-gray-900 text-xl">Renewable</p>
+          <p className="text-gray-800 text-lg">Power Usage</p>
+        </div>
+
+    
+        <div className="flex flex-col items-center gap-2">
+          <img src="/2.webp" className="h-18 w-18" />
+          <p className="font-semibold text-gray-900 text-xl">Waste</p>
+          <p className="text-gray-800 text-lg">Management</p>
+        </div>
+
+    
+        <div className="flex flex-col items-center gap-2">
+          <img src="/5.webp" className="h-18 w-18" />
+          <p className="font-semibold text-gray-900 text-xl">CII Certified</p>
+          <p className="text-gray-800 text-lg">Green Products</p>
+        </div>
+
+      </div>
+    </div>
+  
+
 
       {/* ================= PRODUCTS ================= */}
 
       <Products></Products>
+      {/* sec 3 */}
 
-      {/* ================= APPLICATIONS ================= */}
-      {/* ================= APPLICATIONS / INDUSTRIES SERVED ================= */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* H2 */}
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            Applications / Industries Served- Aanya Enterprise
-          </h2>
+     <section className="py-18  bg-gray-50">
+      <div className="max-w-7xl mx-auto px-6 text-center">
+        
+        {/* Heading */}
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+          Key Points to Check Before Buying a Plastic Dustbin
+        </h2>
 
-          <p className="text-lg text-black leading-relaxed mb-16">
-            Being a renowned Treasured{" "}
-            <strong className="capitalize">
-              Titanium Dioxide Wholesaler in {city},
-            </strong>{" "}
-            Aanya Enterprise provides <strong>Titanium dioxide (TiO 2 )</strong>{" "}
-            of the highest quality that supports the various needs of industries
-            in the country. Our products are known to be of high whiteness,
-            opacities, chemical stability and brightness, which makes our
-            products to be outstanding in a variety of applications. Working
-            with us, companies will get to the high quality of{" "}
-            <strong>Titanium Dioxide</strong> that helps to improve the quality
-            of products, efficiency, and reliability in their work.
-          </p>
+        {/* Subtitle */}
+        <p className="max-w-3xl mx-auto text-black text-lg mb-16">
+          Opt for a high-quality, durable, and eco-friendly dustbin from a trusted 
+          <span className="font-semibold text-gray-900">
+            {" "}Plastic Dustbin Manufacturer in {city}.
+          </span>
+        </p>
 
-          <div className="space-y-10">
-            {/* 1 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                1. Paints & Coatings
+        {/* Cards */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+          {points.map((item, index) => (
+            <div
+              key={index}
+              className="relative bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition duration-300"
+            >
+              {/* Corner Design */}
+              <span className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-gray-200 rounded-tl-xl"></span>
+              <span className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-gray-200 rounded-br-xl"></span>
+
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                {item.title}
               </h3>
 
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Among the highest consumers of the Titanium Dioxide is the
-                paints and coatings business. Our TiO₂ improves:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Opacity and hiding power: The same ensures that there is even
-                  coverage, so there is no need of many coats.
-                </li>
-                <li>
-                  Brightness and whiteness: Increases the visual quality and
-                  colour in decorative paints.
-                </li>
-                <li>
-                  Weather resistance: Safeguards against UV deterioration,
-                  fading, and chalking in exterior paints.
-                </li>
-                <li>
-                  Durability: Enhances abrasion and corrosion resistance in
-                  industrial coating.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                It is used to create interior and exterior wall paints,
-                industrial paints, automotive paints, and protective paints. The
-                advantage of using Aanya Enterprise as their Wholesaler of
-                Titanium Dioxide is that the quality of products remains the
-                same and this increases their life span and satisfaction by the
-                customers.
+              <p className="text-black leading-relaxed">
+                {item.desc}
               </p>
             </div>
-
-            {/* 2 */}
-            <div className="rounded-3xl border bg-white p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                2. Plastics & Polymers
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Titanium Dioxide is critical in plastics in enhancing color,
-                opaque and UV protection. Applications include:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  PVC sheets and pipes: Improves the durability and the UV
-                  stability of outdoor installations.
-                </li>
-                <li>
-                  Plastic wraps and packaging: It is also opaque and bright and
-                  assures product integrity.
-                </li>
-                <li>
-                  Masterbatches and molded parts: Can offer constant coloration
-                  and quality finish.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed mb-2">
-                Benefits for plastics:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>Prolonged color and light-yellowing.</li>
-                <li>Increased chemical and mechanical stability.</li>
-                <li>Improved visual and structural characteristics.</li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                Our high grade Titanium Dioxide is able to give manufacturers of
-                plastics high performance with less production defects and
-                minimization of wastages.
-              </p>
-            </div>
-
-            {/* 3 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                3. Cosmetics & Personal Care
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Titanium Dioxide has a significant role in the cosmetic
-                preparations and personal care products. It primarily finds use
-                in:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Sunscreens: Excellent protection against the sun and safe
-                  formulation.
-                </li>
-                <li>
-                  Face powders and foundations: Provides smoothness and
-                  consistency of texture and coverage.
-                </li>
-                <li>
-                  Lotions, creams and skincare products: Provides brightness,
-                  opacity and stability of the formulation.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed mb-2">
-                Benefits in cosmetics:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>Skin-safe and non-reactive</li>
-                <li>Pinpointed color and appearance.</li>
-                <li>Stability of various formulations (chemical)</li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                Being a trusted <strong>Titanium Dioxide Wholesaler</strong>{" "}
-                Aanya Enterprise guarantees customers quality TiO₂ of cosmetic
-                quality that is safe according to the international safety
-                standards and thus brands can trust their products and quality.
-              </p>
-            </div>
-
-            {/* 4 */}
-            <div className="rounded-3xl border bg-white p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                4. Paper & Printing Industry
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                In paper making, Titanium Dioxide is common in improving:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Brightness and opacity: Guarantees quality printing and looks.
-                </li>
-                <li>
-                  Surface smoothness: Enhancing coating and finishing on high
-                  quality papers.
-                </li>
-                <li>
-                  Retention of color: Remains white after some time, less
-                  yellowing.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                Its uses are; writing and printing paper, coated paper,
-                cardboard, and specialty paper. TiO 2 is an essential additive
-                in giving the paper manufacturers a uniform brightness, sharper
-                print, less wastage of materials among others.
-              </p>
-            </div>
-
-            {/* 5 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                5. Rubber & Adhesives
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Titanium Dioxide enhances in the rubber and adhesives sector:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Uniformity of colors: Guarantees uniform coloring in sheets
-                  and products of rubber.
-                </li>
-                <li>
-                  Durability: Increases wear and environmental resistance.
-                </li>
-                <li>
-                  Chemical stability: Retains performance when subjected to
-                  heat, UV light and when subjected to mechanical load.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                It is used in automotive rubber products, industrial adhesives
-                and consumer rubber products. Our products assist manufacturers
-                in extending the lifespan and performance consistency of their
-                products and build their reputation in the market.
-              </p>
-            </div>
-
-            {/* 6 */}
-            <div className="rounded-3xl border bg-white p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                6. Textiles & Ceramics
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-2">
-                One important application of Titanium Dioxide is in textiles and
-                in ceramics:
-              </p>
-
-              <p className="text-lg font-semibold mb-2">Textiles:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-4">
-                <li>Enhances whiteness and brightness of fabric.</li>
-                <li>
-                  Increases fastness and retention of color after repeated
-                  washing.
-                </li>
-                <li>
-                  Offers consistency of fibers in production of high quality
-                  fabrics.
-                </li>
-              </ul>
-
-              <p className="text-lg font-semibold mb-2">Ceramics:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black">
-                <li>
-                  Enhances the breaking through of surface and brightness of
-                  tiles and ceramics.
-                </li>
-                <li>Improves the quality of glaze and beauty.</li>
-                <li>
-                  Maintains consistency in batches, which is required in
-                  industrial ceramic manufacturing.
-                </li>
-              </ul>
-            </div>
-
-            {/* 7 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-10">
-              <h3 className="text-2xl font-semibold mb-6">
-                7. Specialty and Emerging Applications
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                In addition to conventional industries, Titanium Dioxide is also
-                being applied in the modern industrial process and this
-                includes:
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Automotive, Aerospace and electronic high-performance
-                  coatings.
-                </li>
-                <li>
-                  High level polymers and composites which entail accurate
-                  optical and mechanical characteristics.
-                </li>
-                <li>
-                  New personal care and cosmetic formulations with high
-                  specifications of brightness and opaqueness.
-                </li>
-              </ul>
-
-              <p className="text-lg font-semibold mb-2">Benefits:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-6">
-                <li>
-                  Differentiated performance on industrial niche requirements.
-                </li>
-                <li>
-                  Less production difficulties with enhanced particle sizes and
-                  dispersibility.
-                </li>
-                <li>Improved product value and product life.</li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                It is through provision of customized grades that Aanya
-                Enterprise can enable businesses to deliver high efficiency,
-                consistency and high-quality products.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
-      </section>
+      </div>
+    </section>
+
+{/* category */}
+
+<ProductCategorySection></ProductCategorySection>
+
 
 {/* form */}
 
 <Form></Form>
 
-      {/* why choose */}
+  {/* feature */}
 
-      {/* ================= WHY CHOOSE AANYA ENTERPRISE ================= */}
-      <section className="py-24 bg-[#F3F5F7]">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* H2 */}
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            Why Choose Aanya Enterprise for Your Reliable{" "}
-            <strong className="capitalize">
-              Titanium Dioxide Wholesaler in {city}?
-            </strong>
+ <section className="py-16  bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* Heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+            Our Best Features
           </h2>
 
-          <p className="text-lg text-black leading-relaxed max-w-4xl mx-auto text-center mb-20">
-            Selecting the appropriate supplier of{" "}
-            <strong>Titanium Dioxide Wholesalers</strong> can be a great factor
-            in the quality, performance and efficiency of your industry. Aanya
-            Enterprise is one of the numbers of{" "}
-            <strong className="capitalize">
-              Titanium Dioxide Wholesaler in {city}
-            </strong>{" "}
-            where we have integrated our excellence, reliability, and
-            customer-centric solution. This is the reason why companies in{" "}
-            <span className="capitalize">{city}</span>have been referring us to
-            their Titanium Dioxide needs:
+          <p className=" mx-auto text-gray-600 text-lg leading-relaxed">
+            At <span className="font-semibold text-gray-900">Sangam Plastic Industries Private Limited</span>, 
+            we offer a diverse range of high-quality plastic products including Plastic Dustbins, 
+            Storage Water Tanks, Chemical Tanks, and Bio-Gas Plants. 
+            With our competitive range, we ensure you find the perfect solution 
+            for your home, office, or industrial needs.
           </p>
-
-          <div className="grid lg:grid-cols-2 gap-12">
-            {/* 1 */}
-            <div className="rounded-3xl bg-white border p-10 shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">
-                1. Long Experience and Industry Knowledge
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Having years of experience in the distribution of chemical, the
-                Aanya Enterprise has acquired expertise in the supply of
-                Titanium Dioxide to many industries such as paints, coating,
-                plastics, cosmetics, paper, textile, rubber, and ceramics.
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-4">
-                <li>
-                  We comprehend particular needs and issues of every industry.
-                </li>
-                <li>
-                  We deliver solutions and recommendations that are specific to
-                  the industry.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                This experience guarantees that the clients are provided with
-                the best TiO 2 grades in their respective special uses.
-              </p>
-            </div>
-
-            {/* 2 */}
-            <div className="rounded-3xl bg-white border p-10 shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">
-                2. Titanium Dioxide, High-Quality, Tested
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Quality is our number one priority as a high-end{" "}
-                <strong>Titanium Dioxide Wholesaler.</strong>
-              </p>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Every batch is subjected to rigorous quality testing of purity,
-                particle size, and opacity and chemical stability.
-              </p>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Our products are also of international standards which guarantee
-                the same level of performance in all industrial applications.
-              </p>
-
-              <p className="text-lg text-black leading-relaxed">
-                We provide high grade TiO 2 to manufacturers to make the product
-                more durable, whiter and of better quality.
-              </p>
-            </div>
-
-            {/* 3 */}
-            <div className="rounded-3xl bg-white border p-10 shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">
-                3. National Distribution and Timely Delivery
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Aanya Enterprise has set up a well-established distribution
-                network, which covers all the large industrial sectors in{" "}
-                <span className="capitalize">{city} </span>.
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black mb-4">
-                <li>Timely delivery will mean short downtime in production.</li>
-                <li>
-                  The efficiency of our logistical competence enables us to
-                  deliver the bulk orders and the smaller customized ones.
-                </li>
-              </ul>
-
-              <p className="text-lg text-black leading-relaxed">
-                Clients would be assured of constant availability of Titanium
-                Dioxide irrespective of their location.
-              </p>
-            </div>
-
-            {/* 4 */}
-            <div className="rounded-3xl bg-white border p-10 shadow-md">
-              <h3 className="text-2xl font-semibold mb-6">
-                4. Competitive Pricing
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                We have known the significance of cost efficiency in industrial
-                activities.
-              </p>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                Through the good relations with the suppliers and the maximized
-                logistics, we offer the best quality of Titanium Dioxide at the
-                best price.
-              </p>
-
-              <p className="text-lg text-black leading-relaxed">
-                Our prices do not cut corners in order to provide clients with
-                the highest value possible.
-              </p>
-            </div>
-
-            {/* 5 */}
-            <div className="rounded-3xl bg-white border p-10 shadow-md lg:col-span-2">
-              <h3 className="text-2xl font-semibold mb-6">
-                5. Technical Support and Consultation.
-              </h3>
-
-              <p className="text-lg text-black leading-relaxed mb-4">
-                In addition to providing{" "}
-                <strong className="capitalize">
-                  Titanium Dioxide Wholesaler in {city},
-                </strong>{" "}
-                Aanya Enterprise can provide technical advice to its clients to
-                make the best use of the material.
-              </p>
-
-              <ul className="list-disc pl-6 space-y-2 text-lg text-black">
-                <li>
-                  Help in choosing appropriate TiO 2 grade to use in particular
-                  industrial processes.
-                </li>
-                <li>
-                  Dispersion, compatibility and performance optimization advice.
-                </li>
-                <li>
-                  Help desk to make inquiries and help troubleshoot and guide.
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-24 bg-gradient-to-b from-white to-[#fff8e1]  text-white text-center">
-        <h2 className="text-3xl text-black md:text-4xl font-bold capitalize">
-          Your Reliable Titanium Dioxide Partner in {city}
-        </h2>
-        <p className="mt-6 text-lg text-black max-w-2xl mx-auto">
-          Consistent quality, expert guidance, and dependable nationwide supply.
-        </p>
-        <div className="mt-10">
-          <Link
-            href="/contact-us"
-            className=" bg-[#00537B] text-white px-12 py-4 rounded-2xl font-semibold shadow-xl  transition"
-          >
-            Get in Touch
-          </Link>
+        {/* Feature Cards */}
+        <div className="grid md:grid-cols-3 gap-10">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="group bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-green-500"
+            >
+              <div className="text-green-600 mb-6 group-hover:scale-110 transition duration-300">
+                {feature.icon}
+              </div>
+
+              <h3 className="text-xl font-semibold text-black mb-4">
+                {feature.title}
+              </h3>
+
+              <p className="text-black leading-relaxed">
+                {feature.desc}
+              </p>
+            </div>
+          ))}
         </div>
-      </section>
-
-      {/* case strudies */}
-      {/* ================= CASE STUDIES ================= */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* H2 */}
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            Case Studies with Aanya Enterprise- Client Success Story
-          </h2>
-
-          <p className="text-lg text-black leading-relaxed max-w-4xl mx-auto text-center mb-20">
-            Being one of the largest{" "}
-            <strong className="capitalize">
-              Titanium Dioxide Wholesaler in {city},{" "}
-            </strong>{" "}
-            Aanya Enterprise has assisted industries in the country improve the
-            quality of the products, streamline their operations and become
-            effective in their operations. Excellent{" "}
-            <strong>Titanium Dioxide (TiO 2 )</strong> combined with technical
-            guidance and quality supply has been able to provide quantifiable
-            value in industries. There are six case studies below that display
-            our impact.
-          </p>
-
-          <div className="space-y-16">
-            {/* CASE 1 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 1: Paint Manufacturer -Maharashtra
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                The paints and coatings industry requires a high level of opaque
-                pigments, which are resistant to weathering to ensure durability
-                of the color.
-              </p>
-
-              <p className="font-semibold mb-2">Client Issue:</p>
-              <p className="text-lg mb-4">
-                A major paint manufacturer had a problem of poor hiding power
-                and stability of colors in their exterior paints. This led to
-                customer complaints, increased wastage and delay in production.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  Premium Rutile Titanium Dioxide, supplied and tested on the
-                  basis of the attributes of the product of transparency,
-                  brightness, and UV protection.
-                </li>
-                <li>
-                  Technical advice in dispersion techniques and ideal dosing, to
-                  be uniformly mixed and have equal outcomes.
-                </li>
-                <li>
-                  Helped the client to streamline production processes to
-                  minimize reworks and time loss in raw materials.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>
-                  More than 30 percent increase in concealment of power and
-                  color consistency.
-                </li>
-                <li>Wastage cut and reduced costs of operation.</li>
-                <li>
-                  Repeat orders and customer satisfaction, revenue increased by
-                  15%.
-                </li>
-              </ul>
-            </div>
-
-            {/* CASE 2 */}
-            <div className="rounded-3xl border bg-white p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 2: Plastic Molding Company -Gujarat
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                TiO 2 used in outdoor PVC products needs to offer the protection
-                against the UV rays and maintain the color long-term.
-              </p>
-
-              <p className="font-semibold mb-2">Client Dilemma:</p>
-              <p className="text-lg mb-4">
-                The producer had a problem of yellowing and degrading of pipes
-                that were exposed to the sun, which affected the performance of
-                the products and the confidence of the clients.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  High-quality TiO 2 supplied to plastics, optimized on UV
-                  stability and opacification.
-                </li>
-                <li>
-                  Recommended on how to prepare masterbatches and how to
-                  dispense the masterbatches to achieve uniform colors.
-                </li>
-                <li>
-                  Timely delivery that is planned to maintain a continuous
-                  production.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>
-                  The products were bright and strong even after a long period
-                  in UV light.
-                </li>
-                <li>Less rejects and rework by 25%.</li>
-                <li>
-                  Enhanced and better brand recognition in B2B and B2C markets.
-                </li>
-              </ul>
-            </div>
-
-            {/* CASE 3 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 3: Cosmetics Brand- Delhi NCR
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                The cosmetic formulations need safe and stable pigmentation of
-                high quality to meet the expectations of the consumers and
-                regulatory requirements.
-              </p>
-
-              <p className="font-semibold mb-2">Client Problem:</p>
-              <p className="text-lg mb-4">
-                A cosmetic firm had the problem of uneven pigmentation of face
-                powders and sunscreens which had implications on the consistency
-                of products and customer confidence.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  Provided cosmetic grade Titanium Dioxide that meets the
-                  standards of international safety and purity.
-                </li>
-                <li>
-                  Offered advice on blending, optimization of particle size and
-                  stability of the formulations.
-                </li>
-                <li>
-                  Helped in batch testing so that there would be consistency in
-                  color and texture.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>Better product consistency and smoothness.</li>
-                <li>
-                  Aspect of safety and compliance with cosmetic regulations.
-                </li>
-                <li>
-                  Increased market share and better customer satisfaction.
-                </li>
-              </ul>
-            </div>
-
-            {/* CASE 4 */}
-            <div className="rounded-3xl border bg-white p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 4: Paper Fabricator- Tamil Nadu
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                TiO 2 is required in the paper mills to achieve brightness,
-                printability and appearance of the paper, particularly in the
-                coated and specialty papers.
-              </p>
-
-              <p className="font-semibold mb-2">Client Challenge:</p>
-              <p className="text-lg mb-4">
-                A local paper mill was complaining of low brightness, poor
-                opacities, and poor consistency in print quality and therefore
-                were receiving negative customer feedback and losing contracts.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  Offered Anatase Titanium Dioxide of a higher whiteness and
-                  opaqueness.
-                </li>
-                <li>
-                  Carried out technical consultation of the optimum dosing and
-                  dispersion in the pulp and coating process.
-                </li>
-                <li>
-                  Suggested testing methods to be used to ensure uniformity
-                  between batches in the brightness of the paper.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>
-                  The brightness and the level of opaqueness were enhanced by
-                  more than 20 percent and the specification of the clients were
-                  delivered.
-                </li>
-                <li>
-                  Coated and uncoated paper resulted in much better print
-                  quality.
-                </li>
-                <li>Less wastage of raw materials and cost of production.</li>
-              </ul>
-            </div>
-
-            {/* CASE 5 */}
-            <div className="rounded-3xl border bg-[#F7F9FB] p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 5: Rubber Manufacturer -Karnataka
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                Rubber products require TiO 2 to show color consistency,
-                strength, and environmental stress limits.
-              </p>
-
-              <p className="font-semibold mb-2">Client Issue:</p>
-              <p className="text-lg mb-4">
-                An industrial rubber producer had difficulties in controlling
-                coloring and strength, which influenced the quality of the
-                rubber sheets and parts in general.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  Furnished specialty Titanium dioxide to be used in rubber.
-                </li>
-                <li>Educated the client on dispersion, dosage and blending.</li>
-                <li>
-                  Supervised first production batches and made sure that the
-                  results were consistent.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>Obtained uniform color and better product looks.</li>
-                <li>Improved resistance to mechanical stress and UV.</li>
-                <li>
-                  Enhanced reputation of high-quality products in the market in
-                  terms of rubber products.
-                </li>
-              </ul>
-            </div>
-
-            {/* CASE 6 */}
-            <div className="rounded-3xl border bg-white p-12">
-              <h3 className="text-2xl font-semibold mb-6">
-                Case Study 6: Textile Company -Rajasthan
-              </h3>
-
-              <p className="font-semibold mb-2">Industry Background:</p>
-              <p className="text-lg mb-4">
-                TiO 2 is needed in the production of textiles to improve
-                whiteness, brightness, and color retention on the fabrics.
-              </p>
-
-              <p className="font-semibold mb-2">Client Issue:</p>
-              <p className="text-lg mb-4">
-                A textile company had low brightness and poor color retention
-                with the white fabrics and this had resulted into complaints
-                during and after the washing processes and subsequent fading.
-              </p>
-
-              <p className="font-semibold mb-2">Aanya Enterprise Solution:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg mb-4">
-                <li>
-                  Provided high-grade Titanium Dioxide to be used in textiles
-                  which are optimized towards fabric whiteness and stability.
-                </li>
-                <li>Gave instructions on how to integrate and process best.</li>
-                <li>
-                  Performed quality checks of starting production batches to
-                  check consistency.
-                </li>
-              </ul>
-
-              <p className="font-semibold mb-2">Results:</p>
-              <ul className="list-disc pl-6 space-y-2 text-lg">
-                <li>
-                  Groundbreaking advancements in fabric brightness and the
-                  quality in general.
-                </li>
-                <li>
-                  Increased color saturation, less post production complaints.
-                </li>
-                <li>
-                  Improved brand reputation and repeat business of the client.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
 <Cta></Cta>
+{/* why choose us */}
 
+ <section className="py-16 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* Heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+            Why Choose Sangam Plastic Industries as Your <br className="hidden md:block" />
+            Plastic Dustbin Manufacturer in <span className="capitalize">{city}</span> ?
+          </h2>
+        </div>
+
+        {/* Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {reasons.map((item, index) => (
+            <div
+              key={index}
+              className="group bg-white p-6 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition duration-300"
+            >
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-yellow-50 text-green-600 mb-5 group-hover:scale-110 transition duration-300">
+                {item.icon}
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                {item.title}
+              </h3>
+
+              <p className="text-black text-sm leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+      {/* ================= CTA ================= */}
+      <section  className="py-24 bg-[#016630]  text-white text-center">
+        <h2 className="text-3xl text-white md:text-5xl font-bold capitalize">
+        Get High-Quality Plastic Dustbins Today in {city}
+        </h2>
+        <p className="mt-6 text-xl text-white max-w-5xl mx-auto">
+        Ready to upgrade your waste management solutions? Contact Sangam Plastic Industries Private Limited, the trusted Plastic Dustbin Manufacturer in {city}, for durable, eco-friendly, and customizable dustbins. Whether it’s for home, office, or industrial use, we have the perfect solution for you.
+        </p>
+        <div className="mt-10">
+          <a href="tel:8675756455"
+           
+            className=" bg-white text-black px-12 py-4 rounded-2xl font-semibold shadow-xl  transition"
+          >
+            Get in Touch 
+          </a>
+        </div>
+      </section>
+
+<Certificates></Certificates>
+
+    
+    {/* industries */}
+
+    <section className="py-16  bg-white">
+      <div className="max-w-7xl mx-auto px-6">
+        
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+            Industries We Serve – Sangam Plastic Industries
+            <br className="hidden md:block" />
+            Plastic Dustbin Manufacturer in {city}
+          </h2>
+
+          <p className="max-w-4xl mx-auto text-gray-600 text-lg leading-relaxed">
+            As a leading Plastic Dustbin Manufacturer in {city}, Sangam Plastic Industries Private Limited caters to a wide range of industries, providing durable and high-quality dustbins tailored to diverse requirements. Our products are designed to support efficient waste management, hygiene, and sustainability across multiple sectors.
+          </p>
+        </div>
+
+        {/* Industry Grid */}
+        <div className="relative">
+      <Swiper
+        modules={[Autoplay, Navigation]}
+        spaceBetween={24}
+        slidesPerView={1}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        navigation
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
+        }}
+        className="pb-12"
+      >
+        {industries.map((item, index) => (
+          <SwiperSlide key={index}>
+            <div className="group bg-green-50 p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition duration-300 h-full">
+              
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl bg-yellow-50 text-green-600 mb-6 group-hover:scale-110 transition duration-300">
+                {item.icon}
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">
+                {item.title}
+              </h3>
+
+              <p className="text-black text-md leading-relaxed">
+                {item.desc}
+              </p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+
+        {/* Bottom Paragraph */}
+        <div className="mt-10 text-center">
+          <p className="max-w-4xl mx-auto text-black text-lg leading-relaxed">
+            By serving these industries, Sangam Plastic Industries Private Limited ensures that clients across {city} and nearby regions receive reliable, long-lasting, and environmentally friendly waste management solutions from a trusted Plastic Dustbin Manufacturer in {city}.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section style={{backgroundImage:"url(/ctaimg.png)"}} className="py-12 md:py-20 relative bg-center bg-cover bg-fixed overflow-hidden">
+
+
+ {/* Dark gradient overlay for better readability */}
+  <div className="absolute inset-0 bg-black/50 "></div>
+
+      <div className="max-w-7xl mx-auto px-6 relative">
+        {/* Floating Decor Images */}
+        <motion.div
+          className="hidden md:block absolute top-0 right-0 z-0 "
+          animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Image
+            src="/33.gif"
+            width={200}
+            height={200}
+            alt="Decor"
+          />
+        </motion.div>
+
+
+    <motion.div
+          className="hidden md:block absolute top-30 -left-30 z-0 "
+          animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <Image
+            src="/33.gif"
+            width={200}
+            height={200}
+            alt="Decor"
+          />
+        </motion.div>
+        {/* Title */}
+       <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-10 ">
+  Frequently Asked Questions for  Sangam Plastic Industries Pvt. Ltd.
+ 
+</h2>
+
+
+        {/* FAQ Two Columns */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {[col1, col2].map((col, colIndex) => (
+            <div key={colIndex} className="space-y-4">
+              {col.map((faq, index) => {
+                const actualIndex = colIndex === 0 ? index : index + half;
+                const isOpen = openIndex === actualIndex;
+                return (
+                  <div
+                    key={faq.question}
+                    className={`rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer overflow-hidden ${
+                      isOpen ? "bg-[#f1ffed]" : "bg-white"
+                    }`}
+                  >
+                    <button
+                      className="w-full flex justify-between items-center px-5 py-4 text-left"
+                      onClick={() => toggleFAQ(actualIndex)}
+                    >
+                      <span className="text-base md:text-lg font-medium text-gray-900">
+                        {faq.question}
+                      </span>
+                      <ChevronDown
+                        className={`w-5 h-5 text-gray-700 transform transition-transform duration-300 ${
+                          isOpen ? "rotate-180 text-[#F7C600]" : ""
+                        }`}
+                      />
+                    </button>
+                    <div
+                      className={`px-5 overflow-hidden transition-all duration-500 ${
+                        isOpen ? "max-h-[500px] pb-4" : "max-h-0"
+                      }`}
+                    >
+                      <p className="text-black text-sm whitespace-pre-line leading-relaxed font-serif">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+
+   
       <Citieskeywords></Citieskeywords>
-    </main>
+
+</main>
   );
 }

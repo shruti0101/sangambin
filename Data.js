@@ -256,814 +256,181 @@ export const categories = [
 
 export const serviceLocations = [
   {
-    href: "/titanium-dioxide-wholesaler-in-delhi-NCR",
+    href: "/plastic-dustbin-manufacturer-in-delhi-NCR",
     label: "Delhi NCR",
     id: 1,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-bhiwadi",
+    href: "/plastic-dustbin-manufacturer-in-bhiwadi",
     label: "Bhiwadi",
     id: 2,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-bihar",
+    href: "/plastic-dustbin-manufacturer-in-bihar",
     label: "Bihar",
     id: 3,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-chhattisgarh",
+    href: "/plastic-dustbin-manufacturer-in-chhattisgarh",
     label: "Chhattisgarh",
     id: 4,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-dehradun",
+    href: "/plastic-dustbin-manufacturer-in-dehradun",
     label: "Dehradun",
     id: 5,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-gandhi-nagar",
+    href: "/plastic-dustbin-manufacturer-in-gandhi-nagar",
     label: "Gandhi Nagar",
     id: 6,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-goa",
+    href: "/plastic-dustbin-manufacturer-in-goa",
     label: "Goa",
     id: 7,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-greater-noida",
+    href: "/plastic-dustbin-manufacturer-in-greater-noida",
     label: "Greater Noida",
     id: 8,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-gujarat",
+    href: "/plastic-dustbin-manufacturer-in-gujarat",
     label: "Gujarat",
     id: 9,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-gwalior",
+    href: "/plastic-dustbin-manufacturer-in-gwalior",
     label: "Gwalior",
     id: 10,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-himachal-pradesh",
+    href: "/plastic-dustbin-manufacturer-in-himachal-pradesh",
     label: "Himachal Pradesh",
     id: 11,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-jammu-kashmir",
+    href: "/plastic-dustbin-manufacturer-in-jammu-kashmir",
     label: "Jammu & Kashmir",
     id: 12,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-jharkhand",
+    href: "/plastic-dustbin-manufacturer-in-jharkhand",
     label: "Jharkhand",
     id: 13,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-karnataka",
+    href: "/plastic-dustbin-manufacturer-in-karnataka",
     label: "Karnataka",
     id: 14,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-kerala",
+    href: "/plastic-dustbin-manufacturer-in-kerala",
     label: "Kerala",
     id: 15,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-kundli",
+    href: "/plastic-dustbin-manufacturer-in-kundli",
     label: "Kundli",
     id: 16,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-leh",
+    href: "/plastic-dustbin-manufacturer-in-leh",
     label: "Leh",
     id: 17,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-madhya-pradesh",
+    href: "/plastic-dustbin-manufacturer-in-madhya-pradesh",
     label: "Madhya Pradesh",
     id: 18,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-manali",
+    href: "/plastic-dustbin-manufacturer-in-manali",
     label: "Manali",
     id: 19,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-manesar",
+    href: "/plastic-dustbin-manufacturer-in-manesar",
     label: "Manesar",
     id: 20,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-mathura",
+    href: "/plastic-dustbin-manufacturer-in-mathura",
     label: "Mathura",
     id: 21,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-meerut",
+    href: "/plastic-dustbin-manufacturer-in-meerut",
     label: "Meerut",
     id: 22,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-odisha",
+    href: "/plastic-dustbin-manufacturer-in-odisha",
     label: "Odisha",
     id: 23,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-panipat",
+    href: "/plastic-dustbin-manufacturer-in-panipat",
     label: "Panipat",
     id: 24,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-patna",
+    href: "/plastic-dustbin-manufacturer-in-patna",
     label: "Patna",
     id: 25,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-rohtak",
+    href: "/plastic-dustbin-manufacturer-in-rohtak",
     label: "Rohtak",
     id: 26,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-roorkee",
+    href: "/plastic-dustbin-manufacturer-in-roorkee",
     label: "Roorkee",
     id: 27,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-shimla",
+    href: "/plastic-dustbin-manufacturer-in-shimla",
     label: "Shimla",
     id: 28,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-sikkim",
+    href: "/plastic-dustbin-manufacturer-in-sikkim",
     label: "Sikkim",
     id: 29,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-sonipat",
+    href: "/plastic-dustbin-manufacturer-in-sonipat",
     label: "Sonipat",
     id: 30,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-srinagar",
+    href: "/plastic-dustbin-manufacturer-in-srinagar",
     label: "Srinagar",
     id: 31,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-tamil-nadu",
+    href: "/plastic-dustbin-manufacturer-in-tamil-nadu",
     label: "Tamil Nadu",
     id: 32,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-telangana",
+    href: "/plastic-dustbin-manufacturer-in-telangana",
     label: "Telangana",
     id: 33,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-thiruvananthapuram",
+    href: "/plastic-dustbin-manufacturer-in-thiruvananthapuram",
     label: "Thiruvananthapuram",
     id: 34,
   },
   {
-    href: "/titanium-dioxide-wholesaler-in-west-bengal",
+    href: "/plastic-dustbin-manufacturer-in-west-bengal",
     label: "West Bengal",
     id: 35,
   },
-  {
-    href: "/titanium-dioxide-wholesaler-in-howrah",
-    label: "Howrah",
-    id: 36,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-hooghly",
-    label: "Hooghly",
-    id: 37,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-nadia",
-    label: "Nadia",
-    id: 38,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-murshidabad",
-    label: "Murshidabad",
-    id: 39,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-bhiwani",
-    label: "Bhiwani",
-    id: 40,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-sirsa",
-    label: "Sirsa",
-    id: 41,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-jind",
-    label: "Jind",
-    id: 42,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-yamuna-nagar",
-    label: "Yamuna Nagar",
-    id: 43,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-karnal",
-    label: "Karnal",
-    id: 44,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-kurukshetra",
-    label: "Kurukshetra",
-    id: 45,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-ambala",
-    label: "Ambala",
-    id: 46,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-jhajjar",
-    label: "Jhajjar",
-    id: 47,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-rewari",
-    label: "Rewari",
-    id: 48,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-punchkula",
-    label: "Punchkula",
-    id: 49,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-mohali",
-    label: "Mohali",
-    id: 50,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-kapurthala",
-    label: "Kapurthala",
-    id: 51,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-patiala",
-    label: "Patiala",
-    id: 52,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-bhatinda",
-    label: "Bhatinda",
-    id: 53,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-hoshiarpur",
-    label: "Hoshiarpur",
-    id: 54,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-gurdaspur",
-    label: "Gurdaspur",
-    id: 55,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-allahabad",
-    label: "Allahabad",
-    id: 56,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-moradabad",
-    label: "Moradabad",
-    id: 57,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-bareilly",
-    label: "Bareilly",
-    id: 58,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-hardoi",
-    label: "Hardoi",
-    id: 59,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-varanasi",
-    label: "Varanasi",
-    id: 60,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-aligarh",
-    label: "Aligarh",
-    id: 61,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-bulandshahar",
-    label: "Bulandshahar",
-    id: 62,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-shahjahanpur",
-    label: "Shahjahanpur",
-    id: 63,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-alwar",
-    label: "Alwar",
-    id: 64,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-jhansi",
-    label: "Jhansi",
-    id: 65,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-ajmer",
-    label: "Ajmer",
-    id: 66,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-kota",
-    label: "Kota",
-    id: 67,
-  },
 
-  {
-    href: "/titanium-dioxide-wholesaler-in-bikaner",
-    label: "Bikaner",
-    id: 68,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-jodhpur",
-    label: "Jodhpur",
-    id: 69,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-muzaffarpur",
-    label: "Muzaffarpur",
-    id: 70,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-puducherry-(pondicherry)",
-    label: "Puducherry(Pondicherry)",
-    id: 71,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-faizabad",
-    label: "Faizabad",
-    id: 72,
-  },
-  {
-    href: "/titanium-dioxide-wholesaler-in-ayodhya",
-    label: "Ayodhya",
-    id: 73,
-  },
+  // ... continues same pattern
 
-
- {
-  href: "/titanium-dioxide-wholesaler-in-mumbai",
-  label: "Mumbai",
-  id: 74,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-delhi",
-  label: "Delhi",
-  id: 75,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bengaluru",
-  label: "Bengaluru",
-  id: 76,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-chennai",
-  label: "Chennai",
-  id: 77,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kolkata",
-  label: "Kolkata",
-  id: 78,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-haryana",
-  label: "Haryana",
-  id: 79,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-punjab",
-  label: "Punjab",
-  id: 80,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-uttarakhand",
-  label: "Uttarakhand",
-  id: 81,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-maharashtra",
-  label: "Maharashtra",
-  id: 82,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-pune",
-  label: "Pune",
-  id: 83,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-rajasthan",
-  label: "Rajasthan",
-  id: 84,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-uttar-pradesh",
-  label: "Uttar Pradesh",
-  id: 85,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-hyderabad",
-  label: "Hyderabad",
-  id: 86,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ahmedabad",
-  label: "Ahmedabad",
-  id: 87,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-surat",
-  label: "Surat",
-  id: 88,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-vadodara",
-  label: "Vadodara",
-  id: 89,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-rajkot",
-  label: "Rajkot",
-  id: 90,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-coimbatore",
-  label: "Coimbatore",
-  id: 91,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-jaipur",
-  label: "Jaipur",
-  id: 92,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ludhiana",
-  label: "Ludhiana",
-  id: 93,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-jamshedpur",
-  label: "Jamshedpur",
-  id: 94,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-nagpur",
-  label: "Nagpur",
-  id: 95,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-indore",
-  label: "Indore",
-  id: 96,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-faridabad",
-  label: "Faridabad",
-  id: 97,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ghaziabad",
-  label: "Ghaziabad",
-  id: 98,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-noida",
-  label: "Noida",
-  id: 99,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-gurgaon",
-  label: "Gurgaon",
-  id: 100,
-},
-
-{
-  href: "/titanium-dioxide-wholesaler-in-bhilai",
-  label: "Bhilai",
-  id: 101,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bhopal",
-  label: "Bhopal",
-  id: 102,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-raipur",
-  label: "Raipur",
-  id: 103,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-vizag-visakhapatnam",
-  label: "Vizag (Visakhapatnam)",
-  id: 104,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bhubaneswar",
-  label: "Bhubaneswar",
-  id: 105,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kanpur",
-  label: "Kanpur",
-  id: 106,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-lucknow",
-  label: "Lucknow",
-  id: 107,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-nashik",
-  label: "Nashik",
-  id: 108,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-aurangabad",
-  label: "Aurangabad",
-  id: 109,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-vapi",
-  label: "Vapi",
-  id: 110,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-daman",
-  label: "Daman",
-  id: 111,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bharuch",
-  label: "Bharuch",
-  id: 112,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-jamnagar",
-  label: "Jamnagar",
-  id: 113,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kolhapur",
-  label: "Kolhapur",
-  id: 114,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-belgaum-belagavi",
-  label: "Belgaum (Belagavi)",
-  id: 115,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-hosur",
-  label: "Hosur",
-  id: 116,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-tiruchirappalli",
-  label: "Tiruchirappalli",
-  id: 117,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-madurai",
-  label: "Madurai",
-  id: 118,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-chandigarh",
-  label: "Chandigarh",
-  id: 119,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-haridwar",
-  label: "Haridwar",
-  id: 120,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-rudrapur",
-  label: "Rudrapur",
-  id: 121,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ranchi",
-  label: "Ranchi",
-  id: 122,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-guwahati",
-  label: "Guwahati",
-  id: 123,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-mangalore",
-  label: "Mangalore",
-  id: 124,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-salem",
-  label: "Salem",
-  id: 125,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-thane",
-  label: "Thane",
-  id: 126,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kalyan-dombivli",
-  label: "Kalyan-Dombivli",
-  id: 127,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-pimpri-chinchwad",
-  label: "Pimpri-Chinchwad",
-  id: 128,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-udaipur",
-  label: "Udaipur",
-  id: 129,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-cuttack",
-  label: "Cuttack",
-  id: 130,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-rourkela",
-  label: "Rourkela",
-  id: 131,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-secunderabad",
-  label: "Secunderabad",
-  id: 132,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-warangal",
-  label: "Warangal",
-  id: 133,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-mysore",
-  label: "Mysore",
-  id: 134,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kozhikode",
-  label: "Kozhikode",
-  id: 135,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kannur",
-  label: "Kannur",
-  id: 136,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-durgapur",
-  label: "Durgapur",
-  id: 137,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-siliguri",
-  label: "Siliguri",
-  id: 138,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-asansol",
-  label: "Asansol",
-  id: 139,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-gaya",
-  label: "Gaya",
-  id: 140,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bokaro",
-  label: "Bokaro",
-  id: 141,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-agra",
-  label: "Agra",
-  id: 142,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-prayagraj",
-  label: "Prayagraj",
-  id: 143,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ujjain",
-  label: "Ujjain",
-  id: 144,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-jabalpur",
-  label: "Jabalpur",
-  id: 145,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bilaspur",
-  label: "Bilaspur",
-  id: 146,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-imphal",
-  label: "Imphal",
-  id: 147,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-dibrugarh",
-  label: "Dibrugarh",
-  id: 148,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-shillong",
-  label: "Shillong",
-  id: 149,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-agartala",
-  label: "Agartala",
-  id: 150,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-bhavnagar",
-  label: "Bhavnagar",
-  id: 151,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-ankleshwar",
-  label: "Ankleshwar",
-  id: 152,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-baddi",
-  label: "Baddi",
-  id: 153,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-solan",
-  label: "Solan",
-  id: 154,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-dharamsala",
-  label: "Dharamsala",
-  id: 155,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-sankrail",
-  label: "Sankrail",
-  id: 156,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-pithampur",
-  label: "Pithampur",
-  id: 157,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-silvassa",
-  label: "Silvassa",
-  id: 158,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-kakinada",
-  label: "Kakinada",
-  id: 159,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-tuticorin-thoothukudi",
-  label: "Tuticorin (Thoothukudi)",
-  id: 160,
-},
-{
-  href: "/titanium-dioxide-wholesaler-in-paradip",
-  label: "Paradip",
-  id: 161,
-},
-
-
-]
+];

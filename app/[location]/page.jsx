@@ -116,7 +116,7 @@ export async function generateStaticParams() {
   ];
 
   return cities.map(city => ({
-    location: `titanium-dioxide-wholesaler-in-${city}`
+    location: `plastic-dustbin-manufacturer-in-${city}`
   }));
 }
 
@@ -126,14 +126,14 @@ export async function generateMetadata({ params }) {
   const slug =  params.location;
 
   const city = slug
-    .replace("titanium-dioxide-wholesaler-in-", "")
+    .replace("plastic-dustbin-manufacturer-in-", "")
     .split("-")
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
   return {
-    title: `Titanium Dioxide Wholesaler in ${city}`,
-    description: `Looking for a reliable Titanium Dioxide Wholesaler in ${city}? Aanya Enterprises offers high-quality TiO₂ for paints, plastics, coatings, inks, and industrial applications with timely delivery and competitive prices.`
+    title: `Plastic Dustbin Manufacturer in ${city}`,
+    description: `Looking for a reliable Plastic Dustbin Manufacturer in ${city}? Sangam Plastic Industries Private Limited offers high-quality, durable, and eco-friendly dustbins for residential, commercial, and industrial use with timely delivery and competitive prices.`
   };
 }
 

@@ -171,7 +171,7 @@ const Footer = () => {
                       ✕
                     </button>
                     <img
-                      src="https://res.cloudinary.com/dzbkxqqo9/image/upload/v1760078054/WhatsApp_1_liz2am.webp"
+                      src="/certificate.webp"
                       alt="Trust Elite Full"
                       className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
                     />

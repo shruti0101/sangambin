@@ -33,87 +33,83 @@ export default function Navbar() {
 
 return (
   <>
-   <header
+<header
   className={`fixed top-0 left-0 w-full z-50 transition-all ${
     scrolled ? "shadow-lg bg-white" : "bg-white"
   }`}
 >
-  <div className="w-full mx-auto grid grid-cols-[260px_1fr] border-b border-gray-300">
+  <div className="w-full mx-auto lg:grid lg:grid-cols-[260px_1fr] border-b border-gray-300">
 
     {/* ================= LEFT COLUMN : LOGO ================= */}
-    <div className="flex items-center px-6 border-r border-gray-300 bg-white">
-      <Link href="/" className="inline-flex flex-col items-start bg-green-800 py-4 px-2">
+    <div className="flex items-center justify-between px-4 sm:px-6 border-b lg:border-b-0 lg:border-r border-gray-300 bg-white">
+      <Link href="/" className="inline-flex flex-col items-start bg-green-800 py-3 px-2">
         <Image
           src="/logo.webp"
-          width={190}
-          height={70}
+          width={210}
+          height={100}
           alt="Logo"
-          className="object-contain "
+          className="object-contain"
         />
-        <p className="text-[10px] text-white">
+        <p className="text-[9px] sm:text-[10px] text-white">
           AN ISO 9001:2015 CERTIFIED COMPANY
         </p>
-      </Link> 
+      </Link>
+
+      {/* MOBILE MENU BUTTON */}
+      <button
+        className="lg:hidden"
+        onClick={() => setMobileNavOpen(true)}
+      >
+        <Menu size={28} />
+      </button>
     </div>
 
     {/* ================= RIGHT COLUMN ================= */}
-    <div className="col-start-2">
+    <div className="hidden lg:block">
 
-      {/* ===== TOP STRIP (LIGHT BLUE) ===== */}
-      <div className="bg-[#E6F4FF] h-[54px] flex items-center ml-5">
-        <div className="w-full px-6 flex items-center justify-between text-md text-gray-800">
+      {/* ===== TOP STRIP ===== */}
+      <div className="bg-[#E6F4FF] min-h-[54px] flex items-center">
+        <div className="w-full px-6 flex items-center justify-between text-sm text-gray-800 flex-wrap gap-3">
 
-          {/* LEFT INFO */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap text-lg">
             <div className="flex items-center gap-2">
               <MapPin size={16} />
               <span>Our Location</span>
             </div>
 
-            <span className="text-gray-400">|</span>
-
             <div className="flex items-center gap-2">
               <Mail size={16} />
               <a href="mailto:sales@polywell.com">
-                Email : sales@polywell.com
+                sales@polywell.com
               </a>
             </div>
 
-
-               <span className="ml-55 text-xl uppercase text-[#016630] font-medium">
-              Distributor
-            </span>
-<a
-  href="https://wa.me/918527557778"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center gap-2"
->
-  <span className="ml-15 text-[#016630] font-medium uppercase text-xl animate-pulse">
-    Whatsapp Us Now
-  </span>
-  <FaWhatsappSquare className="w-8 text-green-600 h-8" />
-</a>
-
-
-
-         
+            <a
+              href="https://wa.me/918527557778"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[#016630] font-medium"
+            >
+              <span className="uppercase md:ml-120 text-md animate-pulse">
+                Whatsapp Us Now
+              </span>
+              <FaWhatsappSquare className="w-6 h-6 text-green-600" />
+            </a>
           </div>
 
-          {/* SOCIAL ICONS */}
           <div className="flex items-center">
-            <a className="bg-[#1877F2] w-10 h-10 flex items-center justify-center text-white">f</a>
-            <a className="bg-[#0A66C2] w-10 h-10 flex items-center justify-center text-white">in</a>
+            <a className="bg-[#1877F2] w-8 h-8 flex items-center justify-center text-white text-sm">f</a>
+            <a className="bg-[#0A66C2] w-8 h-8 flex items-center justify-center text-white text-sm">in</a>
           </div>
         </div>
       </div>
 
-      {/* ===== MAIN NAV (UNDER STRIP) ===== */}
-      <nav className="bg-white   h-[68px] flex items-center">
+      {/* ===== MAIN NAV ===== */}
+      <nav className="bg-white h-[68px] flex items-center">
         <div className="w-full px-6 flex items-center justify-between">
 
           {/* CENTER MENU */}
-          <ul className="hidden lg:flex items-center gap-12 text-xl font-medium text-gray-800">
+          <ul className="flex items-center gap-10 text-xl font-medium text-gray-800">
             {menuItems.map((item, idx) => (
               <li
                 key={idx}
@@ -149,27 +145,21 @@ return (
           </ul>
 
           {/* RIGHT CALL + BUTTON */}
-          <div className="flex items-center gap-6 animate-pulse">
-            <div className="text-green-600 text-xl leading-tight text-right">
-              <span className="block font-semibold">Call us on:</span>
-        <a href="tel:+918527557778" className="text-2xl font-bold">
-  +91-85275 57778
-</a>
-
+          <div className="flex items-center gap-6">
+            <div className="text-green-600 text-right">
+              <span className="block text-md font-semibold">
+                Call us on:
+              </span>
+              <a href="tel:+918527557778" className="text-xl font-bold">
+                +91-85275 57778
+              </a>
             </div>
 
             <button
               onClick={() => setIsFormOpen(true)}
-              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 text-lg"
+              className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700"
             >
               Get Quote
-            </button>
-
-            <button
-              className="lg:hidden"
-              onClick={() => setMobileNavOpen(true)}
-            >
-              <Menu size={28} />
             </button>
           </div>
 
@@ -178,10 +168,11 @@ return (
     </div>
   </div>
 
-  {/* MOBILE MENU */}
+  {/* ================= MOBILE MENU ================= */}
   {mobileNavOpen && (
-    <div className="fixed inset-0 bg-black/60 z-50">
-      <div className="absolute right-0 top-0 w-80 h-full bg-white p-6">
+    <div className="fixed inset-0 bg-black/60 z-50 lg:hidden">
+      <div className="absolute right-0 top-0 w-[85%] sm:w-80 h-full bg-white p-6 overflow-y-auto">
+
         <button className="mb-6" onClick={() => setMobileNavOpen(false)}>
           <X size={28} />
         </button>
@@ -212,6 +203,26 @@ return (
             </li>
           ))}
         </ul>
+
+        {/* MOBILE CONTACT */}
+        <div className="mt-8 pt-6 border-t">
+          <a
+            href="tel:+918527557778"
+            className="block bg-green-600 text-white text-center py-3 rounded-lg mb-4"
+          >
+            Call Now
+          </a>
+
+          <button
+            onClick={() => {
+              setIsFormOpen(true);
+              setMobileNavOpen(false);
+            }}
+            className="block w-full bg-black text-white text-center py-3 rounded-lg"
+          >
+            Get Quote
+          </button>
+        </div>
       </div>
     </div>
   )}
@@ -225,12 +236,6 @@ return (
 </header>
 
 
-    {isFormOpen && (
-      <Enquiry
-        isOpen={isFormOpen}
-        onClose={() => setIsFormOpen(false)}
-      />
-    )}
   </>
 );
 

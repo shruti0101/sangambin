@@ -78,13 +78,13 @@ const ServiceProcess = () => {
 <div className="flex flex-col items-center lg:items-end gap-6">
 
   {/* TOP IMAGE */}
-  <div className="w-full  rounded-2xl overflow-hidden shadow-lg">
+  <div className="w-full   overflow-hidden ">
     <Image
-      src="/test2.png"      
+      src="/form.png"      
       width={600}
       height={400}
       alt="Sustainability visual"
-      className="w-full h-[360px] object-cover rounded-2xl"
+      className="w-full h-[380px] object-contain "
     />
   </div>
 

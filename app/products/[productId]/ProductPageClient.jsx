@@ -5,7 +5,6 @@ import Image from "next/image";
 import Head from "next/head";
 import Enquiry from "@/components/Enquiry";
 import { ArrowUpRight } from "lucide-react";
-
 import axios from "axios";
 
 export default function ProductPage({ params }) {
@@ -14,10 +13,6 @@ export default function ProductPage({ params }) {
   const product = allProducts.find((p) => p.id === productId);
   const [activeImage, setActiveImage] = useState(product?.image[0]);
   const [isFormOpen, setIsFormOpen] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-const [successMessage, setSuccessMessage] = useState("");
-const [loading, setLoading] = useState(false);
-
 
   if (!product) {
     return (
@@ -25,226 +20,141 @@ const [loading, setLoading] = useState(false);
     );
   }
 
+  const files = {
+    brochure: "/pdf/product-brochure.pdf",
+    manual: "/pdf/user-manual.pdf",
+    iso: "/pdf/iso-certificate.pdf",
+  };
 
-const files = {
-  brochure: "/pdf/product-brochure.pdf",
-  manual: "/pdf/user-manual.pdf",
-  iso: "/pdf/iso-certificate.pdf",
-};
+  return (
+    <>
+      <Head>
+        <title>{product.metaTitle || product.name}</title>
+        <meta
+          name="description"
+          content={product.metaDescription || product.name}
+        />
+      </Head>
 
+      <section className="bg-[#F6F6F8] py-10 mt-24 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto space-y-12">
 
-
-return (
-  <>
-    <Head>
-      <title>{product.metaTitle || product.name}</title>
-      <meta
-        name="description"
-        content={product.metaDescription || product.name}
-      />
-    </Head>
-
-<section className="bg-[#F6F6F8] py-10 mt-30">
-  <div className="max-w-7xl mx-auto  space-y-12">
-
-    {/* -------- BREADCRUMB -------- */}
-    <div className="text-xl text-gray-600">
-      Home &gt; Industrial Products &gt; Cleaning Equipment &gt;
-      <span className="text-black font-medium ml-1">{product.name}</span>
-    </div>
-
-    {/* -------- TOP 3-COLUMN GRID (THIS IS THE KEY MATCH) -------- */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
-
-      {/* ========== COLUMN 1 — IMAGE GALLERY (LEFT) ========== */}
-      <div>
-        <div className="relative bg-white border-1 border-gray-300 overflow-hidden h-[500px] flex items-center justify-center">
-          <Image
-            src={activeImage.src}
-            alt={activeImage.alt}
-            width={920}
-            height={720}
-            className="object-cover h-full"
-            
-          />
-
-       
-
-      
-        </div>
-
-        {/* THUMBNAILS STRIP */}
-        <div className="flex gap-4 mt-4  p-3 ">
-          {product.image.map((img, i) => (
-            <div
-              key={i}
-              onClick={() => setActiveImage(img)}
-              className={`w-24 h-24 border rounded-xl overflow-hidden cursor-pointer ${
-                activeImage.src === img.src
-                  ? "border-blue-600"
-                  : "border-gray-300"
-              }`}
-            >
-              <Image
-                src={img.src}
-                width={120}
-                height={120}
-                alt={img.alt}
-                className="object-cover w-full h-full"
-                
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* ========== COLUMN 2 — PRODUCT INFO (MIDDLE) ========== */}
-      <div className="space-y-4">
-        <h1 className="text-4xl font-bold text-[#0B2545]">
-          {product.name}
-        </h1>
-
-        <p className="text-sm text-gray-600">
-          SKU: {product.sku || "SP-WR-30L"}
-        </p>
-
-      
-
-        <p className="text-black text-xl  leading-relaxed">
-          {product.excerpt}
-        </p>
-
-        <ul className="space-y-4 text-lg">
-          <li className="flex items-start gap-2">
-            <span className="text-blue-600">✔</span>
-            High-efficiency side press wringer lasts 50,000 cycles.
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-blue-600">✔</span>
-            360-degree non-marking castor wheels for silent movement.
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-blue-600">✔</span>
-            Ergonomic handle designed to reduce back strain.
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-blue-600">✔</span>
-            Chemical resistant PP body suitable for industrial cleaners.
-          </li>
-        </ul>
-
-       <div className="flex gap-3 items-center pt-4">
-        <div className="flex justify-center items-center gap-1">
-          <span class="material-symbols-outlined text-[20px] text-blue-500">verified</span>
-
-  <span className=" bg-white px-3 py-1 rounded-lg shadow text-md">
-    ISO 9001:2015
-  </span>
-        </div>
-
-        <div className="flex justify-center items-center gap-1">
-
-          <span class="material-symbols-outlined text-[20px] text-green-500">eco</span>
-
-  <span className=" bg-[#F0FDF4] px-3 py-1 rounded-lg shadow text-md">
-    Eco-Friendly
-  </span>
-        </div>
-
-        <div className="flex justify-center items-center gap-1 ">
-
-<span class="material-symbols-outlined text-[20px] text-red-500">flag</span>
-
-  <span className="bg-white px-3 py-1 rounded-lg shadow text-md">
-    Made in India
-  </span>
-        </div>
-
-
-
-</div>
-
-{/* ===== ACTION BUTTONS (INSIDE TOP SECTION) ===== */}
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10">
-
-  <a
-    href="tel:+918527557778"
-    className="text-center px-5 py-3 bg-blue-600 text-white rounded-2xl font-semibold shadow-md hover:bg-blue-700 transition"
-  >
-    Call Now
-  </a>
-
-  <a
-    href={`https://wa.me/+918527557778?text=Hello, I am interested in ${encodeURIComponent(
-      product.name
-    )}`}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-center px-5 py-3 bg-green-600 text-white rounded-2xl font-semibold shadow-md hover:bg-green-700 transition"
-  >
-    WhatsApp Us
-  </a>
-
-  <button
-    onClick={() => setIsFormOpen(true)}
-    className="text-center px-5 py-3 bg-indigo-600 text-white rounded-2xl font-semibold shadow-md hover:bg-indigo-700 transition"
-  >
-    Enquire Now
-  </button>
-</div>
-
-
-      </div>
-
-  
-    </div>
-
-
-
-
-
-
-
-    {/* -------- TECHNICAL SPECIFICATIONS (MATCHING YOUR IMAGE) -------- */}
-  <div className="max-w-7xl mx-auto px-6 mt-20">
-  <h2 className="text-4xl font-bold text-[#0B2545] mb-6">
-    Technical Specifications
-  </h2>
-
-  {/* SPEC TABLE (TWO COLUMN GRID LIKE YOUR IMAGE) */}
-  <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden">
-    <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x">
-      {product.specs?.map((spec, i) => (
-        <div
-          key={i}
-          className="grid grid-cols-2 gap-4 p-5 border-b border-gray-100 last:border-b-0"
-        >
-          <span className="text-gray-600 text-xl">{spec.label}</span>
-
-          {/* Special case for Available Colors */}
-          {spec.label === "Available Colors" ? (
-            <div className="flex gap-2 items-center">
-              <span className="w-4 h-4 rounded-full bg-yellow-400"></span>
-              <span className="w-4 h-4 rounded-full bg-blue-500"></span>
-              <span className="w-4 h-4 rounded-full bg-red-500"></span>
-              <span className="w-4 h-4 rounded-full bg-green-500"></span>
-            </div>
-          ) : (
-            <span className="font-medium text-lg text-[#0B2545]">
-              {spec.value}
+          {/* BREADCRUMB */}
+          <div className="text-sm sm:text-base text-gray-600">
+            Home &gt; Industrial Products &gt; Cleaning Equipment &gt;
+            <span className="text-black font-medium ml-1">
+              {product.name}
             </span>
-          )}
+          </div>
+
+          {/* MAIN GRID */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
+
+            {/* IMAGE SECTION */}
+            <div>
+              <div className="relative bg-white border border-gray-300 overflow-hidden h-[300px] sm:h-[400px] lg:h-[500px] flex items-center justify-center">
+                <Image
+                  src={activeImage.src}
+                  alt={activeImage.alt}
+                  width={920}
+                  height={720}
+                  className="object-contain h-full w-full"
+                />
+              </div>
+
+              {/* THUMBNAILS */}
+              <div className="flex gap-4 mt-4 p-2 overflow-x-auto">
+                {product.image.map((img, i) => (
+                  <div
+                    key={i}
+                    onClick={() => setActiveImage(img)}
+                    className={`min-w-[80px] h-20 sm:w-24 sm:h-24 border rounded-xl overflow-hidden cursor-pointer ${
+                      activeImage.src === img.src
+                        ? "border-blue-600"
+                        : "border-gray-300"
+                    }`}
+                  >
+                    <Image
+                      src={img.src}
+                      width={120}
+                      height={120}
+                      alt={img.alt}
+                      className="object-cover w-full h-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* PRODUCT INFO */}
+            <div className="space-y-4">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0B2545]">
+                {product.name}
+              </h1>
+
+              <p className="text-sm text-gray-600">
+                SKU: {product.sku || "SP-WR-30L"}
+              </p>
+
+              <p className="text-base sm:text-lg text-black leading-relaxed">
+                {product.excerpt}
+              </p>
+
+              <ul className="space-y-3 text-sm sm:text-base">
+                <li className="flex gap-2">
+                  <span className="text-blue-600">✔</span>
+                  High-efficiency side press wringer lasts 50,000 cycles.
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-blue-600">✔</span>
+                  360-degree non-marking castor wheels.
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-blue-600">✔</span>
+                  Ergonomic handle design.
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-blue-600">✔</span>
+                  Chemical resistant PP body.
+                </li>
+              </ul>
+
+              {/* BUTTONS */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+                <a
+                  href="tel:+918527557778"
+                  className="text-center px-5 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition"
+                >
+                  Call Now
+                </a>
+
+                <a
+                  href={`https://wa.me/+918527557778?text=Hello, I am interested in ${encodeURIComponent(
+                    product.name
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-center px-5 py-3 bg-green-600 text-white rounded-xl font-semibold hover:bg-green-700 transition"
+                >
+                  WhatsApp Us
+                </a>
+
+                <button
+                  onClick={() => setIsFormOpen(true)}
+                  className="text-center px-5 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition"
+                >
+                  Enquire Now
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      ))}
-    </div>
-  </div>
-</div>
+      </section>
 
+     {/* ===== DOCUMENT DOWNLOADS ===== */}
 
-  </div>
-</section>
+<section className="bg-yellow-50">
 
-    {/* ===== DOCUMENT DOWNLOADS ===== */}
   <section className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
 
 
@@ -299,9 +209,11 @@ return (
 </a>
 
 </section>
+</section>
 
+<section className="bg-green-50 py-10">
 
-     <section className="  px-14 md:mt-10 mb-18">
+     <section className="px-4 md:px-20 md:mt-10 mb-8 md:mb-18">
         <h2 className="text-2xl sm:text-3xl md:text-5xl  font-semibold text-[#155DFC] mb-6 border-b pb-5">
           Product Description
         </h2>
@@ -329,7 +241,7 @@ return (
                   return (
                     <ul
                       key={i}
-                      className="list-disc ml-5 sm:ml-6 space-y-2 mt-2 text-gray-800"
+                      className="list-disc   sm:ml-6 space-y-2 mt-2 text-gray-800"
                     >
                       {block.items.map((item, j) => (
                         <li key={j}>{item}</li>
@@ -343,57 +255,55 @@ return (
           )}
         </div>
       </section>
+</section>
 
-    {/* ===== RELATED PRODUCTS (YOU ALREADY HAVE — KEPT) ===== */}
-    <section className="max-w-7xl mx-auto px-6 py-12">
-      <h2 className="text-3xl font-bold text-[#0B2545] mb-6">
-        Related Products
-      </h2>
 
-      <div className="border-1 border-black mb-3"></div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {(() => {
-          const categoryObj = categories.find((c) =>
-            c.products.some((p) => p.id === product.id)
-          );
+      {/* RELATED PRODUCTS */}
 
-          const related = categoryObj
-            ? categoryObj.products.filter((p) => p.id !== product.id)
-            : [];
+      <section className="bg-blue-50">
 
-          return related.slice(0, 4).map((relatedProduct) => (
-            <div
-              key={relatedProduct.id}
-              className="bg-green-50 rounded-xl shadow-md p-4 text-center"
-            >
-              <div className="w-full h-52 relative overflow-hidden rounded-lg">
-                <Image
-                  src={relatedProduct.image[0]?.src}
-                  alt={relatedProduct.name}
-                  fill
-                  className="object-cover bg-blue-100"
-                />
-              </div>
-              <h3 className="mt-4 text-lg font-semibold">
-                {relatedProduct.name}
-              </h3>
-              <a
-                href={`/products/${relatedProduct.id}`}
-                className="text-blue-600 mt-2 inline-block"
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+        <h2 className="text-2xl sm:text-4xl font-bold text-[#0B2545] mb-6">
+          Related Products
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {categories
+            .flatMap((c) => c.products)
+            .filter((p) => p.id !== product.id)
+            .slice(0, 4)
+            .map((relatedProduct) => (
+              <div
+                key={relatedProduct.id}
+                className="bg-green-50 rounded-xl shadow-md p-4 text-center"
               >
-                View Details →
-              </a>
-            </div>
-          ));
-        })()}
-      </div>
-    </section>
+                <div className="w-full h-40 sm:h-52 relative overflow-hidden rounded-lg">
+                  <Image
+                    src={relatedProduct.image[0]?.src}
+                    alt={relatedProduct.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="mt-4 text-base sm:text-lg font-semibold">
+                  {relatedProduct.name}
+                </h3>
+                <a
+                  href={`/products/${relatedProduct.id}`}
+                  className="text-blue-600 mt-2 inline-block text-sm"
+                >
+                  View Details →
+                </a>
+              </div>
+            ))}
+        </div>
+      </section>
+      </section>
 
-    {isFormOpen && (
-      <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-    )}
-  </>
-);
-
+      {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
+    </>
+  );
 }
