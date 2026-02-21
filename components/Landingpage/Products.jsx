@@ -60,7 +60,7 @@ export default function OurProducts() {
   {/* Dark green overlay for contrast */}
   <div className="absolute inset-0 bg-[#0b3d26]/30 backdrop-blur-[1px]"></div>
 
-  <div className="w-full px-10 mx-auto relative z-10">
+  <div className="w-full md:px-10 mx-auto relative z-10">
 
 
      
@@ -73,7 +73,7 @@ export default function OurProducts() {
 
       <div className="w-24 h-1 bg-blue-500 mx-auto mt-3 rounded-full"></div>
 
-      <p className="mt-6 text-white text-sm md:text-lg leading-relaxed ">
+      <p className="mt-6 text-white text-xs md:text-lg text-justify md:text-center leading-relaxed ">
         At <span className="font-semibold">Sangam Plastic Industries Pvt. Ltd</span>, 
         we offer a wide range of high-quality plastic waste management solutions 
         designed to meet the needs of homes, hospitals, offices, and commercial spaces. 

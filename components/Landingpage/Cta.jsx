@@ -3,7 +3,7 @@ import React from "react";
 const Cta = () => {
   return (
     <section
-      className="relative w-full h-[45vh] md:h-[60vh] bg-cover bg-center bg-fixed flex items-center justify-center"
+      className="hidden md:flex relative w-full  md:h-[60vh] bg-contain md:bg-cover bg-center bg-fixed  items-center justify-center"
       style={{ backgroundImage: "url('/check1.png')" }}
     >
     

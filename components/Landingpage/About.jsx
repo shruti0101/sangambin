@@ -49,10 +49,10 @@ const About = () => {
 
      
 
-<Image alt='gif' width={140} height={100} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }} className='absolute top-4 right-7 rotate-slow' src="/recycle.webp"></Image>
+<Image alt='gif' width={140} height={100} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }} className='hidden md:block absolute top-4 right-7 rotate-slow' src="/recycle.webp"></Image>
 
 
- <Image alt='gif2' width={240} height={200} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }}  className='absolute -top-20 right-25 ' src="/11.gif"></Image> 
+ <Image alt='gif2' width={240} height={200} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }}  className='hidden md:block absolute -top-20 right-25 ' src="/11.gif"></Image> 
 
         {/* LEFT CONTENT */}
         <div className="space-y-5">
@@ -60,7 +60,7 @@ const About = () => {
             Since 1988 ♻
           </span>
 
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+          <h2 className="text-xl md:text-5xl font-bold leading-tight text-gray-900">
             Your Trusted Plastic Dustbin, 
             Pedal Bin & Hospital Dustbin Manufacturer
           </h2>
@@ -145,7 +145,7 @@ const About = () => {
 
 
         <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-8 ">
-      <div className="max-w-7xl mx-auto grid grid-cols-5 gap-6 text-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
 
      
         <div className="flex flex-col items-center gap-2">
@@ -175,7 +175,7 @@ const About = () => {
         </div>
 
     
-        <div className="flex flex-col items-center gap-2">
+        <div className="hidden md:block flex flex-col items-center gap-2">
           <img src="/5.webp" className="h-18 w-18" />
           <p className="font-semibold text-gray-900 text-xl">CII Certified</p>
           <p className="text-gray-800 text-lg">Green Products</p>

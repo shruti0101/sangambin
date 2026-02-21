@@ -128,7 +128,7 @@ return (
                 </Link>
 
                 {item.hasCategories && openMenu === "Products" && (
-                  <div className="absolute top-full pt-2 w-64 bg-white shadow-lg border rounded-lg">
+                  <div className="absolute top-full h-100 overflow-y-auto pt-2 w-74 bg-white shadow-lg border rounded-lg">
                     {categories.map((cat) => (
                       <Link
                         key={cat.id}

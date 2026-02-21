@@ -69,7 +69,7 @@ export default function CategoryPage({ params }) {
 
             {/* ===== LEFT SIDEBAR ===== */}
             <div>
-              <div className="md:sticky top-30 bg-white border border-gray-100 rounded-2xl p-6 shadow-sm sticky ">
+              <div className=" bg-white h-150 border border-gray-100 rounded-2xl p-6 shadow-sm  overflow-y-auto ">
                 <h3 className="text-3xl text-center font-semibold text-[#0B2545] mb-5">
                 Our  Categories
                 </h3>
@@ -89,7 +89,7 @@ export default function CategoryPage({ params }) {
                         href={`/categories/${cat.id}`}
                         className="w-full flex items-center gap-3"
                       >
-                        <span className="text-lg material-symbols-outlined  font-bold">inventory_2</span>
+                        <span className="text-xl material-symbols-outlined  font-bold">inventory_2</span>
                         {cat.name}
                       </Link>
 

@@ -123,7 +123,7 @@ export async function generateStaticParams() {
 /* ✅ SEO METADATA */
 export async function generateMetadata({ params }) {
   
-  const slug =  params.location;
+  const slug = await params.location;
 
   const city = slug
     .replace("plastic-dustbin-manufacturer-in-", "")

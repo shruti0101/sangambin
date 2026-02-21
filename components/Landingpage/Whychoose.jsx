@@ -16,7 +16,7 @@ style={{
 }}
 >
 
-             <Image width={140} height={100}  className='absolute bottom-60 left-7 animate-pulse ' src="/dus1.png"></Image>
+             <Image alt="img" width={140} height={100}  className='absolute bottom-60 left-7 animate-pulse ' src="/dus1.png"></Image>
 
 
   <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -28,12 +28,12 @@ style={{
         /// WHY CHOOSE US ♻
       </p>
 
-      <h2 className="text-[64px] font-extrabold leading-[1.05]">
+      <h2 className="text-[40px] md:text-[64px] font-extrabold leading-[1.05]">
         SANGAM PLASTIC INDUSTRIES ♻
      
       </h2>
 
-      <p className="text-gray-200 max-w-lg leading-relaxed">
+      <p className="text-white max-w-xl leading-relaxed">
         At Sangam Plastic Industries Pvt. Ltd., we combine decades of experience, 
         advanced manufacturing, and customer-centric solutions to deliver high-quality 
         plastic dustbins, hospital dustbins, and plastic pedal bins that you can rely on.

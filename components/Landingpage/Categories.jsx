@@ -129,11 +129,11 @@ export default function ProductCategorySection() {
 
           {/* LEFT: TEXT + ARROWS */}
           <div>
-            <p className="uppercase tracking-widest text-xl md:text-2xl text-yellow-500">
+            <p className="uppercase tracking-widest text-md md:text-2xl text-yellow-500">
               Explore Our Category ♻
             </p>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B6B42] mt-3 leading-tight">
+            <h2 className="text-lg sm:text-4xl lg:text-5xl font-bold text-[#0B6B42] mt-3 leading-tight">
          Our Waste Management & Industrial Solutions 
 Complete Range of Plastic & Sanitation Products
             </h2>
@@ -143,7 +143,7 @@ Complete Range of Plastic & Sanitation Products
             Our product range includes a comprehensive selection of plastic dustbins, hospital waste solutions, pedal bins, sharp containers, needle destroyers, and plastic pallets, designed to meet the needs of residential, healthcare, commercial, and industrial sectors.
             </p>
 
-<Image alt="gif" width={140} height={100} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }} className='absolute left-70 rotate-slow' src="/recycle.webp"></Image>
+<Image alt="gif" width={140} height={100} style={{ filter: "brightness(0) saturate(100%) invert(46%) sepia(82%) saturate(500%) hue-rotate(85deg)" }} className='hidden md:block absolute left-70 rotate-slow' src="/recycle.webp"></Image>
 
             <Link
               href="/products"
@@ -190,7 +190,7 @@ Complete Range of Plastic & Sanitation Products
           </div>
 
           {/* RIGHT: IMAGE SLIDER PANEL */}
-          <div className="grid grid-cols-2 gap-6 w-full max-w-[900px]">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[900px]">
 
             {slides
               .slice(startIndex, startIndex + visibleSlides)
