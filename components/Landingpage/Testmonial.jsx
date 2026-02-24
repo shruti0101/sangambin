@@ -81,7 +81,7 @@ export default function ZigzagShowcase() {
   Industries Pvt. Ltd.
 </h2>
 
-                <p className="text-white/85 max-w-xl italic">
+                <p className="text-white max-w-xl text-xl italic">
                   “{t.quote}”
                 </p>
 
@@ -96,7 +96,7 @@ export default function ZigzagShowcase() {
                   </div>
                   <div>
                     <p className="font-semibold">{t.name}</p>
-                    <p className="text-sm text-white/80">{t.location}</p>
+                    <p className="text-lg text-white">{t.location}</p>
                   </div>
                 </div>
 

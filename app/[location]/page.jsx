@@ -1,6 +1,6 @@
 import Clientlocation from "./Clientlocation";
 import notFound from "../not-found";
-/* ✅ REQUIRED FOR STATIC EXPORT */
+
 export async function generateStaticParams() {
   const cities = [
     "ajmer",

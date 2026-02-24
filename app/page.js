@@ -14,6 +14,7 @@ import Testimonial from "@/components/Landingpage/Testmonial";
 
 // import Enquiry from "@/components/Enquiry"
 import Citeskeyword from "@/components/Citieskeyword";
+import Support from "@/components/Landingpage/Support";
 // import Check from "@/components/Landingpage/Check";
 export default function Home() {
   return (
@@ -24,8 +25,8 @@ export default function Home() {
 <Hero></Hero>
 {/* <Enquiry></Enquiry> */}
 
-
-<AboutUs></AboutUs>
+<Support></Support>
+<Industries></Industries>
 
 <ProductCategorySection></ProductCategorySection>
 
@@ -35,8 +36,8 @@ export default function Home() {
 
 
 <Cta></Cta>
+<AboutUs></AboutUs>
 
-<Industries></Industries>
 <Form></Form>
 
 

@@ -113,7 +113,7 @@ export const categories = [
   ]
 },
 
-      // product 2
+      // product 2 done
 {
   "id": "15l-plastic-pedal-dustbin",
   "name": "15L Plastic Pedal Dustbin",
@@ -196,19 +196,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-yellow/1.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/1.webp",
       "alt": "15L Plastic Pedal Dustbin Yellow Front View"
     },
     {
-      "src": "/pro1/15l-yellow/2.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/2.webp",
       "alt": "15L Plastic Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/15l-yellow/3.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/3.webp",
       "alt": "15L Plastic Pedal Dustbin Open Lid"
     },
     {
-      "src": "/pro1/15l-yellow/4.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/4.webp",
       "alt": "15L Plastic Pedal Dustbin Office Use"
     }
   ]
@@ -217,7 +217,7 @@ export const categories = [
 
     
 
-// 3
+// 3 done
 
 {
   "id": "10l-polywell-bio-medical-waste-bin",
@@ -297,19 +297,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-bio/1.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/3.webp",
       "alt": "10L Polywell Bio Medical Waste Bin Front View"
     },
     {
-      "src": "/pro1/10l-bio/2.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/1.webp",
       "alt": "10L Polywell Bio Medical Waste Bin Printed Design"
     },
     {
-      "src": "/pro1/10l-bio/3.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/2.webp",
       "alt": "10L Polywell Bio Medical Waste Bin Hospital Use"
     },
     {
-      "src": "/pro1/10l-bio/4.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/4.webp",
       "alt": "10L Polywell Bio Medical Waste Bin Side View"
     }
   ]
@@ -398,26 +398,26 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/20l-biomedical/1.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/2.webp",
       "alt": "20L Bio Medical Waste Bin Front View"
     },
     {
-      "src": "/pro1/20l-biomedical/2.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/4.webp",
       "alt": "20L Bio Medical Waste Bin Side View"
     },
     {
-      "src": "/pro1/20l-biomedical/3.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/3.webp",
       "alt": "20L Bio Medical Waste Bin Hospital Use"
     },
     {
-      "src": "/pro1/20l-biomedical/4.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/1.webp",
       "alt": "20L Bio Medical Waste Bin Waste Disposal"
     }
   ]
 }
 ,
 
-// 5
+// 5 done
 
 {
   "id": "10l-bio-medical-waste-bin",
@@ -499,19 +499,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-biomedical/1.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/4.webp",
       "alt": "10L Biomedical Waste Bin Front View"
     },
     {
-      "src": "/pro1/10l-biomedical/2.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/1.webp",
       "alt": "10L Biomedical Waste Bin Side View"
     },
     {
-      "src": "/pro1/10l-biomedical/3.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/3.webp",
       "alt": "10L Biomedical Waste Bin Hospital Use"
     },
     {
-      "src": "/pro1/10l-biomedical/4.webp",
+      "src": "/product/10L Polywell Bio Medical Waste Bins/2.webp",
       "alt": "10L Biomedical Waste Bin Foot Pedal"
     }
   ]
@@ -598,27 +598,24 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-biobin/1.webp",
+      "src": "/product/15L Bio Bin/2.webp",
       "alt": "15L Bio Bin Front View"
     },
     {
-      "src": "/pro1/15l-biobin/2.webp",
+      "src": "/product/15L Bio Bin/1.webp",
       "alt": "15L Bio Bin Side View"
     },
     {
-      "src": "/pro1/15l-biobin/3.webp",
+      "src": "/product/15L Bio Bin/3.webp",
       "alt": "15L Bio Bin Office Use"
     },
-    {
-      "src": "/pro1/15l-biobin/4.webp",
-      "alt": "15L Bio Bin Commercial Application"
-    }
+ 
   ]
 },
 
 
 
-// 7
+// 7 
 
 {
   "id": "65l-bio-bin",
@@ -699,19 +696,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/65l-biobin/1.webp",
+      "src": "/product/65L Bio Bin/2.png",
       "alt": "65L Bio Bin Front View"
     },
     {
-      "src": "/pro1/65l-biobin/2.webp",
+      "src": "/product/65L Bio Bin/1.png",
       "alt": "65L Bio Bin Side View"
     },
     {
-      "src": "/pro1/65l-biobin/3.webp",
+      "src": "/product/65L Bio Bin/3.png",
       "alt": "65L Bio Bin Commercial Use"
     },
     {
-      "src": "/pro1/65l-biobin/4.webp",
+      "src": "/product/65L Bio Bin/4.png",
       "alt": "65L Bio Bin Waste Disposal"
     }
   ]
@@ -798,25 +795,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-biobin/1.webp",
+      "src": "/product/65L Bio Bin/3.png",
       "alt": "10L Bio Bin Front View"
     },
     {
-      "src": "/pro1/10l-biobin/2.webp",
+      "src": "/product/65L Bio Bin/2.png",
       "alt": "10L Bio Bin Side View"
     },
     {
-      "src": "/pro1/10l-biobin/3.webp",
+      "src": "/product/65L Bio Bin/1.png",
       "alt": "10L Bio Bin Hospital Use"
     },
     {
-      "src": "/pro1/10l-biobin/4.webp",
+      "src": "/product/65L Bio Bin/4.png",
       "alt": "10L Bio Bin Waste Disposal"
     }
   ]
 },
 
-// 9
+// 9 done
 
 {
   "id": "30l-bio-bin",
@@ -897,25 +894,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/30l-biobin/1.webp",
+      "src": "/product/65L Bio Bin/5.png",
       "alt": "30L Bio Bin Front View"
     },
     {
-      "src": "/pro1/30l-biobin/2.webp",
+      "src": "/product/65L Bio Bin/2.png",
       "alt": "30L Bio Bin Side View"
     },
     {
-      "src": "/pro1/30l-biobin/3.webp",
+      "src": "/product/65L Bio Bin/3.png",
       "alt": "30L Bio Bin Foot Pedal"
     },
     {
-      "src": "/pro1/30l-biobin/4.webp",
+      "src": "/product/65L Bio Bin/4.png",
       "alt": "30L Bio Bin Commercial Use"
     }
   ]
 },
 
-// 10
+// 10 done
 
 {
   "id": "660l-bio-bin",
@@ -997,25 +994,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/660l-biobin/1.webp",
+      "src": "/product/660L Bio Bins/1.webp",
       "alt": "660L Bio Bin Front View"
     },
     {
-      "src": "/pro1/660l-biobin/2.webp",
+      "src": "/product/660L Bio Bins/2.webp",
       "alt": "660L Bio Bin Side View"
     },
     {
-      "src": "/pro1/660l-biobin/3.webp",
+      "src": "/product/660L Bio Bins/3.webp",
       "alt": "660L Bio Bin Industrial Use"
     },
-    {
-      "src": "/pro1/660l-biobin/4.webp",
-      "alt": "660L Bio Bin Waste Collection"
-    }
+  
   ]
 },
 
-// 11
+// 11 done
 
 {
   "id": "15l-plastic-dustbin",
@@ -1098,28 +1092,32 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-plastic-dustbin/1.webp",
+      "src": "/product/15L Plastic Dustbin/1.webp",
       "alt": "15L Plastic Dustbin Front View"
     },
     {
-      "src": "/pro1/15l-plastic-dustbin/2.webp",
+      "src": "/product/15L Plastic Dustbin/2.webp",
       "alt": "15L Plastic Dustbin Side View"
     },
     {
-      "src": "/pro1/15l-plastic-dustbin/3.webp",
+      "src": "/product/15L Plastic Dustbin/3.webp",
       "alt": "15L Plastic Dustbin Hotel Use"
     },
     {
-      "src": "/pro1/15l-plastic-dustbin/4.webp",
+      "src": "/product/15L Plastic Dustbin/4.webp",
+      "alt": "15L Plastic Dustbin Municipal Use"
+    },
+     {
+      "src": "/product/15L Plastic Dustbin/5.webp",
       "alt": "15L Plastic Dustbin Municipal Use"
     }
   ]
 },
 
-// 12
+// 12 done
 
 {
-  "id": "20l-bio-bin-white",
+  "id": "20l-bio-bin",
   "name": "20L Bio Bin",
   "metaTitle": "20L Bio Bin Manufacturer | PolyWell",
   "metaDescription": "Buy 20L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
@@ -1202,26 +1200,23 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/20l-bio-bin-white/1.webp",
+      "src": "/product/15L Bio Bin/1.webp",
       "alt": "20L Bio Bin White Front View"
     },
     {
-      "src": "/pro1/20l-bio-bin-white/2.webp",
+      "src": "/pro1/15L Bio Bin/2.webp",
       "alt": "20L Bio Bin White Side View"
     },
     {
-      "src": "/pro1/20l-bio-bin-white/3.webp",
+      "src": "/pro1/15L Bio Bin/3.webp",
       "alt": "20L Bio Bin Hospital Use"
     },
-    {
-      "src": "/pro1/20l-bio-bin-white/4.webp",
-      "alt": "20L Bio Bin With Lid"
-    }
+ 
   ]
 },
 
-// 13
-
+// 13 done
+ 
 {
   "id": "15l-plastic-pedal-bin",
   "name": "15L Plastic Pedal Bin",
@@ -1304,21 +1299,18 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-plastic-pedal-bin/1.webp",
+      "src": "/product/15L Plastic Pedal Bin/1.webp",
       "alt": "15L Plastic Pedal Bin Front View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-bin/2.webp",
+      "src": "/product/15L Plastic Pedal Bin/2.webp",
       "alt": "15L Plastic Pedal Bin Side View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-bin/3.webp",
+      "src": "/product/15L Plastic Pedal Bin/3.webp",
       "alt": "15L Plastic Pedal Bin Foot Pedal"
     },
-    {
-      "src": "/pro1/15l-plastic-pedal-bin/4.webp",
-      "alt": "15L Plastic Pedal Bin Commercial Use"
-    }
+   
   ]
 },
 
@@ -1340,7 +1332,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 {
   "id": "60l-plastic-pedal-dustbin",
   "name": "60L Plastic Pedal Dustbin",
@@ -1421,19 +1413,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/60l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/60L Plastic Pedal Dustbin/1.png",
       "alt": "60L Plastic Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/60l-plastic-pedal-dustbin/2.webp",
+      "src": "/product/60L Plastic Pedal Dustbin/2.png",
       "alt": "60L Plastic Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/60l-plastic-pedal-dustbin/3.webp",
+      "src": "/product/60L Plastic Pedal Dustbin/3.png",
       "alt": "60L Plastic Pedal Dustbin Closed Lid"
     },
     {
-      "src": "/pro1/60l-plastic-pedal-dustbin/4.webp",
+      "src": "/product/60L Plastic Pedal Dustbin/4.png",
       "alt": "60L Plastic Pedal Dustbin Residential Use"
     }
   ]
@@ -1538,7 +1530,7 @@ export const categories = [
   ]
 },
 
-// 3
+// 3 done
 
 
 {
@@ -1622,19 +1614,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120l-pp-pedal-bin/1.webp",
+      "src": "/product/120L PP Central Wheeled Pedal Bio Bin/1.webp",
       "alt": "120L PP Central Wheeled Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/120l-pp-pedal-bin/2.webp",
+      "src": "/product/120L PP Central Wheeled Pedal Bio Bin/2.webp",
       "alt": "120L PP Central Wheeled Pedal Bio Bin Side View"
     },
     {
-      "src": "/pro1/120l-pp-pedal-bin/3.webp",
+      "src": "/product/120L PP Central Wheeled Pedal Bio Bin/3.webp",
       "alt": "120L PP Central Wheeled Pedal Bio Bin Wheels"
     },
     {
-      "src": "/pro1/120l-pp-pedal-bin/4.webp",
+      "src": "/product/120L PP Central Wheeled Pedal Bio Bin/4.webp",
       "alt": "120L PP Central Wheeled Pedal Bio Bin Hospital Use"
     }
   ]
@@ -1723,19 +1715,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/80l-pp-pedal-bin/1.webp",
+      "src": "/product/80L PP Central Wheeled Pedal Bio Bin/1.webp",
       "alt": "80L PP Central Wheeled Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/80l-pp-pedal-bin/2.webp",
+      "src": "/product/80L PP Central Wheeled Pedal Bio Bin/2.webp",
       "alt": "80L PP Central Wheeled Pedal Bio Bin Side View"
     },
     {
-      "src": "/pro1/80l-pp-pedal-bin/3.webp",
+      "src": "/product/80L PP Central Wheeled Pedal Bio Bin/3.webp",
       "alt": "80L PP Central Wheeled Pedal Bio Bin Wheels"
     },
     {
-      "src": "/pro1/80l-pp-pedal-bin/4.webp",
+      "src": "/product/80L PP Central Wheeled Pedal Bio Bin/4.webp",
       "alt": "80L PP Central Wheeled Pedal Bio Bin Hospital Use"
     }
   ]
@@ -1824,25 +1816,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/1100l-pp-wheeled-bin/1.webp",
+      "src": "/product/1100L PP Wheeled Bio Bin/1.webp",
       "alt": "1100L PP Wheeled Bio Bin Front View"
     },
     {
-      "src": "/pro1/1100l-pp-wheeled-bin/2.webp",
+      "src": "/product/1100L PP Wheeled Bio Bin/2.webp",
       "alt": "1100L PP Wheeled Bio Bin Side View"
     },
     {
-      "src": "/pro1/1100l-pp-wheeled-bin/3.webp",
+      "src": "/product/1100L PP Wheeled Bio Bin/3.webp",
       "alt": "1100L PP Wheeled Bio Bin Wheels"
     },
-    {
-      "src": "/pro1/1100l-pp-wheeled-bin/4.webp",
-      "alt": "1100L PP Wheeled Bio Bin Industrial Use"
-    }
+   
   ]
 },
 
-// 6
+// 6 dpne
 
 {
   "id": "240l-plastic-wheeled-dustbin",
@@ -1923,25 +1912,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/240l-plastic-wheeled-dustbin/1.webp",
+      "src": "/product/Plastic Wheeled Dustbins 240l/1.webp",
       "alt": "240L Plastic Wheeled Dustbin Front View"
     },
     {
-      "src": "/pro1/240l-plastic-wheeled-dustbin/2.webp",
+      "src": "/product/Plastic Wheeled Dustbins 240l/2.webp",
       "alt": "240L Plastic Wheeled Dustbin Side View"
     },
     {
-      "src": "/pro1/240l-plastic-wheeled-dustbin/3.webp",
+      "src": "/product/Plastic Wheeled Dustbins 240l/3.webp",
       "alt": "240L Plastic Wheeled Dustbin Wheels"
     },
-    {
-      "src": "/pro1/240l-plastic-wheeled-dustbin/4.webp",
-      "alt": "240L Plastic Wheeled Dustbin Industrial Use"
-    }
+   
   ]
 },
 
-// 7
+// 7 done
 
 {
   "id": "120l-pp-wheeled-bio-bin",
@@ -2024,19 +2010,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120l-pp-wheeled-bin/1.webp",
+      "src": "/product/120L PP Wheeled Bio Bin/1.webp",
       "alt": "120L PP Wheeled Bio Bin Front View"
     },
     {
-      "src": "/pro1/120l-pp-wheeled-bin/2.webp",
+      "src": "/product/120L PP Wheeled Bio Bin/2.webp",
       "alt": "120L PP Wheeled Bio Bin Side View"
     },
     {
-      "src": "/pro1/120l-pp-wheeled-bin/3.webp",
+      "src": "/product/120L PP Wheeled Bio Bin/3.webp",
       "alt": "120L PP Wheeled Bio Bin Wheels"
     },
     {
-      "src": "/pro1/120l-pp-wheeled-bin/4.webp",
+      "src": "/product/120L PP Wheeled Bio Bin/4.webp",
       "alt": "120L PP Wheeled Bio Bin Hospital Use"
     }
   ]
@@ -2242,7 +2228,7 @@ export const categories = [
   ]
 },
 
-// 10
+// 10 done
 
 {
   "id": "1100l-pedal-garbage-bin",
@@ -2326,25 +2312,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/1100l-pedal-garbage-bin/1.webp",
+      "src": "/product/1100L Pedal Garbage Bins/1.webp",
       "alt": "1100L Pedal Garbage Bin Front View"
     },
     {
-      "src": "/pro1/1100l-pedal-garbage-bin/2.webp",
+      "src": "/product/1100L Pedal Garbage Bins/2.webp",
       "alt": "1100L Pedal Garbage Bin Side View"
     },
     {
-      "src": "/pro1/1100l-pedal-garbage-bin/3.webp",
+      "src": "/product/1100L Pedal Garbage Bins/3.webp",
       "alt": "1100L Pedal Garbage Bin Pedal"
     },
-    {
-      "src": "/pro1/1100l-pedal-garbage-bin/4.webp",
-      "alt": "1100L Pedal Garbage Bin Hospital Use"
-    }
+
   ]
 },
 
-// 11
+// 11 done
 
 {
   "id": "240l-plastic-green-wheeled-dustbin",
@@ -2425,25 +2408,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/240l-plastic-green-wheeled-dustbin/1.webp",
+      "src": "/product/240L Plastic Green Wheeled Dustbins/1.webp",
       "alt": "240L Plastic Green Wheeled Dustbin Front View"
     },
     {
-      "src": "/pro1/240l-plastic-green-wheeled-dustbin/2.webp",
+      "src": "/product/240L Plastic Green Wheeled Dustbins/2.webp",
       "alt": "240L Plastic Green Wheeled Dustbin Side View"
     },
     {
-      "src": "/pro1/240l-plastic-green-wheeled-dustbin/3.webp",
+      "src": "/product/240L Plastic Green Wheeled Dustbins/3.webp",
       "alt": "240L Plastic Green Wheeled Dustbin Wheels"
     },
     {
-      "src": "/pro1/240l-plastic-green-wheeled-dustbin/4.webp",
+      "src": "/product/240L Plastic Green Wheeled Dustbins/4.webp",
       "alt": "240L Plastic Green Wheeled Dustbin Industrial Use"
     }
   ]
 },
 
-// 12
+// 12 done
 
 {
   "id": "10l-blue-plastic-garbage-bin",
@@ -2524,25 +2507,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-blue-plastic-garbage-bin/1.webp",
+      "src": "/product/10L Blue Plastic Garbage Bin/1.webp",
       "alt": "10L Blue Plastic Garbage Bin Front View"
     },
-    {
-      "src": "/pro1/10l-blue-plastic-garbage-bin/2.webp",
-      "alt": "10L Blue Plastic Garbage Bin Side View"
-    },
-    {
-      "src": "/pro1/10l-blue-plastic-garbage-bin/3.webp",
-      "alt": "10L Blue Plastic Garbage Bin Open Top"
-    },
-    {
-      "src": "/pro1/10l-blue-plastic-garbage-bin/4.webp",
-      "alt": "10L Blue Plastic Garbage Bin Hospital Use"
-    }
+  
   ]
 },
 
-// 13
+// 13 done
 
 
 {
@@ -2624,25 +2596,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/240l-hospitals-wheeled-bin/1.webp",
+      "src": "/product/240L Hospitals Wheeled Bins/1.webp",
       "alt": "240L Hospitals Wheeled Bin Front View"
     },
     {
-      "src": "/pro1/240l-hospitals-wheeled-bin/2.webp",
+      "src": "/product/240L Hospitals Wheeled Bins/2.webp",
       "alt": "240L Hospitals Wheeled Bin Side View"
     },
     {
-      "src": "/pro1/240l-hospitals-wheeled-bin/3.webp",
+      "src": "/product/240L Hospitals Wheeled Bins/3.webp",
       "alt": "240L Hospitals Wheeled Bin Wheels"
     },
     {
-      "src": "/pro1/240l-hospitals-wheeled-bin/4.webp",
+      "src": "/product/240L Hospitals Wheeled Bins/4.webp",
       "alt": "240L Hospitals Wheeled Bin Hospital Use"
     }
   ]
 },
 
-// 14
+// 14 done
 
 
 {
@@ -2724,21 +2696,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120l-large-wheeled-pedal-dustbin/1.webp",
+      "src": "/product/120L Large Wheeled Pedal Dustbins/1.webp",
       "alt": "120L Large Wheeled Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/120l-large-wheeled-pedal-dustbin/2.webp",
+      "src": "/product/120L Large Wheeled Pedal Dustbins/2.webp",
       "alt": "120L Large Wheeled Pedal Dustbin Side View"
     },
-    {
-      "src": "/pro1/120l-large-wheeled-pedal-dustbin/3.webp",
-      "alt": "120L Large Wheeled Pedal Dustbin Wheels"
-    },
-    {
-      "src": "/pro1/120l-large-wheeled-pedal-dustbin/4.webp",
-      "alt": "120L Large Wheeled Pedal Dustbin Office Use"
-    }
+  
   ]
 },
 
@@ -2764,7 +2729,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
   {
   "id": "160mm-four-way-roto-molded-plastic-pallet",
   "name": "160mm Four Way Roto Molded Plastic Pallets",
@@ -2844,28 +2809,21 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/160mm-roto-molded-pallet/1.webp",
+      "src": "/product/160mm Four Way Roto Molded Plastic Pallets/1.webp",
       "alt": "160mm Four Way Roto Molded Plastic Pallet Front View"
     },
     {
-      "src": "/pro1/160mm-roto-molded-pallet/2.webp",
+      "src": "/product/160mm Four Way Roto Molded Plastic Pallets/2.webp",
       "alt": "160mm Four Way Roto Molded Plastic Pallet Side View"
     },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/3.webp",
-      "alt": "160mm Four Way Roto Molded Plastic Pallet Industrial Use"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/4.webp",
-      "alt": "160mm Four Way Roto Molded Plastic Pallet Warehouse Use"
-    }
+  
   ]
 },
 
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "130mm-four-way-entry-plastic-pallet",
   "name": "130mm Four Way Entry Plastic Pallets",
@@ -2945,25 +2903,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/130mm-four-way-entry-pallet/1.webp",
+      "src": "/product/130mm Four Way Entry Plastic Pallets/1.webp",
       "alt": "130mm Four Way Entry Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/130mm-four-way-entry-pallet/2.webp",
-      "alt": "130mm Four Way Entry Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/130mm-four-way-entry-pallet/3.webp",
-      "alt": "130mm Four Way Entry Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/130mm-four-way-entry-pallet/4.webp",
-      "alt": "130mm Four Way Entry Plastic Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 3
+// 3 dome
 
 {
   "id": "150mm-auto-paper-industry-pallet",
@@ -3044,25 +2991,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-auto-paper-pallet/1.webp",
+      "src": "/product/150mm Auto Paper Industry Pallet/1.webp",
       "alt": "150mm Auto Paper Industry Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-auto-paper-pallet/2.webp",
-      "alt": "150mm Auto Paper Industry Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-auto-paper-pallet/3.webp",
-      "alt": "150mm Auto Paper Industry Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-auto-paper-pallet/4.webp",
-      "alt": "150mm Auto Paper Industry Pallet Industrial Use"
-    }
+
   ]
 },
 
-// 4
+// 4 done
 
 {
   "id": "160mm-plastic-roto-moulding-pallet",
@@ -3143,25 +3079,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/160mm-plastic-roto-moulding-pallet/1.webp",
+      "src": "/product/160mm Roto Molded Plastic Pallets/1.webp",
       "alt": "160mm Plastic Roto Moulding Pallet Front View"
     },
-    {
-      "src": "/pro1/160mm-plastic-roto-moulding-pallet/2.webp",
-      "alt": "160mm Plastic Roto Moulding Pallet Side View"
-    },
-    {
-      "src": "/pro1/160mm-plastic-roto-moulding-pallet/3.webp",
-      "alt": "160mm Plastic Roto Moulding Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/160mm-plastic-roto-moulding-pallet/4.webp",
-      "alt": "160mm Plastic Roto Moulding Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "250mm-hdpe-polywell-pallet",
@@ -3242,25 +3167,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/250mm-hdpe-polywell-pallet/1.webp",
+      "src": "/product/250mm HDPE Polywell Pallet/1.webp",
       "alt": "250mm HDPE Polywell Pallet Front View"
     },
-    {
-      "src": "/pro1/250mm-hdpe-polywell-pallet/2.webp",
-      "alt": "250mm HDPE Polywell Pallet Side View"
-    },
-    {
-      "src": "/pro1/250mm-hdpe-polywell-pallet/3.webp",
-      "alt": "250mm HDPE Polywell Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/250mm-hdpe-polywell-pallet/4.webp",
-      "alt": "250mm HDPE Polywell Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 6
+// 6 done
 
 {
   "id": "300mm-blue-rectangle-four-way-plastic-pallet",
@@ -3341,25 +3255,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/300mm-blue-four-way-pallet/1.webp",
+      "src": "/product/300mm Blue Rectangle Four Way Plastic Pallet/1.webp",
       "alt": "300mm Blue Rectangle Four Way Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/300mm-blue-four-way-pallet/2.webp",
-      "alt": "300mm Blue Rectangle Four Way Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/300mm-blue-four-way-pallet/3.webp",
-      "alt": "300mm Blue Rectangle Four Way Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/300mm-blue-four-way-pallet/4.webp",
-      "alt": "300mm Blue Rectangle Four Way Plastic Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 7
+// 7 done
 
 {
   "id": "130mm-plastic-plain-top-pallet",
@@ -3440,25 +3343,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/130mm-plastic-plain-top-pallet/1.webp",
+      "src": "/product/130mm Plastic Plain Top Pallets/1.webp",
       "alt": "130mm Plastic Plain Top Pallet Front View"
     },
-    {
-      "src": "/pro1/130mm-plastic-plain-top-pallet/2.webp",
-      "alt": "130mm Plastic Plain Top Pallet Side View"
-    },
-    {
-      "src": "/pro1/130mm-plastic-plain-top-pallet/3.webp",
-      "alt": "130mm Plastic Plain Top Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/130mm-plastic-plain-top-pallet/4.webp",
-      "alt": "130mm Plastic Plain Top Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 8
+// 8 done
 
 {
   "id": "200mm-hdpe-industrial-pallet",
@@ -3539,25 +3431,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/200mm-hdpe-industrial-pallet/1.webp",
+      "src": "/product/200mm HDPE Industrial Pallet/1.webp",
       "alt": "200mm HDPE Industrial Pallet Front View"
     },
-    {
-      "src": "/pro1/200mm-hdpe-industrial-pallet/2.webp",
-      "alt": "200mm HDPE Industrial Pallet Side View"
-    },
-    {
-      "src": "/pro1/200mm-hdpe-industrial-pallet/3.webp",
-      "alt": "200mm HDPE Industrial Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/200mm-hdpe-industrial-pallet/4.webp",
-      "alt": "200mm HDPE Industrial Pallet Storage Use"
-    }
+  
   ]
 },
 
-// 9
+// 9 done
 
 {
   "id": "500kg-plastic-industrial-pallet",
@@ -3638,25 +3519,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/500kg-plastic-industrial-pallet/1.webp",
+      "src": "/product/500kg Plastic Industrial Pallet/1.webp",
       "alt": "500kg Plastic Industrial Pallet Front View"
     },
-    {
-      "src": "/pro1/500kg-plastic-industrial-pallet/2.webp",
-      "alt": "500kg Plastic Industrial Pallet Side View"
-    },
-    {
-      "src": "/pro1/500kg-plastic-industrial-pallet/3.webp",
-      "alt": "500kg Plastic Industrial Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/500kg-plastic-industrial-pallet/4.webp",
-      "alt": "500kg Plastic Industrial Pallet Storage Use"
-    }
+
   ]
 },
 
-// 10
+// 10 done
 
 {
   "id": "200mm-blue-plastic-pallet",
@@ -3737,25 +3607,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/200mm-blue-plastic-pallet/1.webp",
+      "src": "/product/200mm Blue Plastic Pallets/1.webp",
       "alt": "200mm Blue Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/200mm-blue-plastic-pallet/2.webp",
-      "alt": "200mm Blue Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/200mm-blue-plastic-pallet/3.webp",
-      "alt": "200mm Blue Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/200mm-blue-plastic-pallet/4.webp",
-      "alt": "200mm Blue Plastic Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 11
+// 11 done
 
 {
   "id": "1000mm-hdpe-four-way-pallet",
@@ -3836,25 +3695,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/1000mm-hdpe-four-way-pallet/1.webp",
+      "src": "/product/130mm Plastic Plain Top Pallets/1.webp",
       "alt": "1000mm HDPE Four Way Pallet Front View"
     },
-    {
-      "src": "/pro1/1000mm-hdpe-four-way-pallet/2.webp",
-      "alt": "1000mm HDPE Four Way Pallet Side View"
-    },
-    {
-      "src": "/pro1/1000mm-hdpe-four-way-pallet/3.webp",
-      "alt": "1000mm HDPE Four Way Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/1000mm-hdpe-four-way-pallet/4.webp",
-      "alt": "1000mm HDPE Four Way Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 12
+// 12 done
 
 {
   "id": "160mm-roto-molded-pallet",
@@ -3935,25 +3783,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/160mm-roto-molded-pallet/1.webp",
+      "src": "/product/160mm Four Way Roto Molded Plastic Pallets/1.webp",
       "alt": "160mm Roto Molded Pallet Front View"
     },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/2.webp",
-      "alt": "160mm Roto Molded Pallet Side View"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/3.webp",
-      "alt": "160mm Roto Molded Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/4.webp",
-      "alt": "160mm Roto Molded Pallet Industrial Use"
-    }
+ 
   ]
 },
 
-// 13
+// 13 done
 
 
 {
@@ -4035,25 +3872,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-export-plastic-pallet/1.webp",
+      "src": "/product/150mm Export Plastic Pallet/1.webp",
       "alt": "150mm Export Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-export-plastic-pallet/2.webp",
-      "alt": "150mm Export Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-export-plastic-pallet/3.webp",
-      "alt": "150mm Export Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-export-plastic-pallet/4.webp",
-      "alt": "150mm Export Plastic Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 14
+// 14 done
 
 {
   "id": "120mm-plastic-nestable-pallet",
@@ -4134,21 +3960,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120mm-plastic-nestable-pallet/1.webp",
+      "src": "/product/120mm Plastic Nestable Pallets/1.webp",
       "alt": "120mm Plastic Nestable Pallet Front View"
     },
-    {
-      "src": "/pro1/120mm-plastic-nestable-pallet/2.webp",
-      "alt": "120mm Plastic Nestable Pallet Side View"
-    },
-    {
-      "src": "/pro1/120mm-plastic-nestable-pallet/3.webp",
-      "alt": "120mm Plastic Nestable Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/120mm-plastic-nestable-pallet/4.webp",
-      "alt": "120mm Plastic Nestable Pallet Industrial Use"
-    }
+  
   ]
 },
 
@@ -4234,25 +4049,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/250mm-two-way-pallet/1.webp",
+      "src": "/product/250mm Two Way Pallets/1.png",
       "alt": "250mm Two Way Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/250mm-two-way-pallet/2.webp",
-      "alt": "250mm Two Way Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/250mm-two-way-pallet/3.webp",
-      "alt": "250mm Two Way Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/250mm-two-way-pallet/4.webp",
-      "alt": "250mm Two Way Plastic Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 16
+// 16 done
 
 
     {
@@ -4334,25 +4138,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-spill-containment-pallet/1.webp",
+      "src": "/product/130mm Plastic Plain Top Pallets/1.webp",
       "alt": "150mm Spill Containment Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-spill-containment-pallet/2.webp",
-      "alt": "150mm Spill Containment Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-spill-containment-pallet/3.webp",
-      "alt": "150mm Spill Containment Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-spill-containment-pallet/4.webp",
-      "alt": "150mm Spill Containment Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 17
+// 17 done
 
 
 {
@@ -4434,21 +4227,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/135mm-blue-export-pallet/1.webp",
+      "src": "/product/135mm Blue Export Pallets/1.webp",
       "alt": "135mm Blue Export Pallet Front View"
     },
-    {
-      "src": "/pro1/135mm-blue-export-pallet/2.webp",
-      "alt": "135mm Blue Export Pallet Side View"
-    },
-    {
-      "src": "/pro1/135mm-blue-export-pallet/3.webp",
-      "alt": "135mm Blue Export Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/135mm-blue-export-pallet/4.webp",
-      "alt": "135mm Blue Export Pallet Shipping Use"
-    }
+   
   ]
 },
 
@@ -4470,7 +4252,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
   {
   "id": "160mm-four-way-roto-molded-plastic-pallet",
   "name": "160mm Four Way Roto Molded Plastic Pallets",
@@ -4550,28 +4332,18 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/160mm-roto-molded-pallet/1.webp",
+      "src": "/product/160mm Four Way Roto Molded Plastic Pallets/1.webp",
       "alt": "160mm Four Way Roto Molded Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/2.webp",
-      "alt": "160mm Four Way Roto Molded Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/3.webp",
-      "alt": "160mm Four Way Roto Molded Plastic Pallet Industrial Use"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-pallet/4.webp",
-      "alt": "160mm Four Way Roto Molded Plastic Pallet Warehouse Use"
-    }
+   
+   
   ]
 },
 
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "800mm-four-way-plastic-pallet",
   "name": "800mm Four Way Plastic Pallet",
@@ -4651,25 +4423,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/800mm-four-way-plastic-pallet/1.webp",
+      "src": "/product/800mm Four Way Plastic Pallet/1.webp",
       "alt": "800mm Four Way Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/800mm-four-way-plastic-pallet/2.webp",
-      "alt": "800mm Four Way Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/800mm-four-way-plastic-pallet/3.webp",
-      "alt": "800mm Four Way Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/800mm-four-way-plastic-pallet/4.webp",
-      "alt": "800mm Four Way Plastic Pallet Industrial Use"
-    }
+    
   ]
 },
 
-// 3
+// 3 done
 
 {
   "id": "1000mm-plastic-industrial-pallet",
@@ -4750,25 +4511,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/1000mm-plastic-industrial-pallet/1.webp",
+      "src": "/product/1000mm Plastic Industrial Pallet/1.webp",
       "alt": "1000mm Plastic Industrial Pallet Front View"
     },
-    {
-      "src": "/pro1/1000mm-plastic-industrial-pallet/2.webp",
-      "alt": "1000mm Plastic Industrial Pallet Side View"
-    },
-    {
-      "src": "/pro1/1000mm-plastic-industrial-pallet/3.webp",
-      "alt": "1000mm Plastic Industrial Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/1000mm-plastic-industrial-pallet/4.webp",
-      "alt": "1000mm Plastic Industrial Pallet Storage Use"
-    }
+   
   ]
 },
 
-// 4
+// 4 done
 
 {
   "id": "150mm-plastic-storage-pallet",
@@ -4849,25 +4599,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-plastic-storage-pallet/1.webp",
+      "src": "/product/250mm Two Way Pallets/1.png",
       "alt": "150mm Plastic Storage Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-plastic-storage-pallet/2.webp",
-      "alt": "150mm Plastic Storage Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-plastic-storage-pallet/3.webp",
-      "alt": "150mm Plastic Storage Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-plastic-storage-pallet/4.webp",
-      "alt": "150mm Plastic Storage Pallet Industrial Use"
-    }
+    
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "130mm-hdpe-industrial-pallet",
@@ -4948,25 +4687,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/130mm-hdpe-industrial-pallet/1.webp",
+      "src": "/product/130mm Hdpe Plastic Pallet/1.webp",
       "alt": "130mm HDPE Industrial Pallet Front View"
     },
-    {
-      "src": "/pro1/130mm-hdpe-industrial-pallet/2.webp",
-      "alt": "130mm HDPE Industrial Pallet Side View"
-    },
-    {
-      "src": "/pro1/130mm-hdpe-industrial-pallet/3.webp",
-      "alt": "130mm HDPE Industrial Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/130mm-hdpe-industrial-pallet/4.webp",
-      "alt": "130mm HDPE Industrial Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 6
+// 6 done
 {
   "id": "130mm-hdpe-plastic-pallet",
   "name": "130mm HDPE Plastic Pallet",
@@ -5046,21 +4774,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/130mm-hdpe-plastic-pallet/1.webp",
+      "src": "/product/130mm Hdpe Industrial Pallet/1.webp",
       "alt": "130mm HDPE Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/130mm-hdpe-plastic-pallet/2.webp",
-      "alt": "130mm HDPE Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/130mm-hdpe-plastic-pallet/3.webp",
-      "alt": "130mm HDPE Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/130mm-hdpe-plastic-pallet/4.webp",
-      "alt": "130mm HDPE Plastic Pallet Industrial Use"
-    }
+   
   ]
 }
 ,
@@ -5145,25 +4862,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/200mm-stackable-plastic-pallet/1.webp",
+      "src": "/product/200mm Stackable Plastic Pallets/1.webp",
       "alt": "200mm Stackable Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/200mm-stackable-plastic-pallet/2.webp",
-      "alt": "200mm Stackable Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/200mm-stackable-plastic-pallet/3.webp",
-      "alt": "200mm Stackable Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/200mm-stackable-plastic-pallet/4.webp",
-      "alt": "200mm Stackable Plastic Pallet Industrial Use"
-    }
+  
   ]
 },
 
-// 8
+// 8 done
 
 {
   "id": "160mm-roto-molded-plastic-pallet",
@@ -5244,25 +4950,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/160mm-roto-molded-plastic-pallet/1.webp",
+      "src": "/product/160mm Roto Molded Plastic Pallets/1.webp",
       "alt": "160mm Roto Molded Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/160mm-roto-molded-plastic-pallet/2.webp",
-      "alt": "160mm Roto Molded Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-plastic-pallet/3.webp",
-      "alt": "160mm Roto Molded Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/160mm-roto-molded-plastic-pallet/4.webp",
-      "alt": "160mm Roto Molded Plastic Pallet Industrial Use"
-    }
+    
   ]
 },
 
-// 9
+// 9 done
 
 {
   "id": "150mm-blue-hdpe-pallet",
@@ -5343,27 +5038,17 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-blue-hdpe-pallet/1.webp",
+      "src": "/product/150mm Blue HDPE Pallets/1.webp",
       "alt": "150mm Blue HDPE Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/2.webp",
-      "alt": "150mm Blue HDPE Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/3.webp",
-      "alt": "150mm Blue HDPE Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/4.webp",
-      "alt": "150mm Blue HDPE Pallet Industrial Use"
-    }
+   
+  
   ]
 },
 
 
 
-// 10
+// 10 done
 
 {
   "id": "200mm-plastic-industrial-pallet",
@@ -5444,25 +5129,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/200mm-plastic-industrial-pallet/1.webp",
+      "src": "/product/200mm Plastic Industrial Pallet/1.webp",
       "alt": "200mm Plastic Industrial Pallet Front View"
     },
-    {
-      "src": "/pro1/200mm-plastic-industrial-pallet/2.webp",
-      "alt": "200mm Plastic Industrial Pallet Side View"
-    },
-    {
-      "src": "/pro1/200mm-plastic-industrial-pallet/3.webp",
-      "alt": "200mm Plastic Industrial Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/200mm-plastic-industrial-pallet/4.webp",
-      "alt": "200mm Plastic Industrial Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 11
+// 11 done
 
 {
   "id": "130mm-blue-square-plastic-pallets",
@@ -5543,25 +5217,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/130mm-blue-square-plastic-pallets/1.webp",
+      "src": "/product/130mm Blue Square Plastic Pallets/1.webp",
       "alt": "130mm Blue Square Plastic Pallet Front View"
     },
-    {
-      "src": "/pro1/130mm-blue-square-plastic-pallets/2.webp",
-      "alt": "130mm Blue Square Plastic Pallet Side View"
-    },
-    {
-      "src": "/pro1/130mm-blue-square-plastic-pallets/3.webp",
-      "alt": "130mm Blue Square Plastic Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/130mm-blue-square-plastic-pallets/4.webp",
-      "alt": "130mm Blue Square Plastic Pallet Industrial Use"
-    }
+    
   ]
 },
 
-// 12
+// 12 done
 
 {
   "id": "120mm-plastic-export-pallet",
@@ -5642,25 +5305,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120mm-plastic-export-pallet/1.webp",
+      "src": "/product/150mm Export Plastic Pallet/1.webp",
       "alt": "120mm Plastic Export Pallet Front View"
     },
-    {
-      "src": "/pro1/120mm-plastic-export-pallet/2.webp",
-      "alt": "120mm Plastic Export Pallet Side View"
-    },
-    {
-      "src": "/pro1/120mm-plastic-export-pallet/3.webp",
-      "alt": "120mm Plastic Export Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/120mm-plastic-export-pallet/4.webp",
-      "alt": "120mm Plastic Export Pallet Industrial Use"
-    }
+   
   ]
 },
 
-// 13
+// 13 done
 // hfgy
 
 {
@@ -5742,21 +5394,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120mm-plastic-4-way-export-pallets/1.webp",
+      "src": "/product/120mm Plastic 4 Way Export Pallets/1.webp",
       "alt": "120mm Plastic 4 Way Export Pallet Front View"
     },
-    {
-      "src": "/pro1/120mm-plastic-4-way-export-pallets/2.webp",
-      "alt": "120mm Plastic 4 Way Export Pallet Side View"
-    },
-    {
-      "src": "/pro1/120mm-plastic-4-way-export-pallets/3.webp",
-      "alt": "120mm Plastic 4 Way Export Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/120mm-plastic-4-way-export-pallets/4.webp",
-      "alt": "120mm Plastic 4 Way Export Pallet Industrial Use"
-    }
+   
   ]
 },
 
@@ -5841,21 +5482,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-material-movement-pallets/1.webp",
+      "src": "/product/130mm Plastic Plain Top Pallets/1.webp",
       "alt": "150mm Material Movement Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-material-movement-pallets/2.webp",
-      "alt": "150mm Material Movement Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-material-movement-pallets/3.webp",
-      "alt": "150mm Material Movement Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-material-movement-pallets/4.webp",
-      "alt": "150mm Material Movement Pallet Industrial Use"
-    }
+    
   ]
 }
 
@@ -5878,7 +5508,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 {
   "id": "10l-hdpe-pedal-dustbin",
   "name": "10L HDPE Pedal Dustbin",
@@ -5958,19 +5588,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/1.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/1.webp",
       "alt": "10L HDPE Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/2.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/2.webp",
       "alt": "10L HDPE Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/3.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/3.webp",
       "alt": "10L HDPE Pedal Dustbin Open Lid"
     },
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/4.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/4.webp",
       "alt": "10L HDPE Pedal Dustbin Home Use"
     }
   ]
@@ -5978,8 +5608,8 @@ export const categories = [
 
 
 
-      // product 2
-{
+      // product 2 done
+{ 
   "id": "10l-plastic-pedal-dustbin",
   "name": "10L Plastic Pedal Dustbin",
   "metaTitle": "10L Plastic Pedal Dustbin Manufacturer | PolyWell",
@@ -6058,25 +5688,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/2.webp",
       "alt": "10L Plastic Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/10l-plastic-pedal-dustbin/2.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/1.webp",
       "alt": "10L Plastic Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/10l-plastic-pedal-dustbin/3.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/3.webp",
       "alt": "10L Plastic Pedal Dustbin Open Lid"
     },
     {
-      "src": "/pro1/10l-plastic-pedal-dustbin/4.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/4.webp",
       "alt": "10L Plastic Pedal Dustbin Hospital Use"
     }
   ]
 },
 
-// 3
+// 3 done
 
 {
   "id": "60l-foot-operated-dustbin",
@@ -6157,25 +5787,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/60l-foot-operated-dustbin/1.webp",
+      "src": "/product/60 L Foot Operated Dustbin/1.webp",
       "alt": "60 L Foot Operated Dustbin Front View"
     },
     {
-      "src": "/pro1/60l-foot-operated-dustbin/2.webp",
+      "src": "/product/60 L Foot Operated Dustbin/2.webp",
       "alt": "60 L Foot Operated Dustbin Side View"
     },
     {
-      "src": "/pro1/60l-foot-operated-dustbin/3.webp",
+      "src": "/product/60 L Foot Operated Dustbin/3.webp",
       "alt": "60 L Foot Operated Dustbin Open Lid"
     },
-    {
-      "src": "/pro1/60l-foot-operated-dustbin/4.webp",
-      "alt": "60 L Foot Operated Dustbin Home Use"
-    }
+  
   ]
 },
 
-// 4
+// 4 done
 
 {
   "id": "50l-red-plastic-dustbin",
@@ -6257,25 +5884,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/50l-red-plastic-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/50L Red Plastic Dustbin/1.webp",
       "alt": "50L Red Plastic Dustbin Front View"
     },
-    {
-      "src": "/pro1/50l-red-plastic-dustbin/2.webp",
-      "alt": "50L Red Plastic Dustbin Side View"
-    },
-    {
-      "src": "/pro1/50l-red-plastic-dustbin/3.webp",
-      "alt": "50L Red Plastic Dustbin Top View"
-    },
-    {
-      "src": "/pro1/50l-red-plastic-dustbin/4.webp",
-      "alt": "50L Red Plastic Dustbin Outdoor Use"
-    }
+   
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "32l-pedal-dustbin",
@@ -6356,25 +5972,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/32l-pedal-dustbin/1.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/3.webp",
       "alt": "32L Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/32l-pedal-dustbin/2.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/2.webp",
       "alt": "32L Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/32l-pedal-dustbin/3.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/1.webp",
       "alt": "32L Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/32l-pedal-dustbin/4.webp",
-      "alt": "32L Pedal Dustbin Hospital Use"
-    }
+  
   ]
 },
 
-// 6
+// 6 done
 {
   "id": "15l-pw15p-pedal-dustbin",
   "name": "15L PW15P Pedal Dustbin",
@@ -6454,25 +6067,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-pw15p-pedal-dustbin/1.webp",
+      "src": "/product/15L PW15P Pedal Dustbin/1.webp",
       "alt": "15L PW15P Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/15l-pw15p-pedal-dustbin/2.webp",
+      "src": "/product/15L PW15P Pedal Dustbin/2.webp",
       "alt": "15L PW15P Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/15l-pw15p-pedal-dustbin/3.webp",
+      "src": "/product/15L PW15P Pedal Dustbin/3.webp",
       "alt": "15L PW15P Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/15l-pw15p-pedal-dustbin/4.webp",
-      "alt": "15L PW15P Pedal Dustbin Office Use"
-    }
+  
   ]
 }
 ,
-// 7
+// 7 done
 
 {
   "id": "50l-pw50p-pedal-dustbin",
@@ -6553,25 +6163,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/1.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/1.webp",
       "alt": "50L PW50P Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/2.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/2.webp",
       "alt": "50L PW50P Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/3.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/3.webp",
       "alt": "50L PW50P Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/4.webp",
-      "alt": "50L PW50P Pedal Dustbin Office Use"
-    }
+  
   ]
 },
 
-// 8
+// 8 done
 
 {
   "id": "15l-plastic-pedal-dustbin",
@@ -6653,25 +6260,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/1.webp",
       "alt": "15L Plastic Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/2.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/2.webp",
       "alt": "15L Plastic Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/3.webp",
+      "src": "/product/15L Plastic Pedal Dustbin/3.webp",
       "alt": "15L Plastic Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/15l-plastic-pedal-dustbin/4.webp",
-      "alt": "15L Plastic Pedal Dustbin Home Use"
-    }
+   
   ]
 },
 
-// 9
+// 9 done
 
 {
   "id": "150mm-blue-hdpe-pallet",
@@ -6752,27 +6356,16 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-blue-hdpe-pallet/1.webp",
+      "src": "/product/150mm Blue HDPE Pallets/1.webp",
       "alt": "150mm Blue HDPE Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/2.webp",
-      "alt": "150mm Blue HDPE Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/3.webp",
-      "alt": "150mm Blue HDPE Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/4.webp",
-      "alt": "150mm Blue HDPE Pallet Industrial Use"
-    }
+   
   ]
 },
 
 
 
-// 10
+// 10 done
 
 {
   "id": "90l-plastic-pedal-dustbin",
@@ -6853,21 +6446,15 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/90l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/90L Plastic Pedal Dustbin/1.webp",
       "alt": "90L Plastic Pedal Dustbin Front View"
     },
+    
     {
-      "src": "/pro1/90l-plastic-pedal-dustbin/2.webp",
+      "src": "/product/90L Plastic Pedal Dustbin/2.webp",
       "alt": "90L Plastic Pedal Dustbin Side View"
     },
-    {
-      "src": "/pro1/90l-plastic-pedal-dustbin/3.webp",
-      "alt": "90L Plastic Pedal Dustbin Top View"
-    },
-    {
-      "src": "/pro1/90l-plastic-pedal-dustbin/4.webp",
-      "alt": "90L Plastic Pedal Dustbin Office Use"
-    }
+    
   ]
 },
 
@@ -6893,7 +6480,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 {
   "id": "10l-hdpe-pedal-dustbin",
   "name": "10L HDPE Pedal Dustbin",
@@ -6973,27 +6560,24 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/1.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/1.webp",
       "alt": "10L HDPE Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/2.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/2.webp",
       "alt": "10L HDPE Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/3.webp",
+      "src": "/product/10L HDPE Pedal Dustbin/3.webp",
       "alt": "10L HDPE Pedal Dustbin Open Lid"
     },
-    {
-      "src": "/pro1/10l-hdpe-pedal-dustbin/4.webp",
-      "alt": "10L HDPE Pedal Dustbin Home Use"
-    }
+  
   ]
 },
 
 
 
-      // product 2
+      // product 2 dione
 {
   "id": "15l-pp-pedal-bio-bin",
   "name": "15L PP Pedal Bio Bin",
@@ -7075,25 +6659,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-pp-pedal-bio-bin/1.webp",
+      "src": "/product/15L Bio Bin/1.webp",
       "alt": "15L PP Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/15l-pp-pedal-bio-bin/2.webp",
+      "src": "/product/15L Bio Bin/2.webp",
       "alt": "15L PP Pedal Bio Bin Side View"
     },
     {
-      "src": "/pro1/15l-pp-pedal-bio-bin/3.webp",
+      "src": "/product/15L Bio Bin/3.webp",
       "alt": "15L PP Pedal Bio Bin Top View"
     },
-    {
-      "src": "/pro1/15l-pp-pedal-bio-bin/4.webp",
-      "alt": "15L PP Pedal Bio Bin Hospital Use"
-    }
+    
   ]
 },
 
-// 3
+// 3 done
 
 {
   "id": "20l-pp-pedal-bio-bin",
@@ -7176,25 +6757,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/20l-pp-pedal-bio-bin/1.webp",
+      "src": "/product/20L PP Pedal Bio Bin/1.webp",
       "alt": "20L PP Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/20l-pp-pedal-bio-bin/2.webp",
+      "src": "/product/20L PP Pedal Bio Bin/2.webp",
       "alt": "20L PP Pedal Bio Bin Side View"
     },
     {
-      "src": "/pro1/20l-pp-pedal-bio-bin/3.webp",
+      "src": "/product/20L PP Pedal Bio Bin/3.webp",
       "alt": "20L PP Pedal Bio Bin Top View"
     },
     {
-      "src": "/pro1/20l-pp-pedal-bio-bin/4.webp",
+      "src": "/product/20L PP Pedal Bio Bin/4.webp",
       "alt": "20L PP Pedal Bio Bin Hospital Use"
     }
   ]
 },
 
-// 4
+// 4 done
 
 {
   "id": "10l-pp-pedal-bio-bin",
@@ -7277,25 +6858,18 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-pp-pedal-bio-bin/1.webp",
+      "src": "/product/10L PP Pedal Bio Bin/1.webp",
       "alt": "10L PP Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/10l-pp-pedal-bio-bin/2.webp",
+      "src": "/product/10L PP Pedal Bio Bin/2.webp",
       "alt": "10L PP Pedal Bio Bin Side View"
     },
-    {
-      "src": "/pro1/10l-pp-pedal-bio-bin/3.webp",
-      "alt": "10L PP Pedal Bio Bin Top View"
-    },
-    {
-      "src": "/pro1/10l-pp-pedal-bio-bin/4.webp",
-      "alt": "10L PP Pedal Bio Bin Hospital Use"
-    }
+    
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "65l-pp-pedal-bio-bin",
@@ -7378,25 +6952,25 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/65l-pp-pedal-bio-bin/1.webp",
+      "src": "/product/65L PP Pedal Bio Bin/1.png",
       "alt": "65L PP Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/65l-pp-pedal-bio-bin/2.webp",
+      "src": "/product/65L PP Pedal Bio Bin/2.png",
       "alt": "65L PP Pedal Bio Bin Side View"
     },
     {
-      "src": "/pro1/65l-pp-pedal-bio-bin/3.webp",
+      "src": "/product/65L PP Pedal Bio Bin/3.png",
       "alt": "65L PP Pedal Bio Bin Top View"
     },
     {
-      "src": "/pro1/65l-pp-pedal-bio-bin/4.webp",
+      "src": "/product/65L PP Pedal Bio Bin/4.png",
       "alt": "65L PP Pedal Bio Bin Hospital Use"
     }
   ]
 },
 
-// 6
+// 6 done
 {
   "id": "120l-pp-pedal-bio-bin",
   "name": "120L PP Pedal Bio Bin",
@@ -7478,25 +7052,18 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/120l-pp-pedal-bio-bin/1.webp",
+      "src": "/product/120L PP Pedal Bio Bin/1.webp",
       "alt": "120L PP Pedal Bio Bin Front View"
     },
     {
-      "src": "/pro1/120l-pp-pedal-bio-bin/2.webp",
+      "src": "/product/120L PP Pedal Bio Bin/2.webp",
       "alt": "120L PP Pedal Bio Bin Side View"
     },
-    {
-      "src": "/pro1/120l-pp-pedal-bio-bin/3.webp",
-      "alt": "120L PP Pedal Bio Bin Top View"
-    },
-    {
-      "src": "/pro1/120l-pp-pedal-bio-bin/4.webp",
-      "alt": "120L PP Pedal Bio Bin Hospital Use"
-    }
+   
   ]
 }
 ,
-// 7
+// 7 done
 
 {
   "id": "50l-pw50p-pedal-dustbin",
@@ -7577,25 +7144,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/1.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/1.webp",
       "alt": "50L PW50P Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/2.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/2.webp",
       "alt": "50L PW50P Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/3.webp",
+      "src": "/product/50L PW50P Pedal Dustbin/3.webp",
       "alt": "50L PW50P Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/50l-pw50p-pedal-dustbin/4.webp",
-      "alt": "50L PW50P Pedal Dustbin Office Use"
-    }
+  
   ]
 },
 
-// 8
+// 8 done
 
 {
   "id": "15l-plastic-pedal-dustbin",
@@ -7677,25 +7241,22 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/15L Plastic Pedal Bin/1.webp",
       "alt": "15L Plastic Pedal Dustbin Front View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/2.webp",
+      "src": "/product/15L Plastic Pedal Bin/2.webp",
       "alt": "15L Plastic Pedal Dustbin Side View"
     },
     {
-      "src": "/pro1/15l-plastic-pedal-dustbin/3.webp",
+      "src": "/product/15L Plastic Pedal Bin/3.webp",
       "alt": "15L Plastic Pedal Dustbin Top View"
     },
-    {
-      "src": "/pro1/15l-plastic-pedal-dustbin/4.webp",
-      "alt": "15L Plastic Pedal Dustbin Home Use"
-    }
+   
   ]
 },
 
-// 9
+// 9 done
 
 {
   "id": "150mm-blue-hdpe-pallet",
@@ -7776,27 +7337,16 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/150mm-blue-hdpe-pallet/1.webp",
+      "src": "/product/150mm Blue HDPE Pallets/1.webp",
       "alt": "150mm Blue HDPE Pallet Front View"
     },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/2.webp",
-      "alt": "150mm Blue HDPE Pallet Side View"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/3.webp",
-      "alt": "150mm Blue HDPE Pallet Warehouse Use"
-    },
-    {
-      "src": "/pro1/150mm-blue-hdpe-pallet/4.webp",
-      "alt": "150mm Blue HDPE Pallet Industrial Use"
-    }
+  
   ]
 },
 
 
 
-// 10
+// 10 done
 
 {
   "id": "90l-plastic-pedal-dustbin",
@@ -7877,21 +7427,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/90l-plastic-pedal-dustbin/1.webp",
+      "src": "/product/90L Plastic Pedal Dustbin/1.webp",
       "alt": "90L Plastic Pedal Dustbin Front View"
     },
-    {
-      "src": "/pro1/90l-plastic-pedal-dustbin/2.webp",
-      "alt": "90L Plastic Pedal Dustbin Side View"
-    },
-    {
-      "src": "/pro1/90l-plastic-pedal-dustbin/3.webp",
-      "alt": "90L Plastic Pedal Dustbin Top View"
-    },
-    {
-      "src": "/pro1/90l-plastic-pedal-dustbin/4.webp",
-      "alt": "90L Plastic Pedal Dustbin Office Use"
-    }
+   
   ]
 },
 
@@ -7914,7 +7453,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 {
   "id": "20l-frp-outdoor-dustbin",
   "name": "20L FRP Outdoor Dustbin",
@@ -7995,27 +7534,24 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/20l-frp-outdoor-dustbin/1.webp",
+      "src": "/product/20L FRP Outdoor Dustbin/1.webp",
       "alt": "20L FRP Outdoor Dustbin Front View"
     },
     {
-      "src": "/pro1/20l-frp-outdoor-dustbin/2.webp",
+      "src": "/product/20L FRP Outdoor Dustbin/2.webp",
       "alt": "20L FRP Outdoor Dustbin Side View"
     },
     {
-      "src": "/pro1/20l-frp-outdoor-dustbin/3.webp",
+      "src": "/product/20L FRP Outdoor Dustbin/3.webp",
       "alt": "20L FRP Outdoor Dustbin Outdoor Placement"
     },
-    {
-      "src": "/pro1/20l-frp-outdoor-dustbin/4.webp",
-      "alt": "20L FRP Outdoor Dustbin Usage"
-    }
+ 
   ]
 },
 
+// left
 
-
-      // product 2
+      // product 2  done
 {
   "id": "90l-outdoor-pvc-dustbin",
   "name": "90L Outdoor PVC Dustbin",
@@ -8098,26 +7634,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/90l-outdoor-pvc-dustbin/1.webp",
+      "src": "/product/90L Outdoor PVC Dustbin/2.webp",
       "alt": "90L Outdoor PVC Dustbin Front View"
     },
     {
-      "src": "/pro1/90l-outdoor-pvc-dustbin/2.webp",
+      "src": "/product/90L Outdoor PVC Dustbin/1.webp",
       "alt": "90L Outdoor PVC Dustbin Side View"
     },
-    {
-      "src": "/pro1/90l-outdoor-pvc-dustbin/3.webp",
-      "alt": "90L Outdoor PVC Dustbin Pedal Mechanism"
-    },
-    {
-      "src": "/pro1/90l-outdoor-pvc-dustbin/4.webp",
-      "alt": "90L Outdoor PVC Dustbin Usage"
-    }
+   
   ]
 },
 
 
-// 3
+// 3 done
 
 {
   "id": "500l-mobile-garbage-container",
@@ -8198,25 +7727,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/500l-mobile-garbage-container/1.webp",
+      "src": "/product/500L Mobile Garbage Container/1.webp",
       "alt": "500L Mobile Garbage Container Front View"
     },
     {
-      "src": "/pro1/500l-mobile-garbage-container/2.webp",
+      "src": "/product/500L Mobile Garbage Container/2.webp",
       "alt": "500L Mobile Garbage Container Side View"
     },
-    {
-      "src": "/pro1/500l-mobile-garbage-container/3.webp",
-      "alt": "500L Mobile Garbage Container Mobility"
-    },
-    {
-      "src": "/pro1/500l-mobile-garbage-container/4.webp",
-      "alt": "500L Mobile Garbage Container Usage"
-    }
+ 
+   
   ]
 },
 
-// 4
+// 4 done
 
 {
   "id": "plastic-trash-bin",
@@ -8298,25 +7821,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/plastic-trash-bin/1.webp",
+      "src": "/product/Plastic Trash Bin/1.webp",
       "alt": "Plastic Trash Bin Front View"
     },
     {
-      "src": "/pro1/plastic-trash-bin/2.webp",
+      "src": "/product/Plastic Trash Bin/2.webp",
       "alt": "Plastic Trash Bin Side View"
     },
-    {
-      "src": "/pro1/plastic-trash-bin/3.webp",
-      "alt": "Plastic Trash Bin With Wheels"
-    },
-    {
-      "src": "/pro1/plastic-trash-bin/4.webp",
-      "alt": "Plastic Trash Bin Usage"
-    }
+  
+   
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "80l-gardens-plastic-waste-bin",
@@ -8399,21 +7916,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/80l-gardens-plastic-waste-bin/1.webp",
+      "src": "/product/new plastic dustbin products/80L Gardens Plastic Waste Bins/1.webp",
       "alt": "80L Gardens Plastic Waste Bin Front View"
     },
     {
-      "src": "/pro1/80l-gardens-plastic-waste-bin/2.webp",
+      "src": "/product/new plastic dustbin products/80L Gardens Plastic Waste Bins/2.webp",
       "alt": "80L Gardens Plastic Waste Bin Side View"
     },
-    {
-      "src": "/pro1/80l-gardens-plastic-waste-bin/3.webp",
-      "alt": "80L Gardens Plastic Waste Bin Indoor Use"
-    },
-    {
-      "src": "/pro1/80l-gardens-plastic-waste-bin/4.webp",
-      "alt": "80L Gardens Plastic Waste Bin Garden Application"
-    }
+ 
   ]
 },
 
@@ -8443,7 +7953,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "110l-litter-bins-roto",
@@ -8525,27 +8035,18 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/110l-litter-bins-roto/1.webp",
+      "src": "/product/new plastic dustbin products/110L Litter Bins (Roto)/1.webp",
       "alt": "110L Litter Bin Roto Front View"
     },
-    {
-      "src": "/pro1/110l-litter-bins-roto/2.webp",
-      "alt": "110L Litter Bin Roto Side View"
-    },
-    {
-      "src": "/pro1/110l-litter-bins-roto/3.webp",
-      "alt": "110L Litter Bin Roto Dome Lid"
-    },
-    {
-      "src": "/pro1/110l-litter-bins-roto/4.webp",
-      "alt": "110L Litter Bin Roto Hospital Use"
-    }
+   
+  
+   
   ]
 },
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "60l-litter-bins",
   "name": "60L Litter Bins",
@@ -8625,26 +8126,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/60l-litter-bins/1.webp",
+      "src": "/product/new plastic dustbin products/60L litter Bins/1.webp",
       "alt": "60L Litter Bin Front View"
     },
     {
-      "src": "/pro1/60l-litter-bins/2.webp",
+      "src": "/product/new plastic dustbin products/60L litter Bins/2.webp",
       "alt": "60L Litter Bin Side View"
     },
-    {
-      "src": "/pro1/60l-litter-bins/3.webp",
-      "alt": "60L Litter Bin Dome Lid"
-    },
-    {
-      "src": "/pro1/60l-litter-bins/4.webp",
-      "alt": "60L Litter Bin Hospital Use"
-    }
+   
   ]
 },
 
 
-// 3
+// 3 done
 
 {
   "id": "100l-public-litter-bins",
@@ -8725,21 +8219,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/100l-public-litter-bins/1.webp",
+      "src": "/product/new plastic dustbin products/100L Public Litter Bins/1.webp",
       "alt": "100L Public Litter Bin Front View"
     },
     {
-      "src": "/pro1/100l-public-litter-bins/2.webp",
+      "src": "/product/new plastic dustbin products/100L Public Litter Bins/2.webp",
       "alt": "100L Public Litter Bin Outdoor Use"
     },
-    {
-      "src": "/pro1/100l-public-litter-bins/3.webp",
-      "alt": "100L Public Litter Bin Side View"
-    },
-    {
-      "src": "/pro1/100l-public-litter-bins/4.webp",
-      "alt": "100L Public Litter Bin Public Area"
-    }
+  
   ]
 },
 
@@ -8842,7 +8329,7 @@ export const categories = [
   ]
 },
 
-// 5
+// 5 done
 
 {
   "id": "100l-rectangular-litter-bins",
@@ -8923,19 +8410,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/100l-rectangular-litter-bins/1.webp",
+      "src": "/product/new plastic dustbin products/100L Rectangular Litter Bins/1.webp",
       "alt": "100L Rectangular Litter Bin Front View"
     },
     {
-      "src": "/pro1/100l-rectangular-litter-bins/2.webp",
+      "src": "/product/new plastic dustbin products/100L Rectangular Litter Bins/2.webp",
       "alt": "100L Rectangular Litter Bin Side View"
     },
     {
-      "src": "/pro1/100l-rectangular-litter-bins/3.webp",
+      "src": "/product/new plastic dustbin products/100L Rectangular Litter Bins/3.webp",
       "alt": "100L Rectangular Litter Bin Outdoor Placement"
     },
     {
-      "src": "/pro1/100l-rectangular-litter-bins/4.webp",
+      "src": "/product/new plastic dustbin products/100L Rectangular Litter Bins/4.webp",
       "alt": "100L Rectangular Litter Bin Public Use"
     }
   ]
@@ -8973,7 +8460,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "10l-color-coded-bins",
@@ -9054,27 +8541,24 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/10l-color-coded-bins/1.webp",
+      "src": "/product/new plastic dustbin products/10L Color Coded Bins/1.webp",
       "alt": "10L Color Coded Bin Front View"
     },
     {
-      "src": "/pro1/10l-color-coded-bins/2.webp",
+      "src": "/product/new plastic dustbin products/10L Color Coded Bins/2.webp",
       "alt": "10L Color Coded Bin Side View"
     },
     {
-      "src": "/pro1/10l-color-coded-bins/3.webp",
+      "src": "/product/new plastic dustbin products/10L Color Coded Bins/3.webp",
       "alt": "10L Color Coded Bin Industrial Use"
     },
-    {
-      "src": "/pro1/10l-color-coded-bins/4.webp",
-      "alt": "10L Color Coded Bin Waste Segregation"
-    }
+   
   ]
 },
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "20l-plastic-disinfection-bins",
   "name": "20L Plastic Disinfection Bins",
@@ -9154,26 +8638,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/20l-plastic-disinfection-bins/1.webp",
+      "src": "/product/new plastic dustbin products/10L Color Coded Bins/2.webp",
       "alt": "20L Plastic Disinfection Bin Front View"
     },
     {
-      "src": "/pro1/20l-plastic-disinfection-bins/2.webp",
+      "src": "/product/new plastic dustbin products/10L Color Coded Bins/1.webp",
       "alt": "20L Plastic Disinfection Bin Side View"
     },
-    {
-      "src": "/pro1/20l-plastic-disinfection-bins/3.webp",
-      "alt": "20L Plastic Disinfection Bin Commercial Use"
-    },
-    {
-      "src": "/pro1/20l-plastic-disinfection-bins/4.webp",
-      "alt": "20L Plastic Disinfection Bin Outdoor Use"
-    }
+ 
   ]
 },
 
 
-// 3
+// 3 done
 
 {
   "id": "plastic-garbage-container-9l",
@@ -9256,24 +8733,15 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/plastic-garbage-container-9l/1.webp",
+      "src": "/product/new plastic dustbin products/Plastic Garbage Container/1.webp",
       "alt": "9L Plastic Garbage Container Front View"
     },
-    {
-      "src": "/pro1/plastic-garbage-container-9l/2.webp",
-      "alt": "9L Plastic Garbage Container Office Use"
-    },
-    {
-      "src": "/pro1/plastic-garbage-container-9l/3.webp",
-      "alt": "9L Plastic Garbage Container Pedal View"
-    },
-    {
-      "src": "/pro1/plastic-garbage-container-9l/4.webp",
-      "alt": "9L Plastic Garbage Container Side View"
-    }
+  
   ]
 },
 
+
+// 4 done
 {
   "id": "50l-bio-medical-waste-plastic-dustbin",
   "name": "50L Bio Medical Waste Plastic Dustbin",
@@ -9354,21 +8822,11 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/50l-bio-medical-waste-plastic-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/50L Bio Medical Waste Plastic Dustbin/1.webp",
       "alt": "50L Bio Medical Waste Plastic Dustbin Front View"
     },
-    {
-      "src": "/pro1/50l-bio-medical-waste-plastic-dustbin/2.webp",
-      "alt": "50L Bio Medical Waste Plastic Dustbin Side View"
-    },
-    {
-      "src": "/pro1/50l-bio-medical-waste-plastic-dustbin/3.webp",
-      "alt": "50L Bio Medical Waste Plastic Dustbin Garden Use"
-    },
-    {
-      "src": "/pro1/50l-bio-medical-waste-plastic-dustbin/4.webp",
-      "alt": "50L Bio Medical Waste Plastic Dustbin Institutional Use"
-    }
+  
+   
   ]
 },
 
@@ -9402,7 +8860,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "110l-outdoor-plastic-dustbin",
@@ -9483,19 +8941,19 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/110l-outdoor-plastic-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/110L Outdoor Plastic Dustbin/1.webp",
       "alt": "110L Outdoor Plastic Dustbin Front View"
     },
     {
-      "src": "/pro1/110l-outdoor-plastic-dustbin/2.webp",
+      "src": "/product/new plastic dustbin products/110L Outdoor Plastic Dustbin/2.webp",
       "alt": "110L Outdoor Plastic Dustbin Wall Mounted"
     },
     {
-      "src": "/pro1/110l-outdoor-plastic-dustbin/3.webp",
+      "src": "/product/new plastic dustbin products/110L Outdoor Plastic Dustbin/3.webp",
       "alt": "110L Outdoor Plastic Dustbin Outdoor Use"
     },
     {
-      "src": "/pro1/110l-outdoor-plastic-dustbin/4.webp",
+      "src": "/product/new plastic dustbin products/110L Outdoor Plastic Dustbin/4.webp",
       "alt": "110L Outdoor Plastic Dustbin Side View"
     }
   ]
@@ -9503,7 +8961,7 @@ export const categories = [
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "660l-outdoor-wheeled-bins",
   "name": "660L Outdoor Wheeled Bins",
@@ -9583,26 +9041,23 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/660l-outdoor-wheeled-bins/1.webp",
+      "src": "/product/new plastic dustbin products/660L Outdoor Wheeled Bins/1.webp",
       "alt": "660L Outdoor Wheeled Bin Front View"
     },
     {
-      "src": "/pro1/660l-outdoor-wheeled-bins/2.webp",
+      "src": "/product/new plastic dustbin products/660L Outdoor Wheeled Bins/2.webp",
       "alt": "660L Outdoor Wheeled Bin Industrial Use"
     },
     {
-      "src": "/pro1/660l-outdoor-wheeled-bins/3.webp",
+      "src": "/product/new plastic dustbin products/660L Outdoor Wheeled Bins/3.webp",
       "alt": "660L Outdoor Wheeled Bin Side View"
     },
-    {
-      "src": "/pro1/660l-outdoor-wheeled-bins/4.webp",
-      "alt": "660L Outdoor Wheeled Bin Open Top"
-    }
+   
   ]
 },
 
 
-// 3
+// 3 done
 {
   "id": "110l-plastic-swing-dustbin",
   "name": "110L Plastic Swing Dustbin",
@@ -9682,21 +9137,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/110l-plastic-swing-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/110L Plastic Swing Dustbin/1.webp",
       "alt": "110L Plastic Swing Dustbin Front View"
     },
-    {
-      "src": "/pro1/110l-plastic-swing-dustbin/2.webp",
-      "alt": "110L Plastic Swing Dustbin Outdoor Use"
-    },
-    {
-      "src": "/pro1/110l-plastic-swing-dustbin/3.webp",
-      "alt": "110L Plastic Swing Dustbin Square Design"
-    },
-    {
-      "src": "/pro1/110l-plastic-swing-dustbin/4.webp",
-      "alt": "110L Plastic Swing Dustbin Swing Lid"
-    }
+
   ]
 },
 
@@ -9710,7 +9154,7 @@ export const categories = [
 
 
 
-// 4
+
 
 
 
@@ -9733,7 +9177,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "plastic-dustbin-10l",
@@ -9815,27 +9259,16 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/plastic-dustbin-10l/1.webp",
+      "src": "/product/new plastic dustbin products/Plastic Dustbin 10 L/1.webp",
       "alt": "Plastic Dustbin 10L Front View"
     },
-    {
-      "src": "/pro1/plastic-dustbin-10l/2.webp",
-      "alt": "Plastic Dustbin 10L Pedal Operation"
-    },
-    {
-      "src": "/pro1/plastic-dustbin-10l/3.webp",
-      "alt": "Plastic Dustbin 10L Office Use"
-    },
-    {
-      "src": "/pro1/plastic-dustbin-10l/4.webp",
-      "alt": "Plastic Dustbin 10L Compact Design"
-    }
+  
   ]
 },
 
 
 
-      // product 2
+      // product 2 done
 {
   "id": "plastic-waste-bins-20l",
   "name": "Plastic Waste Bins",
@@ -9918,21 +9351,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/plastic-waste-bins-20l/1.webp",
+      "src": "/product/new plastic dustbin products/Plastic Waste Bins/1.webp",
       "alt": "20L Plastic Waste Bin Front View"
     },
-    {
-      "src": "/pro1/plastic-waste-bins-20l/2.webp",
-      "alt": "20L Plastic Waste Bin Outdoor Use"
-    },
-    {
-      "src": "/pro1/plastic-waste-bins-20l/3.webp",
-      "alt": "20L Plastic Waste Bin Hospital Use"
-    },
-    {
-      "src": "/pro1/plastic-waste-bins-20l/4.webp",
-      "alt": "20L Plastic Waste Bin Logo Printed"
-    }
+   
   ]
 },
 
@@ -9967,7 +9389,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "660l-roto-moulded-wheeled-dustbin",
@@ -10048,21 +9470,10 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/660l-roto-moulded-wheeled-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/660L Roto Moulded Wheeled Dustbin/1.webp",
       "alt": "660L Roto Moulded Wheeled Dustbin Front View"
     },
-    {
-      "src": "/pro1/660l-roto-moulded-wheeled-dustbin/2.webp",
-      "alt": "660L Roto Moulded Wheeled Dustbin Side View"
-    },
-    {
-      "src": "/pro1/660l-roto-moulded-wheeled-dustbin/3.webp",
-      "alt": "660L Roto Moulded Wheeled Dustbin Wheel View"
-    },
-    {
-      "src": "/pro1/660l-roto-moulded-wheeled-dustbin/4.webp",
-      "alt": "660L Roto Moulded Wheeled Dustbin Hospital Use"
-    }
+  
   ]
 },
 
@@ -10102,7 +9513,7 @@ export const categories = [
 
 
     products: [
-      // product 1
+      // product 1 done
 
 {
   "id": "60-litre-plastic-dustbin",
@@ -10186,21 +9597,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/60-litre-plastic-dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/60 Litre Plastic Dustbin/1.webp",
       "alt": "60 Litre Plastic Dustbin Front View"
     },
     {
-      "src": "/pro1/60-litre-plastic-dustbin/2.webp",
+      "src": "/product/new plastic dustbin products/60 Litre Plastic Dustbin/2.webp",
       "alt": "60 Litre Plastic Dustbin Side View"
     },
-    {
-      "src": "/pro1/60-litre-plastic-dustbin/3.webp",
-      "alt": "60 Litre Plastic Dustbin Open Top"
-    },
-    {
-      "src": "/pro1/60-litre-plastic-dustbin/4.webp",
-      "alt": "60 Litre Plastic Dustbin Commercial Use"
-    }
+  
   ]
 },
 

@@ -1,7 +1,130 @@
 import React from "react";
 import Image from "next/image";
+
+import {
+  Building2,
+  Stethoscope,
+  ShoppingCart,
+  Store,
+  Warehouse,
+} from "lucide-react";
+
+import Pointer from "@/components/Landingpage/Pointer";
 const ServiceProcess = () => {
+
+
+
+  // who we work with data
+
+  const partners = [
+  {
+    title: "Government Hospital Tenders Bidders & Project Contractors",
+    icon: Building2,
+  },
+  {
+    title: "Private Hospital Purchase & Procurement Teams",
+    icon: Stethoscope,
+  },
+  {
+    title: "GeM Portal Buyers",
+    icon: ShoppingCart,
+  },
+  {
+    title: "Retailers & Wholesale Distributors",
+    icon: Store,
+  },
+  {
+    title: "Municipal Corporations & Urban Local Bodies",
+    icon: Warehouse,
+  },
+];
+
+
+
+
+
+
   return (
+
+    <>
+    
+{/* who we work with section*/}
+
+
+<section className="bg-white relative  sm:py-14 md:py-16 px-4 sm:px-6">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+    
+    {/* LEFT: TEXT */}
+    <div className="order-2 lg:order-1">
+      
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B2545] mb-4 sm:mb-6 leading-tight">
+        Who We Work With
+      </h2>
+
+      <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-3">
+        Supporting Institutional Buyers, Healthcare Facilities & Bulk Procurement Partners
+      </p>
+
+      <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed">
+        We proudly supply to:
+      </p>
+
+      <ul className="mt-5 sm:mt-6 space-y-3 sm:space-y-4">
+        {partners.map((partner, index) => (
+          <li
+            key={index}
+            className="flex items-start gap-3"
+          >
+            <partner.icon className="w-5 h-5 sm:w-6 sm:h-6 text-green-700 mt-1 flex-shrink-0" />
+            <span className="text-base sm:text-lg md:text-xl font-medium text-black">
+              {partner.title}
+            </span>
+          </li>
+        ))}
+      </ul>
+
+      <div className="mt-6 sm:mt-7">
+        <button
+          className="
+            w-full sm:w-auto
+            px-6 sm:px-8 py-3
+            bg-green-600
+            text-white
+            text-sm sm:text-base
+            font-medium
+            rounded-full
+            shadow-md
+            transition-all duration-300
+            hover:bg-green-700
+            hover:scale-105
+          "
+        >
+          Know More →
+        </button>
+      </div>
+    </div>
+
+    {/* RIGHT: IMAGE */}
+    <div className="order-1 lg:order-2">
+      <div className="overflow-hidden rounded-xl">
+        <Image
+          src="/whowework.webp"
+          alt="Sangam Plastic Vision"
+          width={900}
+          height={900}
+          className="w-full h-auto object-cover rounded-xl"
+          priority
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<Pointer></Pointer>
+
     <section className="relative py-16 text-white"
       style={{
         background: "linear-gradient(120deg, #0A5F3A, #1B8F5A)"
@@ -123,6 +246,17 @@ const ServiceProcess = () => {
 
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+    </>
+
   );
 };
 

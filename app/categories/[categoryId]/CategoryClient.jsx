@@ -142,7 +142,7 @@ export default function CategoryPage({ params }) {
                         title={product.name}
                         width={800}
                         height={800}
-                        className="w-full h-[200px] object-cover"
+                        className="w-full h-[250px] object-cover"
                         
                       />
                     </div>
