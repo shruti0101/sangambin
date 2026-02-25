@@ -5,31 +5,31 @@ import Link from "next/link";
 
 const slides = [
   {
-    src: "/catimg/660L Bio Bins/3.webp",
+    src: "/product/660L Bio Bins/3.webp",
     alt: "Caustic Soda",
     cat: "Bio Medical Waste Bins",
     link: "/categories/caustic-soda",
   },
   {
-    src: "/catimg/660L Bio Bins/1.webp",
+    src: "/product/660L Bio Bins/1.webp",
     alt: "Kronos",
     cat: "Wheeled Bins",
     link: "/categories/titanium-dioxide-tiO2",
   },
   {
-    src: "/catimg/palletnew.jpeg",
+    src: "/product/130mm Hdpe Industrial Pallet/1.webp",
     alt: "Carbon",
     cat: "Industrial Plastic Pallets",
     link: "/categories/carbon",
   },
   {
-    src: "/catimg/15L Plastic Pedal Bin/1.webp",
+    src: "/product/15L Plastic Pedal Bin/1.webp",
     alt: "Lithopone",
     cat: "Pedal Dustbin",
     link: "/categories/lithopone",
   },
   {
-    src: "/catimg/660L Bio Bins/2.webp",
+    src: "/product/660L Bio Bins/2.webp",
     alt: "Rutile Titanium",
     cat: "Bio Bins ",
     link: "/categories/titanium-dioxide-rutile",
@@ -37,14 +37,14 @@ const slides = [
 
 
   {
-    src: "/catimg/10L Blue Plastic Garbage Bin/1.webp",
+    src: "/product/10L Blue Plastic Garbage Bin/1.webp",
     alt: "Rutile Titanium",
     cat: "Waste Bins ",
     link: "/categories/titanium-dioxide-rutile",
   },
 
     {
-    src: "/catimg/litterbins.jpeg",
+    src: "/product/new plastic dustbin products/100L Public Litter Bins/1.webp",
     alt: "Rutile Titanium",
     cat: "Litter Bins ",
     link: "/categories/titanium-dioxide-rutile",
@@ -52,22 +52,17 @@ const slides = [
 
 
    {
-    src: "/catimg/1100L Pedal Garbage Bins/1.webp",
+    src: "/product/1100L Pedal Garbage Bins/1.webp",
     alt: "Rutile Titanium",
     cat: "Garbage Dustbin",
     link: "/categories/titanium-dioxide-rutile",
   },
 
 
-// {
-//     src: "/catimg/.jpeg",
-//     alt: "Rutile Titanium",
-//     cat: "Outdoor Dustbin",
-//     link: "/categories/titanium-dioxide-rutile",
-//   },
+
 
   {
-    src: "/catimg/15l Plastic Dustbin/1.webp",
+    src: "/product/15l Plastic Dustbin/1.webp",
     alt: "Rutile Titanium",
     cat: "Plastic Dustbin",
     link: "/categories/titanium-dioxide-rutile",

@@ -68,41 +68,40 @@ return (
     <div className="hidden lg:block">
 
       {/* ===== TOP STRIP ===== */}
-      <div className="bg-[#E6F4FF] min-h-[54px] flex items-center">
-        <div className="w-full px-6 flex items-center justify-between text-sm text-gray-800 flex-wrap gap-3">
+  <div className="bg-[#E6F4FF] min-h-[54px] flex items-center">
+  <div className="w-full px-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-800 gap-3">
 
-          <div className="flex items-center gap-4 flex-wrap text-lg">
-            <div className="flex items-center gap-2">
-              <MapPin size={16} />
-              <span>Our Location</span>
-            </div>
+    {/* Left Section */}
+    <div className="flex items-center gap-34 flex-wrap text-lg md:text-2xl animate-pulse text-center md:text-left">
+      <span>
+        India’s Only Complete Waste Management Manufacturer
+      </span>
 
-            <div className="flex items-center gap-2">
-              <Mail size={16} />
-              <a href="mailto:sales@polywell.com">
-                sales@polywell.com
-              </a>
-            </div>
+      <a
+        href="https://wa.me/918527557778"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 text-[#016630] font-medium"
+      >
+        <span className="uppercase text-md animate-pulse">
+          Whatsapp Us Now
+        </span>
+        <FaWhatsappSquare className="w-6 h-6 text-green-600" />
+      </a>
+    </div>
 
-            <a
-              href="https://wa.me/918527557778"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-[#016630] font-medium"
-            >
-              <span className="uppercase md:ml-120 text-md animate-pulse">
-                Whatsapp Us Now
-              </span>
-              <FaWhatsappSquare className="w-6 h-6 text-green-600" />
-            </a>
-          </div>
+    {/* Right Section */}
+    <div className="flex items-center gap-2">
+      <a className="bg-[#1877F2] w-8 h-8 flex items-center justify-center text-white text-sm rounded">
+        f
+      </a>
+      <a className="bg-[#0A66C2] w-8 h-8 flex items-center justify-center text-white text-sm rounded">
+        in
+      </a>
+    </div>
 
-          <div className="flex items-center">
-            <a className="bg-[#1877F2] w-8 h-8 flex items-center justify-center text-white text-sm">f</a>
-            <a className="bg-[#0A66C2] w-8 h-8 flex items-center justify-center text-white text-sm">in</a>
-          </div>
-        </div>
-      </div>
+  </div>
+</div>
 
       {/* ===== MAIN NAV ===== */}
       <nav className="bg-white h-[68px] flex items-center">

@@ -11,41 +11,41 @@ const products = [
     id: 1,
     title: "Plastic Dustbins",
     desc: "Heavy-duty 120L & 240L bins with wheels",
-    img: "/catimg/15l Plastic Dustbin/1.webp",
+    img: "/product/15l Plastic Dustbin/2.webp",
   },
   {
     id: 2,
     title: "Bio-Medical Bins",
     desc: "Color-coded safe disposal containers",
-    img: "/catimg/660L Bio Bins/2.webp",
+    img: "/product/660L Bio Bins/2.webp",
   },
 
   {
     id: 3,
     title: "Garbage Bins",
     desc: "Tear-resistant, biodegradable liners",
-    img: "/catimg/10L Blue Plastic Garbage Bin/1.webp",
+    img: "/product/10L Blue Plastic Garbage Bin/1.webp",
   },
 
   {
     id: 4,
     title: "Plastic Wheeled Dustbins",
     desc: "Efficient floor cleaning systems",
-    img: "/catimg/Plastic Wheeled Dustbins 240l/1.webp",
+    img: "/product/Plastic Wheeled Dustbins 240l/1.webp",
   },
 
    {
     id: 5,
     title: " Large Wheeled Pedal Dustbins",
     desc: "Efficient floor cleaning systems",
-    img: "/catimg/120L Large Wheeled Pedal Dustbins/1.webp",
+    img: "/product/120L Large Wheeled Pedal Dustbins/1.webp",
   },
 
    {
     id: 6,
     title: "Litter Bins",
     desc: "Efficient floor cleaning systems",
-    img: "/catimg/litterbins.jpeg",
+    img: "/product/new plastic dustbin products/100L Public Litter Bins/1.webp",
   },
 ];
 

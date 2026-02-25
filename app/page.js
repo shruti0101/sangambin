@@ -25,11 +25,11 @@ export default function Home() {
 <Hero></Hero>
 {/* <Enquiry></Enquiry> */}
 
-<Support></Support>
+
 <Industries></Industries>
 
 <ProductCategorySection></ProductCategorySection>
-
+<Support></Support>
 <Products></Products>
 
 <Whychoose></Whychoose>

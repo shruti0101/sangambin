@@ -49,7 +49,7 @@ export default function ZigzagShowcase() {
   return (
     <section
       style={{ backgroundImage: "url(/try.png)" }}
-      className="relative w-full h-screen bg-contain bg-center  bg-no-repeat bg-[#296EB1] overflow-hidden"
+      className="relative w-full md:h-screen bg-contain bg-center  bg-no-repeat bg-[#296EB1] overflow-hidden"
     >
       {/* TOP ZIGZAG */}
       <svg
@@ -75,7 +75,7 @@ export default function ZigzagShowcase() {
             <SwiperSlide key={i}>
               <div className="flex flex-col justify-center space-y-6 py-20">
 
-             <h2 className="text-5xl  font-bold leading-tight mt-20">
+             <h2 className=" text-2xl md:text-5xl  font-bold leading-tight md:mt-20">
   Why Clients Choose <br />
   Sangam Plastic <br />
   Industries Pvt. Ltd.

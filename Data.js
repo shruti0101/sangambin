@@ -93,25 +93,21 @@ export const categories = [
     { "label": "Color", "value": "Red" }
   ],
 
-  "image": [
+
+
+   "image": [
     {
-      "src": "/pro1/100l-red/1.webp",
-      "alt": "100L Red Plastic Bio Medical Waste Bin Front View"
+      "src": "/product/15L Plastic Pedal Dustbin/2.webp",
+      "alt": "15L Plastic Pedal Dustbin Yellow Front View"
     },
     {
-      "src": "/pro1/100l-red/2.webp",
-      "alt": "100L Red Plastic Bio Medical Waste Bin Side View"
-    },
-    {
-      "src": "/pro1/100l-red/3.webp",
+    "src": "/product/15L Plastic Pedal Dustbin/1.webp",
       "alt": "100L Red Plastic Bio Medical Waste Bin Hospital Use"
     },
-    {
-      "src": "/pro1/100l-red/4.webp",
-      "alt": "100L Red Plastic Bio Medical Waste Bin Plain Design"
-    }
+ 
   ]
-},
+}
+,
 
       // product 2 done
 {
@@ -1512,21 +1508,15 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/660l-four-wheel-dustbin/1.webp",
+      "src": "/product/660L Bio Bins/1.webp",
       "alt": "660L Four Wheel Plastic Dustbin Front View"
     },
     {
-      "src": "/pro1/660l-four-wheel-dustbin/2.webp",
+      "src": "/product/660L Bio Bins/2.webp",
       "alt": "660L Four Wheel Plastic Dustbin Side View"
     },
-    {
-      "src": "/pro1/660l-four-wheel-dustbin/3.webp",
-      "alt": "660L Four Wheel Plastic Dustbin Mobility Wheels"
-    },
-    {
-      "src": "/pro1/660l-four-wheel-dustbin/4.webp",
-      "alt": "660L Four Wheel Plastic Dustbin Industrial Use"
-    }
+  
+ 
   ]
 },
 
@@ -2031,102 +2021,102 @@ export const categories = [
 // 8
 
 
-{
-  "id": "100l-plastic-industrial-waste-bin",
-  "name": "100L Plastic Industrial Waste Bin",
-  "metaTitle": "100L Plastic Industrial Waste Bin Manufacturer | PolyWell",
-  "metaDescription": "Buy 100L Plastic Industrial Waste Bin for homes, commercial spaces, and light industrial environments. Durable rectangular plastic bin for organized waste collection.",
+// {
+//   "id": "100l-plastic-industrial-waste-bin",
+//   "name": "100L Plastic Industrial Waste Bin",
+//   "metaTitle": "100L Plastic Industrial Waste Bin Manufacturer | PolyWell",
+//   "metaDescription": "Buy 100L Plastic Industrial Waste Bin for homes, commercial spaces, and light industrial environments. Durable rectangular plastic bin for organized waste collection.",
 
-  "excerpt": "The 100L Plastic Industrial Waste Bin is designed for organized waste collection in homes, commercial spaces, and light industrial environments with durable plastic construction.",
+//   "excerpt": "The 100L Plastic Industrial Waste Bin is designed for organized waste collection in homes, commercial spaces, and light industrial environments with durable plastic construction.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "100L Plastic Industrial Waste Bin – Versatile Waste Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 100L Plastic Industrial Waste Bin is designed for efficient and organized waste collection in homes, commercial spaces, and light industrial environments. It supports hygienic waste management in areas where cleanliness and practicality are essential."
-    },
-    {
-      "type": "p",
-      "text": "With a practical 100-litre capacity, this bin is suitable for moderate waste volumes. Manufactured using premium-grade plastic, it offers durability and long-term performance for daily use."
-    },
-    {
-      "type": "h2",
-      "text": "Product Overview"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Designed for organized waste disposal.",
-        "100L capacity suitable for moderate waste volumes.",
-        "Durable premium-grade plastic construction.",
-        "Standing structure for stable placement.",
-        "Rectangular shape for efficient space usage.",
-        "Suitable for homes and commercial use."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Strong plastic body for long-term durability.",
-        "Rectangular shape for better placement.",
-        "Stable standing structure.",
-        "Smooth surface for easy cleaning.",
-        "Multipurpose residential and commercial use.",
-        "Reliable performance for regular waste disposal."
-      ]
-    },
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted plastic dustbin manufacturer with extensive experience.",
-        "Consistent quality and dependable performance.",
-        "Hospital-grade solutions provider.",
-        "Comprehensive waste management product range.",
-        "Bulk order capability with timely delivery.",
-        "Eco-friendly recyclable plastic materials."
-      ]
-    }
-  ],
+//   "description": [
+//     {
+//       "type": "h2",
+//       "text": "100L Plastic Industrial Waste Bin – Versatile Waste Solution"
+//     },
+//     {
+//       "type": "p",
+//       "text": "The 100L Plastic Industrial Waste Bin is designed for efficient and organized waste collection in homes, commercial spaces, and light industrial environments. It supports hygienic waste management in areas where cleanliness and practicality are essential."
+//     },
+//     {
+//       "type": "p",
+//       "text": "With a practical 100-litre capacity, this bin is suitable for moderate waste volumes. Manufactured using premium-grade plastic, it offers durability and long-term performance for daily use."
+//     },
+//     {
+//       "type": "h2",
+//       "text": "Product Overview"
+//     },
+//     {
+//       "type": "ul",
+//       "items": [
+//         "Designed for organized waste disposal.",
+//         "100L capacity suitable for moderate waste volumes.",
+//         "Durable premium-grade plastic construction.",
+//         "Standing structure for stable placement.",
+//         "Rectangular shape for efficient space usage.",
+//         "Suitable for homes and commercial use."
+//       ]
+//     },
+//     {
+//       "type": "h2",
+//       "text": "Key Features"
+//     },
+//     {
+//       "type": "ul",
+//       "items": [
+//         "Strong plastic body for long-term durability.",
+//         "Rectangular shape for better placement.",
+//         "Stable standing structure.",
+//         "Smooth surface for easy cleaning.",
+//         "Multipurpose residential and commercial use.",
+//         "Reliable performance for regular waste disposal."
+//       ]
+//     },
+//     {
+//       "type": "h2",
+//       "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+//     },
+//     {
+//       "type": "ul",
+//       "items": [
+//         "Trusted plastic dustbin manufacturer with extensive experience.",
+//         "Consistent quality and dependable performance.",
+//         "Hospital-grade solutions provider.",
+//         "Comprehensive waste management product range.",
+//         "Bulk order capability with timely delivery.",
+//         "Eco-friendly recyclable plastic materials."
+//       ]
+//     }
+//   ],
 
-  "specs": [
-    { "label": "Capacity", "value": "100 Litres" },
-    { "label": "Usage/Application", "value": "Home" },
-    { "label": "Structure", "value": "Standing" },
-    { "label": "Material", "value": "Plastic" },
-    { "label": "Shape", "value": "Rectangular" },
-    { "label": "Brand", "value": "PolyWell" }
-  ],
+//   "specs": [
+//     { "label": "Capacity", "value": "100 Litres" },
+//     { "label": "Usage/Application", "value": "Home" },
+//     { "label": "Structure", "value": "Standing" },
+//     { "label": "Material", "value": "Plastic" },
+//     { "label": "Shape", "value": "Rectangular" },
+//     { "label": "Brand", "value": "PolyWell" }
+//   ],
 
-  "image": [
-    {
-      "src": "/pro1/100l-industrial-waste-bin/1.webp",
-      "alt": "100L Plastic Industrial Waste Bin Front View"
-    },
-    {
-      "src": "/pro1/100l-industrial-waste-bin/2.webp",
-      "alt": "100L Plastic Industrial Waste Bin Side View"
-    },
-    {
-      "src": "/pro1/100l-industrial-waste-bin/3.webp",
-      "alt": "100L Plastic Industrial Waste Bin Rectangular Shape"
-    },
-    {
-      "src": "/pro1/100l-industrial-waste-bin/4.webp",
-      "alt": "100L Plastic Industrial Waste Bin Commercial Use"
-    }
-  ]
-},
+//   "image": [
+//     {
+//       "src": "/pro1/100l-industrial-waste-bin/1.webp",
+//       "alt": "100L Plastic Industrial Waste Bin Front View"
+//     },
+//     {
+//       "src": "/pro1/100l-industrial-waste-bin/2.webp",
+//       "alt": "100L Plastic Industrial Waste Bin Side View"
+//     },
+//     {
+//       "src": "/pro1/100l-industrial-waste-bin/3.webp",
+//       "alt": "100L Plastic Industrial Waste Bin Rectangular Shape"
+//     },
+//     {
+//       "src": "/pro1/100l-industrial-waste-bin/4.webp",
+//       "alt": "100L Plastic Industrial Waste Bin Commercial Use"
+//     }
+//   ]
+// },
 
 // 9
 
@@ -2210,21 +2200,15 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/500l-plastic-dustbin-trolley/1.webp",
+      "src": "/product/Plastic Wheeled Dustbins 240l/1.webp",
       "alt": "500L Plastic Dustbin Trolley Front View"
     },
     {
-      "src": "/pro1/500l-plastic-dustbin-trolley/2.webp",
+      "src": "/product/Plastic Wheeled Dustbins 240l/2.webp",
       "alt": "500L Plastic Dustbin Trolley Side View"
     },
-    {
-      "src": "/pro1/500l-plastic-dustbin-trolley/3.webp",
-      "alt": "500L Plastic Dustbin Trolley Wheels"
-    },
-    {
-      "src": "/pro1/500l-plastic-dustbin-trolley/4.webp",
-      "alt": "500L Plastic Dustbin Trolley Outdoor Use"
-    }
+  
+  
   ]
 },
 
@@ -8311,21 +8295,15 @@ export const categories = [
 
   "image": [
     {
-      "src": "/pro1/1100l-outdoor-litter-bins/1.webp",
+      "src": "/product/new plastic dustbin products/1100L Outdoor Litter Bins/1.webp",
       "alt": "1100L Outdoor Litter Bin Front View"
     },
     {
-      "src": "/pro1/1100l-outdoor-litter-bins/2.webp",
+      "src": "/product/new plastic dustbin products/1100L Outdoor Litter Bins/2.webp",
       "alt": "1100L Outdoor Litter Bin Industrial Use"
     },
-    {
-      "src": "/pro1/1100l-outdoor-litter-bins/3.webp",
-      "alt": "1100L Outdoor Litter Bin Side View"
-    },
-    {
-      "src": "/pro1/1100l-outdoor-litter-bins/4.webp",
-      "alt": "1100L Outdoor Litter Bin Outdoor Placement"
-    }
+ 
+  
   ]
 },
 
@@ -9470,7 +9448,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/product/new plastic dustbin products/660L Roto Moulded Wheeled Dustbin/1.webp",
+      "src": "/product/new plastic dustbin products/660L Outdoor Wheeled Bins/1.webp",
       "alt": "660L Roto Moulded Wheeled Dustbin Front View"
     },
   

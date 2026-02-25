@@ -17,14 +17,12 @@ const Whychoose = () => {
   {/* BACKGROUND GLOW */}
   <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-[#D1D5DB]/30 blur-[120px] rounded-full"></div>
 
-  <div className="max-w-7xl mx-auto px-4 relative z-10">
+  <div className="max-w-7xl mx-auto px-4 relative z-10 overflow-x-hidden">
     <div className="grid lg:grid-cols-2 gap-14 items-center">
 
       {/* LEFT CONTENT */}
-      <motion.div
-        initial={{ opacity: 0, x: -60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
+      <div
+     
         className="space-y-5"
       >
 
@@ -75,12 +73,10 @@ const Whychoose = () => {
 
         
 
-      </motion.div>
+      </div>
       {/* RIGHT IMAGE */}
-      <motion.div
-        initial={{ opacity: 0, x: 60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
+      <div
+      
         className="relative w-full h-[520px] rounded-md overflow-hidden "
       >
         <Image
@@ -90,7 +86,7 @@ const Whychoose = () => {
           className="object-cover"
         />
 
-      </motion.div>
+      </div>
 
     </div>
   </div>
@@ -122,7 +118,7 @@ style={{
         /// WHY CHOOSE US ♻
       </p>
 
-      <h2 className="text-[40px] md:text-[64px] font-extrabold leading-[1.05]">
+      <h2 className="text-[30px] md:text-[64px] font-extrabold leading-[1.05]">
         SANGAM PLASTIC INDUSTRIES ♻
      
       </h2>
@@ -133,7 +129,7 @@ style={{
         plastic dustbins, hospital dustbins, and plastic pedal bins that you can rely on.
       </p>
 
-      <button className="mt-6 border border-yellow-400 text-white 
+      <button className="md:mt-6 border border-yellow-400 text-white 
       px-8 py-3 tracking-wider text-sm 
       hover:bg-yellow-400 hover:text-black transition">
         COMPANY PROFILE
