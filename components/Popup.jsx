@@ -122,21 +122,29 @@ Contact: ${phone}`;
                 onChange={(e) => setName(e.target.value)}
                 disabled={loading}
               />
-              <select
-                className="flex-1 p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
-                required
-                value={product}
-                onChange={(e) => setProduct(e.target.value)}
-                disabled={loading}
-              >
-                <option value="">Select Product</option>
-                <option value="Titanium Dioxide (TiO₂)">Titanium Dioxide (TiO₂)</option>
-                <option value="Titanium Dioxide Rutile">Titanium Dioxide Rutile</option>
-                <option value="Lithopone">Lithopone</option>
-                <option value="Optical Brighter">Optical Brighter</option>
-                <option value="Caustic Soda">Caustic Soda</option>
-                <option value="Calcium Carbonate">Calcium Carbonate</option>
-              </select>
+            <select
+  name="products"
+  className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+  defaultValue=""
+>
+  <option value="" disabled>
+    Select Product
+  </option>
+
+  <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
+  <option value="Wheeled Bins">Wheeled Bins</option>
+  <option value="Plastic Pallets">Plastic Pallets</option>
+  <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
+  <option value="Pedal Dustbin">Pedal Dustbin</option>
+  <option value="Bio Bins">Bio Bins</option>
+  <option value="Waste Bin">Waste Bin</option>
+  <option value="Litter Bin">Litter Bin</option>
+  <option value="Garbage Dustbin">Garbage Dustbin</option>
+  <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+  <option value="Plastic Dustbin">Plastic Dustbin</option>
+  <option value="Wheeled Dustbin">Wheeled Dustbin</option>
+  <option value="Plastic Waste Bin">Plastic Waste Bin</option>
+</select>
             </div>
 
             <input

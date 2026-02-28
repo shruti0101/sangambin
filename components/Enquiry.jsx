@@ -106,21 +106,28 @@ return (
               disabled={loading}
             />
 
-            <select
-              name="products"
-              className="flex-1 p-3 rounded-lg text-gray-800 border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-              defaultValue=""
-              required
-              disabled={loading}
-            >
-              <option value="" disabled hidden>
-                Select Product
-              </option>
-              <option value="Titanium Dioxide (TiO₂)">plastic Dustbins</option>
-              <option value="Titanium Dioxide Rutile">Bio Bins</option>
-              <option value="Lithopone">Litter Bins</option>
-             
-            </select>
+         <select
+  name="products"
+  className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+  defaultValue=""
+>
+  <option value="" disabled>
+    Select Product
+  </option>
+
+  <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
+  <option value="Wheeled Bins">Wheeled Bins</option>
+  <option value="Plastic Pallets">Plastic Pallets</option>
+  <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
+  <option value="Pedal Dustbin">Pedal Dustbin</option>
+  <option value="Bio Bins">Bio Bins</option>
+  <option value="Waste Bin">Waste Bin</option>
+  <option value="Litter Bin">Litter Bin</option>
+  <option value="Garbage Dustbin">Garbage Dustbin</option>
+  <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+  <option value="Plastic Dustbin">Plastic Dustbin</option>
+ 
+</select>
           </div>
 
           <input

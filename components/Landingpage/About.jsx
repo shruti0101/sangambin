@@ -104,15 +104,7 @@ const About = () => {
               quality in every product we create.
             </p>
 
-            <div className="flex gap-4 pt-4">
-              <button className="bg-green-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-800 transition">
-                Know More
-              </button>
-
-              <button className="border border-green-700 text-green-700 px-6 py-3 rounded-lg font-medium hover:bg-green-700 hover:text-white transition">
-                Contact Us
-              </button>
-            </div>
+          
           </div>
 
           {/* RIGHT IMAGE WITH SWIPER */}

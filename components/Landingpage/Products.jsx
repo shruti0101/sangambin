@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";  // ✅ FIXED LINE
-
+import Link from "next/link";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -152,6 +152,7 @@ export default function OurProducts() {
     {/* VIEW ALL PRODUCTS BUTTON */}
     <div className="text-center relative mt-8">
 
+<Link href="/products">
 
       <button
         className="
@@ -168,6 +169,7 @@ export default function OurProducts() {
       >
         View All Products →
       </button>
+</Link>
     </div>
 
   </div>

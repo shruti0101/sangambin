@@ -241,17 +241,15 @@ const AboutPage = () => {
     </p>
 
     <div className="flex flex-wrap justify-center gap-4 mt-8">
-      <button className="bg-[#155DFC] hover:bg-[#0f4ed8] text-white px-8 py-3 rounded-xl font-semibold shadow-lg transition-all">
-        Request a Quote
-      </button>
 
-      <button className="bg-white hover:bg-gray-100 text-[#0B2545] px-8 py-3 rounded-xl font-semibold shadow-lg transition-all">
+
+      <Link href="/products" className="bg-white hover:bg-gray-100 text-[#0B2545] px-8 py-3 rounded-xl font-semibold shadow-lg transition-all">
         Explore Products
-      </button>
+      </Link>
 
-      <button className="bg-black hover:bg-gray-900 text-white px-8 py-3 rounded-xl font-semibold shadow-lg transition-all">
+      <Link href="/contact-us" className="bg-black hover:bg-gray-900 text-white px-8 py-3 rounded-xl font-semibold shadow-lg transition-all">
         Contact Us
-      </button>
+      </Link>
     </div>
   </div>
 </section>

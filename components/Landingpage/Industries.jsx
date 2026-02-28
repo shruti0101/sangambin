@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   Building2,
@@ -84,7 +85,7 @@ const ServiceProcess = () => {
       </ul>
 
       <div className="mt-6 sm:mt-7">
-        <button
+        <Link href="/contact-us"
           className="
             w-full sm:w-auto
             px-6 sm:px-8 py-3
@@ -100,7 +101,7 @@ const ServiceProcess = () => {
           "
         >
         Partner with Polywell for Bulk Supply →
-        </button>
+        </Link>
       </div>
     </div>
 

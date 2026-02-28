@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { motion } from 'framer-motion'
 const Whychoose = () => {
@@ -129,11 +130,12 @@ style={{
         plastic dustbins, hospital dustbins, and plastic pedal bins that you can rely on.
       </p>
 
-      <button className="md:mt-6 border border-yellow-400 text-white 
+      <Link href="/about-us"
+      className="md:mt-6 border border-yellow-400 text-white 
       px-8 py-3 tracking-wider text-sm 
       hover:bg-yellow-400 hover:text-black transition">
         COMPANY PROFILE
-      </button>
+      </Link>
     </div>
 
     {/* ============ RIGHT — SCROLLING CARDS ============ */}

@@ -67,7 +67,7 @@ export default function OneStopWasteSolutionSection() {
             {/* Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="#contact-form"
+                href="/contact-us"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#101828] text-white text-[14px] font-medium hover:opacity-90 transition"
               >
                 <Send size={18} />
@@ -75,7 +75,7 @@ export default function OneStopWasteSolutionSection() {
               </a>
 
               <a
-                href="tel:+919999999999"
+                href="tel:+919810316441"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-[#101828] text-[#101828] text-[14px] font-medium hover:bg-[#101828] hover:text-white transition"
               >
                 <PhoneCall size={18} />

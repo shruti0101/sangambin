@@ -117,19 +117,29 @@ Contact: ${phone}`;
                     className="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#10B981]"
                   />
 
-                  <select
-                    name="products"
-                    required
-                    className="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#10B981]"
-                  >
-                    <option value="">Select Product Category</option>
-                    <option value="Pedal Dustbins">Pedal Dustbins</option>
-                    <option value="Hospital Waste Bins">Hospital Waste Bins</option>
-                    <option value="Swing Top Bins">Swing Top Bins</option>
-                    <option value="Commercial Dustbins">Commercial Dustbins</option>
-                    <option value="Outdoor Garbage Bins">Outdoor Garbage Bins</option>
-                    <option value="Custom Bulk Orders">Custom Bulk Orders</option>
-                  </select>
+             <select
+  name="products"
+  className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+  defaultValue=""
+>
+  <option value="" disabled>
+    Select Product
+  </option>
+
+  <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
+  <option value="Wheeled Bins">Wheeled Bins</option>
+  <option value="Plastic Pallets">Plastic Pallets</option>
+  <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
+  <option value="Pedal Dustbin">Pedal Dustbin</option>
+  <option value="Bio Bins">Bio Bins</option>
+  <option value="Waste Bin">Waste Bin</option>
+  <option value="Litter Bin">Litter Bin</option>
+  <option value="Garbage Dustbin">Garbage Dustbin</option>
+  <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+  <option value="Plastic Dustbin">Plastic Dustbin</option>
+  <option value="Wheeled Dustbin">Wheeled Dustbin</option>
+  <option value="Plastic Waste Bin">Plastic Waste Bin</option>
+</select>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-4">
@@ -208,8 +218,7 @@ Contact: ${phone}`;
                     Address:
                   </h4>
                   <p className="text-black text-lg leading-snug">
-                    Sangam Plastic Industries Pvt. Ltd. <br />
-                    Industrial Area, Delhi, India
+                  Address - 110, Satya Bhawan, 36 Community Center, Wazirpur Industrial Area, New Delhi-110052
                   </p>
                 </div>
               </div>
@@ -222,8 +231,8 @@ Contact: ${phone}`;
                   <h4 className="text-lg font-semibold text-[#0B2545] mb-1">
                     Phone:
                   </h4>
-                  <a href="tel:+91XXXXXXXXXX" className="text-lg text-black">
-                    +91-XXXXXXXXXX
+                  <a href="tel:+919810316441" className="text-lg text-black">
+                    +91-9810316441
                   </a>
                 </div>
               </div>
@@ -237,8 +246,7 @@ Contact: ${phone}`;
                     Email:
                   </h4>
                   <p className="text-lg text-black">
-                    info@sangamplastic.com <br />
-                    sales@sangamplastic.com
+                 info@polywell.co.in
                   </p>
                 </div>
               </div>
@@ -246,16 +254,13 @@ Contact: ${phone}`;
           </div>
         </div>
 
-        {/* MAP */}
-        <div className="w-full h-[450px] overflow-hidden mt-16">
-          <iframe
-            loading="lazy"
-            src="https://maps.google.com/maps?q=Delhi%20Industrial%20Area&t=m&z=14&output=embed"
-            title="Sangam Plastic Industries Location"
-            className="w-full h-full border-0"
-            allowFullScreen
-          ></iframe>
-        </div>
+      
+       {/* map */}
+<div className="mt-5 h-100">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2848900849685!2d77.1662442!3d28.702004099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0223846e0903%3A0x6b8f0fbb73c40b4c!2sSangam%20Plastic%20Industries%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1771318884119!5m2!1sen!2sin" className="w-full h-full" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+        
       </section>
     </>
   );

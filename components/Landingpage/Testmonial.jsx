@@ -86,14 +86,7 @@ export default function ZigzagShowcase() {
                 </p>
 
                 <div className="flex items-center gap-4 mt-6">
-                  <div className="w-10 h-10 rounded-full overflow-hidden border border-white">
-                    <Image
-                      src={t.avatar}
-                      width={40}
-                      height={40}
-                      alt={t.name}
-                    />
-                  </div>
+                  
                   <div>
                     <p className="font-semibold">{t.name}</p>
                     <p className="text-lg text-white">{t.location}</p>

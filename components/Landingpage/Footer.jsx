@@ -13,13 +13,14 @@ import {
 } from "lucide-react";
 
 const products = [
-  { name: "Plastic Dustbins", href: "/products/plastic-dustbins" },
-  { name: "Hospital Dustbins", href: "/products/hospital-dustbins" },
-  { name: "Plastic Pedal Bins", href: "/products/pedal-bins" },
-  { name: "Bio-Medical Bins", href: "/products/biomedical-bins" },
-  { name: "Wheeled Bins", href: "/products/wheeled-bins" },
-  { name: "Plastic Pallets", href: "/products/pallets" },
-  { name: "Plastic Crates", href: "/products/crates" },
+  { name: "Plastic Dustbins", href: "/categories/plastic-dustbin" },
+ 
+  { name: "Plastic Pedal Bins", href: "/categories/pedal-dustbin" },
+  { name: "Bio-Medical Bins", href: "/categories/bio-medical-waste-bins" },
+  { name: "Wheeled Bins", href: "/categories/wheeled-dustbin" },
+  { name: "Plastic Pallets", href: "/categories/plastic-pallets" },
+  { name: "Bio Bins", href: "/categories/bio-bins" },
+  { name: "Garbage Dustbins", href: "/categories/garbage-dustbin" },
 ];
 
 const Footer = () => {
@@ -110,36 +111,30 @@ const Footer = () => {
             <div className="flex items-start gap-3 mb-4">
               <MapPin className="w-11 h-11 text-[#0B6B42]" />
               <p className="text-base md:text-lg text-gray-200 leading-relaxed">
-                Plot No 67/2, Kh. No. 154, Village Pooth Khurd,
-                New Delhi – 110039, India
+              Address - 110, Satya Bhawan, 36 Community Center, Wazirpur Industrial Area, New Delhi-110052
               </p>
             </div>
 
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-[#0B6B42]" />
-                <a href="tel:+918527557778" className="text-white underline">
-                  +91-85275 57778
+                <a href="tel:+919810026034" className="text-white underline">
+               +91-9810026034
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-[#0B6B42]" />
-                <a href="tel:+918920109583" className="text-white underline">
-                  +91-89201 09583
+                <a href="tel:+919810316441" className="text-white underline">
+              +91-9810316441
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-[#0B6B42]" />
                 <a href="mailto:sales@sangamplastic.com">
-                  sales@sangamplastic.com
+                info@polywell.co.in
                 </a>
               </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-5 h-5 text-[#0B6B42]" />
-                <a href="mailto:info@sangamplastic.com">
-                  info@sangamplastic.com
-                </a>
-              </div>
+            
             </div>
           </div>
 
