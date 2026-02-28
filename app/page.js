@@ -6,7 +6,7 @@ import Products from "@/components/Landingpage/Products";
 import ProductCategorySection from "@/components/Landingpage/Categories";
 import Certificates from "@/components/Landingpage/Certificates";
 import Cta from "@/components/Landingpage/Cta";
-
+import Otherpro from "@/components/Landingpage/Otherpro";
 import Form from "@/components/Landingpage/Form"
  import Faq from "@/components/Landingpage/Faq"
 //  import Form from "@/components/Landingpage/Form"
@@ -37,6 +37,8 @@ export default function Home() {
 
 <Cta></Cta>
 <AboutUs></AboutUs>
+
+<Otherpro></Otherpro>
 
 <Form></Form>
 
