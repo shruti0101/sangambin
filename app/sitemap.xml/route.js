@@ -11,7 +11,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = "https://titaniumdioxidewholesaler.com";
+  const baseUrl = "https://plasticdustbinmanufacturer.com";
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);

@@ -79,12 +79,12 @@ export default function Navbar() {
                   </span>
 
                   <a
-                    href="https://wa.me/918527557778"
+                    href="https://wa.me/+919810316441"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#016630] font-medium"
                   >
-                    <span className="uppercase text-sm sm:text-lg animate-pulse">
+                    <span className="capitalize text-sm sm:text-lg animate-pulse">
                       Whatsapp Now
                     </span>
                     <FaWhatsappSquare className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
