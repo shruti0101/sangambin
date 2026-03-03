@@ -1,8 +1,8 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "ContactClient",
-  description: "Get in touch with Aanya Enterprise, your reliable Titanium Dioxide Wholesaler. Call, email, or use our form for expert support and quick quotes on bulk chemical orders.",
+  title: "Contact Polywell | Plastic & Hospital Dustbin Manufacturer",
+  description: "Get in touch with Polywell by Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin and Hospital Dustbin Manufacturer. Contact us for product inquiries, bulk orders, and dealership opportunities.",
 };
 
 export default function AboutUsPage() {

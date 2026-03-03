@@ -1,8 +1,8 @@
 import BlogClient from "./BlogClient";
 
 export const metadata = {
-  title: "Chemical Solutions & R&D Insights |Aanya Enterprise Blog",
-  description: "Explore the latest in the chemical industry. Get expert analysis on market trends, B2B chemical supply chain, and R&D innovations. Read the latest.",
+  title: "Plastic Dustbin Manufacturer Blog | Polywell Waste Management Insights",
+  description: "Explore expert articles on plastic dustbins, hospital waste bins, and hygiene solutions from Polywell, a trusted Plastic Pedal Bins Manufacturer in India.",
 };
 
 export default function AboutUsPage() {

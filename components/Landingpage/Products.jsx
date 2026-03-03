@@ -53,7 +53,7 @@ export default function OurProducts() {
   return (
   <section
   style={{ backgroundImage: "url(/try1.png)" }}
-  className="relative bg-center bg-cover py-17 px-6 overflow-hidden"
+  className="relative bg-center bg-cover py-17 px-6 hidden"
 >
 
   

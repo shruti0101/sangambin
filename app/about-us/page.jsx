@@ -1,8 +1,8 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About Aanya Enterprise: Your Trusted Chemical Wholesaler",
-  description: "Learn the story behind Aanya Enterprise. We are a reliable Titanium Dioxide Wholesaler driven by quality, integrity, and client success. Read about our mission & values.",
+  title: "About Sangam Plastic Industries Pvt. Ltd. | Polywell Dustbin Manufacturer",
+  description: "Discover the journey of Polywell by Sangam Plastic Industries Pvt. Ltd., a leading manufacturer of plastic dustbins, hospital dustbins, and plastic pedal bins in India.",
 };
 
 export default function AboutUsPage() {

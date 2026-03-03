@@ -11,9 +11,9 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "Titanium Dioxide Wholesaler | Aanya Enterprise",
+  title: "Plastic Dustbin Manufacturer | Hospital & Plastic Pedal Bins Manufacturer – Polywell",
   description:
-    "Aanya Enterprise is a leading Titanium Dioxide Wholesaler. Get bulk, high-quality TiO2 for your industry needs. Reliable supply and competitive pricing. Contact us today!",
+    "Sangam Plastic Industries Pvt. Ltd. – Polywell is a trusted Plastic Dustbin and Hospital Dustbin Manufacturer providing premium plastic pedal bins for homes, hospitals, and industries.",
   icons: {
     icon: "/logo.webp",
   },

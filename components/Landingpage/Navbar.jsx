@@ -75,7 +75,7 @@ export default function Navbar() {
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 lg:gap-20 text-center lg:text-left w-full lg:w-auto">
                   
                   <span className="text-red-500 font-bold font-serif text-sm sm:text-lg md:text-xl lg:text-2xl animate-pulse">
-                    India’s Only Complete Waste Management Manufacturer
+                   India's Only Integrated Waste Management Products Manufacturer
                   </span>
 
                   <a

@@ -18,75 +18,70 @@ const ServiceProcess = () => {
   // who we work with data
 
   const partners = [
-  {
-    title: "Government Hospital Tenders Bidders & Project Contractors",
-    icon: Building2,
-  },
-  {
-    title: "Private Hospital Purchase & Procurement Teams",
-    icon: Stethoscope,
-  },
-  {
-    title: "GeM Portal Buyers",
-    icon: ShoppingCart,
-  },
-  {
-    title: "Retailers & Wholesale Distributors",
-    icon: Store,
-  },
-  {
-    title: "Municipal Corporations & Urban Local Bodies",
-    icon: Warehouse,
-  },
-];
-
-
-
-
-
+    {
+      title: "GeM Portal Buyers",
+      icon: ShoppingCart,
+    },
+    {
+      title: "Private Hospital Purchase & Procurement Teams",
+      icon: Stethoscope,
+    },
+    {
+      title: "Retailers & Wholesale Distributors",
+      icon: Store,
+    },
+    {
+      title: "Municipal Corporations & Urban Local Bodies",
+      icon: Warehouse,
+    },
+    {
+      title: "Government Hospital Tenders Bidders & Project Contractors",
+      icon: Building2,
+    },
+  ];
 
   return (
 
     <>
-    
-{/* who we work with section*/}
+
+      {/* who we work with section*/}
 
 
-<section className="bg-white relative  sm:py-8  px-4 sm:px-6">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-    
-    {/* LEFT: TEXT */}
-    <div className="order-2 lg:order-1">
-      
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B2545] mb-4 sm:mb-6 leading-tight">
-        Who We Work With
-      </h2>
+      <section className="bg-white relative  sm:py-8  px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
-      <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-3">
-        Supporting Institutional Buyers, Healthcare Facilities & Bulk Procurement Partners
-      </p>
+          {/* LEFT: TEXT */}
+          <div className="order-2 lg:order-1">
 
-      <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed">
-        We proudly supply to:
-      </p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B2545] mb-4 sm:mb-6 leading-tight">
+              Who We Work With
+            </h2>
 
-      <ul className="mt-5 sm:mt-6 space-y-3 sm:space-y-4">
-        {partners.map((partner, index) => (
-          <li
-            key={index}
-            className="flex items-start gap-3"
-          >
-            <partner.icon className="w-5 h-5 sm:w-6 sm:h-6 text-green-700 mt-1 flex-shrink-0" />
-            <span className="text-base sm:text-lg md:text-xl font-medium text-black">
-              {partner.title}
-            </span>
-          </li>
-        ))}
-      </ul>
+            <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-3">
+              Supporting Institutional Buyers, Healthcare Facilities & Bulk Procurement Partners
+            </p>
 
-      <div className="mt-6 sm:mt-7">
-        <Link href="/contact-us"
-          className="
+            <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed">
+              We proudly supply to:
+            </p>
+
+            <ul className="mt-5 sm:mt-6 space-y-3 sm:space-y-4">
+              {partners.map((partner, index) => (
+                <li
+                  key={index}
+                  className="flex items-start gap-3"
+                >
+                  <partner.icon className="w-5 h-5 sm:w-6 sm:h-6 text-green-700 mt-1 flex-shrink-0" />
+                  <span className="text-base sm:text-lg md:text-xl font-medium text-black">
+                    {partner.title}
+                  </span>
+                </li>
+              ))}
+            </ul>
+
+            <div className="mt-6 sm:mt-7">
+              <Link href="/contact-us"
+                className="
             w-full sm:w-auto
             px-6 sm:px-8 py-3
             bg-green-600
@@ -99,203 +94,188 @@ const ServiceProcess = () => {
             hover:bg-green-700
             hover:scale-105
           "
-        >
-        Partner with Polywell for Bulk Supply →
-        </Link>
-      </div>
-    </div>
+              >
+                Partner with Polywell for Bulk Supply →
+              </Link>
+            </div>
+          </div>
 
-    {/* RIGHT: IMAGE */}
-    <div className="order-1 lg:order-2">
-      <div className="overflow-hidden rounded-xl">
-        <Image
-          src="/whowework.webp"
-          alt="Sangam Plastic Vision"
-          width={900}
-          height={900}
-          className="w-full h-auto object-cover rounded-xl"
-          priority
-        />
-      </div>
-    </div>
+          {/* RIGHT: IMAGE */}
+          <div className="order-1 lg:order-2">
+            <div className="overflow-hidden rounded-xl">
+              <Image
+                src="/whowework.webp"
+                alt="Sangam Plastic Vision"
+                width={900}
+                height={900}
+                className="w-full h-auto object-cover rounded-xl"
+                priority
+              />
+            </div>
+          </div>
 
-  </div>
-</section>
+        </div>
+      </section>
 
 
-  {/* features */}
+      {/* features */}
 
       <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-8 ">
         <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
           <div className="flex flex-col items-center gap-2">
             <img src="/3.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">ISO 50001</p>
-            <p className="text-gray-800 text-lg">Certification</p>
+            <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-            <img src="/gem.png" className="h-25 w-38" />
-        
-            <p className="text-gray-800 text-lg">GEM Aprroved Products</p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <img src="/4.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Renewable</p>
-            <p className="text-gray-800 text-lg">Power Usage</p>
+          <div className="flex flex-col items-center gap-1">
+            <img src="/gem.png" className="h-20 w-35" />
+            <p className="text-gray-800 text-xl font-semibold">GEM Aprroved Products</p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
-            <img src="/2.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Waste</p>
-            <p className="text-gray-800 text-lg">Management</p>
+            <img src="/certificate (1).webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">All Necessary Certificate</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-2">
+            <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
+            <p className="font-semibold text-gray-900 text-xl">CDSCO Licences</p>
           </div>
 
           <div className="hidden md:flex flex-col items-center gap-2">
-            <img src="/5.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">CII Certified</p>
-            <p className="text-gray-800 text-lg">Green Products</p>
+            <img src="/meeting.webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">Experince Certificate for Tender</p>
           </div>
         </div>
       </div>
 
-<Pointer></Pointer>
+      <Pointer></Pointer>
 
-   <section
-  className="relative py-12 sm:py-16 text-white"
-  style={{
-    background: "linear-gradient(120deg, #0A5F3A, #1B8F5A)"
-  }}
->
-  <div className="w-full mx-auto px-4 sm:px-6 lg:px-15 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+      <section
+        className="relative py-12 sm:py-16 text-white hidden"
+        style={{
+          background: "linear-gradient(120deg, #0A5F3A, #1B8F5A)"
+        }}
+      >
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-15 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
-    {/* ---------- LEFT CONTENT ---------- */}
-    <div className="space-y-5 text-center lg:text-left">
-      
-      <div className="inline-flex items-center bg-[#1c9661] px-4 py-2 rounded-full text-xs sm:text-sm font-medium">
-        <span className="mr-2">♻</span> Trusted Process
-      </div>
+          {/* ---------- LEFT CONTENT ---------- */}
+          <div className="space-y-5 text-center lg:text-left">
 
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-        Trusted Service Process <br />
-        for Every Client
-      </h2>
+            <div className="inline-flex items-center bg-[#1c9661] px-4 py-2 rounded-full text-xs sm:text-sm font-medium">
+              <span className="mr-2">♻</span> Trusted Process
+            </div>
 
-      <p className="text-gray-100 max-w-xl mx-auto lg:mx-0 text-sm sm:text-base">
-        At Sangam Plastic Industries Pvt. Ltd., we follow a streamlined process to ensure
-        high-quality products, transparent dealings, and timely delivery to all our clients.
-      </p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+              Trusted Service Process <br />
+              for Every Client
+            </h2>
 
-      <div className="space-y-6 mt-6 text-left">
-
-        <div className="flex gap-3 items-start">
-          <span className="text-blue-300 text-lg sm:text-xl">✔</span>
-          <div>
-            <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
-              Premium Quality Products
-            </h4>
-            <p className="text-gray-100 text-sm sm:text-base">
-              We manufacture all our plastic dustbins, hospital dustbins, pedal bins, and crates
-              using high-grade materials to ensure durability, safety, and long-term performance.
+            <p className="text-gray-100 max-w-xl mx-auto lg:mx-0 text-sm sm:text-base">
+              At Sangam Plastic Industries Pvt. Ltd., we follow a streamlined process to ensure
+              high-quality products, transparent dealings, and timely delivery to all our clients.
             </p>
+
+            <div className="space-y-6 mt-6 text-left">
+
+              <div className="flex gap-3 items-start">
+                <span className="text-blue-300 text-lg sm:text-xl">✔</span>
+                <div>
+                  <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
+                    Premium Quality Products
+                  </h4>
+                  <p className="text-gray-100 text-sm sm:text-base">
+                    We manufacture all our plastic dustbins, hospital dustbins, pedal bins, and crates
+                    using high-grade materials to ensure durability, safety, and long-term performance.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <span className="text-blue-300 text-lg sm:text-xl">✔</span>
+                <div>
+                  <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
+                    Transparent Dealings
+                  </h4>
+                  <p className="text-gray-100 text-sm sm:text-base">
+                    We believe in honest and clear communication with our clients, ensuring every order
+                    is handled professionally from inquiry to delivery.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <span className="text-blue-300 text-lg sm:text-xl">✔</span>
+                <div>
+                  <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
+                    Easy Payment Modes
+                  </h4>
+                  <p className="text-gray-100 text-sm sm:text-base">
+                    Our flexible and secure payment options make transactions simple and convenient for
+                    all our customers, whether small businesses or bulk buyers.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <span className="text-blue-300 text-lg sm:text-xl">✔</span>
+                <div>
+                  <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
+                    Timely Delivery
+                  </h4>
+                  <p className="text-gray-100 text-sm sm:text-base">
+                    We value your time. Our efficient logistics system ensures that every order is
+                    delivered on schedule, across India.
+                  </p>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
 
-        <div className="flex gap-3 items-start">
-          <span className="text-blue-300 text-lg sm:text-xl">✔</span>
-          <div>
-            <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
-              Transparent Dealings
-            </h4>
-            <p className="text-gray-100 text-sm sm:text-base">
-              We believe in honest and clear communication with our clients, ensuring every order
-              is handled professionally from inquiry to delivery.
-            </p>
+          {/* ---------- RIGHT VISUAL BLOCK ---------- */}
+          <div className="flex flex-col items-center lg:items-end gap-6">
+
+            {/* TOP IMAGE */}
+            <div className="w-full overflow-hidden flex justify-center">
+              <Image
+                src="/form.png"
+                width={600}
+                height={400}
+                alt="Sustainability visual"
+                className="w-full max-w-md lg:max-w-full h-auto object-contain"
+              />
+            </div>
+
+            {/* Stats Row */}
+            <div className="grid grid-cols-2 gap-4 w-full">
+
+              <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">6500+</h3>
+                <p className="text-xs sm:text-sm text-gray-200">CLIENTS SERVED</p>
+              </div>
+
+              <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">38+</h3>
+                <p className="text-xs sm:text-sm text-gray-200">Years of Experience</p>
+              </div>
+
+              <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">Pan-India</h3>
+                <p className="text-xs sm:text-sm text-gray-200">Delivery Network</p>
+              </div>
+
+              <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">500+</h3>
+                <p className="text-xs sm:text-sm text-gray-200">Team Members</p>
+              </div>
+
+            </div>
           </div>
+
         </div>
-
-        <div className="flex gap-3 items-start">
-          <span className="text-blue-300 text-lg sm:text-xl">✔</span>
-          <div>
-            <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
-              Easy Payment Modes
-            </h4>
-            <p className="text-gray-100 text-sm sm:text-base">
-              Our flexible and secure payment options make transactions simple and convenient for
-              all our customers, whether small businesses or bulk buyers.
-            </p>
-          </div>
-        </div>
-
-        <div className="flex gap-3 items-start">
-          <span className="text-blue-300 text-lg sm:text-xl">✔</span>
-          <div>
-            <h4 className="font-semibold text-base sm:text-lg lg:text-xl">
-              Timely Delivery
-            </h4>
-            <p className="text-gray-100 text-sm sm:text-base">
-              We value your time. Our efficient logistics system ensures that every order is
-              delivered on schedule, across India.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    {/* ---------- RIGHT VISUAL BLOCK ---------- */}
-    <div className="flex flex-col items-center lg:items-end gap-6">
-
-      {/* TOP IMAGE */}
-      <div className="w-full overflow-hidden flex justify-center">
-        <Image
-          src="/form.png"
-          width={600}
-          height={400}
-          alt="Sustainability visual"
-          className="w-full max-w-md lg:max-w-full h-auto object-contain"
-        />
-      </div>
-
-      {/* Stats Row */}
-      <div className="grid grid-cols-2 gap-4 w-full">
-
-        <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">6500+</h3>
-          <p className="text-xs sm:text-sm text-gray-200">CLIENTS SERVED</p>
-        </div>
-
-        <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">38+</h3>
-          <p className="text-xs sm:text-sm text-gray-200">Years of Experience</p>
-        </div>
-
-        <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">Pan-India</h3>
-          <p className="text-xs sm:text-sm text-gray-200">Delivery Network</p>
-        </div>
-
-        <div className="bg-[#2cb479] p-4 sm:p-5 rounded-xl text-center shadow-md text-white">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">500+</h3>
-          <p className="text-xs sm:text-sm text-gray-200">Team Members</p>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
+      </section>
     </>
-
   );
 };
 

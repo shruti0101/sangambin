@@ -26,54 +26,54 @@ const Certificates = () => {
       alt: "Certificate 3",
     },
 
-     {
+    {
       id: 4,
       src: "/certificate/4.webp",
       alt: "Certificate 3",
     },
 
-     {
+    {
       id: 5,
       src: "/certificate/5.webp",
       alt: "Certificate 3",
     },
 
-       {
+    {
       id: 6,
       src: "/certificate/6.webp",
       alt: "Certificate 3",
     },
 
-       {
+    {
       id: 7,
       src: "/certificate/7.webp",
       alt: "Certificate 3",
     },
 
-       {
+    {
       id: 8,
       src: "/certificate/8.webp",
       alt: "Certificate 3",
     },
 
-       {
+    {
       id: 9,
       src: "/certificate/9.webp",
       alt: "Certificate 3",
     },
 
-       {
-      id: 10,
-      src: "/certificate/10.webp",
-      alt: "Certificate 3",
-    },
+    // {
+    //   id: 10,
+    //   src: "/certificate/10.webp",
+    //   alt: "Certificate 3",
+    // },
 
-       {
+    {
       id: 11,
       src: "/certificate/11.webp",
       alt: "Certificate 3",
     },
-      
+
   ];
 
 
@@ -86,32 +86,16 @@ const Certificates = () => {
         <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 sm:w-20 md:w-24 h-1 bg-[#147A4C] rounded-full"></span>
       </h2>
 
-      <Swiper
-        modules={[Autoplay]}
-        loop={true}
-        speed={4000}
-        autoplay={{
-          delay: 0,
-          disableOnInteraction: false,
-        }}
-        slidesPerView={1.2}
-        spaceBetween={30}
-        breakpoints={{
-          640: { slidesPerView: 2 },
-          768: { slidesPerView: 2.5 },
-          1024: { slidesPerView: 3 },
-        }}
-        className="max-w-7xl mx-auto"
-      >
+      <div className="grid gird-col-2 md:grid-cols-5 gap-5">
         {certificates.map((cert) => (
           <SwiperSlide key={cert.id}>
             <div className="flex justify-center">
-              <div className="bg-white p-3 sm:p-4 rounded-2xl shadow-lg border border-gray-200 transition duration-300 hover:shadow-2xl hover:border-yellow-400 hover:scale-105 w-full max-w-xs sm:max-w-sm md:max-w-md">
-                <div className="relative w-full h-64 sm:h-72 md:h-80 lg:h-125">
+              <div className="bg-white p-1 rounded-2xl shadow-lg border border-gray-200 transition duration-300 hover:shadow-2xl hover:border-yellow-400 hover:scale-105 w-full max-w-xs sm:max-w-sm md:max-w-md">
+                <div className="relative w-full h-64">
                   <Image
                     src={cert.src}
                     alt={cert.alt}
-                  fill
+                    fill
                     className="object-contain rounded-lg"
                   />
                 </div>
@@ -119,12 +103,8 @@ const Certificates = () => {
             </div>
           </SwiperSlide>
         ))}
-      </Swiper>
+      </div>
     </section>
-
-
-
-
   );
 };
 

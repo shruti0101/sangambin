@@ -48,7 +48,7 @@ export default function Home() {
 
 <Testimonial></Testimonial>
 <Faq></Faq>
-<Citeskeyword></Citeskeyword>
+{/* <Citeskeyword></Citeskeyword> */}
 </>
   );
 }

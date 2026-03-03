@@ -96,7 +96,7 @@ const Whychoose = () => {
 
 
 <section 
-className="relative text-white py-20"
+className="relative text-white py-20 hidden"
 style={{
   backgroundImage: `
     linear-gradient(rgba(26, 90, 165, 0.9), rgba(8, 80, 70, 0.95)),
