@@ -129,7 +129,7 @@ const ServiceProcess = () => {
 
           <div className="flex flex-col items-center gap-1">
             <img src="/gem.png" className="h-20 w-35" />
-            <p className="text-gray-800 text-xl font-semibold">GEM Aprroved Products</p>
+            <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
@@ -144,7 +144,7 @@ const ServiceProcess = () => {
 
           <div className="hidden md:flex flex-col items-center gap-2">
             <img src="/meeting.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Experince Certificate for Tender</p>
+            <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
           </div>
         </div>
       </div>
