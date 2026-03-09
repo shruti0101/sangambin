@@ -75,7 +75,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={link.href}
-                    className="hover:text-[#0B6B42] transition-colors duration-300"
+                    className="hover:text-yellow-500 transition-colors duration-300"
                   >
                     {link.name}
                   </Link>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={p.href}
-                    className="hover:text-[#0B6B42] transition-colors duration-300"
+                    className="hover:text-yellow-500 transition-colors duration-300"
                   >
                     {p.name}
                   </Link>
@@ -190,7 +190,7 @@ const Footer = () => {
          Website Designed By Promozione Branding Pvt. Ltd.{" "}
           <a
             href="https://promozionebranding.com/"
-            className="text-[#0B6B42] underline font-serif"
+            className="text-yellow-500 underline font-serif"
           >
             Website Designing Company.  
           </a>
