@@ -4,24 +4,41 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-
-const desktopImages = ["/hero2.webp","/hero2.jpeg"];
+const desktopImages = ["/hero2.webp", "/hero2.jpeg"];
+const mobileImages = ["/mobbanner1.png" ,"/mobbanner2.jpeg"]; // mobile images
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
+  // detect screen size
+  useEffect(() => {
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
+
+  // slider timer
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => prev + 1);
     }, 15000);
+
     return () => clearInterval(timer);
   }, []);
+
+  const images = isMobile ? mobileImages : desktopImages;
 
   return (
     <section
       className="
-        relative w-full overflow-hidden
-        h-[190px] sm:h-[370px] md:h-[80vh] xl:h-[105vh] mt-25 bg-white
+        w-full overflow-hidden
+        h-[430px] md:h-[110vh] mt-25
       "
     >
       <AnimatePresence mode="sync">
@@ -31,17 +48,15 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="absolute inset-0"
         >
-          {/* ✅ Next Image Responsive */}
           <Image
-            src={desktopImages[index % desktopImages.length]}
+            src={images[index % images.length]}
             alt="Hero banner"
-            width={3000}
-            height={3000}
-            className="w-full h-auto object-cover"
+            width={1000}
+            height={800}
+            className="w-full  md:h-auto object-cover"
+            priority
           />
-
         </motion.div>
       </AnimatePresence>
     </section>

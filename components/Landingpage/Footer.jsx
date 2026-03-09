@@ -75,7 +75,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={link.href}
-                    className="hover:text-[#0B6B42] transition-colors duration-300"
+                    className="hover:text-yellow-500 transition-colors duration-300"
                   >
                     {link.name}
                   </Link>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <li key={i}>
                   <Link
                     href={p.href}
-                    className="hover:text-[#0B6B42] transition-colors duration-300"
+                    className="hover:text-yellow-500 transition-colors duration-300"
                   >
                     {p.name}
                   </Link>
@@ -131,7 +131,7 @@ const Footer = () => {
               +91-9810316441
                 </a>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 text-white">
                 <Mail className="w-5 h-5 text-[#0B6B42]" />
                 <a href="mailto:sales@sangamplastic.com">
                 info@polywell.co.in
@@ -182,17 +182,17 @@ const Footer = () => {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="relative border-t px-2 border-gray-600 md:mt-12 pt-4 text-center text-sm md:text-base text-gray-300">
+      <div className="relative md:flex justify-between border-t px-7 border-gray-600 md:mt-12 pt-4 text-center text-sm md:text-base text-white">
         <p>
-          Copyright © 2025 Sangam Plastic Industries Pvt. Ltd. All Rights Reserved.
+          Copyright © 2026 Sangam Plastic Industries Pvt. Ltd. All Rights Reserved.
         </p>
         <p className="mt-1">
-          Website Designed By{" "}
+         Website Designed By Promozione Branding Pvt. Ltd.{" "}
           <a
             href="https://promozionebranding.com/"
-            className="text-[#0B6B42] underline font-serif"
+            className="text-yellow-500 underline font-serif"
           >
-            Promozione Branding Pvt. Ltd.
+            Website Designing Company.  
           </a>
         </p>
       </div>
