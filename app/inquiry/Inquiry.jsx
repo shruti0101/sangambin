@@ -177,14 +177,14 @@ export default function Inquiry() {
                     </div>
                     <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
                         <img
-                            src="/use4.jpg"
+                            src="/use4.webp"
                             alt=""
                             className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
                         />
                     </div>
                     <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
                         <img
-                            src="/use5.jpg"
+                            src="/use5.webp"
                             alt=""
                             className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
                             style={{ objectPosition: "5% 70%" }}
