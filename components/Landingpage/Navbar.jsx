@@ -6,13 +6,20 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import Link from "next/link";
 import { categories } from "@/Data";
 import Enquiry from "@/components/Enquiry";
+import TranslateButton from "../GoogleTranslate";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [openMenu, setOpenMenu] = useState(null);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
 
+  if (pathname === "/inquiry") {
+    return null;
+  }
+  
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -32,12 +39,11 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all ${
-          scrolled ? "shadow-lg bg-white" : "bg-white"
-        }`}
+        className={`fixed top-0 left-0 w-full z-50 transition-all ${scrolled ? "shadow-lg bg-white" : "bg-white"
+          }`}
       >
         <div className="w-full mx-auto lg:grid lg:grid-cols-[260px_1fr] border-b border-gray-300">
-          
+
           {/* ================= LEFT COLUMN : LOGO ================= */}
           <div className="flex items-center justify-between px-4 sm:px-6 border-b lg:border-b-0 lg:border-r border-gray-300 bg-white">
             <Link
@@ -73,9 +79,9 @@ export default function Navbar() {
               <div className="w-full px-4 sm:px-6 flex flex-col lg:flex-row items-center justify-between text-gray-800 gap-3 py-2">
 
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 lg:gap-20 text-center lg:text-left w-full lg:w-auto">
-                  
+
                   <span className="text-red-500 font-bold font-serif text-sm sm:text-lg md:text-xl lg:text-2xl animate-pulse">
-                   India's Only Integrated Waste Management Products Manufacturer
+                    India's Only Integrated Waste Management Products Manufacturer
                   </span>
 
                   <a
@@ -233,6 +239,8 @@ export default function Navbar() {
             onClose={() => setIsFormOpen(false)}
           />
         )}
+
+        <TranslateButton />
       </header>
     </>
   );

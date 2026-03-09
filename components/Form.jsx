@@ -1,0 +1,158 @@
+"use client";
+import React, { useState } from "react";
+import axios from "axios";
+
+export default function Form() {
+    const [submitted, setSubmitted] = useState(false);
+    const [successMessage, setSuccessMessage] = useState("");
+    const [loading, setLoading] = useState(false);
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const form = e.target;
+
+        const name = form.name.value;
+        const phone = form.phone.value;
+        const email = form.email.value;
+        const product = form.products.value;
+        const message = form.message.value;
+
+        setLoading(true);
+        setSuccessMessage("Sending...");
+
+        try {
+            const formData = {
+                platform: "Plastic Dustbin Manufacturer Landing Page Form",
+                platformEmail: "info@polywell.co.in",
+                name,
+                phone,
+                email,
+                place: "N/A",
+                product,
+                message,
+            };
+
+            const { data } = await axios.post(
+                "https://brandbnalo.com/api/form/add",
+                formData
+            );
+
+            if (data?.success) {
+                setSubmitted(true);
+                setSuccessMessage("✅ Your enquiry has been submitted successfully!");
+
+                const whatsappText = `Hi, I am ${name}.
+Email: ${email}
+Product: ${product}
+
+Message: ${message}
+
+Contact: ${phone}`;
+
+                const waUrl = `https://wa.me/+919810316441?text=${encodeURIComponent(
+                    whatsappText
+                )}`;
+
+                setTimeout(() => {
+                    window.open(waUrl, "_blank");
+                }, 1000);
+
+                form.reset();
+
+                setTimeout(() => {
+                    setSubmitted(false);
+                }, 4000);
+            } else {
+                setSuccessMessage("❌ Failed to send. Please try again.");
+            }
+        } catch (error) {
+            console.error(error);
+            setSuccessMessage("❌ Server error. Try again later.");
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    return (<>
+        {!submitted ? (
+            <form className="space-y-5" onSubmit={handleSubmit}>
+
+                <div className="flex flex-col md:flex-row gap-4">
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        name="name"
+                        className="flex-1 p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                        required
+                        disabled={loading}
+                    />
+
+                    <select
+                        name="products"
+                        className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+                        defaultValue=""
+                    >
+                        <option value="" disabled>
+                            Select Product
+                        </option>
+
+                        <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
+                        <option value="Wheeled Bins">Wheeled Bins</option>
+                        <option value="Plastic Pallets">Plastic Pallets</option>
+                        <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
+                        <option value="Pedal Dustbin">Pedal Dustbin</option>
+                        <option value="Bio Bins">Bio Bins</option>
+                        <option value="Waste Bin">Waste Bin</option>
+                        <option value="Litter Bin">Litter Bin</option>
+                        <option value="Garbage Dustbin">Garbage Dustbin</option>
+                        <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+                        <option value="Plastic Dustbin">Plastic Dustbin</option>
+
+                    </select>
+                </div>
+
+                <input
+                    type="tel"
+                    name="phone"
+                    maxLength={10}
+                    minLength={10}
+                    placeholder="Phone Number"
+                    className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                    required
+                    disabled={loading}
+                />
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                    required
+                    disabled={loading}
+                />
+
+                <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-28 resize-none transition"
+                    required
+                    disabled={loading}
+                ></textarea>
+
+                <button
+                    type="submit"
+                    disabled={loading}
+                    className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
+                >
+                    {loading ? "Submitting..." : "Send Message"}
+                </button>
+
+            </form>
+        ) : (
+            <p className="text-center font-medium text-lg text-green-700">
+                {successMessage}
+            </p>
+        )}
+    </>)
+}
