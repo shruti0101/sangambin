@@ -20,8 +20,8 @@ export default function Hero() {
   return (
     <section
       className="
-        relative w-full overflow-hidden
-        h-[190px] sm:h-[370px] md:h-[80vh] xl:h-[105vh] mt-25 bg-white
+         w-full overflow-hidden
+        h-[320px] sm:h-[370px] md:h-[80vh] xl:h-[105vh] md:mt-25
       "
     >
       <AnimatePresence mode="sync">
@@ -31,15 +31,15 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="absolute inset-0"
+          className=""
         >
           {/* ✅ Next Image Responsive */}
           <Image
             src={desktopImages[index % desktopImages.length]}
             alt="Hero banner"
-            width={3000}
-            height={3000}
-            className="w-full h-auto object-cover"
+            width={2000}
+            height={800}
+            className="max-w-full h-110 md:h-auto object-contain md:object-cover"
           />
 
         </motion.div>

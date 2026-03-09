@@ -27,10 +27,8 @@ export default function OneStopWasteSolutionSection() {
           </motion.div>
 
           {/* RIGHT CONTENT */}
-          <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.4 }}
+          <div
+         
           >
             {/* Mobile font added, md untouched */}
             <h2 className="text-[24px] sm:text-[28px] md:text-[40px] font-semibold text-[#101828] leading-tight">
@@ -82,7 +80,7 @@ export default function OneStopWasteSolutionSection() {
                 Speak to Sales Team
               </a>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

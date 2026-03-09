@@ -86,7 +86,7 @@ Contact: ${phone}`;
           >
             Home / Contact Us
           </Link>
-          <h1 className="text-5xl font-serif md:text-6xl font-extrabold tracking-tight drop-shadow-lg">
+          <h1 className="text-4xl font-serif md:text-6xl font-extrabold tracking-tight drop-shadow-lg">
             Contact Sangam Plastic Industries
           </h1>
           <p className="text-white mt-4 max-w-2xl mx-auto text-sm md:text-lg">

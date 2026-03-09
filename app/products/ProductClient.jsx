@@ -31,7 +31,7 @@ const Page = () => {
         className="relative bg-cover bg-center h-[50vh] md:h-[90vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
           backgroundImage:
-            "url('use6.jpg')",
+             "url('/ctaimg.png ')",
         }}
       >
         {/* Overlay Gradient */}

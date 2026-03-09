@@ -47,7 +47,7 @@ const ServiceProcess = () => {
       {/* who we work with section*/}
 
 
-      <section className="bg-white relative  sm:py-8  px-4 sm:px-6">
+      <section className="bg-white relative   mb-8 mt-8 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
           {/* LEFT: TEXT */}
@@ -120,7 +120,7 @@ const ServiceProcess = () => {
 
       {/* features */}
 
-      <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-8 ">
+      <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-10 ">
         <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
           <div className="flex flex-col items-center gap-2">
             <img src="/3.webp" className="h-18 w-18" />

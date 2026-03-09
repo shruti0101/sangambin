@@ -8,6 +8,7 @@ import { categories } from "@/Data";
 import Enquiry from "@/components/Enquiry";
 
 export default function Navbar() {
+  const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -58,7 +59,7 @@ export default function Navbar() {
 
             {/* MOBILE MENU BUTTON */}
             <button
-              className="lg:hidden"
+              className="lg:hidden mr-2"
               onClick={() => setMobileNavOpen(true)}
             >
               <Menu size={28} />
@@ -166,7 +167,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* ================= MOBILE MENU ================= */}
+        {/*MOBILE MENU  */}
         {mobileNavOpen && (
           <div className="fixed inset-0 bg-black/60 z-50 lg:hidden">
             <div className="absolute right-0 top-0 w-[85%] sm:w-80 h-full bg-white p-6 overflow-y-auto">
@@ -178,32 +179,56 @@ export default function Navbar() {
                 <X size={28} />
               </button>
 
-              <ul className="space-y-5 text-lg font-medium">
-                {menuItems.map((item, idx) => (
-                  <li key={idx}>
-                    <Link
-                      href={item.link}
-                      onClick={() => setMobileNavOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
+             <ul className="space-y-5 text-lg font-medium">
+  {menuItems.map((item, idx) => (
+    <li key={idx}>
+      
+      {/* Normal Links */}
+      {!item.hasCategories && (
+        <Link
+          href={item.link}
+          onClick={() => setMobileNavOpen(false)}
+        >
+          {item.label}
+        </Link>
+      )}
 
-                    {item.hasCategories && (
-                      <div className="mt-2 ml-4 space-y-2 text-sm text-gray-600">
-                        {categories.map((cat) => (
-                          <Link
-                            key={cat.id}
-                            href={`/categories/${cat.id}`}
-                            onClick={() => setMobileNavOpen(false)}
-                          >
-                            • {cat.name}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </li>
-                ))}
-              </ul>
+      {/* Products Dropdown */}
+      {item.hasCategories && (
+        <>
+          <button
+            onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+            className="flex items-center justify-between w-full"
+          >
+            {item.label}
+            <ChevronDown
+              size={18}
+              className={`transition-transform ${
+                mobileProductsOpen ? "rotate-180" : ""
+              }`}
+            />
+          </button>
+
+          {mobileProductsOpen && (
+            <div className="mt-3 space-y-2 max-h-[350px] overflow-y-auto ">
+              {categories.map((cat) => (
+                <Link
+                  key={cat.id}
+                  href={`/categories/${cat.id}`}
+                  onClick={() => setMobileNavOpen(false)}
+                  className="block text-md text-red-700 py-2 hover:text-green-600"
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
+          )}
+        </>
+      )}
+
+    </li>
+  ))}
+</ul>
 
               <div className="mt-8 pt-6 border-t">
                 <a
