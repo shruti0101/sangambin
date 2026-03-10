@@ -14,7 +14,7 @@ import {
 
 const products = [
   { name: "Plastic Dustbins", href: "/categories/plastic-dustbin" },
- 
+
   { name: "Plastic Pedal Bins", href: "/categories/pedal-dustbin" },
   { name: "Bio-Medical Bins", href: "/categories/bio-medical-waste-bins" },
   { name: "Wheeled Bins", href: "/categories/wheeled-dustbin" },
@@ -111,33 +111,33 @@ const Footer = () => {
             <div className="flex items-start gap-3 mb-1">
               <MapPin className="w-14 h-14 text-[#0B6B42]" />
               <p className="text-base md:text-lg text-gray-200 leading-relaxed">
-              Office Address - 110, Satya Bhawan, 36 Community Center, Wazirpur Industrial Area, New Delhi-110052
+                Office Address - 110, Satya Bhawan, 36 Community Center, Wazirpur Industrial Area, New Delhi-110052
               </p>
             </div>
-              <p className="text-base md:text-lg text-gray-200 leading-relaxed mb-4">
+            <p className="text-base md:text-lg text-gray-200 leading-relaxed mb-4">
               Manufacturing Address Spread Accross Delhi NCR
-              </p>
+            </p>
 
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-[#0B6B42]" />
                 <a href="tel:+919810026034" className="text-white underline">
-               +91-9810026034
+                  +91-9810026034
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-[#0B6B42]" />
                 <a href="tel:+919810316441" className="text-white underline">
-              +91-9810316441
+                  +91-9810316441
                 </a>
               </div>
               <div className="flex items-center gap-2 text-white">
                 <Mail className="w-5 h-5 text-[#0B6B42]" />
                 <a href="mailto:sales@sangamplastic.com">
-                info@polywell.co.in
+                  info@polywell.co.in
                 </a>
               </div>
-            
+
             </div>
           </div>
 
@@ -147,8 +147,7 @@ const Footer = () => {
               Trust Elite Certificate
             </h3>
             <p className="text-base text-white leading-relaxed mb-3">
-              Recognizing our commitment to quality, customer satisfaction,
-              and ethical manufacturing standards in plastic waste solutions.
+              We are proud to present the TrustElite Certificate of Excellence to Sangam Plastic Industries Pvt. Ltd., recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
             </p>
 
             <div className="flex justify-center md:justify-end">
@@ -187,12 +186,12 @@ const Footer = () => {
           Copyright © 2026 Sangam Plastic Industries Pvt. Ltd. All Rights Reserved.
         </p>
         <p className="mt-1">
-         Website Designed By Promozione Branding Pvt. Ltd.{" "}
+          Website Designed By Promozione Branding Pvt. Ltd.{" "}
           <a
             href="https://promozionebranding.com/"
             className="text-yellow-500 underline font-serif"
           >
-            Website Designing Company.  
+            Website Designing Company.
           </a>
         </p>
       </div>

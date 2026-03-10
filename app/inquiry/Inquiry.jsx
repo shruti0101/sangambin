@@ -16,13 +16,18 @@ import {
     Zap,
     BadgeCheck,
     FileText,
-    IndianRupee
+    IndianRupee, Menu, X, Award, Users,
+    PhoneCall
 } from "lucide-react";
 import Certificates from '@/components/Landingpage/Certificates';
 import ZigzagShowcase from '@/components/Landingpage/Testmonial';
+import Otherpro from "@/components/Landingpage/Otherpro";
+import PopupForm from '@/components/Popup2';
 
 export default function Inquiry() {
+    const [open, setOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+    const [isOpen1, setIsOpen1] = useState(false);
     const features = [
         {
             icon: <Calendar1 size={28} />,
@@ -111,47 +116,79 @@ export default function Inquiry() {
     return (<>
         {/* Nav */}
         <div className="fixed top-0 z-50 w-full bg-white shadow-md">
-            <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-20 h-20">
-                <div className="flex items-center">
+            <div className="max-w-7xl mx-auto flex items-center justify-between h-18">
+                {/* Logo */}
+                <div className="flex items-center bg-green-700">
                     <img
-                        src="/inquiryLogo.png"
+                        src="/logo.webp"
                         alt="logo"
-                        className="h-12 w-auto object-contain"
+                        className="h-18 w- object-contain w-50"
                     />
                 </div>
 
-                {/* Phone */}
+                {/* Desktop Menu */}
+                <div className="hidden lg:flex items-center gap-6 text-xl">
+                    <a href="#" className="text-red-600 font-medium hover:text-black transition">Home</a>
+                    <a href="#product" className="text-red-600 font-medium hover:text-black transition">Product</a>
+                    <a href="#aboutus" className="text-red-600 font-medium hover:text-black transition">About Us</a>
+                    <a href="#certificates" className="text-red-600 font-medium hover:text-black transition">Certificates</a>
+                    <a href="#contactus" className="text-red-600 font-medium hover:text-black transition">Contact Us</a>
+                </div>
+
+                {/* Phone (Desktop only) */}
                 <a
                     href="tel:+919810026034"
-                    className="flex items-center gap-3"
+                    className="hidden md:flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
                 >
-                    <span className="flex items-center justify-center bg-red-600 hover:bg-red-700 text-white p-2 rounded-md">
-                        <Phone size={22} />
+                    <span className="flex items-center justify-center bg-white/20 p-2 rounded-full">
+                        <PhoneCall size={20} />
                     </span>
 
-                    <span className="md:flex flex-col leading-tight hidden">
-                        <p className="text-sm text-red-600 font-semibold">
-                            Phone Number
-                        </p>
-                        <p className="text-base font-bold text-black">
-                            +91 9810026034
-                        </p>
+                    <span className="font-semibold tracking-wide">
+                        +91 9810026034
                     </span>
                 </a>
+
+                {/* Mobile Menu Button */}
+                <button
+                    onClick={() => setOpen(!open)}
+                    className="lg:hidden text-red-600 mr-4"
+                >
+                    {open ? <X size={28} /> : <Menu size={28} />}
+                </button>
             </div>
+
+            {/* Mobile Menu */}
+            {open && (
+                <div className="lg:hidden bg-white shadow-md px-6 py-4 flex flex-col gap-4">
+                    <a href="#" className="text-red-600 font-medium">Home</a>
+                    <a href="#product" className="text-red-600 font-medium">Product</a>
+                    <a href="#aboutus" className="text-red-600 font-medium">About Us</a>
+                    <a href="#certificates" className="text-red-600 font-medium">Certificates</a>
+                    <a href="#contactus" className="text-red-600 font-medium">Contact Us</a>
+
+                    <a
+                        href="tel:+919810026034"
+                        className="flex items-center gap-3 pt-2"
+                    >
+                        <Phone size={20} className="text-red-600" />
+                        <span className="font-semibold">+91 9810026034</span>
+                    </a>
+                </div>
+            )}
         </div>
 
         {/* Hero Section */}
-        <div className="relative min-h-[70vh] flex items-center overflow-hidden mt-20 bg-gradient-to-b from-gray-50 to-gray-200">
-            <div className="container mx-auto px-4 lg:px-30 flex flex-col lg:flex-row items-center justify-between gap-12">
-                <div className="max-w-xl text-left">
-                    <p className="inline-block border-2 border-black md:px-4 py-2 px-2 text-[15px] md:text-xl rounded-md mb-4">
+        <div className="relative min-h-[70vh] flex items-center overflow-hidden mt-18 bg-gradient-to-b from-gray-50 to-gray-200">
+            <div className="container mx-auto px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-5">
+                <div className="max-w-2xl text-left">
+                    <h1 className="text-2xl md:text-5xl mb-4 font-bold">
                         Plastic Dustbin Manufacturer & Supplier in India
-                    </p>
-
-                    <h1 className="text-lg md:text-2xl font-extrabold leading-tight mb-2">
-                        Trusted Manufacturer & Supplier of Durable Plastic Dustbins for Hospitals, Offices, Municipalities & Industries Across India
                     </h1>
+
+                    <p className="text-base md:text-lg font-medium leading-tight mb-2">
+                        Trusted Manufacturer & Supplier of Durable Plastic Dustbins for Hospitals, Offices, Municipalities & Industries Across India
+                    </p>
 
                     <ul className="text-base md:text-lg mb-6 text-gray-700">
                         <li>Durable High Quality Plastic</li>
@@ -207,9 +244,9 @@ export default function Inquiry() {
             <div className="container mx-auto px-4 lg:px-18 grid lg:grid-cols-2 gap-5 items-center">
                 <div className="relative lg:block hidden">
                     <img
-                        src="/product/10L Blue Plastic Garbage Bin/1.webp"
+                        src="/mobbanner2.jpeg"
                         alt="Contact"
-                        className="w-full h-[500px] object-cover rounded-2xl shadow-xl"
+                        className="w-full h-[500px] object-cover object-[50%_40%] rounded-2xl shadow-xl"
                     />
                 </div>
 
@@ -221,114 +258,6 @@ export default function Inquiry() {
                 </div>
             </div>
         </div>
-
-        {/* Why us */}
-        <section className="py-8 bg-gray-100">
-            <div className="container mx-auto px-4 lg:px-20">
-                <div className="text-center mb-6">
-                    <h2 className="text-3xl md:text-4xl font-bold">
-                        Why Buyers Count on Polywell
-                    </h2>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-                    {features.map((item, index) => (
-                        <div key={index} className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                            <div className={`mb-4 w-12 h-12 flex items-center justify-center rounded-lg ${item.color}`}>
-                                {item.icon}
-                            </div>
-
-                            <h3 className="font-semibold text-lg mb-2">
-                                {item.title}
-                            </h3>
-
-                            <p className="text-sm text-gray-600">
-                                {item.desc}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </section>
-
-        {/* About Us */}
-        <section className="py-8 bg-white">
-            <h2 className="text-xl md:text-3xl font-bold text-center">
-                Common Problems – Your Challenges, Our Understanding
-            </h2>
-            <p className="text-lg text-gray-900 mb-6 text-center">
-                Are you facing these hurdles in your procurement process?
-            </p>
-
-            <div className="container mx-auto px-4 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <p className="text-gray-900 mb-4 leading-relaxed text-lg">
-                        Imagine this: <br />
-                        You secured a government tender for supplying dustbins and
-                        hospital bins. The deadline is tight, the documentation needs to be
-                        precise, and the quantities are large. You place the order with your
-                        existing supplier — but now you are:
-                    </p>
-
-                    <ul className="space-y-4 mb-4">
-
-                        <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
-                            </span>
-                            <p>Chasing updates and delivery timelines</p>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
-                            </span>
-                            <p>Receiving inconsistent quality that puts your contract at risk</p>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
-                            </span>
-                            <p>
-                                Scrambling to meet client expectations with incomplete or delayed
-                                shipments
-                            </p>
-                        </li>
-
-                        <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
-                            </span>
-                            <p>
-                                Losing margin due to last-minute price changes and hidden costs
-                            </p>
-                        </li>
-
-                    </ul>
-
-                    <p className="text-gray-900 font-medium mb-4">
-                        These are not just scenarios — they’re real situations our clients faced
-                        before they partnered with <span className="text-[#0A3A49] font-semibold">Polywell</span>.
-                    </p>
-
-                    <button onClick={() => setIsOpen(true)} className="bg-gray-900 text-white px-8 py-4 font-semibold rounded-full shadow transition">
-                        Partner with Polywell for Bulk Supply
-                    </button>
-                </div>
-
-                <div className="relative lg:block hidden">
-                    <img
-                        src="/whowework.webp"
-                        alt="Procurement challenges"
-                        className="w-full h-[450px] object-cover rounded-2xl shadow-lg"
-                    />
-
-                    {/* overlay */}
-                    <div className="absolute inset-0 bg-black/20 rounded-2xl"></div>
-                </div>
-            </div>
-        </section>
 
         {/* Introducing */}
         <section className="py-8 bg-gray-100">
@@ -401,38 +330,184 @@ export default function Inquiry() {
             </div>
         </section>
 
-        {/* Product */}
-        <section className="py-8 bg-white">
-            <div className="container mx-auto px-6 lg:px-20">
-                <h1 className="text-2xl md:text-4xl font-bold text-center mb-2">
-                    Our Core Product Range
-                </h1>
-                <p className="text-gray-600 text-center mb-6">
-                    Everything you need, ready in bulk & backed by compliance.
-                </p>
+        {/* features */}
+        <div className="w-full mx-auto bg-[#DCFAEA] py-8">
+            <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+                <div className="flex flex-col items-center gap-2">
+                    <img src="/3.webp" className="h-18 w-18" />
+                    <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
+                </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    {product.map((item, idx) => (
-                        <div key={idx}
-                            className="rounded-xl p-6 bg-gradient-to-b from-gray-50 to-gray-100 shadow-md hover:shadow-xl transition group"
-                        >
-                            <div className="h-[180px] flex items-center justify-center mb-5">
-                                <img
-                                    src={item.image}
-                                    alt={item.title}
-                                    className="max-h-full object-contain group-hover:scale-110 transition duration-300"
-                                />
+                <div className="flex flex-col items-center gap-1">
+                    <img src="/gem.png" className="h-20 w-35" />
+                    <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
+                </div>
+
+                <div className="flex flex-col items-center gap-2">
+                    <img src="/certificate (1).webp" className="h-18 w-18" />
+                    <p className="font-semibold text-gray-900 text-xl">All Necessary Certificate</p>
+                </div>
+
+                <div className="flex flex-col items-center gap-2">
+                    <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
+                    <p className="font-semibold text-gray-900 text-xl">CDSCO Licences</p>
+                </div>
+
+                <div className="hidden md:flex flex-col items-center gap-2">
+                    <img src="/meeting.webp" className="h-18 w-18" />
+                    <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
+                </div>
+            </div>
+        </div>
+
+        {/* Product */}
+        <div id='product'>
+            <Otherpro inquiry={true} setIsOpen={setIsOpen1} />
+        </div>
+
+        {/* Why us */}
+        <section className="py-8 bg-gray-100">
+            <div className="container mx-auto px-4 lg:px-20">
+                <div className="text-center mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold">
+                        Why Buyers Count on Polywell
+                    </h2>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    {features.map((item, index) => (
+                        <div key={index} className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                            <div className={`mb-4 w-12 h-12 flex items-center justify-center rounded-lg ${item.color}`}>
+                                {item.icon}
                             </div>
 
                             <h3 className="font-semibold text-lg mb-2">
                                 {item.title}
                             </h3>
 
-                            <p className="text-sm text-gray-600 leading-relaxed">
-                                {item.des}
+                            <p className="text-sm text-gray-600">
+                                {item.desc}
                             </p>
                         </div>
                     ))}
+                </div>
+            </div>
+        </section>
+
+        {/* Details */}
+        <section className="py-6 bg-gradient-to-b from-[#DCFAEA] to-[#cdf5df]">
+            <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-5 text-center">
+                {/* Experience */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Award size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">50+ Years</p>
+                    <p className="text-base text-gray-700">Industry Experience</p>
+                </div>
+
+                {/* Manufacturing */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Factory size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">73,800+ sq.ft</p>
+                    <p className="text-base text-gray-700">Manufacturing Infrastructure</p>
+                </div>
+
+                {/* Units Supplied */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <PackageCheck size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">5.5M+</p>
+                    <p className="text-base text-gray-700">Units Supplied Annually</p>
+                </div>
+
+                {/* Distributors */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Users size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">7,600+</p>
+                    <p className="text-base text-gray-700">Distributors & Partners</p>
+                </div>
+            </div>
+        </section>
+
+        {/* About Us */}
+        <section className="py-8 bg-white" id='aboutus'>
+            <h2 className="text-2xl md:text-4xl font-bold text-center mb-1">
+                Common Problems – Your Challenges, Our Understanding
+            </h2>
+            <p className="md:text-lg text-base text-gray-900 mb-4 text-center">
+                Are you facing these hurdles in your procurement process?
+            </p>
+
+            <div className="container mx-auto px-4 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <p className="text-gray-900 mb-4 leading-relaxed text-lg">
+                        Imagine this: <br />
+                        You secured a government tender for supplying dustbins and
+                        hospital bins. The deadline is tight, the documentation needs to be
+                        precise, and the quantities are large. You place the order with your
+                        existing supplier — but now you are:
+                    </p>
+
+                    <ul className="space-y-4 mb-4">
+                        <li className="flex items-start gap-3">
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
+                                !
+                            </span>
+                            <p>Chasing updates and delivery timelines</p>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
+                                !
+                            </span>
+                            <p>Receiving inconsistent quality that puts your contract at risk</p>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
+                                !
+                            </span>
+                            <p>
+                                Scrambling to meet client expectations with incomplete or delayed
+                                shipments
+                            </p>
+                        </li>
+
+                        <li className="flex items-start gap-3">
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
+                                !
+                            </span>
+                            <p>
+                                Losing margin due to last-minute price changes and hidden costs
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p className="text-gray-900 font-medium mb-4">
+                        These are not just scenarios — they’re real situations our clients faced
+                        before they partnered with <span className="text-[#0A3A49] font-semibold">Polywell</span>.
+                    </p>
+
+                    <button onClick={() => setIsOpen(true)} className="bg-gray-900 text-white px-8 py-4 font-semibold rounded-full shadow transition">
+                        Partner with Polywell for Bulk Supply
+                    </button>
+                </div>
+
+                <div className="relative lg:block hidden">
+                    <img
+                        src="/form.png"
+                        alt="Procurement challenges"
+                        className="w-full h-[450px] object-cover rounded-2xl shadow-lg"
+                    />
+
+                    {/* overlay */}
+                    {/* <div className="absolute inset-0 bg-black/20 rounded-2xl"></div> */}
                 </div>
             </div>
         </section>
@@ -491,13 +566,15 @@ export default function Inquiry() {
         </section>
 
         {/* Certificates */}
-        <Certificates />
+        <div id='certificates'>
+            <Certificates />
+        </div>
 
         {/* Testimonials */}
         <ZigzagShowcase />
 
         {/* Contact Us */}
-        <div className="py-8 bg-gray-50">
+        <div className="py-8 bg-gray-50" id='contactus'>
             <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center">
                 <div className="bg-white p-8 rounded-2xl shadow-lg">
                     <h2 className="text-3xl font-bold mb-4 text-center">
@@ -506,7 +583,7 @@ export default function Inquiry() {
                     <Form />
                 </div>
 
-                <div className="relative">
+                <div className="relative lg:block hidden">
                     <img
                         src="/nurse-organizing-supplies-stockcake.webp"
                         alt="Contact"
@@ -517,5 +594,6 @@ export default function Inquiry() {
         </div>
 
         <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
+        <PopupForm isOpen={isOpen1} onClose={() => setIsOpen1(false)} />
     </>)
 }
