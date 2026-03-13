@@ -108,7 +108,7 @@ export default async function BlogDetail({ params }) {
             {/* Content */}
             <div className="relative z-10 text-white">
             
-              <h1 className="text-5xl md:text-6xl font-extrabold  tracking-tight drop-shadow-lg">
+              <h1 className="text-5xl capitalize md:text-6xl font-extrabold  tracking-tight drop-shadow-lg">
                 {blog.title}
               </h1>
              

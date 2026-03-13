@@ -4,8 +4,7 @@ import { categories } from "@/Data";
 import Image from "next/image";
 import Head from "next/head";
 import Enquiry from "@/components/Enquiry";
-import { ArrowUpRight } from "lucide-react";
-import axios from "axios";
+
 
 export default function ProductPage({ params }) {
   const { productId } = React.use(params);
@@ -41,8 +40,8 @@ export default function ProductPage({ params }) {
 
           {/* BREADCRUMB */}
           <div className="text-sm sm:text-base text-gray-600">
-            Home &gt; Industrial Products &gt; Cleaning Equipment &gt;
-            <span className="text-black font-medium ml-1">
+            Home &gt; Category &gt; Product &gt;
+            <span className="text-black font-medium ml-1 ">
               {product.name}
             </span>
           </div>
@@ -88,17 +87,29 @@ export default function ProductPage({ params }) {
 
             {/* PRODUCT INFO */}
             <div className="space-y-4">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0B2545]">
+              <h1 className="text-2xl capitalize  sm:text-3xl lg:text-4xl font-bold text-[#0B2545]">
                 {product.name}
               </h1>
 
-              <p className="text-sm text-gray-600">
-                SKU: {product.sku || "SP-WR-30L"}
+              <p className="text-sm text-gray-800 uppercase">
+               Model No.: {" "} {product.model}
               </p>
 
               <p className="text-base sm:text-lg text-black leading-relaxed">
                 {product.excerpt}
               </p>
+
+<div className="">
+
+              <p className="text-red-500 capitalize text-md leading-relaxed ">
+             Available Colors:{" "}
+             {product.color}
+              </p>
+</div>
+
+<p className="text-md capitalize font-bold  list-disc leading-relaxed">
+  {product.size}
+</p>
 
               <ul className="space-y-3 text-sm sm:text-base">
                 <li className="flex gap-2">
