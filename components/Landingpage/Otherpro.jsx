@@ -5,30 +5,30 @@ import Link from "next/link";
 const products = [
   {
     title: "Garbage Bag",
-    image: "/Garbage-Bag.webp", 
-    href:"https://garbagebagmanufacturer.in/"
+    image: "/Garbage-Bag.webp",
+    href: "https://garbagebagmanufacturer.in/"
   },
   {
     title: "Sharp Container",
     image: "/Sharp-Container.webp",
-    href:"https://sharpcontainermanufacturer.com/"
+    href: "https://sharpcontainermanufacturer.com/"
   },
   {
     title: "Needle Cutter",
     image: "/Needle-Cutter.webp",
-    href:"https://sharpcontainermanufacturer.com/"
+    href: "https://sharpcontainermanufacturer.com/"
   },
   {
     title: "Wringer Trolley",
     image: "/18-L-Double-Bucket-Wringer-Trolley.webp",
-    href:"https://wringertrolleymanufacturer.com/"
+    href: "https://wringertrolleymanufacturer.com/"
   },
 ];
 
-export default function ProductsManufacturing() {
+export default function ProductsManufacturing({ inquiry, setIsOpen }) {
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-10 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
 
         {/* Heading */}
         <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-14">
@@ -39,30 +39,49 @@ export default function ProductsManufacturing() {
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((item, index) => (
-            <Link
-            href={item.href}
-              key={index}
-              className="border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white"
-            >
-              {/* Image Area */}
-              <div className="bg-white  flex items-center justify-center ">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  width={500}
-                  height={400}
-                  className="object-cover h-full w-full"
-                />
-              </div>
+            inquiry ?
+              <div key={index} onClick={() => setIsOpen(true)}
+                className="cursor-pointer border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white">
+                {/* Image Area */}
+                <div className="bg-white  flex items-center justify-center " >
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    width={500}
+                    height={400}
+                    className="object-cover h-full w-full"
+                  />
+                </div>
 
-              {/* Bottom Title Bar */}
-              <div className="bg-green-600 text-white text-center py-4 text-lg font-semibold">
-                {item.title}
+                {/* Bottom Title Bar */}
+                <div className="bg-green-600 text-white text-center py-4 text-lg font-semibold">
+                  {item.title}
+                </div>
               </div>
-            </Link>
+              : <Link
+                href={item.href}
+                key={index}
+                className="border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white"
+              >
+                {/* Image Area */}
+                <div className="bg-white  flex items-center justify-center " >
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    width={500}
+                    height={400}
+                    className="object-cover h-full w-full"
+                  />
+                </div>
+
+                {/* Bottom Title Bar */}
+                <div className="bg-green-600 text-white text-center py-4 text-lg font-semibold">
+                  {item.title}
+                </div>
+              </Link>
           ))}
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 }

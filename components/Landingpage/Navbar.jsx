@@ -6,13 +6,20 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import Link from "next/link";
 import { categories } from "@/Data";
 import Enquiry from "@/components/Enquiry";
+import TranslateButton from "../GoogleTranslate";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [mobileProductsOpen, setMobileProductsOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
+
+  if (pathname === "/inquiry") {
+    return null;
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,12 +40,11 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all ${
-          scrolled ? "shadow-lg bg-white" : "bg-white"
-        }`}
+        className={`fixed top-0 left-0 w-full z-50 transition-all ${scrolled ? "shadow-lg bg-white" : "bg-white"
+          }`}
       >
         <div className="w-full mx-auto lg:grid lg:grid-cols-[260px_1fr] border-b border-gray-300">
-          
+
           {/* ================= LEFT COLUMN : LOGO ================= */}
           <div className="flex items-center justify-between px-4 sm:px-6 border-b lg:border-b-0 lg:border-r border-gray-300 bg-white">
             <Link
@@ -74,9 +80,9 @@ export default function Navbar() {
               <div className="w-full px-4 sm:px-6 flex flex-col lg:flex-row items-center justify-between text-gray-800 gap-3 py-2">
 
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 lg:gap-20 text-center lg:text-left w-full lg:w-auto">
-                  
+
                   <span className="text-red-500 font-bold font-serif text-sm sm:text-lg md:text-xl lg:text-2xl animate-pulse">
-                   India's Only Integrated Waste Management Products Manufacturer
+                    India's Only Integrated Waste Management Products Manufacturer
                   </span>
 
                   <a
@@ -179,56 +185,55 @@ export default function Navbar() {
                 <X size={28} />
               </button>
 
-             <ul className="space-y-5 text-lg font-medium">
-  {menuItems.map((item, idx) => (
-    <li key={idx}>
-      
-      {/* Normal Links */}
-      {!item.hasCategories && (
-        <Link
-          href={item.link}
-          onClick={() => setMobileNavOpen(false)}
-        >
-          {item.label}
-        </Link>
-      )}
+              <ul className="space-y-5 text-lg font-medium">
+                {menuItems.map((item, idx) => (
+                  <li key={idx}>
 
-      {/* Products Dropdown */}
-      {item.hasCategories && (
-        <>
-          <button
-            onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
-            className="flex items-center justify-between w-full"
-          >
-            {item.label}
-            <ChevronDown
-              size={18}
-              className={`transition-transform ${
-                mobileProductsOpen ? "rotate-180" : ""
-              }`}
-            />
-          </button>
+                    {/* Normal Links */}
+                    {!item.hasCategories && (
+                      <Link
+                        href={item.link}
+                        onClick={() => setMobileNavOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                    )}
 
-          {mobileProductsOpen && (
-            <div className="mt-3 space-y-2 max-h-[350px] overflow-y-auto ">
-              {categories.map((cat) => (
-                <Link
-                  key={cat.id}
-                  href={`/categories/${cat.id}`}
-                  onClick={() => setMobileNavOpen(false)}
-                  className="block text-md text-red-700 py-2 hover:text-green-600"
-                >
-                  {cat.name}
-                </Link>
-              ))}
-            </div>
-          )}
-        </>
-      )}
+                    {/* Products Dropdown */}
+                    {item.hasCategories && (
+                      <>
+                        <button
+                          onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                          className="flex items-center justify-between w-full"
+                        >
+                          {item.label}
+                          <ChevronDown
+                            size={18}
+                            className={`transition-transform ${mobileProductsOpen ? "rotate-180" : ""
+                              }`}
+                          />
+                        </button>
 
-    </li>
-  ))}
-</ul>
+                        {mobileProductsOpen && (
+                          <div className="mt-3 space-y-2 max-h-[350px] overflow-y-auto ">
+                            {categories.map((cat) => (
+                              <Link
+                                key={cat.id}
+                                href={`/categories/${cat.id}`}
+                                onClick={() => setMobileNavOpen(false)}
+                                className="block text-md text-red-700 py-2 hover:text-green-600"
+                              >
+                                {cat.name}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </>
+                    )}
+
+                  </li>
+                ))}
+              </ul>
 
               <div className="mt-8 pt-6 border-t">
                 <a
@@ -258,6 +263,8 @@ export default function Navbar() {
             onClose={() => setIsFormOpen(false)}
           />
         )}
+
+        <TranslateButton />
       </header>
     </>
   );

@@ -25,8 +25,8 @@ export default function ContactForm({ isOpen, onClose }) {
 
     try {
       const formData = {
-        platform: "Titanium Dioxide Wholesaler Enquiry Form",
-        platformEmail: "sales@aanyaenterprise.com",
+        platform: "Plastic Dustbin Manufacturer Popup Form",
+        platformEmail: "info@polywell.co.in",
         name,
         phone,
         email,
@@ -52,7 +52,7 @@ Message: ${message}
 
 Contact: ${phone}`;
 
-        const waUrl = `https://wa.me/+918527557778?text=${encodeURIComponent(
+        const waUrl = `https://wa.me/+919810316441?text=${encodeURIComponent(
           whatsappText
         )}`;
 
@@ -76,105 +76,105 @@ Contact: ${phone}`;
       setLoading(false);
     }
   };
-return (
-  <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
-    <div className="relative rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-8 md:p-10 w-[350px] md:w-[560px] bg-white">
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
+      <div className="relative rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-8 md:p-10 w-[350px] md:w-[560px] bg-white">
 
-      <button
-        className="absolute top-4 right-5 text-gray-400 hover:text-red-500 text-xl transition"
-        onClick={onClose}
-      >
-        ✕
-      </button>
+        <button
+          className="absolute top-4 right-5 text-gray-400 hover:text-red-500 text-xl transition"
+          onClick={onClose}
+        >
+          ✕
+        </button>
 
-      <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 tracking-wide">
-        Get In Touch With Us
-      </h2>
+        <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 tracking-wide">
+          Get In Touch With Us
+        </h2>
 
-      <div className="w-20 h-[3px] bg-green-600 mx-auto mt-3 mb-8 rounded-full"></div>
+        <div className="w-20 h-[3px] bg-green-600 mx-auto mt-3 mb-8 rounded-full"></div>
 
-      {!submitted ? (
-        <form className="space-y-5" onSubmit={handleSubmit}>
+        {!submitted ? (
+          <form className="space-y-5" onSubmit={handleSubmit}>
 
-          <div className="flex flex-col md:flex-row gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                name="name"
+                className="flex-1 p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                required
+                disabled={loading}
+              />
+
+              <select
+                name="products"
+                className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+                defaultValue=""
+              >
+                <option value="" disabled>
+                  Select Product
+                </option>
+
+                <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
+                <option value="Wheeled Bins">Wheeled Bins</option>
+                <option value="Plastic Pallets">Plastic Pallets</option>
+                <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
+                <option value="Pedal Dustbin">Pedal Dustbin</option>
+                <option value="Bio Bins">Bio Bins</option>
+                <option value="Waste Bin">Waste Bin</option>
+                <option value="Litter Bin">Litter Bin</option>
+                <option value="Garbage Dustbin">Garbage Dustbin</option>
+                <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+                <option value="Plastic Dustbin">Plastic Dustbin</option>
+
+              </select>
+            </div>
+
             <input
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              className="flex-1 p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              type="tel"
+              name="phone"
+              maxLength={10}
+              minLength={10}
+              placeholder="Phone Number"
+              className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
               required
               disabled={loading}
             />
 
-         <select
-  name="products"
-  className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
-  defaultValue=""
->
-  <option value="" disabled>
-    Select Product
-  </option>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              required
+              disabled={loading}
+            />
 
-  <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
-  <option value="Wheeled Bins">Wheeled Bins</option>
-  <option value="Plastic Pallets">Plastic Pallets</option>
-  <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
-  <option value="Pedal Dustbin">Pedal Dustbin</option>
-  <option value="Bio Bins">Bio Bins</option>
-  <option value="Waste Bin">Waste Bin</option>
-  <option value="Litter Bin">Litter Bin</option>
-  <option value="Garbage Dustbin">Garbage Dustbin</option>
-  <option value="Outdoor Dustbin">Outdoor Dustbin</option>
-  <option value="Plastic Dustbin">Plastic Dustbin</option>
- 
-</select>
-          </div>
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-28 resize-none transition"
+              required
+              disabled={loading}
+            ></textarea>
 
-          <input
-            type="tel"
-            name="phone"
-            maxLength={10}
-            minLength={10}
-            placeholder="Phone Number"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-            required
-            disabled={loading}
-          />
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
+            >
+              {loading ? "Submitting..." : "Send Message"}
+            </button>
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-            required
-            disabled={loading}
-          />
-
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-28 resize-none transition"
-            required
-            disabled={loading}
-          ></textarea>
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
-          >
-            {loading ? "Submitting..." : "Send Message"}
-          </button>
-
-        </form>
-      ) : (
-        <p className="text-center font-medium text-lg text-green-700">
-          {successMessage}
-        </p>
-      )}
+          </form>
+        ) : (
+          <p className="text-center font-medium text-lg text-green-700">
+            {successMessage}
+          </p>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
 
 
 }
