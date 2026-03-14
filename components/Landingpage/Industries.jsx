@@ -119,9 +119,8 @@ const ServiceProcess = () => {
 
 
       {/* features */}
-
-      <div className="w-full  mx-auto  bg-[#DCFAEA] rounded-2xl py-10 ">
-        <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+      <div className="w-full mx-auto bg-[#DCFAEA] py-8">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
           <div className="flex flex-col items-center gap-2">
             <img src="/3.webp" className="h-18 w-18" />
             <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>

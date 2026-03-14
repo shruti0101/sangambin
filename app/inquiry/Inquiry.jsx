@@ -23,6 +23,7 @@ import Certificates from '@/components/Landingpage/Certificates';
 import ZigzagShowcase from '@/components/Landingpage/Testmonial';
 import Otherpro from "@/components/Landingpage/Otherpro";
 import PopupForm from '@/components/Popup2';
+import ServiceProcess from '@/components/Landingpage/Industries';
 
 export default function Inquiry() {
     const [open, setOpen] = useState(false);
@@ -79,29 +80,6 @@ export default function Inquiry() {
         }
     ];
 
-    const product = [
-        {
-            title: "Dustbins (Pedal, Wheeled & Stackable)",
-            des: "Made from industrial-grade materials, available in all capacities and colours. Custom branding and lid colour-coding available.",
-            image: "/test1.png"
-        },
-        {
-            title: "Garbage Bags (Biomedical, Disposable & Q2-Compliant)",
-            des: "In-stock, certified, available in all standard colours. Ideal for hospitals, clinics, and public use.",
-            image: "/Garbage-Bag.webp"
-        },
-        {
-            title: "Sharp Containers",
-            des: "Puncture-proof, durable, and certified for biomedical waste. Available in large quantities.",
-            image: "/Sharp-Container.webp"
-        },
-        {
-            title: "Hospital Equipment",
-            des: "Needle destroyers, hub cutters, wringer trolleys, and more. All essential tools, in stock and ready for institutional supply.",
-            image: "/Needle-Cutter.webp"
-        },
-    ]
-
     const benefits = [
         { title: "Nationwide Delivery", icon: Truck, color: "bg-blue-100 text-blue-600" },
         { title: "Durable Materials", icon: ShieldCheck, color: "bg-green-100 text-green-600" },
@@ -116,7 +94,7 @@ export default function Inquiry() {
     return (<>
         {/* Nav */}
         <div className="fixed top-0 z-50 w-full bg-white shadow-md">
-            <div className="max-w-7xl mx-auto flex items-center justify-between h-18">
+            <div className="mx-auto flex items-center justify-between h-18">
                 {/* Logo */}
                 <div className="flex items-center bg-green-700">
                     <img
@@ -138,7 +116,7 @@ export default function Inquiry() {
                 {/* Phone (Desktop only) */}
                 <a
                     href="tel:+919810026034"
-                    className="hidden md:flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
+                    className="mr-2 hidden lg:flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
                 >
                     <span className="flex items-center justify-center bg-white/20 p-2 rounded-full">
                         <PhoneCall size={20} />
@@ -179,18 +157,20 @@ export default function Inquiry() {
         </div>
 
         {/* Hero Section */}
-        <div className="relative min-h-[70vh] flex items-center overflow-hidden mt-18 bg-gradient-to-b from-gray-50 to-gray-200">
-            <div className="container mx-auto px-4 lg:px-20 flex flex-col lg:flex-row items-center justify-between gap-5">
+        <div className="relative min-h-[550px] flex items-center mt-18 bg-no-repeat bg-cover bg-left md:bg-center lg:bg-[position:75%_center]"
+            style={{ backgroundImage: "url('/banner.webp')", }}>
+            <div className="container mx-auto px-4 lg:px-20">
                 <div className="max-w-2xl text-left">
-                    <h1 className="text-2xl md:text-5xl mb-4 font-bold">
+                    <h1 className="text-3xl md:text-5xl mb-4 font-bold">
                         Plastic Dustbin Manufacturer & Supplier in India
                     </h1>
 
-                    <p className="text-base md:text-lg font-medium leading-tight mb-2">
-                        Trusted Manufacturer & Supplier of Durable Plastic Dustbins for Hospitals, Offices, Municipalities & Industries Across India
+                    <p className="text-lg md:text-xl font-medium leading-tight mb-4 text-black">
+                        Trusted Manufacturer & Supplier of Durable Plastic Dustbins for Hospitals,
+                        Offices, Municipalities & Industries Across India
                     </p>
 
-                    <ul className="text-base md:text-lg mb-6 text-gray-700">
+                    <ul className="text-lg mb-6 text-black font-medium space-y-1">
                         <li>Durable High Quality Plastic</li>
                         <li>Multiple Sizes & Colour Options</li>
                         <li>Pedal & Wheeled Dustbin Models</li>
@@ -198,43 +178,12 @@ export default function Inquiry() {
                         <li>Bulk Supply Available Across India</li>
                     </ul>
 
-                    <button onClick={() => setIsOpen(true)} className="bg-gray-900 text-white lg:px-20 px-15 py-4 font-semibold rounded-full shadow hover:bg-white hover:text-[#0A3A49] transition hover:border">
+                    <button
+                        onClick={() => setIsOpen(true)}
+                        className="bg-gray-900 text-white lg:px-20 px-15 py-4 font-semibold rounded-full shadow hover:bg-white hover:text-[#0A3A49] transition hover:border"
+                    >
                         Get Product Details & Price
                     </button>
-                </div>
-
-                <div className="lg:grid grid-cols-2 gap-2 max-w-xl hidden">
-                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
-                        <img
-                            src="/test3.png"
-                            alt="test"
-                            className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
-                            style={{ objectPosition: "65% 90%" }}
-                        />
-                    </div>
-                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
-                        <img
-                            src="/use4.webp"
-                            alt=""
-                            className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
-                        />
-                    </div>
-                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
-                        <img
-                            src="/use5.webp"
-                            alt=""
-                            className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
-                            style={{ objectPosition: "5% 70%" }}
-                        />
-                    </div>
-                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden group">
-                        <img
-                            src="/test2.png"
-                            alt=""
-                            className="w-full h-[220px] object-cover group-hover:scale-110 transition duration-500"
-                            style={{ objectPosition: "30% 70%" }}
-                        />
-                    </div>
                 </div>
             </div>
         </div>
@@ -242,11 +191,11 @@ export default function Inquiry() {
         {/* Form Section */}
         <div className="py-8 bg-white">
             <div className="container mx-auto px-4 lg:px-18 grid lg:grid-cols-2 gap-5 items-center">
-                <div className="relative lg:block hidden">
+                <div className="relative">
                     <img
                         src="/mobbanner2.jpeg"
                         alt="Contact"
-                        className="w-full h-[500px] object-cover object-[50%_40%] rounded-2xl shadow-xl"
+                        className="w-full h-full lg:h-[500px] object-cover lg:object-[50%_40%] rounded-2xl shadow-xl"
                     />
                 </div>
 
@@ -323,7 +272,7 @@ export default function Inquiry() {
                             <p>Serving Businesses & Institutions Across India</p>
                         </div>
                     </div>
-                    <button onClick={() => setIsOpen(true)} className="bg-[#0A3A49] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#082c37] transition">
+                    <button onClick={() => setIsOpen(true)} className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition">
                         Build a Stronger Supply Chain with Us
                     </button>
                 </div>
@@ -331,34 +280,7 @@ export default function Inquiry() {
         </section>
 
         {/* features */}
-        <div className="w-full mx-auto bg-[#DCFAEA] py-8">
-            <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
-                <div className="flex flex-col items-center gap-2">
-                    <img src="/3.webp" className="h-18 w-18" />
-                    <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
-                </div>
-
-                <div className="flex flex-col items-center gap-1">
-                    <img src="/gem.png" className="h-20 w-35" />
-                    <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
-                </div>
-
-                <div className="flex flex-col items-center gap-2">
-                    <img src="/certificate (1).webp" className="h-18 w-18" />
-                    <p className="font-semibold text-gray-900 text-xl">All Necessary Certificate</p>
-                </div>
-
-                <div className="flex flex-col items-center gap-2">
-                    <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
-                    <p className="font-semibold text-gray-900 text-xl">CDSCO Licences</p>
-                </div>
-
-                <div className="hidden md:flex flex-col items-center gap-2">
-                    <img src="/meeting.webp" className="h-18 w-18" />
-                    <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
-                </div>
-            </div>
-        </div>
+        <ServiceProcess />
 
         {/* Product */}
         <div id='product'>
@@ -390,47 +312,6 @@ export default function Inquiry() {
                             </p>
                         </div>
                     ))}
-                </div>
-            </div>
-        </section>
-
-        {/* Details */}
-        <section className="py-6 bg-gradient-to-b from-[#DCFAEA] to-[#cdf5df]">
-            <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-5 text-center">
-                {/* Experience */}
-                <div className="flex flex-col items-center gap-2">
-                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
-                        <Award size={40} />
-                    </div>
-                    <p className="text-2xl font-bold text-gray-900">50+ Years</p>
-                    <p className="text-base text-gray-700">Industry Experience</p>
-                </div>
-
-                {/* Manufacturing */}
-                <div className="flex flex-col items-center gap-2">
-                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
-                        <Factory size={40} />
-                    </div>
-                    <p className="text-2xl font-bold text-gray-900">73,800+ sq.ft</p>
-                    <p className="text-base text-gray-700">Manufacturing Infrastructure</p>
-                </div>
-
-                {/* Units Supplied */}
-                <div className="flex flex-col items-center gap-2">
-                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
-                        <PackageCheck size={40} />
-                    </div>
-                    <p className="text-2xl font-bold text-gray-900">5.5M+</p>
-                    <p className="text-base text-gray-700">Units Supplied Annually</p>
-                </div>
-
-                {/* Distributors */}
-                <div className="flex flex-col items-center gap-2">
-                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
-                        <Users size={40} />
-                    </div>
-                    <p className="text-2xl font-bold text-gray-900">7,600+</p>
-                    <p className="text-base text-gray-700">Distributors & Partners</p>
                 </div>
             </div>
         </section>
@@ -494,7 +375,7 @@ export default function Inquiry() {
                         before they partnered with <span className="text-[#0A3A49] font-semibold">Polywell</span>.
                     </p>
 
-                    <button onClick={() => setIsOpen(true)} className="bg-gray-900 text-white px-8 py-4 font-semibold rounded-full shadow transition">
+                    <button onClick={() => setIsOpen(true)} className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 font-semibold rounded-full shadow transition">
                         Partner with Polywell for Bulk Supply
                     </button>
                 </div>
@@ -561,6 +442,47 @@ export default function Inquiry() {
                             </div>
                         );
                     })}
+                </div>
+            </div>
+        </section>
+
+        {/* Details */}
+        <section className="py-6 bg-gradient-to-b from-[#DCFAEA] to-[#cdf5df]">
+            <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-5 text-center">
+                {/* Experience */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Award size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">50+ Years</p>
+                    <p className="text-base text-gray-700">Industry Experience</p>
+                </div>
+
+                {/* Manufacturing */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Factory size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">73,800+ sq.ft</p>
+                    <p className="text-base text-gray-700">Manufacturing Infrastructure</p>
+                </div>
+
+                {/* Units Supplied */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <PackageCheck size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">5.5M+</p>
+                    <p className="text-base text-gray-700">Units Supplied Annually</p>
+                </div>
+
+                {/* Distributors */}
+                <div className="flex flex-col items-center gap-2">
+                    <div className="bg-green-600 text-white p-3 rounded-full shadow-md">
+                        <Users size={40} />
+                    </div>
+                    <p className="text-2xl font-bold text-gray-900">7,600+</p>
+                    <p className="text-base text-gray-700">Distributors & Partners</p>
                 </div>
             </div>
         </section>

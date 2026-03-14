@@ -3,7 +3,7 @@ export const categories = [
 
 
 
- // category Pedal Dustbin
+  // category Pedal Dustbin
   {
     id: "pedal-dustbin",
     name: "Pedal Dustbin",
@@ -15,7 +15,7 @@ export const categories = [
     products: [
       // product 1 done
 
-  {
+      {
         id: "10l-plastic-pedal-dustbin",
         name: "10L Plastic Pedal Dustbin",
         metaTitle: "10L Plastic Pedal Dustbin Manufacturer | PolyWell",
@@ -23,7 +23,7 @@ export const categories = [
           "Buy 10L Plastic Pedal Dustbin for hospitals and clinics. Durable, hygienic and hands-free waste disposal solution for healthcare environments.",
         model: "pw10p",
 
-          color: ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
         excerpt:
           "The 10L Plastic Pedal Dustbin is a compact, hands-free waste management solution designed specifically for hospitals, clinics, and healthcare environments.",
 
@@ -116,9 +116,9 @@ export const categories = [
         ],
       },
 
-// 2
+      // 2
 
-  {
+      {
         id: "15l-pedal-dustbin",
         name: "15L Pedal Dustbin",
         metaTitle: "15L Pedal Dustbin Manufacturer | PolyWell Office Dustbin",
@@ -126,7 +126,7 @@ export const categories = [
           "Buy 15L PW15P Pedal Dustbin for offices and healthcare environments. Hands-free HDPE plastic dustbin for hygienic waste disposal in commercial spaces.",
         model: "pw15p",
 
-          color: ["red  ", "yellow  ", "black  "],
+        color: ["red  ", "yellow  ", "black  "],
         excerpt:
           "The 15L  Pedal Dustbin is a compact, hands-free waste management solution designed for offices, small commercial spaces, and healthcare environments.",
 
@@ -215,7 +215,7 @@ export const categories = [
         ],
       },
 
-// 3
+      // 3
       {
         id: "20l-pedal-dustbin",
         name: "20L Pedal Dustbin",
@@ -223,7 +223,7 @@ export const categories = [
         metaDescription:
           "Buy 20L  Pedal Dustbin for hygienic hands-free waste disposal at home or office. Durable, compact and eco-friendly pedal bin solution.",
         model: "pw20p",
-  color: ["red  ", "yellow  ", "blue  ",  "black  "],
+        color: ["red  ", "yellow  ", "blue  ", "black  "],
         excerpt:
           "The 20L  Pedal Dustbin is a compact, hygienic waste management solution designed for homes, offices, and small commercial spaces.",
 
@@ -411,17 +411,17 @@ export const categories = [
 
 
 
-// 5
+      // 5
 
-  {
+      {
         id: "40l-plastic-pedal-dustbin",
         name: "40L Plastic Pedal  Dustbin",
         metaTitle:
           "40L Plastic Pedal  Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 40L Plastic Pedal  Dustbin for hospitals and laboratories. Durable, hygienic, and compliant waste disposal solution for safe biomedical waste management. Bulk orders available.",
-"model":"pw40p",
-"color":[  "red  ", "yellow  " , "blue  ", "black  "],
+        "model": "pw40p",
+        "color": ["red  ", "yellow  ", "blue  ", "black  "],
         excerpt:
           "The 40L Plastic Pedal  Dustbin is designed for safe, hygienic, and compliant disposal of biomedical and hazardous waste in hospitals, clinics, and laboratories.",
 
@@ -492,7 +492,7 @@ export const categories = [
             src: "/product/20L PP Pedal Bio Bin/4.webp",
             alt: "40L Plastic Pedal Dustbin Yellow Front View",
           },
-      
+
         ],
       },
 
@@ -500,15 +500,15 @@ export const categories = [
       // 6
 
 
-         {
+      {
         id: "50l-pedal-dustbin",
         name: "50L Pedal Dustbin",
         metaTitle:
           "50L Pedal Dustbin Manufacturer | PolyWell Office & Hospital Dustbin",
         metaDescription:
           "Buy 50L PW50P Pedal Dustbin for offices, hospitals and commercial use. Hands-free HDPE plastic dustbin designed for hygienic waste disposal.",
-"model":"PW50P ",
-        color: ["red  ", "yellow  ", "blue  ", "black  ", "green  ","white  ","gray"],
+        "model": "PW50P ",
+        color: ["red  ", "yellow  ", "blue  ", "black  ", "green  ", "white  ", "gray"],
         excerpt:
           "The 50L Pedal Dustbin is a medium-capacity, hands-free waste management solution designed for offices, hospitals, and commercial spaces.",
 
@@ -583,7 +583,7 @@ export const categories = [
 
         image: [
 
-           {
+          {
             src: "/product/50L PW50P Pedal Dustbin/3.webp",
             alt: "50L PW50P Pedal Dustbin Top View",
           },
@@ -595,21 +595,21 @@ export const categories = [
             src: "/product/50L PW50P Pedal Dustbin/2.webp",
             alt: "50L PW50P Pedal Dustbin Side View",
           },
-         
+
         ],
       },
 
-// 7
+      // 7
 
- {
+      {
         id: "50l-red-plastic-pedal-dustbin",
         name: "50L Red Plastic Pedal Dustbin",
         metaTitle: "50L Red Plastic Pedal Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 50L Red Plastic Pedal Dustbin for hospital, garden and commercial use. Durable cylindrical standing design for hygienic waste management.",
 
-"model":"generic",
-"color":["  red"],
+        "model": "generic",
+        "color": ["  red"],
 
         excerpt:
           "The 50L Red Plastic Pedal Dustbin is a medium-capacity waste management solution suitable for gardens, hospitals, and commercial spaces.",
@@ -674,7 +674,7 @@ export const categories = [
           },
         ],
 
-    
+
 
         image: [
           {
@@ -688,7 +688,7 @@ export const categories = [
 
 
 
-  
+
       // 8 done
       {
         id: "60l-foot-operated-dustbin",
@@ -696,8 +696,8 @@ export const categories = [
         metaTitle: "60 L Foot Operated Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 60 L Foot Operated Dustbin for home, office and commercial use. Durable plastic build with hands-free pedal operation for hygienic waste disposal.",
-"model":"pw60p",
-"color":["red","yellow","blue","green","black","white"],
+        "model": "pw60p",
+        "color": ["red", "yellow", "blue", "green", "black", "white"],
         excerpt:
           "The 60L Foot Operated Dustbin is a medium-capacity, hands-free waste disposal solution designed for homes, offices, and small commercial spaces.",
 
@@ -787,15 +787,15 @@ export const categories = [
       },
 
       // 9 done
-       {
+      {
         id: "65l-pedal-bin",
         name: "65L Pedal Bin",
         metaTitle:
           "65L Pedal Bin Manufacturer | Hospital Biomedical Waste Bin",
         metaDescription:
           "Buy 65L Pedal Bin for hospitals and healthcare facilities. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
-"model":"pw65p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white  "],
+        "model": "pw65p",
+        "color": ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white  "],
         excerpt:
           "The 65L Pedal Bin is a high-capacity, hands-free waste management solution designed for hospitals, clinics, and large healthcare facilities.",
 
@@ -859,7 +859,7 @@ export const categories = [
           },
         ],
 
-   
+
 
         image: [
           {
@@ -884,7 +884,7 @@ export const categories = [
 
 
 
- 
+
 
       // 10 done
       {
@@ -895,9 +895,9 @@ export const categories = [
         metaDescription:
           "Buy 90L Plastic Pedal Dustbin for office, hospital and commercial use. Hands-free garbage bin made from durable plastic for hygienic waste disposal.",
 
-          "model":"pw90p",
-          "color":["red  ","yellow  ","blue  ","green  ","black  "],
-          
+        "model": "pw90p",
+        "color": ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
+
         excerpt:
           "The 90L Plastic Pedal Dustbin is a large-capacity, hands-free waste management solution designed for offices, hospitals, and commercial spaces.",
 
@@ -996,7 +996,7 @@ export const categories = [
 
     products: [
       // product 1 done
-    {
+      {
         id: "80l-Wheeled-central-pedal-bio-bin",
         name: "80L Wheeled Central Pedal Bio Bin",
         metaTitle:
@@ -1004,8 +1004,8 @@ export const categories = [
         metaDescription:
           "Buy 80L Wheeled Central Pedal Bio Bin for hygienic waste disposal in hospitals and institutions. Durable polypropylene construction with wheels and pedal system.",
 
-          "model":"pw80cp",
-          "color":["  red  ","yellow  ","blue  ","green  ","black"],
+        "model": "pw80cp",
+        "color": ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The 80L Wheeled Central Pedal Bio Bin is designed for hygienic and efficient waste management in healthcare, institutional, and commercial environments.",
 
@@ -1069,11 +1069,11 @@ export const categories = [
           },
         ],
 
-    
+
 
         image: [
 
-              {
+          {
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/2.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Side View",
           },
@@ -1081,7 +1081,7 @@ export const categories = [
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/4.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Front View",
           },
-      
+
           {
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/3.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Wheels",
@@ -1094,17 +1094,17 @@ export const categories = [
       },
 
 
-// 2
-  {
+      // 2
+      {
         id: "120l-pp-central-wheeled-bio-bin",
         name: "120L PP Central Wheeled Bio Bin",
         metaTitle:
           "120L PP Central Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L PP Central Wheeled Bio Bin for hygienic waste disposal in hospitals and healthcare facilities. Durable polypropylene construction with wheels and pedal system.",
-"model":"pw120r",
+        "model": "pw120r",
 
-"color":["  red  ","yellow  ","blue  " ,"black"],
+        "color": ["  red  ", "yellow  ", "blue  ", "black"],
 
         excerpt:
           "The 120L PP Central Wheeled Bio Bin is designed for hygienic and efficient waste management in hospitals, laboratories, and commercial establishments with durable PP construction.",
@@ -1129,7 +1129,7 @@ export const categories = [
           {
             type: "ul",
             items: [
-          
+
               "120L capacity suitable for healthcare environments.",
               "Durable polypropylene material construction.",
               "Central wheeled design for easy mobility.",
@@ -1145,7 +1145,7 @@ export const categories = [
             type: "ul",
             items: [
               "High-quality PP material for long-term durability.",
-             
+
               "Smooth-rolling wheels for easy movement.",
               "Secure lid to prevent odor and spillage.",
               "Optimized compact dimensions.",
@@ -1169,7 +1169,7 @@ export const categories = [
           },
         ],
 
-      
+
 
         image: [
           {
@@ -1191,16 +1191,16 @@ export const categories = [
         ],
       },
 
-// 3
+      // 3
 
-   {
+      {
         id: "120l-pp-central-pedal-wheeled-bio-bin",
         name: "120L PP Central Pedal Wheeled Bio Bin",
         metaTitle: "120L PP Central Pedal Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L PP Central Pedal Wheeled Bio Bin for hygienic waste disposal in hospitals, commercial, and institutional environments. Durable polypropylene construction with wheels and lid.",
-"model":"pw120cp",
-"color":["  red  ","yellow  ","blue  ","green  ","black"],
+        "model": "pw120cp",
+        "color": ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The 120L PP Central Pedal Wheeled Bio Bin is designed for practical and hygienic waste management in hospitals, commercial buildings, and institutional environments.",
 
@@ -1264,7 +1264,7 @@ export const categories = [
           },
         ],
 
-      
+
         image: [
           {
             src: "/product/120L PP Wheeled Bio Bin/3.webp",
@@ -1287,15 +1287,15 @@ export const categories = [
 
       // 4
 
-          {
+      {
         id: "120l-large-foot-operated-wheeled-dustbin",
         name: "120L Large Foot Operated Wheeled Dustbins ",
         metaTitle: "120L Large Foot Operated Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L Large Foot Operated Wheeled Dustbin for hygienic waste disposal in offices and commercial spaces. Durable plastic construction with pedal and wheels.",
 
-          "model":"pw120fp",
-          "color":["  blue","  green"],
+        "model": "pw120fp",
+        "color": ["  blue", "  green"],
 
         excerpt:
           "The 120L Large Foot Operated Wheeled  Dustbin is designed for hygienic and efficient waste management in offices, commercial buildings, and institutional environments.",
@@ -1320,7 +1320,7 @@ export const categories = [
           {
             type: "ul",
             items: [
-           
+
               "120L capacity suitable for office use.",
               "Durable premium-grade plastic construction.",
               "Wheeled design for easy mobility.",
@@ -1336,7 +1336,7 @@ export const categories = [
             type: "ul",
             items: [
               "Strong plastic body for long-term durability.",
-            
+
               "Smooth-rolling wheels for easy movement.",
               "Space-efficient square design.",
               "Reliable performance for daily use.",
@@ -1360,7 +1360,7 @@ export const categories = [
           },
         ],
 
-     
+
 
         image: [
           {
@@ -1376,15 +1376,15 @@ export const categories = [
 
       // 5
 
-         {
+      {
         id: "240l-plastic-wheeled-dustbin",
         name: "240L Plastic Wheeled Dustbins ",
         metaTitle: "240L Plastic Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 240L Plastic Wheeled Dustbin for industrial and commercial waste collection. Durable plastic construction with easy mobility wheels. Bulk orders available.",
 
-          "model":"pw240r",
-          "color":["  red","  yellow","  blue","  black"],
+        "model": "pw240r",
+        "color": ["  red", "  yellow", "  blue", "  black"],
         excerpt:
           "240L Plastic Wheeled Dustbins are designed for efficient and organized waste collection in industrial, commercial, and institutional environments.",
 
@@ -1458,7 +1458,7 @@ export const categories = [
         ],
 
         image: [
-       
+
           {
             src: "/product/Plastic Wheeled Dustbins 240l/2.webp",
             alt: "240L Plastic Wheeled Dustbin Side View",
@@ -1473,7 +1473,7 @@ export const categories = [
 
       // 6
 
-          {
+      {
         id: "240l-pp-foot-operated-wheeled-bin",
         name: "240L PP Foot Operated Wheeled Bin",
         metaTitle:
@@ -1481,8 +1481,8 @@ export const categories = [
         metaDescription:
           "Buy 240L PP Foot Operated Wheeled Bin for hospitals and healthcare facilities. Durable polypropylene biomedical waste bin with hands-free pedal, lid and wheels for hygienic disposal.",
 
-"model":"pw240fp",
-"color":["  yellow  ","blue"],
+        "model": "pw240fp",
+        "color": ["  yellow  ", "blue"],
 
         excerpt:
           "The 240L PP Foot Operated Wheeled Bin is a large-capacity, hands-free waste management solution designed for hospitals, healthcare facilities, and commercial spaces.",
@@ -1572,15 +1572,15 @@ export const categories = [
 
 
       // extra 
-        {
+      {
         id: "240l-hospitals-wheeled-bin",
         name: "240L Hospitals Wheeled Bins",
         metaTitle: "240L Hospitals Wheeled Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 240L Hospitals Wheeled Bin for hygienic waste management in healthcare facilities. Durable plastic construction with smooth mobility wheels.",
 
-"model":"generic",
-"color":["  red", "  black","  blue","  yellow"],
+        "model": "generic",
+        "color": ["  red", "  black", "  blue", "  yellow"],
 
         excerpt:
           "The 240L Hospitals Wheeled Bin is a reliable waste management solution designed for organized waste collection in hospital and healthcare environments.",
@@ -1676,15 +1676,15 @@ export const categories = [
 
       // 7
 
-        {
+      {
         id: "660l-four-wheel-plastic-dustbin",
         name: "660L Four Wheel Plastic Dustbin",
         metaTitle: "660L Four Wheel Plastic Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 660L Four Wheel Plastic Dustbin for hospitals, industries, and societies. Durable high-capacity plastic bin with smooth mobility wheels. Bulk orders available.",
 
-"model":"pw660",
-"color":["  red  ","yellow  ","blue  ","black  ","green"],
+        "model": "pw660",
+        "color": ["  red  ", "yellow  ", "blue  ", "black  ", "green"],
 
         excerpt:
           "The 660L Four Wheel Plastic Dustbin is designed for large-scale waste collection in hospitals, industrial units, housing societies, and public spaces with durable plastic construction.",
@@ -1775,15 +1775,15 @@ export const categories = [
 
       // 8
 
-          {
+      {
         id: "1100l-pp-wheeled-bio-bin",
         name: "1100L PP Wheeled Bio Bin",
         metaTitle: "1100L PP Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 1100L PP Wheeled Bio Bin for large-volume waste collection in hospitals, industries, and residential societies. Durable polypropylene construction with wheels and lid.",
 
-"model":"pw1100",
-"color":["  red","  yellow","  blue","  black","  green"],
+        "model": "pw1100",
+        "color": ["  red", "  yellow", "  blue", "  black", "  green"],
 
         excerpt:
           "The 1100L PP Wheeled Bio Bin is designed for heavy-duty waste management in hospitals, industrial facilities, and municipal environments with durable PP construction.",
@@ -1878,22 +1878,22 @@ export const categories = [
       // jhgv
 
       // product 2
-    
+
 
       // 3 done
-    
+
 
       // 4
-     
+
 
       // 5
-  
+
 
       // 6 dpne
-   
+
 
       // 7 done
-   
+
 
       // 9
       {
@@ -1903,8 +1903,8 @@ export const categories = [
         metaDescription:
           "Buy Garbage Stations (Roto) for outdoor, industrial, and institutional waste handling. Durable plastic construction with four-wheel mobility.",
 
-"model":"generic",
-"color":["yellow","blue"],
+        "model": "generic",
+        "color": ["yellow", "blue"],
 
         excerpt:
           "The Garbage Stations (Roto) is designed for heavy-duty outdoor waste collection in industrial, institutional, and commercial environments.",
@@ -1969,18 +1969,18 @@ export const categories = [
           },
         ],
 
-   
+
 
         image: [
           {
             src: "/product/Plastic Wheeled Dustbins 240l/4.webp",
             alt: "500L Plastic Dustbin Trolley Front View",
           },
-        
+
         ],
       },
 
-   
+
       // 11 done
       {
         id: "plastic-wheeled-dustbin",
@@ -1988,8 +1988,8 @@ export const categories = [
         metaTitle: " Plastic Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy  Plastic  Wheeled Dustbin with foot pedal for industrial and commercial waste handling. Durable plastic construction with easy mobility.",
-"model":"generic",
-"color":["  red  ","yellow  ","blue  ","green  ","black"],
+        "model": "generic",
+        "color": ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The Plastic Wheeled Dustbin is designed for industrial, institutional, and commercial waste management with durable plastic construction.",
 
@@ -2013,12 +2013,12 @@ export const categories = [
           {
             type: "ul",
             items: [
-            
+
               "  Suitable for industrial use.",
               "Durable premium-grade plastic construction.",
               "Wheeled design for easy mobility.",
               "Square shape for improved stability.",
-              
+
             ],
           },
           {
@@ -2029,7 +2029,7 @@ export const categories = [
             type: "ul",
             items: [
               "Strong plastic body for long-term durability.",
-             
+
               "Smooth-rolling wheels for easy movement.",
               "Space-efficient square design.",
               "Industrial-grade performance.",
@@ -2075,373 +2075,373 @@ export const categories = [
       },
 
       // 12 done
-   
+
 
       // 13 done
-    
+
 
       // 14 done
-  
+
 
 
 
       // 15
 
-    
+
 
       // 16
 
-{
-  "id": "polywell-wheelbarrows-roto",
-  "name": "Polywell Wheelbarrows (Roto)",
-  "metaTitle": "Polywell Wheelbarrows Roto Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Polywell Roto Wheelbarrows designed for heavy-duty material handling in agriculture, construction, and industrial environments. Durable roto-moulded plastic wheelbarrows available in multiple capacities.",
+      {
+        "id": "polywell-wheelbarrows-roto",
+        "name": "Polywell Wheelbarrows (Roto)",
+        "metaTitle": "Polywell Wheelbarrows Roto Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy Polywell Roto Wheelbarrows designed for heavy-duty material handling in agriculture, construction, and industrial environments. Durable roto-moulded plastic wheelbarrows available in multiple capacities.",
 
-  "model": "generic",
+        "model": "generic",
 
-  "color": ["blue"],
+        "color": ["blue"],
 
-  "size":["size available -  ", "100 ltr , ", "150 ltr , ", "250 ltr "],
+        "size": ["size available -  ", "100 ltr , ", "150 ltr , ", "250 ltr "],
 
-  "excerpt": "Polywell Roto Wheelbarrows are durable roto-moulded plastic wheelbarrows designed for heavy-duty material handling in agricultural, construction, and industrial environments.",
+        "excerpt": "Polywell Roto Wheelbarrows are durable roto-moulded plastic wheelbarrows designed for heavy-duty material handling in agricultural, construction, and industrial environments.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Polywell Roto Wheelbarrows – Heavy Duty Material Handling Solution"
-    },
-    {
-      "type": "p",
-      "text": "Polywell Roto Wheelbarrows are designed for heavy-duty material handling in agricultural, construction, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality roto-moulded plastic, these wheelbarrows are lightweight yet extremely strong, offering excellent resistance to impact, corrosion, and harsh outdoor conditions."
-    },
-    {
-      "type": "p",
-      "text": "The rotational moulding process ensures a seamless and leak-proof body that can withstand heavy loads without cracking or deforming."
-    },
-    {
-      "type": "p",
-      "text": "Ergonomically designed for smooth handling, stability, and easy maneuverability, making them suitable for transporting soil, sand, gravel, waste, and other materials efficiently."
-    },
-    {
-      "type": "p",
-      "text": "Available in multiple capacity options including 100 L, 150 L, and 250 L to meet various operational requirements ranging from gardening to large-scale construction projects."
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "Polywell Roto Wheelbarrows – Heavy Duty Material Handling Solution"
+          },
+          {
+            "type": "p",
+            "text": "Polywell Roto Wheelbarrows are designed for heavy-duty material handling in agricultural, construction, and industrial environments."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality roto-moulded plastic, these wheelbarrows are lightweight yet extremely strong, offering excellent resistance to impact, corrosion, and harsh outdoor conditions."
+          },
+          {
+            "type": "p",
+            "text": "The rotational moulding process ensures a seamless and leak-proof body that can withstand heavy loads without cracking or deforming."
+          },
+          {
+            "type": "p",
+            "text": "Ergonomically designed for smooth handling, stability, and easy maneuverability, making them suitable for transporting soil, sand, gravel, waste, and other materials efficiently."
+          },
+          {
+            "type": "p",
+            "text": "Available in multiple capacity options including 100 L, 150 L, and 250 L to meet various operational requirements ranging from gardening to large-scale construction projects."
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Heavy-duty roto-moulded plastic body for maximum durability.",
-        "Lightweight design for easy handling and maneuverability.",
-        "Resistant to corrosion, impact, and harsh outdoor conditions.",
-        "Seamless one-piece construction ensuring leak-proof performance.",
-        "Ergonomic handles and balanced design for comfortable usage.",
-        "Available in multiple capacities: 100 L, 150 L, and 250 L.",
-        "Stable base and strong wheel support for improved balance.",
-        "Suitable for gardening, construction, landscaping, waste handling, and industrial material transport."
-      ]
-    },
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Heavy-duty roto-moulded plastic body for maximum durability.",
+              "Lightweight design for easy handling and maneuverability.",
+              "Resistant to corrosion, impact, and harsh outdoor conditions.",
+              "Seamless one-piece construction ensuring leak-proof performance.",
+              "Ergonomic handles and balanced design for comfortable usage.",
+              "Available in multiple capacities: 100 L, 150 L, and 250 L.",
+              "Stable base and strong wheel support for improved balance.",
+              "Suitable for gardening, construction, landscaping, waste handling, and industrial material transport."
+            ]
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium-grade roto-moulded plastic materials.",
-        "Innovative designs engineered for stability and efficiency.",
-        "Products built for long-lasting performance in demanding environments.",
-        "Wide range of plastic storage, waste management, and utility solutions.",
-        "Customer-focused approach delivering reliable and practical products."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium-grade roto-moulded plastic materials.",
+              "Innovative designs engineered for stability and efficiency.",
+              "Products built for long-lasting performance in demanding environments.",
+              "Wide range of plastic storage, waste management, and utility solutions.",
+              "Customer-focused approach delivering reliable and practical products."
+            ]
+          }
+        ],
 
-  "image": [
-    {
-      "src": "/product/wheelbarrow1.webp",
-      "alt": "Polywell Roto Wheelbarrow Heavy Duty Plastic Wheelbarrow"
-    }
-  ]
-}
-,
+        "image": [
+          {
+            "src": "/product/wheelbarrow1.webp",
+            "alt": "Polywell Roto Wheelbarrow Heavy Duty Plastic Wheelbarrow"
+          }
+        ]
+      }
+      ,
 
-// 17
+      // 17
 
-{
-  "id": "garbage-cycle-rickshaw-roto",
-  "name": "Garbage Cycle Rickshaw (Roto)",
-  "metaTitle": "Garbage Cycle Rickshaw Roto Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Garbage Cycle Rickshaw with 290 Litre roto-moulded plastic bin designed for efficient municipal waste collection. Durable, leak-proof and ideal for urban, residential, and commercial waste management.",
+      {
+        "id": "garbage-cycle-rickshaw-roto",
+        "name": "Garbage Cycle Rickshaw (Roto)",
+        "metaTitle": "Garbage Cycle Rickshaw Roto Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy Garbage Cycle Rickshaw with 290 Litre roto-moulded plastic bin designed for efficient municipal waste collection. Durable, leak-proof and ideal for urban, residential, and commercial waste management.",
 
-  "model": "generic",
+        "model": "generic",
 
-  "color": [ "blue"],
+        "color": ["blue"],
 
-  "size":["size availabe  - ","290 ltr  "],
+        "size": ["size availabe  - ", "290 ltr  "],
 
-  "excerpt": "Garbage Cycle Rickshaw (Roto) with a 290 litre roto-moulded plastic bin designed for efficient municipal waste collection and transportation.",
+        "excerpt": "Garbage Cycle Rickshaw (Roto) with a 290 litre roto-moulded plastic bin designed for efficient municipal waste collection and transportation.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Garbage Cycle Rickshaw (Roto) – Efficient Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Garbage Cycle Rickshaw (Roto) is designed for efficient waste collection and transportation in urban, residential, and commercial areas."
-    },
-    {
-      "type": "p",
-      "text": "It features a 290-litre roto-moulded plastic bin that offers excellent durability, impact resistance, and a seamless leak-proof design for hygienic waste handling."
-    },
-    {
-      "type": "p",
-      "text": "Equipped with manual pedal operation, the rickshaw allows smooth and controlled movement, making it ideal for narrow streets, parks, campuses, and industrial premises."
-    },
-    {
-      "type": "p",
-      "text": "The strong and durable frame supports heavy loads while maintaining stability and balance during everyday waste collection operations."
-    },
-    {
-      "type": "p",
-      "text": "Its practical design allows easy loading and unloading of waste, improving operational efficiency while reducing physical strain on workers."
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "Garbage Cycle Rickshaw (Roto) – Efficient Waste Collection Solution"
+          },
+          {
+            "type": "p",
+            "text": "The Garbage Cycle Rickshaw (Roto) is designed for efficient waste collection and transportation in urban, residential, and commercial areas."
+          },
+          {
+            "type": "p",
+            "text": "It features a 290-litre roto-moulded plastic bin that offers excellent durability, impact resistance, and a seamless leak-proof design for hygienic waste handling."
+          },
+          {
+            "type": "p",
+            "text": "Equipped with manual pedal operation, the rickshaw allows smooth and controlled movement, making it ideal for narrow streets, parks, campuses, and industrial premises."
+          },
+          {
+            "type": "p",
+            "text": "The strong and durable frame supports heavy loads while maintaining stability and balance during everyday waste collection operations."
+          },
+          {
+            "type": "p",
+            "text": "Its practical design allows easy loading and unloading of waste, improving operational efficiency while reducing physical strain on workers."
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Roto-moulded plastic bin with seamless and durable construction.",
-        "Manual pedal operation for easy and controlled movement.",
-        "Large 290 litre capacity suitable for municipal waste collection.",
-        "Strong and durable frame for heavy load support.",
-        "Leak-proof and hygienic design for safe waste handling.",
-        "Ergonomic structure for comfortable use during long routes.",
-        "Suitable for municipalities, parks, campuses, and housing societies.",
-        "Improves waste collection efficiency while reducing manual effort."
-      ]
-    },
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Roto-moulded plastic bin with seamless and durable construction.",
+              "Manual pedal operation for easy and controlled movement.",
+              "Large 290 litre capacity suitable for municipal waste collection.",
+              "Strong and durable frame for heavy load support.",
+              "Leak-proof and hygienic design for safe waste handling.",
+              "Ergonomic structure for comfortable use during long routes.",
+              "Suitable for municipalities, parks, campuses, and housing societies.",
+              "Improves waste collection efficiency while reducing manual effort."
+            ]
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer known for reliable and durable plastic products.",
-        "High-quality roto-moulded plastic ensuring strength and longevity.",
-        "Practical and ergonomic product designs for efficient waste management.",
-        "Products built for long-lasting performance in outdoor environments.",
-        "Cost-effective waste management solutions.",
-        "Wide range of dustbins, containers, wheelbarrows, and municipal waste collection products."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer known for reliable and durable plastic products.",
+              "High-quality roto-moulded plastic ensuring strength and longevity.",
+              "Practical and ergonomic product designs for efficient waste management.",
+              "Products built for long-lasting performance in outdoor environments.",
+              "Cost-effective waste management solutions.",
+              "Wide range of dustbins, containers, wheelbarrows, and municipal waste collection products."
+            ]
+          }
+        ],
 
-  "image": [
-    {
-      "src": "/product/wheelbarrow2.webp",
-      "alt": "Garbage Cycle Rickshaw Roto 290 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
-,
+        "image": [
+          {
+            "src": "/product/wheelbarrow2.webp",
+            "alt": "Garbage Cycle Rickshaw Roto 290 Litre Waste Collection Rickshaw"
+          }
+        ]
+      }
+      ,
 
-// 18
+      // 18
 
-{
-  "id": "multiple-container-garbage-rickshaw",
-  "name": "Multiple Container Garbage Rickshaw",
-  "metaTitle": "Multiple Container Garbage Rickshaw 30–50 Litre Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Multiple Container Garbage Rickshaw with durable plastic containers available in 30 L and 50 L capacities. Ideal for hygienic municipal and residential waste collection.",
+      {
+        "id": "multiple-container-garbage-rickshaw",
+        "name": "Multiple Container Garbage Rickshaw",
+        "metaTitle": "Multiple Container Garbage Rickshaw 30–50 Litre Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy Multiple Container Garbage Rickshaw with durable plastic containers available in 30 L and 50 L capacities. Ideal for hygienic municipal and residential waste collection.",
 
-  "model": "generic",
+        "model": "generic",
 
-  "color": ["green  ", "blue"],
-  "size":["size availabe - ", "30 ltr  " ,"50 ltr"],
+        "color": ["green  ", "blue"],
+        "size": ["size availabe - ", "30 ltr  ", "50 ltr"],
 
-  "excerpt": "Multiple Container Garbage Rickshaw designed for hygienic waste collection with durable plastic containers available in 30 L and 50 L capacities.",
+        "excerpt": "Multiple Container Garbage Rickshaw designed for hygienic waste collection with durable plastic containers available in 30 L and 50 L capacities.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Multiple Container Garbage Rickshaw – Efficient Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Multiple Container Garbage Rickshaw is designed for efficient and hygienic manual waste collection in urban areas, residential complexes, and commercial facilities."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with durable plastic containers, it offers lightweight yet strong performance suitable for daily waste management operations."
-    },
-    {
-      "type": "p",
-      "text": "The pedal-driven mechanism enables smooth and controlled movement, allowing waste collectors to operate efficiently without motorized assistance."
-    },
-    {
-      "type": "p",
-      "text": "Its multiple-container design allows easy loading and unloading of waste while securely enclosing the contents to prevent spillage and reduce odour."
-    },
-    {
-      "type": "p",
-      "text": "Available in 30 Litre and 50 Litre capacities, making it suitable for small to medium-scale waste collection needs in municipal and commercial environments."
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "Multiple Container Garbage Rickshaw – Efficient Waste Collection Solution"
+          },
+          {
+            "type": "p",
+            "text": "The Multiple Container Garbage Rickshaw is designed for efficient and hygienic manual waste collection in urban areas, residential complexes, and commercial facilities."
+          },
+          {
+            "type": "p",
+            "text": "Constructed with durable plastic containers, it offers lightweight yet strong performance suitable for daily waste management operations."
+          },
+          {
+            "type": "p",
+            "text": "The pedal-driven mechanism enables smooth and controlled movement, allowing waste collectors to operate efficiently without motorized assistance."
+          },
+          {
+            "type": "p",
+            "text": "Its multiple-container design allows easy loading and unloading of waste while securely enclosing the contents to prevent spillage and reduce odour."
+          },
+          {
+            "type": "p",
+            "text": "Available in 30 Litre and 50 Litre capacities, making it suitable for small to medium-scale waste collection needs in municipal and commercial environments."
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction offering lightweight strength and long service life.",
-        "Multiple container design prevents waste spillage and helps control odours.",
-        "Pedal-operated movement for easy maneuverability without motor assistance.",
-        "Available in 30 L and 50 L capacity options.",
-        "Ergonomic containers designed for easy loading and unloading.",
-        "Stable and balanced frame ensuring smooth and safe operation.",
-        "Suitable for municipal bodies, housing societies, parks, schools, and commercial areas.",
-        "Low maintenance design with easy-to-clean plastic containers."
-      ]
-    },
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Durable plastic construction offering lightweight strength and long service life.",
+              "Multiple container design prevents waste spillage and helps control odours.",
+              "Pedal-operated movement for easy maneuverability without motor assistance.",
+              "Available in 30 L and 50 L capacity options.",
+              "Ergonomic containers designed for easy loading and unloading.",
+              "Stable and balanced frame ensuring smooth and safe operation.",
+              "Suitable for municipal bodies, housing societies, parks, schools, and commercial areas.",
+              "Low maintenance design with easy-to-clean plastic containers."
+            ]
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer known for durable and high-quality plastic products.",
-        "Premium materials ensuring strength, impact resistance, and long product life.",
-        "Functional and ergonomic product designs for efficient waste handling.",
-        "Products engineered for long-lasting performance in outdoor conditions.",
-        "Cost-effective waste management solutions at competitive prices.",
-        "Wide product portfolio including dustbins, containers, wheelbarrows, and cycle rickshaws.",
-        "Customer-focused approach delivering reliable and practical waste management solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer known for durable and high-quality plastic products.",
+              "Premium materials ensuring strength, impact resistance, and long product life.",
+              "Functional and ergonomic product designs for efficient waste handling.",
+              "Products engineered for long-lasting performance in outdoor conditions.",
+              "Cost-effective waste management solutions at competitive prices.",
+              "Wide product portfolio including dustbins, containers, wheelbarrows, and cycle rickshaws.",
+              "Customer-focused approach delivering reliable and practical waste management solutions."
+            ]
+          }
+        ],
 
-  "image": [
-    {
-      "src": "/product/multiplecontainer.webp",
-      "alt": "Multiple Container Garbage Rickshaw Plastic 30 50 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
-,
+        "image": [
+          {
+            "src": "/product/multiplecontainer.webp",
+            "alt": "Multiple Container Garbage Rickshaw Plastic 30 50 Litre Waste Collection Rickshaw"
+          }
+        ]
+      }
+      ,
 
-// 19
+      // 19
 
-{
-  "id": "single-container-garbage-rickshaw-roto",
-  "name": "Single Container Garbage Rickshaw (Roto)",
-  "metaTitle": "Single Container Garbage Rickshaw 450–550 Litre Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Single Container Garbage Rickshaw with roto-moulded plastic container available in 450 L and 550 L capacities. Ideal for high-volume municipal and industrial waste collection.",
+      {
+        "id": "single-container-garbage-rickshaw-roto",
+        "name": "Single Container Garbage Rickshaw (Roto)",
+        "metaTitle": "Single Container Garbage Rickshaw 450–550 Litre Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy Single Container Garbage Rickshaw with roto-moulded plastic container available in 450 L and 550 L capacities. Ideal for high-volume municipal and industrial waste collection.",
 
-  "model": "generic",
+        "model": "generic",
 
-  "color": [" black",],
+        "color": [" black",],
 
-  "size":["size available  -  ","450 ltr  , ","550 ltr "],
+        "size": ["size available  -  ", "450 ltr  , ", "550 ltr "],
 
-  "excerpt": "Single Container Garbage Rickshaw with large roto-moulded plastic container designed for efficient large-scale waste collection in municipalities and commercial areas.",
+        "excerpt": "Single Container Garbage Rickshaw with large roto-moulded plastic container designed for efficient large-scale waste collection in municipalities and commercial areas.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Single Container Garbage Rickshaw (Roto) – High Capacity Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Single Container Garbage Rickshaw (Roto) is designed for efficient large-scale manual waste collection in urban, commercial, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "It features a large roto-moulded plastic container that is seamless, highly durable, and resistant to impact, ensuring hygienic and reliable waste handling."
-    },
-    {
-      "type": "p",
-      "text": "The manual pedal-driven mechanism allows smooth and controlled movement without the need for motorized assistance, making it eco-friendly and easy to operate."
-    },
-    {
-      "type": "p",
-      "text": "A strong and durable frame supports heavy loads while maintaining stability and balance during transportation."
-    },
-    {
-      "type": "p",
-      "text": "Available in 450 Litre and 550 Litre capacities, this rickshaw is ideal for high-volume waste collection in municipalities, housing complexes, campuses, and industrial facilities."
-    },
-    {
-      "type": "p",
-      "text": "The design allows easy loading, unloading, and disposal of waste, improving operational efficiency and maintaining hygiene standards."
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "Single Container Garbage Rickshaw (Roto) – High Capacity Waste Collection Solution"
+          },
+          {
+            "type": "p",
+            "text": "The Single Container Garbage Rickshaw (Roto) is designed for efficient large-scale manual waste collection in urban, commercial, and industrial environments."
+          },
+          {
+            "type": "p",
+            "text": "It features a large roto-moulded plastic container that is seamless, highly durable, and resistant to impact, ensuring hygienic and reliable waste handling."
+          },
+          {
+            "type": "p",
+            "text": "The manual pedal-driven mechanism allows smooth and controlled movement without the need for motorized assistance, making it eco-friendly and easy to operate."
+          },
+          {
+            "type": "p",
+            "text": "A strong and durable frame supports heavy loads while maintaining stability and balance during transportation."
+          },
+          {
+            "type": "p",
+            "text": "Available in 450 Litre and 550 Litre capacities, this rickshaw is ideal for high-volume waste collection in municipalities, housing complexes, campuses, and industrial facilities."
+          },
+          {
+            "type": "p",
+            "text": "The design allows easy loading, unloading, and disposal of waste, improving operational efficiency and maintaining hygiene standards."
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Roto-moulded plastic container with seamless and durable construction.",
-        "High-capacity options available in 450 L and 550 L.",
-        "Manual pedal operation for eco-friendly and smooth movement.",
-        "Strong and durable frame supporting heavy loads.",
-        "Hygienic design that prevents waste spillage and contains odour.",
-        "Efficient loading and unloading for improved waste management.",
-        "Suitable for municipalities, housing societies, industrial areas, and campuses.",
-        "Low maintenance roto-moulded plastic container that is easy to clean."
-      ]
-    },
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Roto-moulded plastic container with seamless and durable construction.",
+              "High-capacity options available in 450 L and 550 L.",
+              "Manual pedal operation for eco-friendly and smooth movement.",
+              "Strong and durable frame supporting heavy loads.",
+              "Hygienic design that prevents waste spillage and contains odour.",
+              "Efficient loading and unloading for improved waste management.",
+              "Suitable for municipalities, housing societies, industrial areas, and campuses.",
+              "Low maintenance roto-moulded plastic container that is easy to clean."
+            ]
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted expertise in manufacturing durable plastic waste management products.",
-        "Premium roto-moulded plastic ensuring strength, durability, and leak-proof performance.",
-        "Functional and ergonomic product designs for efficient waste collection.",
-        "Products engineered for long-lasting performance in demanding environments.",
-        "Cost-effective waste management solutions at competitive pricing.",
-        "Extensive product range including dustbins, containers, wheelbarrows, and garbage cycle rickshaws.",
-        "Customer-focused approach delivering reliable and practical waste management solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted expertise in manufacturing durable plastic waste management products.",
+              "Premium roto-moulded plastic ensuring strength, durability, and leak-proof performance.",
+              "Functional and ergonomic product designs for efficient waste collection.",
+              "Products engineered for long-lasting performance in demanding environments.",
+              "Cost-effective waste management solutions at competitive pricing.",
+              "Extensive product range including dustbins, containers, wheelbarrows, and garbage cycle rickshaws.",
+              "Customer-focused approach delivering reliable and practical waste management solutions."
+            ]
+          }
+        ],
 
-  "image": [
-    {
-      "src": "/product/singlecontainer.webp",
-      "alt": "Single Container Garbage Rickshaw Roto 450 550 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
+        "image": [
+          {
+            "src": "/product/singlecontainer.webp",
+            "alt": "Single Container Garbage Rickshaw Roto 450 550 Litre Waste Collection Rickshaw"
+          }
+        ]
+      }
     ],
   },
 
 
 
-    // category Bio Bins
+  // category Bio Bins
   {
     id: "bio-bins",
     name: "Bio Bins",
@@ -2451,7 +2451,7 @@ export const categories = [
 
     products: [
       // product 1 done
-       {
+      {
         id: "10l-pedal-bio-bin",
         name: "10L Pedal Bio Bin",
         metaTitle:
@@ -2459,8 +2459,8 @@ export const categories = [
         metaDescription:
           "Buy 10L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb10p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white"] ,
+        "model": "pwbb10p",
+        "color": ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white"],
 
         excerpt:
           "The 10L Pedal Bio Bin is a compact, hands-free waste disposal solution designed for hospitals, clinics, and small healthcare facilities.",
@@ -2525,9 +2525,9 @@ export const categories = [
           },
         ],
 
-      
+
         image: [
-            {
+          {
             src: "/product/biobin/10L bio bin 2.webp",
             alt: "10L PP Pedal Bio Bin Side View",
           },
@@ -2535,7 +2535,7 @@ export const categories = [
             src: "/product/biobin/10L bio bin 1.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-        
+
         ],
       },
 
@@ -2548,8 +2548,8 @@ export const categories = [
         metaDescription:
           "Buy 15L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb15p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white  "],
+        "model": "pwbb15p",
+        "color": ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white  "],
 
         excerpt:
           "The 15L Pedal Bio Bin is a compact, hands-free waste management solution designed for hospitals, clinics, and healthcare facilities.",
@@ -2563,7 +2563,7 @@ export const categories = [
             type: "p",
             text: "The 15L Pedal Bio Bin is a compact, hands-free waste management solution designed for hospitals, clinics, and healthcare facilities.",
           },
-          { 
+          {
             type: "p",
             text: "Made from durable polypropylene (PP) plastic, it ensures long-lasting strength and resistance to daily medical waste disposal.",
           },
@@ -2614,20 +2614,20 @@ export const categories = [
           },
         ],
 
-     
+
 
         image: [
 
-            {
+          {
             src: "/product/biobin/15 Ltr bio bin 2.webp",
             alt: "15L PP Pedal Bio Bin Side View",
-          },  
+          },
           {
             src: "/product/biobin/15 Ltr Bio Bin 1.webp",
             alt: "15L PP Pedal Bio Bin Front View",
           },
-        
-         
+
+
         ],
       },
 
@@ -2640,8 +2640,8 @@ export const categories = [
         metaDescription:
           "Buy 20L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb20p",
-"color":["red  ","yellow  ","blue  ","green  ","black"],
+        "model": "pwbb20p",
+        "color": ["red  ", "yellow  ", "blue  ", "green  ", "black"],
 
         excerpt:
           "The 20L Pedal Bio Bin is a hygienic, hands-free waste disposal solution designed for hospitals, clinics, and healthcare facilities.",
@@ -2706,7 +2706,7 @@ export const categories = [
           },
         ],
 
-      
+
 
         image: [
           {
@@ -2721,19 +2721,19 @@ export const categories = [
             src: "/product/biobin/20L bio bin 3.webp",
             alt: "20L PP Pedal Bio Bin Top View",
           },
-        
+
         ],
       },
 
       // 4 done
-    
 
-  
 
-   
+
+
+
       // 7
 
- {
+      {
         id: "30l-pedal-bio-bin",
         name: "30L Pedal Bio Bin",
         metaTitle:
@@ -2741,8 +2741,8 @@ export const categories = [
         metaDescription:
           "Buy 30L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb30p",
-"color":["  red  ","yellow  ","blue  ","green  ","black  ","white"] ,
+        "model": "pwbb30p",
+        "color": ["  red  ", "yellow  ", "blue  ", "green  ", "black  ", "white"],
 
         excerpt:
           "The 30L Pedal Bio Bin is a compact, hands-free waste disposal solution designed for hospitals, clinics, and small healthcare facilities.",
@@ -2807,40 +2807,40 @@ export const categories = [
           },
         ],
 
-      
+
         image: [
 
-            {
+          {
             src: "/product/biobin/30L bio bin 4.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
 
-              {
+          {
             src: "/product/biobin/30L bio bin 2.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-            {
+          {
             src: "/product/biobin/30L bio bin 1.webp",
             alt: "10L PP Pedal Bio Bin Side View",
           },
-      
 
-             {
+
+          {
             src: "/product/biobin/30L bio bin 3.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-           
 
-             {
+
+          {
             src: "/product/biobin/30L bio bin 5.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
 
-             {
+          {
             src: "/product/biobin/30L bio bin 6.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-        
+
         ],
       },
 
@@ -2862,14 +2862,14 @@ export const categories = [
       // product 1 done
 
 
-        {
+      {
         id: "60l-litter-bins",
         name: "60L Litter Bins",
         metaTitle: "60L Plastic Litter Bin Manufacturer | Dome Lid Waste Bin",
         metaDescription:
           "Buy 60L Plastic Litter Bin with dome shaped lid for hospitals, malls, gardens and parking areas. Durable hygienic waste bin for indoor & outdoor waste management.",
-"model":"pw60lb",
-"color":["  blue","  green",],
+        "model": "pw60lb",
+        "color": ["  blue", "  green",],
 
         excerpt:
           "The 60L Litter Bin is a durable and hygienic waste disposal solution designed for hospitals, clinics, gardens, malls, and parking areas.",
@@ -2934,7 +2934,7 @@ export const categories = [
           },
         ],
 
-  
+
 
         image: [
           {
@@ -2946,17 +2946,17 @@ export const categories = [
             alt: "60L Litter Bin Side View",
           },
 
-           {
+          {
             src: "/product/new plastic dustbin products/100L Public Litter Bins/2.webp",
             alt: "100L Public Litter Bin Outdoor Use",
           },
         ],
       },
 
-   
+
 
       // product 2 done
-       {
+      {
         id: "110l-litter-bins-roto",
         name: "110L Litter Bins (Roto)",
         metaTitle:
@@ -2964,9 +2964,9 @@ export const categories = [
         metaDescription:
           "Buy 110L Roto Molded Litter Bin with dome shaped lid for hospitals, malls, hotels and offices. Durable plastic waste bin for indoor & outdoor waste management. ",
 
-"model":"generic",
-"color":["blue"],
-"size":["size available  ","  60 ltr", "  80 ltr", "  100 ltr", "  150 ltr"],
+        "model": "generic",
+        "color": ["blue"],
+        "size": ["size available  ", "  60 ltr", "  80 ltr", "  100 ltr", "  150 ltr"],
 
 
         excerpt:
@@ -3063,8 +3063,8 @@ export const categories = [
         metaDescription:
           "Buy 110L Plastic Litter Bin for parks, streets, and public places. Durable outdoor plastic waste bin with open top design for easy disposal and collection.",
 
-          "model":"pw110lb",
-          "color":["  blue","  green"],
+        "model": "pw110lb",
+        "color": ["  blue", "  green"],
 
         excerpt:
           "The 110L Plastic Litter Bin is a high-capacity outdoor waste management solution designed for parks, streets, public spaces, and commercial areas.",
@@ -3129,7 +3129,7 @@ export const categories = [
           },
         ],
 
-  
+
 
         image: [
           {
@@ -3143,13 +3143,13 @@ export const categories = [
         ],
       },
 
-  
+
     ],
   },
 
 
 
-    // cat Garbage Dustbin
+  // cat Garbage Dustbin
   {
     id: "garbage-dustbin",
     name: "Garbage Dustbin",
@@ -3162,341 +3162,341 @@ export const categories = [
       // product 1 done
 
       {
-  "id": "10l-swing-lid-round-dustbin",
-  "name": "10 L Swing Lid Round Dustbin",
-  "metaTitle": "10 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 L Swing Lid Round Dustbin designed for hygienic waste disposal in homes, kitchens, offices, and commercial spaces. Durable plastic dustbin with convenient swing lid design.",
+        "id": "10l-swing-lid-round-dustbin",
+        "name": "10 L Swing Lid Round Dustbin",
+        "metaTitle": "10 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 10 L Swing Lid Round Dustbin designed for hygienic waste disposal in homes, kitchens, offices, and commercial spaces. Durable plastic dustbin with convenient swing lid design.",
 
-  "model": "pwe10(slro)",
-  "color": ["  blue ","  green ","  yellow ","  white ","  red",],
+        "model": "pwe10(slro)",
+        "color": ["  blue ", "  green ", "  yellow ", "  white ", "  red",],
 
-  "excerpt": "The 10 L Swing Lid Round Dustbin provides a hygienic and convenient waste disposal solution with a durable plastic body and easy-to-use swing lid mechanism.",
+        "excerpt": "The 10 L Swing Lid Round Dustbin provides a hygienic and convenient waste disposal solution with a durable plastic body and easy-to-use swing lid mechanism.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 L Swing Lid Round Dustbin – Hygienic Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 L Swing Lid Round Dustbin is designed to provide a practical, hygienic, and convenient waste disposal solution for everyday use in homes, offices, kitchens, and commercial environments."
-    },
-    {
-      "type": "p",
-      "text": "Manufactured using high-quality, durable plastic, the dustbin offers long-lasting performance while maintaining its shape and strength even with regular use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows users to dispose of waste easily without lifting the lid manually, ensuring better hygiene and reducing direct contact with the bin."
-    },
-    {
-      "type": "p",
-      "text": "Its round and compact design allows it to fit easily in corners, under desks, near kitchen counters, or in washrooms where space efficiency is important."
-    },
-    {
-      "type": "p",
-      "text": "With a 10-liter capacity, the bin is perfectly suited for handling daily waste generation in medium-usage areas without taking up too much space."
-    },
-    {
-      "type": "p",
-      "text": "The design helps maintain cleanliness and reduce odor spread by keeping waste covered inside the container."
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "10 L Swing Lid Round Dustbin – Hygienic Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 10 L Swing Lid Round Dustbin is designed to provide a practical, hygienic, and convenient waste disposal solution for everyday use in homes, offices, kitchens, and commercial environments."
+          },
+          {
+            "type": "p",
+            "text": "Manufactured using high-quality, durable plastic, the dustbin offers long-lasting performance while maintaining its shape and strength even with regular use."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows users to dispose of waste easily without lifting the lid manually, ensuring better hygiene and reducing direct contact with the bin."
+          },
+          {
+            "type": "p",
+            "text": "Its round and compact design allows it to fit easily in corners, under desks, near kitchen counters, or in washrooms where space efficiency is important."
+          },
+          {
+            "type": "p",
+            "text": "With a 10-liter capacity, the bin is perfectly suited for handling daily waste generation in medium-usage areas without taking up too much space."
+          },
+          {
+            "type": "p",
+            "text": "The design helps maintain cleanliness and reduce odor spread by keeping waste covered inside the container."
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Convenient swing lid mechanism for quick and effortless waste disposal.",
-        "Durable plastic construction resistant to everyday wear and tear.",
-        "Covered lid design helps promote hygienic waste disposal.",
-        "Helps contain unpleasant odors and maintain a fresh environment.",
-        "Compact round design suitable for tight spaces like bathrooms, kitchens, and offices."
-      ]
-    },
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Convenient swing lid mechanism for quick and effortless waste disposal.",
+              "Durable plastic construction resistant to everyday wear and tear.",
+              "Covered lid design helps promote hygienic waste disposal.",
+              "Helps contain unpleasant odors and maintain a fresh environment.",
+              "Compact round design suitable for tight spaces like bathrooms, kitchens, and offices."
+            ]
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Experienced manufacturer of high-quality plastic utility products.",
-        "Strict quality control using carefully selected raw materials.",
-        "Functional and user-friendly product designs.",
-        "Durable products built for long-term everyday usage.",
-        "Cost-effective solutions delivering excellent value for money.",
-        "Wide range of plastic household, commercial, and industrial products."
-      ]
-    }
-  ],
-
-
-
-  "image": [
-    {
-      "src": "/product/10ltrswing.webp",
-      "alt": "10 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
-
-// 2
-{
-  "id": "15l-swing-lid-rectangular-dustbin",
-  "name": "15 L Swing Lid Rectangular Dustbin",
-  "metaTitle": "15 L Swing Lid Rectangular Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 15 L Swing Lid Rectangular Dustbin designed for hygienic and space-efficient waste disposal in homes, offices, kitchens, and commercial environments.",
-
-  "model": "pwe15(slre)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
-
-  "excerpt": "The 15 L Swing Lid Rectangular Dustbin offers a hygienic and space-saving waste disposal solution with durable plastic construction and an easy-to-use swing lid.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "15 L Swing Lid Rectangular Dustbin – Efficient Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 15 L Swing Lid Rectangular Dustbin is designed to provide an efficient, hygienic, and space-saving waste disposal solution suitable for homes, offices, kitchens, and commercial environments."
-    },
-    {
-      "type": "p",
-      "text": "Manufactured using high-quality, durable plastic, this dustbin is built to withstand regular daily use while maintaining its strength, structure, and appearance over time."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows users to dispose of waste conveniently without lifting the lid manually, ensuring better hygiene and minimizing direct contact with the bin."
-    },
-    {
-      "type": "p",
-      "text": "Its rectangular shape is specifically designed to fit neatly against walls, under counters, or in narrow spaces, making it ideal for areas where efficient space utilization is important."
-    },
-    {
-      "type": "p",
-      "text": "With a 15-liter capacity, the dustbin offers sufficient space for daily waste collection in medium-traffic areas without requiring frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "The covered lid design helps maintain cleanliness and control odor, keeping waste concealed and the surrounding environment neat."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Convenient swing lid mechanism for quick and effortless waste disposal.",
-        "Durable plastic construction resistant to everyday wear and tear.",
-        "Hygienic covered lid design that minimizes direct contact with waste.",
-        "Helps control unpleasant odors and maintain a fresh environment.",
-        "Space-efficient rectangular design ideal for walls, corners, and narrow areas."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of reliable plastic utility products.",
-        "Quality-focused production using carefully selected materials.",
-        "Functional and modern product designs.",
-        "Durable products built for long-term everyday usage.",
-        "Cost-effective solutions delivering excellent value for customers.",
-        "Wide range of plastic household, storage, and waste management products."
-      ]
-    }
-  ],
-
-
-  "image": [
-    {
-      "src": "/product/15ltrswing.webp",
-      "alt": "15 L Swing Lid Rectangular Dustbin Front View"
-    }
-  ]
-},
-
-
-// 3
-
-
-{
-  "id": "25l-swing-lid-round-dustbin",
-  "name": "25 L Swing Lid Round Dustbin",
-  "metaTitle": "25 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 25 L Swing Lid Round Dustbin made from durable Polypropylene Copolymer for hygienic and spacious waste disposal in homes, offices, kitchens, and commercial spaces.",
-
-  "model": "pwe25(slro)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
-
-
-  "excerpt": "The 25 L Swing Lid Round Dustbin provides a hygienic and spacious waste disposal solution with durable polypropylene construction and a convenient swing lid mechanism.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "25 L Swing Lid Round Dustbin – Spacious Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 25 L Swing Lid Round Dustbin is designed to offer a convenient, hygienic, and spacious waste management solution for homes, offices, commercial spaces, and institutional environments."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with high-quality Polypropylene Copolymer, the dustbin is durable, lightweight, and resistant to wear and tear, ensuring long-lasting use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows effortless disposal of waste without the need to lift the lid, promoting hygienic waste handling and reducing odor spread."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape makes it easy to place in corners or open spaces while maintaining a neat and organized look."
-    },
-    {
-      "type": "p",
-      "text": "With a 25-liter capacity, this dustbin is ideal for medium to high-usage areas, reducing the need for frequent emptying while keeping the environment clean."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism allows easy, one-touch waste disposal.",
-        "Made from durable Polypropylene Copolymer for long-lasting performance.",
-        "Covered lid design promotes hygienic waste handling.",
-        "Helps reduce odor spread and keeps waste concealed.",
-        "Spacious 25-liter capacity suitable for medium to high-traffic areas.",
-        "Round shape design for easy placement near walls, corners, or counters."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Extensive expertise in manufacturing reliable plastic utility products.",
-        "Use of premium quality materials for durability and strength.",
-        "Functional designs combining practicality and modern aesthetics.",
-        "Long-lasting products engineered for everyday use.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Experienced manufacturer of high-quality plastic utility products.",
+              "Strict quality control using carefully selected raw materials.",
+              "Functional and user-friendly product designs.",
+              "Durable products built for long-term everyday usage.",
+              "Cost-effective solutions delivering excellent value for money.",
+              "Wide range of plastic household, commercial, and industrial products."
+            ]
+          }
+        ],
 
 
 
-  "image": [
-    {
-      "src": "/product/20lswing.webp",
-      "alt": "25 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
+        "image": [
+          {
+            "src": "/product/10ltrswing.webp",
+            "alt": "10 L Swing Lid Round Dustbin Front View"
+          }
+        ]
+      },
 
-// 4
+      // 2
+      {
+        "id": "15l-swing-lid-rectangular-dustbin",
+        "name": "15 L Swing Lid Rectangular Dustbin",
+        "metaTitle": "15 L Swing Lid Rectangular Dustbin Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 15 L Swing Lid Rectangular Dustbin designed for hygienic and space-efficient waste disposal in homes, offices, kitchens, and commercial environments.",
 
-{
-  "id": "40l-swing-lid-round-dustbin",
-  "name": "40 L Swing Lid Round Dustbin",
-  "metaTitle": "40 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 40 L Swing Lid Round Dustbin designed for hygienic and large-capacity waste disposal in homes, offices, commercial spaces, and industrial environments.",
+        "model": "pwe15(slre)",
+        "color": ["  blue ", "  green ", "  yellow ", "  black ", "  red ",],
 
-  "model": "pwe40(slro)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
+        "excerpt": "The 15 L Swing Lid Rectangular Dustbin offers a hygienic and space-saving waste disposal solution with durable plastic construction and an easy-to-use swing lid.",
 
+        "description": [
+          {
+            "type": "h2",
+            "text": "15 L Swing Lid Rectangular Dustbin – Efficient Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 15 L Swing Lid Rectangular Dustbin is designed to provide an efficient, hygienic, and space-saving waste disposal solution suitable for homes, offices, kitchens, and commercial environments."
+          },
+          {
+            "type": "p",
+            "text": "Manufactured using high-quality, durable plastic, this dustbin is built to withstand regular daily use while maintaining its strength, structure, and appearance over time."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows users to dispose of waste conveniently without lifting the lid manually, ensuring better hygiene and minimizing direct contact with the bin."
+          },
+          {
+            "type": "p",
+            "text": "Its rectangular shape is specifically designed to fit neatly against walls, under counters, or in narrow spaces, making it ideal for areas where efficient space utilization is important."
+          },
+          {
+            "type": "p",
+            "text": "With a 15-liter capacity, the dustbin offers sufficient space for daily waste collection in medium-traffic areas without requiring frequent emptying."
+          },
+          {
+            "type": "p",
+            "text": "The covered lid design helps maintain cleanliness and control odor, keeping waste concealed and the surrounding environment neat."
+          },
 
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Convenient swing lid mechanism for quick and effortless waste disposal.",
+              "Durable plastic construction resistant to everyday wear and tear.",
+              "Hygienic covered lid design that minimizes direct contact with waste.",
+              "Helps control unpleasant odors and maintain a fresh environment.",
+              "Space-efficient rectangular design ideal for walls, corners, and narrow areas."
+            ]
+          },
 
-  "excerpt": "The 40 L Swing Lid Round Dustbin offers a large-capacity and hygienic waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "40 L Swing Lid Round Dustbin – Large Capacity Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 40 L Swing Lid Round Dustbin is designed to provide a large-capacity, hygienic, and durable waste disposal solution for homes, offices, commercial spaces, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin is resistant to daily wear, impact, and cracking, ensuring long-term use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows for easy, touch-free waste disposal, promoting hygiene and preventing the spread of odours."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape ensures space-efficient placement in corners, kitchens, corridors, or open areas while maintaining a neat and organised environment."
-    },
-    {
-      "type": "p",
-      "text": "With a 40-litre capacity, this dustbin is suitable for medium to high-traffic areas, reducing the frequency of emptying and making waste management more efficient."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism for easy and hygienic waste disposal.",
-        "Strong plastic construction resistant to cracking and impact.",
-        "Covered lid design helps conceal waste and reduce odour spread.",
-        "Large 40-litre capacity suitable for medium to high-traffic areas.",
-        "Round design allows space-efficient placement in corners or open spaces."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Renowned manufacturer of reliable plastic utility products.",
-        "Use of premium-grade plastic materials for durability.",
-        "Practical designs combining functionality with modern aesthetics.",
-        "Products engineered for long-lasting performance.",
-        "Cost-effective solutions providing excellent value for customers."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of reliable plastic utility products.",
+              "Quality-focused production using carefully selected materials.",
+              "Functional and modern product designs.",
+              "Durable products built for long-term everyday usage.",
+              "Cost-effective solutions delivering excellent value for customers.",
+              "Wide range of plastic household, storage, and waste management products."
+            ]
+          }
+        ],
 
 
+        "image": [
+          {
+            "src": "/product/15ltrswing.webp",
+            "alt": "15 L Swing Lid Rectangular Dustbin Front View"
+          }
+        ]
+      },
 
-  "image": [
-    {
-      "src": "/product/40ltrswing.webp",
-      "alt": "40 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
+
+      // 3
+
+
+      {
+        "id": "25l-swing-lid-round-dustbin",
+        "name": "25 L Swing Lid Round Dustbin",
+        "metaTitle": "25 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 25 L Swing Lid Round Dustbin made from durable Polypropylene Copolymer for hygienic and spacious waste disposal in homes, offices, kitchens, and commercial spaces.",
+
+        "model": "pwe25(slro)",
+        "color": ["  blue ", "  green ", "  yellow ", "  black ", "  red ",],
+
+
+        "excerpt": "The 25 L Swing Lid Round Dustbin provides a hygienic and spacious waste disposal solution with durable polypropylene construction and a convenient swing lid mechanism.",
+
+        "description": [
+          {
+            "type": "h2",
+            "text": "25 L Swing Lid Round Dustbin – Spacious Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 25 L Swing Lid Round Dustbin is designed to offer a convenient, hygienic, and spacious waste management solution for homes, offices, commercial spaces, and institutional environments."
+          },
+          {
+            "type": "p",
+            "text": "Constructed with high-quality Polypropylene Copolymer, the dustbin is durable, lightweight, and resistant to wear and tear, ensuring long-lasting use."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows effortless disposal of waste without the need to lift the lid, promoting hygienic waste handling and reducing odor spread."
+          },
+          {
+            "type": "p",
+            "text": "Its round shape makes it easy to place in corners or open spaces while maintaining a neat and organized look."
+          },
+          {
+            "type": "p",
+            "text": "With a 25-liter capacity, this dustbin is ideal for medium to high-usage areas, reducing the need for frequent emptying while keeping the environment clean."
+          },
+
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Swing lid mechanism allows easy, one-touch waste disposal.",
+              "Made from durable Polypropylene Copolymer for long-lasting performance.",
+              "Covered lid design promotes hygienic waste handling.",
+              "Helps reduce odor spread and keeps waste concealed.",
+              "Spacious 25-liter capacity suitable for medium to high-traffic areas.",
+              "Round shape design for easy placement near walls, corners, or counters."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Extensive expertise in manufacturing reliable plastic utility products.",
+              "Use of premium quality materials for durability and strength.",
+              "Functional designs combining practicality and modern aesthetics.",
+              "Long-lasting products engineered for everyday use.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products."
+            ]
+          }
+        ],
+
+
+
+        "image": [
+          {
+            "src": "/product/20lswing.webp",
+            "alt": "25 L Swing Lid Round Dustbin Front View"
+          }
+        ]
+      },
+
+      // 4
+
+      {
+        "id": "40l-swing-lid-round-dustbin",
+        "name": "40 L Swing Lid Round Dustbin",
+        "metaTitle": "40 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 40 L Swing Lid Round Dustbin designed for hygienic and large-capacity waste disposal in homes, offices, commercial spaces, and industrial environments.",
+
+        "model": "pwe40(slro)",
+        "color": ["  blue ", "  green ", "  yellow ", "  black ", "  red ",],
+
+
+
+        "excerpt": "The 40 L Swing Lid Round Dustbin offers a large-capacity and hygienic waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
+
+        "description": [
+          {
+            "type": "h2",
+            "text": "40 L Swing Lid Round Dustbin – Large Capacity Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 40 L Swing Lid Round Dustbin is designed to provide a large-capacity, hygienic, and durable waste disposal solution for homes, offices, commercial spaces, and industrial environments."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality, durable plastic, this dustbin is resistant to daily wear, impact, and cracking, ensuring long-term use."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows for easy, touch-free waste disposal, promoting hygiene and preventing the spread of odours."
+          },
+          {
+            "type": "p",
+            "text": "Its round shape ensures space-efficient placement in corners, kitchens, corridors, or open areas while maintaining a neat and organised environment."
+          },
+          {
+            "type": "p",
+            "text": "With a 40-litre capacity, this dustbin is suitable for medium to high-traffic areas, reducing the frequency of emptying and making waste management more efficient."
+          },
+
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Swing lid mechanism for easy and hygienic waste disposal.",
+              "Strong plastic construction resistant to cracking and impact.",
+              "Covered lid design helps conceal waste and reduce odour spread.",
+              "Large 40-litre capacity suitable for medium to high-traffic areas.",
+              "Round design allows space-efficient placement in corners or open spaces."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Renowned manufacturer of reliable plastic utility products.",
+              "Use of premium-grade plastic materials for durability.",
+              "Practical designs combining functionality with modern aesthetics.",
+              "Products engineered for long-lasting performance.",
+              "Cost-effective solutions providing excellent value for customers."
+            ]
+          }
+        ],
+
+
+
+        "image": [
+          {
+            "src": "/product/40ltrswing.webp",
+            "alt": "40 L Swing Lid Round Dustbin Front View"
+          }
+        ]
+      },
 
 
       // rh
-     {
+      {
         id: "10l-blue-plastic-garbage-bin",
         name: "10L Blue Plastic Garbage Bin",
         metaTitle: "10L Blue Plastic Garbage Bin Manufacturer | PolyWell",
@@ -3566,7 +3566,7 @@ export const categories = [
           },
         ],
 
-     
+
 
         image: [
           {
@@ -3585,9 +3585,9 @@ export const categories = [
         metaDescription:
           "Buy Bins On Stands (Roto) for safe biomedical waste collection. Durable yellow plastic bin for hygienic and organized waste disposal.",
 
-          "model":"generic",
-          "size":["  size available  ","  60 ltr",  "  100 ltr", "  150 ltr"],
-          "color":["  blue","  green",],
+        "model": "generic",
+        "size": ["  size available  ", "  60 ltr", "  100 ltr", "  150 ltr"],
+        "color": ["  blue", "  green",],
         excerpt:
           "The Bins On Stands (Roto) is designed for safe collection and temporary storage of biomedical and segregated waste.",
 
@@ -3741,7 +3741,7 @@ export const categories = [
           },
         ],
 
-      
+
 
         image: [
           {
@@ -3752,7 +3752,7 @@ export const categories = [
       },
 
       // 4 done
-    
+
 
       // 5
 
@@ -3761,17 +3761,17 @@ export const categories = [
 
 
 
-// 7
+      // 7
 
 
 
 
-// 8
+      // 8
 
 
 
-// 9
-   // 10 done
+      // 9
+      // 10 done
       {
         id: "1100l-pedal-garbage-bin",
         name: "1100L Pedal Garbage Bins",
@@ -3879,467 +3879,467 @@ export const categories = [
   // swachh bharat range
 
 
-{
-   id: "swacch-bharat-range-bin",
+  {
+    id: "swacch-bharat-range-bin",
     name: "Swach Bharat Range Bin",
     metaTitle: "Swach Bharat Range Bin Manufacturer | Durable Waste Management Bins",
-metaDescription:
-  "Swach Bharat Range Bin Manufacturer – High-quality plastic waste management bins designed for public places, offices, and municipal use. Durable, hygienic, and ideal for maintaining cleanliness under Swachh Bharat initiatives.",
+    metaDescription:
+      "Swach Bharat Range Bin Manufacturer – High-quality plastic waste management bins designed for public places, offices, and municipal use. Durable, hygienic, and ideal for maintaining cleanliness under Swachh Bharat initiatives.",
 
-      products:[
+    products: [
 
-        // 1
+      // 1
 
-{
-  "id": "10l-round-container",
-  "name": "10 Litre Round Container",
-  "metaTitle": "10 Litre Round Plastic Container Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 Litre Round Plastic Container designed for versatile storage in homes, kitchens, offices, and commercial spaces. Durable and lightweight container for multipurpose use.",
+      {
+        "id": "10l-round-container",
+        "name": "10 Litre Round Container",
+        "metaTitle": "10 Litre Round Plastic Container Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 10 Litre Round Plastic Container designed for versatile storage in homes, kitchens, offices, and commercial spaces. Durable and lightweight container for multipurpose use.",
 
-  "model": "generic",
-   
-"color":["  blue ","  green"],
+        "model": "generic",
 
-  "excerpt": "The 10 Litre Round Container is a durable and versatile plastic storage solution suitable for homes, kitchens, offices, and commercial environments.",
+        "color": ["  blue ", "  green"],
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 Litre Round Container – Multipurpose Storage Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 Litre Round Container is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this container ensures long-lasting use and is resistant to cracks, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "Its round design makes it easy to store in cupboards, shelves, or counters while optimising space efficiency."
-    },
-    {
-      "type": "p",
-      "text": "It is ideal for storing dry goods, liquids, or miscellaneous items, making it suitable for multiple household and commercial applications."
-    },
-    {
-      "type": "p",
-      "text": "Lightweight and portable, the container is easy to carry, move, and handle, ensuring convenience during everyday use."
-    },
+        "excerpt": "The 10 Litre Round Container is a durable and versatile plastic storage solution suitable for homes, kitchens, offices, and commercial environments.",
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction for long-lasting usage.",
-        "Round shape design for space-efficient storage.",
-        "Lightweight and portable for easy handling.",
-        "Suitable for storing dry goods, liquids, or miscellaneous items.",
-        "Smooth surface for easy cleaning and maintenance.",
-        "Helps protect contents from dust, moisture, and pests.",
-        "Multipurpose usage for homes, offices, restaurants, or industrial storage."
-      ]
-    },
+        "description": [
+          {
+            "type": "h2",
+            "text": "10 Litre Round Container – Multipurpose Storage Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 10 Litre Round Container is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality, durable plastic, this container ensures long-lasting use and is resistant to cracks, impact, and daily wear."
+          },
+          {
+            "type": "p",
+            "text": "Its round design makes it easy to store in cupboards, shelves, or counters while optimising space efficiency."
+          },
+          {
+            "type": "p",
+            "text": "It is ideal for storing dry goods, liquids, or miscellaneous items, making it suitable for multiple household and commercial applications."
+          },
+          {
+            "type": "p",
+            "text": "Lightweight and portable, the container is easy to carry, move, and handle, ensuring convenience during everyday use."
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of reliable plastic utility products.",
-        "Use of high-quality materials ensuring durability and strength.",
-        "Practical and functional designs for versatile storage needs.",
-        "Products engineered for long-lasting performance.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products.",
-        "Customer-focused approach delivering practical and reliable solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Durable plastic construction for long-lasting usage.",
+              "Round shape design for space-efficient storage.",
+              "Lightweight and portable for easy handling.",
+              "Suitable for storing dry goods, liquids, or miscellaneous items.",
+              "Smooth surface for easy cleaning and maintenance.",
+              "Helps protect contents from dust, moisture, and pests.",
+              "Multipurpose usage for homes, offices, restaurants, or industrial storage."
+            ]
+          },
 
-
-
-  "image": [
-    {
-      "src": "/product/10lswachh.webp",
-      "alt": "10 Litre Round Plastic Container Front View"
-    }
-  ]
-},
-
-// 2
-
-{
-  "id": "10l-round-container-with-handle-lid",
-  "name": "10 Litre Round Container with Handle & Lid",
-  "metaTitle": "10 Litre Round Container with Handle & Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 Litre Round Container with Handle & Lid designed for secure and versatile storage in homes, kitchens, offices, and commercial spaces.",
-
-  "model": "generic",
-   
-"color":["  blue ","  green"],
-
-
-  "excerpt": "The 10 Litre Round Container with Handle & Lid is a durable and multipurpose plastic storage solution designed for secure storage and easy transportation.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 Litre Round Container with Handle & Lid – Secure Storage Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 Litre Round Container with Handle & Lid is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with high-quality, durable plastic, the container is resistant to cracks, impact, and everyday wear, ensuring long-lasting use."
-    },
-    {
-      "type": "p",
-      "text": "It features a tight-fitting lid that keeps contents secure, fresh, and protected from dust, moisture, or pests."
-    },
-    {
-      "type": "p",
-      "text": "The sturdy handle makes it easy to carry, transport, and store the container without spilling its contents."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape allows efficient stacking and storage in cupboards, shelves, or counters while optimizing available space."
-    },
-    {
-      "type": "p",
-      "text": "Ideal for storing dry goods, liquids, grains, snacks, or household items, making it a practical multipurpose storage solution."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction for long-term use.",
-        "Secure lid protects contents from dust, moisture, and pests.",
-        "Strong handle for convenient carrying and handling.",
-        "Suitable for storing dry goods, liquids, grains, snacks, or household items.",
-        "Round shape design for space-efficient stacking and storage.",
-        "Lightweight and portable for easy movement.",
-        "Smooth surface allows quick cleaning and maintenance.",
-        "Versatile for homes, kitchens, offices, restaurants, and small commercial use."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic products.",
-        "Use of premium quality materials ensuring strength and longevity.",
-        "Functional and user-friendly product designs.",
-        "Durable products built to withstand frequent usage.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products.",
-        "Customer-centric approach focused on practical everyday solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of reliable plastic utility products.",
+              "Use of high-quality materials ensuring durability and strength.",
+              "Practical and functional designs for versatile storage needs.",
+              "Products engineered for long-lasting performance.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products.",
+              "Customer-focused approach delivering practical and reliable solutions."
+            ]
+          }
+        ],
 
 
 
-  "image": [
-    {
-      "src": "/product/10lswachhwithhandle.webp",
-      "alt": "10 Litre Round Container with Handle and Lid Front View"
-    }
-  ]
-},
+        "image": [
+          {
+            "src": "/product/10lswachh.webp",
+            "alt": "10 Litre Round Plastic Container Front View"
+          }
+        ]
+      },
+
+      // 2
+
+      {
+        "id": "10l-round-container-with-handle-lid",
+        "name": "10 Litre Round Container with Handle & Lid",
+        "metaTitle": "10 Litre Round Container with Handle & Lid Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 10 Litre Round Container with Handle & Lid designed for secure and versatile storage in homes, kitchens, offices, and commercial spaces.",
+
+        "model": "generic",
+
+        "color": ["  blue ", "  green"],
 
 
-// 3
+        "excerpt": "The 10 Litre Round Container with Handle & Lid is a durable and multipurpose plastic storage solution designed for secure storage and easy transportation.",
 
-{
-  "id": "11-5l-round-dustbin-with-foot-pedal",
-  "name": "11.5 Litre Round Dustbin with Foot Pedal",
-  "metaTitle": "11.5 Litre Round Dustbin with Foot Pedal Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 11.5 Litre Round Dustbin with Foot Pedal designed for hygienic hands-free waste disposal in homes, kitchens, offices, and commercial spaces.",
+        "description": [
+          {
+            "type": "h2",
+            "text": "10 Litre Round Container with Handle & Lid – Secure Storage Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 10 Litre Round Container with Handle & Lid is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
+          },
+          {
+            "type": "p",
+            "text": "Constructed with high-quality, durable plastic, the container is resistant to cracks, impact, and everyday wear, ensuring long-lasting use."
+          },
+          {
+            "type": "p",
+            "text": "It features a tight-fitting lid that keeps contents secure, fresh, and protected from dust, moisture, or pests."
+          },
+          {
+            "type": "p",
+            "text": "The sturdy handle makes it easy to carry, transport, and store the container without spilling its contents."
+          },
+          {
+            "type": "p",
+            "text": "Its round shape allows efficient stacking and storage in cupboards, shelves, or counters while optimizing available space."
+          },
+          {
+            "type": "p",
+            "text": "Ideal for storing dry goods, liquids, grains, snacks, or household items, making it a practical multipurpose storage solution."
+          },
 
-  "model": "generic",
-   
-"color":["  blue ","  green"],
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Durable plastic construction for long-term use.",
+              "Secure lid protects contents from dust, moisture, and pests.",
+              "Strong handle for convenient carrying and handling.",
+              "Suitable for storing dry goods, liquids, grains, snacks, or household items.",
+              "Round shape design for space-efficient stacking and storage.",
+              "Lightweight and portable for easy movement.",
+              "Smooth surface allows quick cleaning and maintenance.",
+              "Versatile for homes, kitchens, offices, restaurants, and small commercial use."
+            ]
+          },
 
-
-
-  "excerpt": "The 11.5 Litre Round Dustbin with Foot Pedal provides hygienic, hands-free waste disposal with a durable plastic body and compact round design.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "11.5 Litre Round Dustbin with Foot Pedal – Hygienic Hands-Free Waste Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 11.5 Litre Round Dustbin with Foot Pedal is designed for hygienic, convenient, and hands-free waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin offers long-lasting performance and resistance to cracking, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "The foot pedal mechanism allows users to open the lid without using their hands, promoting better hygiene and reducing contact with germs."
-    },
-    {
-      "type": "p",
-      "text": "Its round and compact design fits easily into corners, under counters, or next to workstations, making it ideal for areas where cleanliness and space efficiency are important."
-    },
-    {
-      "type": "p",
-      "text": "With a capacity of 11.5 litres, the dustbin is suitable for handling daily waste while reducing the need for frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "It is suitable for residential, commercial, and institutional environments such as kitchens, bathrooms, offices, hospitals, and cafeterias."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Foot pedal mechanism for hygienic hands-free operation.",
-        "Durable plastic construction ensuring long-term reliability.",
-        "Helps maintain hygienic waste disposal by reducing hand contact.",
-        "Covered lid design helps contain unpleasant odors.",
-        "Compact round shape suitable for corners and small spaces.",
-        "Lightweight and portable for easy movement and emptying.",
-        "Smooth surface allows easy cleaning and maintenance.",
-        "Multipurpose usage for homes, offices, hospitals, hotels, and commercial spaces.",
-        "Stable and balanced base for secure everyday use."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium-grade plastic materials for strength and longevity.",
-        "Functional and practical designs focused on convenience and hygiene.",
-        "Products engineered for long-lasting performance.",
-        "Cost-effective solutions delivering excellent value.",
-        "Wide range of plastic containers, dustbins, and utility products.",
-        "Customer-focused approach ensuring reliable everyday solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of durable plastic products.",
+              "Use of premium quality materials ensuring strength and longevity.",
+              "Functional and user-friendly product designs.",
+              "Durable products built to withstand frequent usage.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products.",
+              "Customer-centric approach focused on practical everyday solutions."
+            ]
+          }
+        ],
 
 
 
-  "image": [
-    {
-      "src": "/product/11.5swachh.webp",
-      "alt": "11.5 Litre Round Dustbin with Foot Pedal Front View"
-    }
-  ]
-}
-,
+        "image": [
+          {
+            "src": "/product/10lswachhwithhandle.webp",
+            "alt": "10 Litre Round Container with Handle and Lid Front View"
+          }
+        ]
+      },
 
-// 4
 
-{
-  "id": "12l-round-dustbin-with-swing-lid",
-  "name": "12 Litre Round Dustbin with Swing Lid",
-  "metaTitle": "12 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 12 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
+      // 3
 
-  "model": "generic",
-  "color":["  blue ","  green"],
+      {
+        "id": "11-5l-round-dustbin-with-foot-pedal",
+        "name": "11.5 Litre Round Dustbin with Foot Pedal",
+        "metaTitle": "11.5 Litre Round Dustbin with Foot Pedal Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 11.5 Litre Round Dustbin with Foot Pedal designed for hygienic hands-free waste disposal in homes, kitchens, offices, and commercial spaces.",
 
-  "excerpt": "The 12 Litre Round Dustbin with Swing Lid offers hygienic and convenient waste disposal with durable plastic construction and a compact round design.",
+        "model": "generic",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "12 Litre Round Dustbin with Swing Lid – Hygienic Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 12 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, the dustbin is resistant to cracking, impact, and daily wear, ensuring long-term usability."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows easy disposal of waste without touching the lid manually, promoting better hygiene and minimising odour spread."
-    },
-    {
-      "type": "p",
-      "text": "Its compact round design fits easily under counters, in corners, or near workstations, optimising space while keeping areas tidy."
-    },
-    {
-      "type": "p",
-      "text": "With a 12-litre capacity, this dustbin is suitable for daily waste collection in medium-use areas."
-    },
-    {
-      "type": "p",
-      "text": "It is suitable for residential, commercial, and institutional environments including kitchens, bathrooms, offices, hotels, hospitals, and classrooms."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid design for convenient and hygienic waste disposal.",
-        "Durable plastic construction resistant to cracking and impact.",
-        "Covered lid helps conceal waste and reduce unpleasant odors.",
-        "Compact round shape suitable for kitchens, bathrooms, and offices.",
-        "Lightweight and portable for easy movement and emptying.",
-        "Smooth plastic surface allows quick cleaning and maintenance.",
-        "Multipurpose use for homes, offices, restaurants, hospitals, and educational institutions.",
-        "Stable base design prevents tipping during regular use."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium quality materials for strength and longevity.",
-        "Practical and user-friendly product designs.",
-        "Products engineered for long-lasting everyday performance.",
-        "Cost-effective solutions providing excellent value.",
-        "Wide range of plastic dustbins, containers, and utility products."
-      ]
-    }
-  ],
+        "color": ["  blue ", "  green"],
 
 
 
-  "image": [
-    {
-      "src": "/product/12lswachh.webp",
-      "alt": "12 Litre Round Dustbin with Swing Lid Front View"
-    }
-  ]
-},
+        "excerpt": "The 11.5 Litre Round Dustbin with Foot Pedal provides hygienic, hands-free waste disposal with a durable plastic body and compact round design.",
 
+        "description": [
+          {
+            "type": "h2",
+            "text": "11.5 Litre Round Dustbin with Foot Pedal – Hygienic Hands-Free Waste Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 11.5 Litre Round Dustbin with Foot Pedal is designed for hygienic, convenient, and hands-free waste disposal in homes, offices, kitchens, and commercial spaces."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality, durable plastic, this dustbin offers long-lasting performance and resistance to cracking, impact, and daily wear."
+          },
+          {
+            "type": "p",
+            "text": "The foot pedal mechanism allows users to open the lid without using their hands, promoting better hygiene and reducing contact with germs."
+          },
+          {
+            "type": "p",
+            "text": "Its round and compact design fits easily into corners, under counters, or next to workstations, making it ideal for areas where cleanliness and space efficiency are important."
+          },
+          {
+            "type": "p",
+            "text": "With a capacity of 11.5 litres, the dustbin is suitable for handling daily waste while reducing the need for frequent emptying."
+          },
+          {
+            "type": "p",
+            "text": "It is suitable for residential, commercial, and institutional environments such as kitchens, bathrooms, offices, hospitals, and cafeterias."
+          },
 
-// 5
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Foot pedal mechanism for hygienic hands-free operation.",
+              "Durable plastic construction ensuring long-term reliability.",
+              "Helps maintain hygienic waste disposal by reducing hand contact.",
+              "Covered lid design helps contain unpleasant odors.",
+              "Compact round shape suitable for corners and small spaces.",
+              "Lightweight and portable for easy movement and emptying.",
+              "Smooth surface allows easy cleaning and maintenance.",
+              "Multipurpose usage for homes, offices, hospitals, hotels, and commercial spaces.",
+              "Stable and balanced base for secure everyday use."
+            ]
+          },
 
-{
-  "id": "20l-round-dustbin-with-swing-lid",
-  "name": "20 Litre Round Dustbin with Swing Lid",
-  "metaTitle": "20 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 20 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
-
-  "model": "generic",
-  "color":["  blue ","  green"],
-
-  "excerpt": "The 20 Litre Round Dustbin with Swing Lid offers a hygienic and spacious waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "20 Litre Round Dustbin with Swing Lid – Efficient Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 20 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin ensures long-lasting performance and resistance to cracks, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows easy disposal of waste without touching the lid, promoting better hygiene and helping control unpleasant odours."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape and large capacity make it suitable for medium to high-traffic areas while reducing the need for frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "Ideal for residential, commercial, and institutional use including kitchens, washrooms, offices, hotels, hospitals, and schools."
-    },
-    {
-      "type": "p",
-      "text": "The design helps maintain cleanliness and organise spaces efficiently while keeping waste concealed."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism enables quick and hygienic waste disposal.",
-        "Durable plastic construction ensures long-term reliability.",
-        "Covered lid design helps contain odours and conceal waste.",
-        "Large 20 litre capacity suitable for moderate waste output areas.",
-        "Round shape design fits easily in corners, under counters, or open spaces.",
-        "Lightweight and portable for easy lifting and repositioning.",
-        "Smooth plastic surface allows quick cleaning and maintenance.",
-        "Multipurpose use for homes, offices, kitchens, hospitals, hotels, and schools.",
-        "Stable base ensures balanced placement during everyday use."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable and reliable plastic products.",
-        "Premium quality materials ensuring strength and long-lasting use.",
-        "Practical and user-friendly designs focused on hygiene and convenience.",
-        "Products engineered for long-term performance.",
-        "Cost-effective solutions offering excellent value.",
-        "Wide range of dustbins, containers, and plastic utility products.",
-        "Customer-focused approach delivering functional everyday solutions."
-      ]
-    }
-  ],
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium-grade plastic materials for strength and longevity.",
+              "Functional and practical designs focused on convenience and hygiene.",
+              "Products engineered for long-lasting performance.",
+              "Cost-effective solutions delivering excellent value.",
+              "Wide range of plastic containers, dustbins, and utility products.",
+              "Customer-focused approach ensuring reliable everyday solutions."
+            ]
+          }
+        ],
 
 
 
-  "image": [
-    {
-      "src": "/product/20lswachh.webp",
-      "alt": "20 Litre Round Dustbin with Swing Lid Front View"
-    }
-  ]
-},
-      ]
-}
-,
+        "image": [
+          {
+            "src": "/product/11.5swachh.webp",
+            "alt": "11.5 Litre Round Dustbin with Foot Pedal Front View"
+          }
+        ]
+      }
+      ,
+
+      // 4
+
+      {
+        "id": "12l-round-dustbin-with-swing-lid",
+        "name": "12 Litre Round Dustbin with Swing Lid",
+        "metaTitle": "12 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 12 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
+
+        "model": "generic",
+        "color": ["  blue ", "  green"],
+
+        "excerpt": "The 12 Litre Round Dustbin with Swing Lid offers hygienic and convenient waste disposal with durable plastic construction and a compact round design.",
+
+        "description": [
+          {
+            "type": "h2",
+            "text": "12 Litre Round Dustbin with Swing Lid – Hygienic Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 12 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality, durable plastic, the dustbin is resistant to cracking, impact, and daily wear, ensuring long-term usability."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows easy disposal of waste without touching the lid manually, promoting better hygiene and minimising odour spread."
+          },
+          {
+            "type": "p",
+            "text": "Its compact round design fits easily under counters, in corners, or near workstations, optimising space while keeping areas tidy."
+          },
+          {
+            "type": "p",
+            "text": "With a 12-litre capacity, this dustbin is suitable for daily waste collection in medium-use areas."
+          },
+          {
+            "type": "p",
+            "text": "It is suitable for residential, commercial, and institutional environments including kitchens, bathrooms, offices, hotels, hospitals, and classrooms."
+          },
+
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Swing lid design for convenient and hygienic waste disposal.",
+              "Durable plastic construction resistant to cracking and impact.",
+              "Covered lid helps conceal waste and reduce unpleasant odors.",
+              "Compact round shape suitable for kitchens, bathrooms, and offices.",
+              "Lightweight and portable for easy movement and emptying.",
+              "Smooth plastic surface allows quick cleaning and maintenance.",
+              "Multipurpose use for homes, offices, restaurants, hospitals, and educational institutions.",
+              "Stable base design prevents tipping during regular use."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium quality materials for strength and longevity.",
+              "Practical and user-friendly product designs.",
+              "Products engineered for long-lasting everyday performance.",
+              "Cost-effective solutions providing excellent value.",
+              "Wide range of plastic dustbins, containers, and utility products."
+            ]
+          }
+        ],
+
+
+
+        "image": [
+          {
+            "src": "/product/12lswachh.webp",
+            "alt": "12 Litre Round Dustbin with Swing Lid Front View"
+          }
+        ]
+      },
+
+
+      // 5
+
+      {
+        "id": "20l-round-dustbin-with-swing-lid",
+        "name": "20 Litre Round Dustbin with Swing Lid",
+        "metaTitle": "20 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
+        "metaDescription": "Buy 20 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
+
+        "model": "generic",
+        "color": ["  blue ", "  green"],
+
+        "excerpt": "The 20 Litre Round Dustbin with Swing Lid offers a hygienic and spacious waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
+
+        "description": [
+          {
+            "type": "h2",
+            "text": "20 Litre Round Dustbin with Swing Lid – Efficient Waste Management Solution"
+          },
+          {
+            "type": "p",
+            "text": "The 20 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
+          },
+          {
+            "type": "p",
+            "text": "Made from high-quality, durable plastic, this dustbin ensures long-lasting performance and resistance to cracks, impact, and daily wear."
+          },
+          {
+            "type": "p",
+            "text": "The swing lid mechanism allows easy disposal of waste without touching the lid, promoting better hygiene and helping control unpleasant odours."
+          },
+          {
+            "type": "p",
+            "text": "Its round shape and large capacity make it suitable for medium to high-traffic areas while reducing the need for frequent emptying."
+          },
+          {
+            "type": "p",
+            "text": "Ideal for residential, commercial, and institutional use including kitchens, washrooms, offices, hotels, hospitals, and schools."
+          },
+          {
+            "type": "p",
+            "text": "The design helps maintain cleanliness and organise spaces efficiently while keeping waste concealed."
+          },
+
+          {
+            "type": "h2",
+            "text": "Key Features"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Swing lid mechanism enables quick and hygienic waste disposal.",
+              "Durable plastic construction ensures long-term reliability.",
+              "Covered lid design helps contain odours and conceal waste.",
+              "Large 20 litre capacity suitable for moderate waste output areas.",
+              "Round shape design fits easily in corners, under counters, or open spaces.",
+              "Lightweight and portable for easy lifting and repositioning.",
+              "Smooth plastic surface allows quick cleaning and maintenance.",
+              "Multipurpose use for homes, offices, kitchens, hospitals, hotels, and schools.",
+              "Stable base ensures balanced placement during everyday use."
+            ]
+          },
+
+          {
+            "type": "h2",
+            "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Trusted manufacturer of durable and reliable plastic products.",
+              "Premium quality materials ensuring strength and long-lasting use.",
+              "Practical and user-friendly designs focused on hygiene and convenience.",
+              "Products engineered for long-term performance.",
+              "Cost-effective solutions offering excellent value.",
+              "Wide range of dustbins, containers, and plastic utility products.",
+              "Customer-focused approach delivering functional everyday solutions."
+            ]
+          }
+        ],
+
+
+
+        "image": [
+          {
+            "src": "/product/20lswachh.webp",
+            "alt": "20 Litre Round Dustbin with Swing Lid Front View"
+          }
+        ]
+      },
+    ]
+  }
+  ,
 
 
 
@@ -4354,7 +4354,7 @@ metaDescription:
 
     products: [
       // product 1
-    
+
 
       // product 2 done
       {
@@ -4363,8 +4363,8 @@ metaDescription:
         metaTitle: "15L Plastic Pedal Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 15L Plastic Pedal Dustbin in Yellow. Durable, hygienic, and hands-free waste disposal solution for offices, hospitals, and commercial spaces. Bulk orders available.",
-"model" :"pw15p",
-"color":["  red","  yellow","  black"],
+        "model": "pw15p",
+        "color": ["  red", "  yellow", "  black"],
         excerpt:
           "The 15L Plastic Pedal Dustbin is designed for hygienic, hands-free waste disposal in offices, hospitals, clinics, and commercial spaces with durable premium plastic construction.",
 
@@ -4469,11 +4469,7 @@ metaDescription:
           "Buy  Polywell Bio Medical Waste Bin (Roto) for hospitals and healthcare facilities. Durable, hygienic, and printed for safe biomedical waste segregation. Bulk orders available.",
 
           "model":"generic",
-
-          
-          "model":"generic",
-          "color":["  yellow"],
-          "size":["  size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,",  "  30 ltr,","  40 ltr,", "  50 ltr," , "  70 ltr," ,"  90 ltr," ,"  100 ltr"],
+          "size":["  size available  ","  10 ltr", "  15 ltr", "  20 ltr",  "  30 ltr","  40 ltr", "  50 ltr" , "  70 ltr" ,"  90 ltr" ,"  100 ltr"],
         excerpt:
           "The  Polywell Bio Medical Waste Bin (Roto) is designed for safe and hygienic disposal of biomedical waste in hospitals, clinics, and laboratories with printed segregation markings.",
 
@@ -4498,7 +4494,7 @@ metaDescription:
             type: "ul",
             items: [
               "Designed for safe biomedical and hazardous waste disposal.",
-          
+
               "Made from premium-grade durable plastic.",
               "Printed markings for proper waste segregation.",
               "Professional design suitable for healthcare environments.",
@@ -4536,14 +4532,14 @@ metaDescription:
           },
         ],
 
-     
+
 
         image: [
           {
             src: "/product/add1.webp",
             alt: " Polywell Bio Medical Waste Bin Front View",
           },
-       
+
         ],
       },
 
@@ -4558,11 +4554,7 @@ metaDescription:
           "Buy  Biomedical Waste Bin (Roto) with foot pedal for hygienic and hands-free disposal in hospitals and clinics. Durable plastic construction with compact design. Bulk orders available.",
 
           "model":"generic",
-          
-          "model":"generic",
-          "color":["  blue"],
-
-          "size":["size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,", "  25 ltr,", "  30 ltr,","  40 ltr,", "  50 ltr," , "  60 ltr," , "  70 ltr," , "  100 ltr"],
+          "size":["size available","10 ltr", "15 ltr", "20 ltr", "25 ltr", "30 ltr","40 ltr", "50 ltr" , "60 ltr" , "70 ltr" , "100 ltr"],
         excerpt:
           "The Biomedical Waste Bin (Roto) is designed for hygienic, hands-free disposal of biomedical waste in hospitals, clinics, and laboratories with durable plastic construction.",
 
@@ -4587,7 +4579,7 @@ metaDescription:
             type: "ul",
             items: [
               "Hands-free waste disposal with foot pedal operation.",
-            
+
               "Durable premium-grade plastic construction.",
               "Plain professional design for clinical environments.",
               "Ergonomic and safe usage for healthcare staff.",
@@ -4626,14 +4618,14 @@ metaDescription:
           },
         ],
 
-     
+
 
         image: [
           {
             src: "/product/10L Polywell Bio Medical Waste Bins/5.webp",
             alt: "10L Biomedical Waste Bin Front View",
           },
-      
+
         ],
       },
 
@@ -5056,11 +5048,11 @@ metaDescription:
 
 
 
-  
 
- 
 
- 
+
+
+
 
 
 
@@ -5582,7 +5574,7 @@ metaDescription:
         metaDescription:
           "Buy 160mm Four Way Roto Molded Plastic Pallet for industrial storage and logistics operations. Durable plastic pallet with four-way forklift entry.",
 
-"model":"pw-001",
+        "model": "pw-001",
 
         excerpt:
           "The 160mm Four Way Roto Molded Plastic Pallet is designed for industrial storage and logistics operations with durable roto-molded plastic construction.",
@@ -5668,7 +5660,7 @@ metaDescription:
         ],
       },
 
-  
+
 
       // 3 dome
       {
@@ -5680,8 +5672,8 @@ metaDescription:
 
         excerpt:
           "The 150mm Auto Paper Industry Pallet is designed for handling, stacking, and transporting paper rolls and packaging materials in industrial environments.",
-"model":"pw-024",
-          
+        "model": "pw-024",
+
         description: [
           {
             type: "h2",
@@ -5766,8 +5758,8 @@ metaDescription:
         metaTitle: "160mm Plastic Roto Moulding Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 160mm Plastic Roto Moulding Pallet for industrial storage of non-edible materials. Durable roto-moulded plastic pallet for warehouse and logistics use.",
-"model":"pw-002",
-          
+        "model": "pw-002",
+
 
         excerpt:
           "The 160mm Plastic Roto Moulding Pallet is designed for organized storage and handling of non-edible materials in industrial and warehouse environments.",
@@ -8247,181 +8239,104 @@ metaDescription:
 
 // cities
 export const serviceLocations = [
-  {
-    href: "/plastic-dustbin-manufacturer-in-delhi-NCR",
-    label: "Delhi NCR",
-    id: 1,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-bhiwadi",
-    label: "Bhiwadi",
-    id: 2,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-bihar",
-    label: "Bihar",
-    id: 3,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-chhattisgarh",
-    label: "Chhattisgarh",
-    id: 4,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-dehradun",
-    label: "Dehradun",
-    id: 5,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-gandhi-nagar",
-    label: "Gandhi Nagar",
-    id: 6,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-goa",
-    label: "Goa",
-    id: 7,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-greater-noida",
-    label: "Greater Noida",
-    id: 8,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-gujarat",
-    label: "Gujarat",
-    id: 9,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-gwalior",
-    label: "Gwalior",
-    id: 10,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-himachal-pradesh",
-    label: "Himachal Pradesh",
-    id: 11,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-jammu-kashmir",
-    label: "Jammu & Kashmir",
-    id: 12,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-jharkhand",
-    label: "Jharkhand",
-    id: 13,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-karnataka",
-    label: "Karnataka",
-    id: 14,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-kerala",
-    label: "Kerala",
-    id: 15,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-kundli",
-    label: "Kundli",
-    id: 16,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-leh",
-    label: "Leh",
-    id: 17,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-madhya-pradesh",
-    label: "Madhya Pradesh",
-    id: 18,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-manali",
-    label: "Manali",
-    id: 19,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-manesar",
-    label: "Manesar",
-    id: 20,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-mathura",
-    label: "Mathura",
-    id: 21,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-meerut",
-    label: "Meerut",
-    id: 22,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-odisha",
-    label: "Odisha",
-    id: 23,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-panipat",
-    label: "Panipat",
-    id: 24,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-patna",
-    label: "Patna",
-    id: 25,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-rohtak",
-    label: "Rohtak",
-    id: 26,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-roorkee",
-    label: "Roorkee",
-    id: 27,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-shimla",
-    label: "Shimla",
-    id: 28,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-sikkim",
-    label: "Sikkim",
-    id: 29,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-sonipat",
-    label: "Sonipat",
-    id: 30,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-srinagar",
-    label: "Srinagar",
-    id: 31,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-tamil-nadu",
-    label: "Tamil Nadu",
-    id: 32,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-telangana",
-    label: "Telangana",
-    id: 33,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-thiruvananthapuram",
-    label: "Thiruvananthapuram",
-    id: 34,
-  },
-  {
-    href: "/plastic-dustbin-manufacturer-in-west-bengal",
-    label: "West Bengal",
-    id: 35,
-  },
-
-
+  { href: "/plastic-dustbin-manufacturer-in-delhi", label: "Delhi", id: 1 },
+  { href: "/plastic-dustbin-manufacturer-in-mumbai", label: "Mumbai", id: 2 },
+  { href: "/plastic-dustbin-manufacturer-in-kolkata", label: "Kolkata", id: 3 },
+  { href: "/plastic-dustbin-manufacturer-in-chennai", label: "Chennai", id: 4 },
+  { href: "/plastic-dustbin-manufacturer-in-bangalore", label: "Bangalore", id: 5 },
+  { href: "/plastic-dustbin-manufacturer-in-hyderabad", label: "Hyderabad", id: 6 },
+  { href: "/plastic-dustbin-manufacturer-in-pune", label: "Pune", id: 7 },
+  { href: "/plastic-dustbin-manufacturer-in-ahmedabad", label: "Ahmedabad", id: 8 },
+  { href: "/plastic-dustbin-manufacturer-in-jaipur", label: "Jaipur", id: 9 },
+  { href: "/plastic-dustbin-manufacturer-in-lucknow", label: "Lucknow", id: 10 },
+  { href: "/plastic-dustbin-manufacturer-in-surat", label: "Surat", id: 11 },
+  { href: "/plastic-dustbin-manufacturer-in-kanpur", label: "Kanpur", id: 12 },
+  { href: "/plastic-dustbin-manufacturer-in-nagpur", label: "Nagpur", id: 13 },
+  { href: "/plastic-dustbin-manufacturer-in-indore", label: "Indore", id: 14 },
+  { href: "/plastic-dustbin-manufacturer-in-thane", label: "Thane", id: 15 },
+  { href: "/plastic-dustbin-manufacturer-in-bhopal", label: "Bhopal", id: 16 },
+  { href: "/plastic-dustbin-manufacturer-in-visakhapatnam", label: "Visakhapatnam", id: 17 },
+  { href: "/plastic-dustbin-manufacturer-in-pimpri-chinchwad", label: "Pimpri-Chinchwad", id: 18 },
+  { href: "/plastic-dustbin-manufacturer-in-patna", label: "Patna", id: 19 },
+  { href: "/plastic-dustbin-manufacturer-in-vadodara", label: "Vadodara", id: 20 },
+  { href: "/plastic-dustbin-manufacturer-in-ghaziabad", label: "Ghaziabad", id: 21 },
+  { href: "/plastic-dustbin-manufacturer-in-ludhiana", label: "Ludhiana", id: 22 },
+  { href: "/plastic-dustbin-manufacturer-in-agra", label: "Agra", id: 23 },
+  { href: "/plastic-dustbin-manufacturer-in-nashik", label: "Nashik", id: 24 },
+  { href: "/plastic-dustbin-manufacturer-in-faridabad", label: "Faridabad", id: 25 },
+  { href: "/plastic-dustbin-manufacturer-in-meerut", label: "Meerut", id: 26 },
+  { href: "/plastic-dustbin-manufacturer-in-rajkot", label: "Rajkot", id: 27 },
+  { href: "/plastic-dustbin-manufacturer-in-kalyan-dombivli", label: "Kalyan-Dombivli", id: 28 },
+  { href: "/plastic-dustbin-manufacturer-in-vasai-virar", label: "Vasai-Virar", id: 29 },
+  { href: "/plastic-dustbin-manufacturer-in-varanasi", label: "Varanasi", id: 30 },
+  { href: "/plastic-dustbin-manufacturer-in-srinagar", label: "Srinagar", id: 31 },
+  { href: "/plastic-dustbin-manufacturer-in-aurangabad", label: "Aurangabad", id: 32 },
+  { href: "/plastic-dustbin-manufacturer-in-dhanbad", label: "Dhanbad", id: 33 },
+  { href: "/plastic-dustbin-manufacturer-in-amritsar", label: "Amritsar", id: 34 },
+  { href: "/plastic-dustbin-manufacturer-in-navi-mumbai", label: "Navi Mumbai", id: 35 },
+  { href: "/plastic-dustbin-manufacturer-in-prayagraj", label: "Allahabad (Prayagraj)", id: 36 },
+  { href: "/plastic-dustbin-manufacturer-in-howrah", label: "Howrah", id: 37 },
+  { href: "/plastic-dustbin-manufacturer-in-ranchi", label: "Ranchi", id: 38 },
+  { href: "/plastic-dustbin-manufacturer-in-gwalior", label: "Gwalior", id: 39 },
+  { href: "/plastic-dustbin-manufacturer-in-jabalpur", label: "Jabalpur", id: 40 },
+  { href: "/plastic-dustbin-manufacturer-in-coimbatore", label: "Coimbatore", id: 41 },
+  { href: "/plastic-dustbin-manufacturer-in-vijayawada", label: "Vijayawada", id: 42 },
+  { href: "/plastic-dustbin-manufacturer-in-jodhpur", label: "Jodhpur", id: 43 },
+  { href: "/plastic-dustbin-manufacturer-in-madurai", label: "Madurai", id: 44 },
+  { href: "/plastic-dustbin-manufacturer-in-raipur", label: "Raipur", id: 45 },
+  { href: "/plastic-dustbin-manufacturer-in-kota", label: "Kota", id: 46 },
+  { href: "/plastic-dustbin-manufacturer-in-guwahati", label: "Guwahati", id: 47 },
+  { href: "/plastic-dustbin-manufacturer-in-chandigarh", label: "Chandigarh", id: 48 },
+  { href: "/plastic-dustbin-manufacturer-in-solapur", label: "Solapur", id: 49 },
+  { href: "/plastic-dustbin-manufacturer-in-hubli-dharwad", label: "Hubli-Dharwad", id: 50 },
+  { href: "/plastic-dustbin-manufacturer-in-mysore", label: "Mysore", id: 51 },
+  { href: "/plastic-dustbin-manufacturer-in-bareilly", label: "Bareilly", id: 52 },
+  { href: "/plastic-dustbin-manufacturer-in-moradabad", label: "Moradabad", id: 53 },
+  { href: "/plastic-dustbin-manufacturer-in-gurgaon", label: "Gurgaon", id: 54 },
+  { href: "/plastic-dustbin-manufacturer-in-aligarh", label: "Aligarh", id: 55 },
+  { href: "/plastic-dustbin-manufacturer-in-jalandhar", label: "Jalandhar", id: 56 },
+  { href: "/plastic-dustbin-manufacturer-in-tiruchirappalli", label: "Tiruchirappalli", id: 57 },
+  { href: "/plastic-dustbin-manufacturer-in-bhubaneswar", label: "Bhubaneswar", id: 58 },
+  { href: "/plastic-dustbin-manufacturer-in-salem", label: "Salem", id: 59 },
+  { href: "/plastic-dustbin-manufacturer-in-mira-bhayandar", label: "Mira-Bhayandar", id: 60 },
+  { href: "/plastic-dustbin-manufacturer-in-thiruvananthapuram", label: "Thiruvananthapuram", id: 61 },
+  { href: "/plastic-dustbin-manufacturer-in-bhiwandi", label: "Bhiwandi", id: 62 },
+  { href: "/plastic-dustbin-manufacturer-in-saharanpur", label: "Saharanpur", id: 63 },
+  { href: "/plastic-dustbin-manufacturer-in-gorakhpur", label: "Gorakhpur", id: 64 },
+  { href: "/plastic-dustbin-manufacturer-in-bikaner", label: "Bikaner", id: 65 },
+  { href: "/plastic-dustbin-manufacturer-in-amravati", label: "Amravati", id: 66 },
+  { href: "/plastic-dustbin-manufacturer-in-noida", label: "Noida", id: 67 },
+  { href: "/plastic-dustbin-manufacturer-in-jamshedpur", label: "Jamshedpur", id: 68 },
+  { href: "/plastic-dustbin-manufacturer-in-bhilai", label: "Bhilai", id: 69 },
+  { href: "/plastic-dustbin-manufacturer-in-cuttack", label: "Cuttack", id: 70 },
+  { href: "/plastic-dustbin-manufacturer-in-firozabad", label: "Firozabad", id: 71 },
+  { href: "/plastic-dustbin-manufacturer-in-kochi", label: "Kochi", id: 72 },
+  { href: "/plastic-dustbin-manufacturer-in-bhavnagar", label: "Bhavnagar", id: 73 },
+  { href: "/plastic-dustbin-manufacturer-in-dehradun", label: "Dehradun", id: 74 },
+  { href: "/plastic-dustbin-manufacturer-in-durgapur", label: "Durgapur", id: 75 },
+  { href: "/plastic-dustbin-manufacturer-in-asansol", label: "Asansol", id: 76 },
+  { href: "/plastic-dustbin-manufacturer-in-nanded", label: "Nanded", id: 77 },
+  { href: "/plastic-dustbin-manufacturer-in-kolhapur", label: "Kolhapur", id: 78 },
+  { href: "/plastic-dustbin-manufacturer-in-ajmer", label: "Ajmer", id: 79 },
+  { href: "/plastic-dustbin-manufacturer-in-akola", label: "Akola", id: 80 },
+  { href: "/plastic-dustbin-manufacturer-in-gulbarga", label: "Gulbarga", id: 81 },
+  { href: "/plastic-dustbin-manufacturer-in-jamnagar", label: "Jamnagar", id: 82 },
+  { href: "/plastic-dustbin-manufacturer-in-ujjain", label: "Ujjain", id: 83 },
+  { href: "/plastic-dustbin-manufacturer-in-latur", label: "Latur", id: 84 },
+  { href: "/plastic-dustbin-manufacturer-in-dhule", label: "Dhule", id: 85 },
+  { href: "/plastic-dustbin-manufacturer-in-panipat", label: "Panipat", id: 86 },
+  { href: "/plastic-dustbin-manufacturer-in-ambala", label: "Ambala", id: 87 },
+  { href: "/plastic-dustbin-manufacturer-in-tirunelveli", label: "Tirunelveli", id: 88 },
+  { href: "/plastic-dustbin-manufacturer-in-alwar", label: "Alwar", id: 89 },
+  { href: "/plastic-dustbin-manufacturer-in-jagraon", label: "Jagraon", id: 90 },
+  { href: "/plastic-dustbin-manufacturer-in-siliguri", label: "Siliguri", id: 91 },
+  { href: "/plastic-dustbin-manufacturer-in-muzaffarpur", label: "Muzaffarpur", id: 92 },
+  { href: "/plastic-dustbin-manufacturer-in-guntur", label: "Guntur", id: 93 },
+  { href: "/plastic-dustbin-manufacturer-in-warangal", label: "Warangal", id: 94 },
+  { href: "/plastic-dustbin-manufacturer-in-jhansi", label: "Jhansi", id: 95 },
+  { href: "/plastic-dustbin-manufacturer-in-satara", label: "Satara", id: 96 },
+  { href: "/plastic-dustbin-manufacturer-in-karnal", label: "Karnal", id: 97 },
+  { href: "/plastic-dustbin-manufacturer-in-shimla", label: "Shimla", id: 98 },
+  { href: "/plastic-dustbin-manufacturer-in-anand", label: "Anand", id: 99 },
+  { href: "/plastic-dustbin-manufacturer-in-rewari", label: "Rewari", id: 100 }
 ];
