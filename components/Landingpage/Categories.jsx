@@ -31,19 +31,14 @@ const slides = [
     link: "/categories/pedal-dustbin",
   },
   {
-    src: "/product/660L Bio Bins/2.webp",
+    src: "/product/biobin/20ltr bio bin 2.webp",
     alt: "Bio Bins",
     cat: "Bio Bins ",
     link: "/categories/bio-bins",
   },
 
 
-  {
-    src: "/product/10L Blue Plastic Garbage Bin/1.webp",
-    alt: "Waste Bins",
-    cat: "Waste Bins ",
-    link: "/categories/waste-bin",
-  },
+
 
     {
     src: "/product/new plastic dustbin products/100L Public Litter Bins/1.webp",
