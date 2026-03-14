@@ -4354,7 +4354,109 @@ metaDescription:
 
     products: [
       // product 1
-    
+      {
+        id: "10l-plastic-pedal-bin",
+        name: "10L Plastic Pedal Bin",
+        metaTitle: "10L Plastic Pedal Bin Manufacturer | PolyWell",
+        metaDescription:
+          "Buy 10L Plastic Pedal Bin for hygienic hands-free waste disposal in hospitals, offices, hotels, and malls. Durable square design with foot pedal. Bulk orders available.",
+
+
+          "model":"generic",
+          "color":["  blue","  red","  yellow","  black"],
+        excerpt:
+          "The 10L Plastic Pedal Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces with durable plastic construction.",
+
+        description: [
+          {
+            type: "h2",
+            text: "10L Plastic Pedal Bin – Hygienic Hands-Free Waste Solution",
+          },
+          {
+            type: "p",
+            text: "The 10L Plastic Pedal Bin is designed for safe, touch-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces. It ensures hygienic waste management in environments where cleanliness and user convenience are essential.",
+          },
+          {
+            type: "p",
+            text: "With a 10-litre capacity, this pedal bin is ideal for medium-volume waste generation in professional and public environments. Manufactured using premium-grade plastic, it offers durability and resistance to cracks, moisture, and daily wear.",
+          },
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Hands-free waste disposal with foot pedal operation.",
+              "10L capacity suitable for daily use.",
+              "Durable premium-grade plastic construction.",
+              "Square shape for better space utilization.",
+              "Smooth pedal mechanism for safe lid operation.",
+              "Suitable for hospitals, offices, hotels, and malls.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Foot pedal operation reduces contamination risk.",
+              "Optimal capacity for commercial and healthcare use.",
+              "High-quality plastic for long-term durability.",
+              "Smooth surface for easy cleaning and sanitation.",
+              "Custom printing options available.",
+              "Stable square design to prevent tipping.",
+              "Versatile use in public and professional spaces.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
+              "Hospital-grade pedal bins meeting hygiene standards.",
+              "Expertise in ergonomic foot pedal bins.",
+              "Customization options with bulk order supply available.",
+              "Eco-friendly recyclable premium-quality plastic.",
+              "Reliable customer support with timely delivery.",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Capacity", value: "10 Litres" },
+          { label: "Usage Area", value: "Office, Hospital, Hotel, Mall" },
+          { label: "Material", value: "Plastic" },
+          { label: "Usage/Application", value: "Hospital" },
+          { label: "Structure", value: "Foot Pedal" },
+          { label: "Brand", value: "PolyWell" },
+          { label: "Shape", value: "Square" },
+          { label: "Printing", value: "Plain, Printed, Logo Print" },
+        ],
+
+        image: [
+          {
+            src: "/product/15L Plastic Pedal Bin/1.webp",
+            alt: "15L Plastic Pedal Bin Front View",
+          },
+          {
+            src: "/product/15L Plastic Pedal Bin/2.webp",
+            alt: "15L Plastic Pedal Bin Side View",
+          },
+          {
+            src: "/product/15L Plastic Pedal Bin/3.webp",
+            alt: "15L Plastic Pedal Bin Foot Pedal",
+          },
+        ],
+      },
+
+
+      
 
       // product 2 done
       {
@@ -4460,6 +4562,213 @@ metaDescription:
         ],
       },
 
+
+
+   {
+        id: "30l-bio-bin",
+        name: "30L Bio Bin",
+        metaTitle: "30L Bio Bin Manufacturer | PolyWell",
+        metaDescription:
+          "Buy 30L Bio Bin with foot pedal for hygienic and hands-free waste disposal in hospitals, offices, and commercial spaces. Durable plastic construction. Bulk orders available.",
+
+
+          
+          "model":"generic",
+         "color":["  red","  yellow","  blue","  green","  black","  white"],
+        excerpt:
+          "The 30L Bio Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, and commercial facilities with durable plastic construction.",
+
+        description: [
+          {
+            type: "h2",
+            text: "30L Bio Bin – Hygienic Hands-Free Waste Solution",
+          },
+          {
+            type: "p",
+            text: "The 30L Bio Bin is designed with a foot pedal for hygienic, hands-free waste disposal in hospitals, clinics, offices, and commercial spaces. It ensures safe and efficient waste management in environments where cleanliness and hygiene are essential.",
+          },
+          {
+            type: "p",
+            text: "With a 30-litre capacity, this bin is ideal for medium to high-volume waste disposal in busy healthcare and commercial facilities. Manufactured using premium-grade plastic, it provides durability, impact resistance, and long-term performance for daily use.",
+          },
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Hands-free waste disposal with foot pedal operation.",
+              "30L capacity suitable for medium to high waste volumes.",
+              "Durable premium-grade plastic construction.",
+              "Ergonomic design for safe and convenient use.",
+              "Plain professional design for commercial use.",
+              "Suitable for hospitals, offices, and clinics.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Medium-high capacity for commercial and healthcare facilities.",
+              "High-quality impact-resistant plastic.",
+              "Smooth surface for easy cleaning and sanitation.",
+              "Foot pedal operation reduces contamination risk.",
+              "Compact yet functional design.",
+              "Versatile application in hospitals and offices.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
+              "Expertise in ergonomic foot pedal bins.",
+              "Healthcare and commercial waste management solutions.",
+              "Customization options with bulk order supply available.",
+              "Eco-friendly recyclable premium-quality plastic.",
+              "Reliable customer support with timely delivery.",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Capacity", value: "30 Litres" },
+          { label: "Material", value: "Plastic" },
+          { label: "Structure", value: "Foot Pedal" },
+          { label: "Pattern", value: "Plain" },
+          { label: "Usage/Application", value: "Commercial" },
+          { label: "Brand", value: "PolyWell" },
+        ],
+
+        image: [
+
+             {
+            src: "/product/biobin/30L bio bin 1.webp",
+            alt: "30L Bio Bin Commercial Use",
+          },
+       
+          {
+            src: "/product/biobin/30L bio bin 2.webp",
+            alt: "30L Bio Bin Side View",
+          },
+          {
+            src: "/product/biobin/30L bio bin 3.webp",
+            alt: "30L Bio Bin Foot Pedal",
+          },
+             {
+            src: "/product/biobin/30L bio bin 6.webp",
+            alt: "30L Bio Bin Front View",
+          },
+       
+        ],
+      },
+
+
+      // 4
+
+           {
+        id: "50l-bio-bin",
+        name: "50L Bio Bin",
+        metaTitle: "50L Bio Bin Manufacturer | PolyWell",
+        metaDescription:
+          "Buy 50L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
+
+          "model":"generic",
+          "color":["  white"],
+        excerpt:
+          "The 50L Bio Bin is designed for safe and hygienic biomedical waste disposal in hospitals and healthcare facilities with durable plastic construction.",
+
+        description: [
+          {
+            type: "h2",
+            text: "50L Bio Bin – Hygienic Biomedical Waste Solution",
+          },
+          {
+            type: "p",
+            text: "The 50L Bio Bin is designed specifically for hospitals and healthcare facilities to ensure clean, safe, and organized waste disposal. It supports efficient biomedical waste management in environments where hygiene and compliance are critical.",
+          },
+          {
+            type: "p",
+            text: "With a 50-litre capacity, this bin is suitable for patient rooms, OPDs, laboratories, and nursing stations. Manufactured using premium-grade plastic, it offers durability and long-lasting performance in daily hospital use.",
+          },
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+          {
+            type: "ul",
+            items: [
+              "Designed for hygienic biomedical waste disposal.",
+              "50L capacity suitable for healthcare environments.",
+              "Durable premium-grade plastic construction.",
+              "Covered lid design to reduce contamination.",
+              "White finish for professional hospital appearance.",
+              "Suitable for hospitals, OPDs, and laboratories.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Optimal capacity for biomedical waste management.",
+              "Strong plastic body for long-term durability.",
+              "Hygienic lid closure for safe waste containment.",
+              "Stable stationary design without wheels.",
+              "Smooth surface for easy cleaning and sanitation.",
+              "Designed for hospital-specific use.",
+              "Made in India with quality standards.",
+            ],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
+              "Hospital-grade bio bins meeting hygiene standards.",
+              "Complete waste management solutions provider.",
+              "Customization options with bulk order supply available.",
+              "Eco-friendly recyclable premium-quality plastic.",
+              "Strict quality assurance and durability testing.",
+              "Reliable customer support with timely delivery.",
+            ],
+          },
+        ],
+
+        specs: [
+          { label: "Capacity", value: "50 Litres" },
+          { label: "Material", value: "Plastic" },
+          { label: "Bin Color", value: "White" },
+          { label: "Usage Area", value: "Hospital" },
+          { label: "Brand", value: "PolyWell" },
+          { label: "Country of Origin", value: "Made in India" },
+          { label: "Wheels", value: "No" },
+          { label: "Lid", value: "Yes" },
+          { label: "Trolley", value: "No" },
+        ],
+
+        image: [
+          {
+            src: "/product/30L PP Pedal Bio Bin/30L PP Pedal Bio Bin (1).webp",
+            alt: "20L Bio Bin White Front View",
+          },
+       
+        ],
+      },
+
+      // jhu
       // 3 done
       {
         id: "polywell-bio-medical-waste-bin-roto",
@@ -4643,111 +4952,7 @@ metaDescription:
  
 
       // 9 done
-      {
-        id: "30l-bio-bin",
-        name: "30L Bio Bin",
-        metaTitle: "30L Bio Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 30L Bio Bin with foot pedal for hygienic and hands-free waste disposal in hospitals, offices, and commercial spaces. Durable plastic construction. Bulk orders available.",
-
-
-          
-          "model":"generic",
-         "color":["  red","  yellow","  blue","  green","  black","  white"],
-        excerpt:
-          "The 30L Bio Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, and commercial facilities with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "30L Bio Bin – Hygienic Hands-Free Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 30L Bio Bin is designed with a foot pedal for hygienic, hands-free waste disposal in hospitals, clinics, offices, and commercial spaces. It ensures safe and efficient waste management in environments where cleanliness and hygiene are essential.",
-          },
-          {
-            type: "p",
-            text: "With a 30-litre capacity, this bin is ideal for medium to high-volume waste disposal in busy healthcare and commercial facilities. Manufactured using premium-grade plastic, it provides durability, impact resistance, and long-term performance for daily use.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Hands-free waste disposal with foot pedal operation.",
-              "30L capacity suitable for medium to high waste volumes.",
-              "Durable premium-grade plastic construction.",
-              "Ergonomic design for safe and convenient use.",
-              "Plain professional design for commercial use.",
-              "Suitable for hospitals, offices, and clinics.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Medium-high capacity for commercial and healthcare facilities.",
-              "High-quality impact-resistant plastic.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Foot pedal operation reduces contamination risk.",
-              "Compact yet functional design.",
-              "Versatile application in hospitals and offices.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Expertise in ergonomic foot pedal bins.",
-              "Healthcare and commercial waste management solutions.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "30 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Structure", value: "Foot Pedal" },
-          { label: "Pattern", value: "Plain" },
-          { label: "Usage/Application", value: "Commercial" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-
-             {
-            src: "/product/biobin/30L bio bin 1.webp",
-            alt: "30L Bio Bin Commercial Use",
-          },
-       
-          {
-            src: "/product/biobin/30L bio bin 2.webp",
-            alt: "30L Bio Bin Side View",
-          },
-          {
-            src: "/product/biobin/30L bio bin 3.webp",
-            alt: "30L Bio Bin Foot Pedal",
-          },
-             {
-            src: "/product/biobin/30L bio bin 6.webp",
-            alt: "30L Bio Bin Front View",
-          },
-       
-        ],
-      },
+   
 
       // 10 done
       {
@@ -4851,202 +5056,10 @@ metaDescription:
    
 
       // 12 done
-      {
-        id: "50l-bio-bin",
-        name: "50L Bio Bin",
-        metaTitle: "50L Bio Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 50L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
-
-          "model":"generic",
-          "color":["  white"],
-        excerpt:
-          "The 50L Bio Bin is designed for safe and hygienic biomedical waste disposal in hospitals and healthcare facilities with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "50L Bio Bin – Hygienic Biomedical Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 50L Bio Bin is designed specifically for hospitals and healthcare facilities to ensure clean, safe, and organized waste disposal. It supports efficient biomedical waste management in environments where hygiene and compliance are critical.",
-          },
-          {
-            type: "p",
-            text: "With a 50-litre capacity, this bin is suitable for patient rooms, OPDs, laboratories, and nursing stations. Manufactured using premium-grade plastic, it offers durability and long-lasting performance in daily hospital use.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic biomedical waste disposal.",
-              "50L capacity suitable for healthcare environments.",
-              "Durable premium-grade plastic construction.",
-              "Covered lid design to reduce contamination.",
-              "White finish for professional hospital appearance.",
-              "Suitable for hospitals, OPDs, and laboratories.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Optimal capacity for biomedical waste management.",
-              "Strong plastic body for long-term durability.",
-              "Hygienic lid closure for safe waste containment.",
-              "Stable stationary design without wheels.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Designed for hospital-specific use.",
-              "Made in India with quality standards.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
-              "Hospital-grade bio bins meeting hygiene standards.",
-              "Complete waste management solutions provider.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Strict quality assurance and durability testing.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "50 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Bin Color", value: "White" },
-          { label: "Usage Area", value: "Hospital" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Country of Origin", value: "Made in India" },
-          { label: "Wheels", value: "No" },
-          { label: "Lid", value: "Yes" },
-          { label: "Trolley", value: "No" },
-        ],
-
-        image: [
-          {
-            src: "/product/30L PP Pedal Bio Bin/30L PP Pedal Bio Bin (1).webp",
-            alt: "20L Bio Bin White Front View",
-          },
-       
-        ],
-      },
+ 
 
       // 13 done
-      {
-        id: "10l-plastic-pedal-bin",
-        name: "10L Plastic Pedal Bin",
-        metaTitle: "10L Plastic Pedal Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 10L Plastic Pedal Bin for hygienic hands-free waste disposal in hospitals, offices, hotels, and malls. Durable square design with foot pedal. Bulk orders available.",
-
-
-          "model":"generic",
-          "color":["  blue","  red","  yellow","  black"],
-        excerpt:
-          "The 10L Plastic Pedal Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "10L Plastic Pedal Bin – Hygienic Hands-Free Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 10L Plastic Pedal Bin is designed for safe, touch-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces. It ensures hygienic waste management in environments where cleanliness and user convenience are essential.",
-          },
-          {
-            type: "p",
-            text: "With a 10-litre capacity, this pedal bin is ideal for medium-volume waste generation in professional and public environments. Manufactured using premium-grade plastic, it offers durability and resistance to cracks, moisture, and daily wear.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Hands-free waste disposal with foot pedal operation.",
-              "10L capacity suitable for daily use.",
-              "Durable premium-grade plastic construction.",
-              "Square shape for better space utilization.",
-              "Smooth pedal mechanism for safe lid operation.",
-              "Suitable for hospitals, offices, hotels, and malls.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Foot pedal operation reduces contamination risk.",
-              "Optimal capacity for commercial and healthcare use.",
-              "High-quality plastic for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Custom printing options available.",
-              "Stable square design to prevent tipping.",
-              "Versatile use in public and professional spaces.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
-              "Hospital-grade pedal bins meeting hygiene standards.",
-              "Expertise in ergonomic foot pedal bins.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "10 Litres" },
-          { label: "Usage Area", value: "Office, Hospital, Hotel, Mall" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Hospital" },
-          { label: "Structure", value: "Foot Pedal" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Shape", value: "Square" },
-          { label: "Printing", value: "Plain, Printed, Logo Print" },
-        ],
-
-        image: [
-          {
-            src: "/product/15L Plastic Pedal Bin/1.webp",
-            alt: "15L Plastic Pedal Bin Front View",
-          },
-          {
-            src: "/product/15L Plastic Pedal Bin/2.webp",
-            alt: "15L Plastic Pedal Bin Side View",
-          },
-          {
-            src: "/product/15L Plastic Pedal Bin/3.webp",
-            alt: "15L Plastic Pedal Bin Foot Pedal",
-          },
-        ],
-      },
+    
     ],
   },
 
