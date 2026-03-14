@@ -3,7 +3,7 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import Script from "next/script";
 import Whatsapp from "@/components/Whatsapp";
-// import Popup from "@/components/Popup"
+import Popup from "@/components/Popup"
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],

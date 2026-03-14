@@ -4469,7 +4469,11 @@ metaDescription:
           "Buy  Polywell Bio Medical Waste Bin (Roto) for hospitals and healthcare facilities. Durable, hygienic, and printed for safe biomedical waste segregation. Bulk orders available.",
 
           "model":"generic",
-          "size":["  size available  ","  10 ltr", "  15 ltr", "  20 ltr",  "  30 ltr","  40 ltr", "  50 ltr" , "  70 ltr" ,"  90 ltr" ,"  100 ltr"],
+
+          
+          "model":"generic",
+          "color":["  yellow"],
+          "size":["  size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,",  "  30 ltr,","  40 ltr,", "  50 ltr," , "  70 ltr," ,"  90 ltr," ,"  100 ltr"],
         excerpt:
           "The  Polywell Bio Medical Waste Bin (Roto) is designed for safe and hygienic disposal of biomedical waste in hospitals, clinics, and laboratories with printed segregation markings.",
 
@@ -4543,106 +4547,7 @@ metaDescription:
         ],
       },
 
-      // 4
-      {
-        id: "20l-bio-medical-waste-bin",
-        name: "20L Bio Medical Waste Bin",
-        metaTitle: "20L Bio Medical Waste Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 20L Bio Medical Waste Bin for hospitals, clinics, and laboratories. Durable, hygienic, and compliant biomedical waste disposal solution. Bulk orders available.",
-
-        excerpt:
-          "The 20L Bio Medical Waste Bin is designed for safe, hygienic, and compliant disposal of biomedical waste in hospitals, clinics, and laboratories with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "20L Bio Medical Waste Bin – Safe & Hygienic Disposal Solution",
-          },
-          {
-            type: "p",
-            text: "The 20L Bio Medical Waste Bin is designed for hospitals, clinics, and laboratories to ensure hygienic and compliant disposal of biomedical and hazardous waste. This bin supports safe handling practices in healthcare environments where cleanliness and infection control are critical.",
-          },
-          {
-            type: "p",
-            text: "With a 20-litre capacity and dimensions of 745 mm height and 440 mm length, it is ideal for medium-volume waste disposal in hospital wards, operation theaters, and laboratories. Manufactured using premium-grade plastic, it ensures durability and resistance to cracks even in high-traffic healthcare environments.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic biomedical waste disposal.",
-              "20L capacity suitable for medium waste volumes.",
-              "Durable premium-grade plastic construction.",
-              "Compact and ergonomic design for easy placement.",
-              "Plain design compliant with waste segregation standards.",
-              "Suitable for hospitals, clinics, and laboratories.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Medium-volume capacity for wards and laboratories.",
-              "Impact-resistant plastic for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Designed according to biomedical waste management standards.",
-              "Space-saving compact footprint.",
-              "Suitable for healthcare facilities and outpatient departments.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Certified hospital dustbin manufacturer ensuring safe disposal.",
-              "Customization options and bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Strict quality assurance and durability testing.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "20 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Pattern", value: "Plain" },
-          { label: "Usage/Application", value: "Hospital" },
-          { label: "Height", value: "745 mm" },
-          { label: "Length", value: "440 mm" },
-        ],
-
-        image: [
-          {
-            src: "/product/10L Polywell Bio Medical Waste Bins/2.webp",
-            alt: "20L Bio Medical Waste Bin Front View",
-          },
-          {
-            src: "/product/10L Polywell Bio Medical Waste Bins/4.webp",
-            alt: "20L Bio Medical Waste Bin Side View",
-          },
-          {
-            src: "/product/10L Polywell Bio Medical Waste Bins/3.webp",
-            alt: "20L Bio Medical Waste Bin Hospital Use",
-          },
-          {
-            src: "/product/10L Polywell Bio Medical Waste Bins/1.webp",
-            alt: "20L Bio Medical Waste Bin Waste Disposal",
-          },
-        ],
-      },
+  
 
       // 5 done
       {
@@ -4653,7 +4558,11 @@ metaDescription:
           "Buy  Biomedical Waste Bin (Roto) with foot pedal for hygienic and hands-free disposal in hospitals and clinics. Durable plastic construction with compact design. Bulk orders available.",
 
           "model":"generic",
-          "size":["size available","10 ltr", "15 ltr", "20 ltr", "25 ltr", "30 ltr","40 ltr", "50 ltr" , "60 ltr" , "70 ltr" , "100 ltr"],
+          
+          "model":"generic",
+          "color":["  blue"],
+
+          "size":["size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,", "  25 ltr,", "  30 ltr,","  40 ltr,", "  50 ltr," , "  60 ltr," , "  70 ltr," , "  100 ltr"],
         excerpt:
           "The Biomedical Waste Bin (Roto) is designed for hygienic, hands-free disposal of biomedical waste in hospitals, clinics, and laboratories with durable plastic construction.",
 
@@ -4728,301 +4637,10 @@ metaDescription:
         ],
       },
 
-      // 6
-      {
-        id: "15l-bio-bin",
-        name: "15L Bio Bin",
-        metaTitle: "15L Bio Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 15L Bio Bin for hygienic waste disposal in offices, hospitals, and commercial spaces. Durable plastic construction with open-top design. Bulk orders available.",
 
-        excerpt:
-          "The 15L Bio Bin is designed for safe and hygienic disposal of bio and commercial waste in offices, clinics, hospitals, and commercial spaces with durable plastic construction.",
+  
 
-        description: [
-          {
-            type: "h2",
-            text: "15L Bio Bin – Hygienic & Efficient Waste Disposal Solution",
-          },
-          {
-            type: "p",
-            text: "The 15L Bio Bin is designed for safe and efficient disposal of bio and commercial waste in offices, clinics, hospitals, and other commercial spaces. It ensures hygienic waste management in environments where cleanliness is essential.",
-          },
-          {
-            type: "p",
-            text: "With a 15-litre capacity, this bin is ideal for medium-volume waste disposal in commercial or healthcare settings. Manufactured using premium-grade plastic, it ensures durability and long-lasting performance for daily use.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic bio and commercial waste disposal.",
-              "15L capacity suitable for medium waste volumes.",
-              "Durable premium-grade plastic construction.",
-              "Open-top design for quick and easy disposal.",
-              "Plain professional design for commercial use.",
-              "Suitable for offices, clinics, hospitals, and institutions.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Medium capacity suitable for offices and clinics.",
-              "High-quality plastic for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Open-top design for quick access and convenience.",
-              "Compact and space-saving design.",
-              "Versatile use in commercial and healthcare facilities.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Expertise in commercial and healthcare waste solutions.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Strict quality assurance and durability testing.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "15 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Structure", value: "Open Top" },
-          { label: "Pattern", value: "Plain" },
-          { label: "Usage/Application", value: "Commercial" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-          {
-            src: "/product/15L Bio Bin/1.webp",
-            alt: "15L Bio Bin Front View",
-          },
-          {
-            src: "/product/15L Bio Bin/2.webp",
-            alt: "15L Bio Bin Side View",
-          },
-          {
-            src: "/product/15L Bio Bin/3.webp",
-            alt: "15L Bio Bin Office Use",
-          },
-        ],
-      },
-
-      // 7
-      {
-        id: "65l-bio-bin",
-        name: "65L Bio Bin",
-        metaTitle: "65L Bio Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 65L Bio Bin for hygienic waste disposal in hospitals, offices, and commercial spaces. Durable open-top plastic bin for high-volume waste collection. Bulk orders available.",
-
-        excerpt:
-          "The 65L Bio Bin is designed for safe and hygienic disposal of bio and commercial waste in hospitals, offices, and commercial facilities with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "65L Bio Bin – High Capacity Hygienic Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 65L Bio Bin is designed for safe and hygienic waste disposal in offices, hospitals, clinics, and commercial spaces. It ensures efficient and sanitary waste management in environments where cleanliness and reliability are essential.",
-          },
-          {
-            type: "p",
-            text: "With a large 65-litre capacity, this bin is ideal for high-volume waste collection, reducing the need for frequent emptying and supporting smooth operations in busy environments. Manufactured using premium-grade plastic, it ensures durability and long-lasting performance for daily use.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic bio and commercial waste disposal.",
-              "65L capacity suitable for high waste volumes.",
-              "Durable premium-grade plastic construction.",
-              "Open-top design for quick and easy disposal.",
-              "Plain professional design for commercial use.",
-              "Suitable for hospitals, offices, malls, and institutions.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Large capacity suitable for hospitals and commercial facilities.",
-              "High-quality plastic for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Open-top design for quick access and convenience.",
-              "Space-efficient placement against walls or corners.",
-              "Versatile use in healthcare and commercial spaces.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Expertise in healthcare and commercial waste solutions.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Strict quality assurance and durability testing.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "65 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Structure", value: "Open Top" },
-          { label: "Pattern", value: "Plain" },
-          { label: "Usage/Application", value: "Commercial" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-          {
-            src: "/product/65L Bio Bin/2.png",
-            alt: "65L Bio Bin Front View",
-          },
-          {
-            src: "/product/65L Bio Bin/1.png",
-            alt: "65L Bio Bin Side View",
-          },
-          {
-            src: "/product/65L Bio Bin/3.png",
-            alt: "65L Bio Bin Commercial Use",
-          },
-          {
-            src: "/product/65L Bio Bin/4.png",
-            alt: "65L Bio Bin Waste Disposal",
-          },
-        ],
-      },
-
-      // 8
-      {
-        id: "10l-bio-bin",
-        name: "10L Bio Bin",
-        metaTitle: "10L Bio Bin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 10L Bio Bin for hygienic waste disposal in hospitals, clinics, and healthcare facilities. Durable open-top plastic bin for safe waste management. Bulk orders available.",
-
-        excerpt:
-          "The 10L Bio Bin is designed for safe and hygienic disposal of biomedical and general waste in hospitals, clinics, and healthcare facilities with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "10L Bio Bin – Compact Hygienic Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 10L Bio Bin is designed for safe and hygienic disposal of biomedical and general waste in hospitals, clinics, and healthcare facilities. It supports efficient waste management in environments where cleanliness and infection control are essential.",
-          },
-          {
-            type: "p",
-            text: "With a compact 10-litre capacity, this bin is ideal for patient rooms, outpatient departments, laboratories, and other areas with limited space. Manufactured using premium-grade plastic, it ensures durability and long-lasting performance for daily use.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic biomedical and general waste disposal.",
-              "10L capacity suitable for low to medium waste volumes.",
-              "Durable premium-grade plastic construction.",
-              "Open-top design for quick and easy disposal.",
-              "Plain professional design for healthcare use.",
-              "Suitable for hospitals, clinics, and laboratories.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Ideal capacity for small healthcare spaces.",
-              "High-quality plastic for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Open-top design for quick waste disposal.",
-              "Compact and space-saving design.",
-              "Versatile use in healthcare and commercial facilities.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Healthcare expertise ensuring safe waste disposal.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Strict quality assurance and durability testing.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "10 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Structure", value: "Open Top" },
-          { label: "Pattern", value: "Plain" },
-          { label: "Usage/Application", value: "Hospital" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-          {
-            src: "/product/65L Bio Bin/4.png",
-            alt: "10L Bio Bin Front View",
-          },
-          {
-            src: "/product/65L Bio Bin/2.png",
-            alt: "10L Bio Bin Side View",
-          },
-          {
-            src: "/product/65L Bio Bin/1.png",
-            alt: "10L Bio Bin Hospital Use",
-          },
-          {
-            src: "/product/65L Bio Bin/3.png",
-            alt: "10L Bio Bin Waste Disposal",
-          },
-        ],
-      },
+ 
 
       // 9 done
       {
@@ -5032,6 +4650,10 @@ metaDescription:
         metaDescription:
           "Buy 30L Bio Bin with foot pedal for hygienic and hands-free waste disposal in hospitals, offices, and commercial spaces. Durable plastic construction. Bulk orders available.",
 
+
+          
+          "model":"generic",
+         "color":["  red","  yellow","  blue","  green","  black","  white"],
         excerpt:
           "The 30L Bio Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, and commercial facilities with durable plastic construction.",
 
@@ -5105,22 +4727,25 @@ metaDescription:
         ],
 
         image: [
-          {
-            src: "/product/65L Bio Bin/5.png",
-            alt: "30L Bio Bin Front View",
+
+             {
+            src: "/product/biobin/30L bio bin 1.webp",
+            alt: "30L Bio Bin Commercial Use",
           },
+       
           {
-            src: "/product/65L Bio Bin/2.png",
+            src: "/product/biobin/30L bio bin 2.webp",
             alt: "30L Bio Bin Side View",
           },
           {
-            src: "/product/65L Bio Bin/3.png",
+            src: "/product/biobin/30L bio bin 3.webp",
             alt: "30L Bio Bin Foot Pedal",
           },
-          {
-            src: "/product/65L Bio Bin/4.png",
-            alt: "30L Bio Bin Commercial Use",
+             {
+            src: "/product/biobin/30L bio bin 6.webp",
+            alt: "30L Bio Bin Front View",
           },
+       
         ],
       },
 
@@ -5132,6 +4757,8 @@ metaDescription:
         metaDescription:
           "Buy 660L Bio Bin for heavy-duty waste collection in hospitals, industries, and commercial spaces. Durable LDPE construction with large storage capacity. Bulk orders available.",
 
+          "model":"generic",
+          "color":["  green","  yellow"],
         excerpt:
           "The 660L Bio Bin is designed for large-scale hygienic waste management in hospitals, industries, and commercial facilities with durable LDPE construction.",
 
@@ -5221,135 +4848,33 @@ metaDescription:
         ],
       },
 
-      // 11 done
-      {
-        id: "15l-plastic-dustbin",
-        name: "15L Plastic Dustbin",
-        metaTitle: "15L Plastic Dustbin Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 15L Plastic Dustbin for hygienic waste disposal in hotels, hospitals, and municipal areas. Durable open-top plastic dustbin for daily waste management. Bulk orders available.",
-
-        excerpt:
-          "The 15L Plastic Dustbin is designed for hygienic and efficient waste disposal in hotels, hospitals, municipal areas, and commercial spaces with durable plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "15L Plastic Dustbin – Efficient Daily Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 15L Plastic Dustbin is designed for hygienic and efficient waste disposal in hotels, hospitals, municipal areas, and commercial spaces. It ensures reliable waste management in environments where cleanliness and practicality are essential.",
-          },
-          {
-            type: "p",
-            text: "With a 15-litre capacity, this dustbin is suitable for moderate daily waste collection in high-traffic environments. Manufactured using premium-grade plastic, it offers durability and resistance to cracks, moisture, and regular wear.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Designed for hygienic waste disposal.",
-              "15L capacity suitable for daily waste collection.",
-              "Durable premium-grade plastic construction.",
-              "Open-top design for quick disposal.",
-              "Plain professional design for public use.",
-              "Suitable for hotels, hospitals, and municipal areas.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Optimal capacity for hotel rooms and hospital wards.",
-              "Strong plastic body for long-term durability.",
-              "Smooth surface for easy cleaning and sanitation.",
-              "Open-top design for hygienic waste disposal.",
-              "Stable structure to prevent tipping.",
-              "Height: 885 mm for comfortable access.",
-              "GeM portal support with complete documentation.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
-              "Hospital-grade dustbins meeting hygiene standards.",
-              "Complete waste management solutions provider.",
-              "Customization options with bulk order supply available.",
-              "Eco-friendly recyclable premium-quality plastic.",
-              "Reliable customer support with timely delivery.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Capacity", value: "15 Litres" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage Area", value: "Hotel, Municipal, Hospital" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Feature", value: "Open Top" },
-          { label: "Height", value: "885 mm" },
-          { label: "GeM Portal Support", value: "Complete Paper Work Support" },
-        ],
-
-        image: [
-          {
-            src: "/product/20L PP Pedal Bio Bin/1.webp",
-            alt: "15L Plastic Dustbin Front View",
-          },
-          {
-            src: "/product/15L Plastic Dustbin/2.webp",
-            alt: "15L Plastic Dustbin Side View",
-          },
-          {
-            src: "/product/15L Plastic Dustbin/3.webp",
-            alt: "15L Plastic Dustbin Hotel Use",
-          },
-          {
-            src: "/product/15L Plastic Dustbin/4.webp",
-            alt: "15L Plastic Dustbin Municipal Use",
-          },
-          {
-            src: "/product/15L Plastic Dustbin/5.webp",
-            alt: "15L Plastic Dustbin Municipal Use",
-          },
-        ],
-      },
+   
 
       // 12 done
       {
-        id: "20l-bio-bin",
-        name: "20L Bio Bin",
-        metaTitle: "20L Bio Bin Manufacturer | PolyWell",
+        id: "50l-bio-bin",
+        name: "50L Bio Bin",
+        metaTitle: "50L Bio Bin Manufacturer | PolyWell",
         metaDescription:
-          "Buy 20L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
+          "Buy 50L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
 
+          "model":"generic",
+          "color":["  white"],
         excerpt:
-          "The 20L Bio Bin is designed for safe and hygienic biomedical waste disposal in hospitals and healthcare facilities with durable plastic construction.",
+          "The 50L Bio Bin is designed for safe and hygienic biomedical waste disposal in hospitals and healthcare facilities with durable plastic construction.",
 
         description: [
           {
             type: "h2",
-            text: "20L Bio Bin – Hygienic Biomedical Waste Solution",
+            text: "50L Bio Bin – Hygienic Biomedical Waste Solution",
           },
           {
             type: "p",
-            text: "The 20L Bio Bin is designed specifically for hospitals and healthcare facilities to ensure clean, safe, and organized waste disposal. It supports efficient biomedical waste management in environments where hygiene and compliance are critical.",
+            text: "The 50L Bio Bin is designed specifically for hospitals and healthcare facilities to ensure clean, safe, and organized waste disposal. It supports efficient biomedical waste management in environments where hygiene and compliance are critical.",
           },
           {
             type: "p",
-            text: "With a 20-litre capacity, this bin is suitable for patient rooms, OPDs, laboratories, and nursing stations. Manufactured using premium-grade plastic, it offers durability and long-lasting performance in daily hospital use.",
+            text: "With a 50-litre capacity, this bin is suitable for patient rooms, OPDs, laboratories, and nursing stations. Manufactured using premium-grade plastic, it offers durability and long-lasting performance in daily hospital use.",
           },
           {
             type: "h2",
@@ -5359,7 +4884,7 @@ metaDescription:
             type: "ul",
             items: [
               "Designed for hygienic biomedical waste disposal.",
-              "20L capacity suitable for healthcare environments.",
+              "50L capacity suitable for healthcare environments.",
               "Durable premium-grade plastic construction.",
               "Covered lid design to reduce contamination.",
               "White finish for professional hospital appearance.",
@@ -5389,7 +4914,7 @@ metaDescription:
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
+              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
               "Hospital-grade bio bins meeting hygiene standards.",
               "Complete waste management solutions provider.",
               "Customization options with bulk order supply available.",
@@ -5401,7 +4926,7 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Capacity", value: "20 Litres" },
+          { label: "Capacity", value: "50 Litres" },
           { label: "Material", value: "Plastic" },
           { label: "Bin Color", value: "White" },
           { label: "Usage Area", value: "Hospital" },
@@ -5417,40 +4942,36 @@ metaDescription:
             src: "/product/30L PP Pedal Bio Bin/30L PP Pedal Bio Bin (1).webp",
             alt: "20L Bio Bin White Front View",
           },
-          {
-            src: "/pro1/15L Bio Bin/2.webp",
-            alt: "20L Bio Bin White Side View",
-          },
-          {
-            src: "/pro1/15L Bio Bin/3.webp",
-            alt: "20L Bio Bin Hospital Use",
-          },
+       
         ],
       },
 
       // 13 done
       {
-        id: "15l-plastic-pedal-bin",
-        name: "15L Plastic Pedal Bin",
-        metaTitle: "15L Plastic Pedal Bin Manufacturer | PolyWell",
+        id: "10l-plastic-pedal-bin",
+        name: "10L Plastic Pedal Bin",
+        metaTitle: "10L Plastic Pedal Bin Manufacturer | PolyWell",
         metaDescription:
-          "Buy 15L Plastic Pedal Bin for hygienic hands-free waste disposal in hospitals, offices, hotels, and malls. Durable square design with foot pedal. Bulk orders available.",
+          "Buy 10L Plastic Pedal Bin for hygienic hands-free waste disposal in hospitals, offices, hotels, and malls. Durable square design with foot pedal. Bulk orders available.",
 
+
+          "model":"generic",
+          "color":["  blue","  red","  yellow","  black"],
         excerpt:
-          "The 15L Plastic Pedal Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces with durable plastic construction.",
+          "The 10L Plastic Pedal Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces with durable plastic construction.",
 
         description: [
           {
             type: "h2",
-            text: "15L Plastic Pedal Bin – Hygienic Hands-Free Waste Solution",
+            text: "10L Plastic Pedal Bin – Hygienic Hands-Free Waste Solution",
           },
           {
             type: "p",
-            text: "The 15L Plastic Pedal Bin is designed for safe, touch-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces. It ensures hygienic waste management in environments where cleanliness and user convenience are essential.",
+            text: "The 10L Plastic Pedal Bin is designed for safe, touch-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces. It ensures hygienic waste management in environments where cleanliness and user convenience are essential.",
           },
           {
             type: "p",
-            text: "With a 15-litre capacity, this pedal bin is ideal for medium-volume waste generation in professional and public environments. Manufactured using premium-grade plastic, it offers durability and resistance to cracks, moisture, and daily wear.",
+            text: "With a 10-litre capacity, this pedal bin is ideal for medium-volume waste generation in professional and public environments. Manufactured using premium-grade plastic, it offers durability and resistance to cracks, moisture, and daily wear.",
           },
           {
             type: "h2",
@@ -5460,7 +4981,7 @@ metaDescription:
             type: "ul",
             items: [
               "Hands-free waste disposal with foot pedal operation.",
-              "15L capacity suitable for daily use.",
+              "10L capacity suitable for daily use.",
               "Durable premium-grade plastic construction.",
               "Square shape for better space utilization.",
               "Smooth pedal mechanism for safe lid operation.",
@@ -5490,7 +5011,7 @@ metaDescription:
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with over 30 years of experience.",
+              "Trusted plastic dustbin manufacturer with over 50 years of experience.",
               "Hospital-grade pedal bins meeting hygiene standards.",
               "Expertise in ergonomic foot pedal bins.",
               "Customization options with bulk order supply available.",
@@ -5501,7 +5022,7 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Capacity", value: "15 Litres" },
+          { label: "Capacity", value: "10 Litres" },
           { label: "Usage Area", value: "Office, Hospital, Hotel, Mall" },
           { label: "Material", value: "Plastic" },
           { label: "Usage/Application", value: "Hospital" },
