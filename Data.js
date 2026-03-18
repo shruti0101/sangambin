@@ -1,9 +1,6 @@
 // data.js
 export const categories = [
-
-
-
- // category Pedal Dustbin
+  // category Pedal Dustbin
   {
     id: "pedal-dustbin",
     name: "Pedal Dustbin",
@@ -15,7 +12,7 @@ export const categories = [
     products: [
       // product 1 done
 
-  {
+      {
         id: "10l-plastic-pedal-dustbin",
         name: "10L Plastic Pedal Dustbin",
         metaTitle: "10L Plastic Pedal Dustbin Manufacturer | PolyWell",
@@ -23,7 +20,7 @@ export const categories = [
           "Buy 10L Plastic Pedal Dustbin for hospitals and clinics. Durable, hygienic and hands-free waste disposal solution for healthcare environments.",
         model: "pw10p",
 
-          color: ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
         excerpt:
           "The 10L Plastic Pedal Dustbin is a compact, hands-free waste management solution designed specifically for hospitals, clinics, and healthcare environments.",
 
@@ -116,9 +113,9 @@ export const categories = [
         ],
       },
 
-// 2
+      // 2
 
-  {
+      {
         id: "15l-pedal-dustbin",
         name: "15L Pedal Dustbin",
         metaTitle: "15L Pedal Dustbin Manufacturer | PolyWell Office Dustbin",
@@ -126,7 +123,7 @@ export const categories = [
           "Buy 15L PW15P Pedal Dustbin for offices and healthcare environments. Hands-free HDPE plastic dustbin for hygienic waste disposal in commercial spaces.",
         model: "pw15p",
 
-          color: ["red  ", "yellow  ", "black  "],
+        color: ["red  ", "yellow  ", "black  "],
         excerpt:
           "The 15L  Pedal Dustbin is a compact, hands-free waste management solution designed for offices, small commercial spaces, and healthcare environments.",
 
@@ -215,7 +212,7 @@ export const categories = [
         ],
       },
 
-// 3
+      // 3
       {
         id: "20l-pedal-dustbin",
         name: "20L Pedal Dustbin",
@@ -223,7 +220,7 @@ export const categories = [
         metaDescription:
           "Buy 20L  Pedal Dustbin for hygienic hands-free waste disposal at home or office. Durable, compact and eco-friendly pedal bin solution.",
         model: "pw20p",
-  color: ["red  ", "yellow  ", "blue  ",  "black  "],
+        color: ["red  ", "yellow  ", "blue  ", "black  "],
         excerpt:
           "The 20L  Pedal Dustbin is a compact, hygienic waste management solution designed for homes, offices, and small commercial spaces.",
 
@@ -408,20 +405,16 @@ export const categories = [
         ],
       },
 
+      // 5
 
-
-
-// 5
-
-  {
+      {
         id: "40l-plastic-pedal-dustbin",
         name: "40L Plastic Pedal  Dustbin",
-        metaTitle:
-          "40L Plastic Pedal  Dustbin Manufacturer | PolyWell",
+        metaTitle: "40L Plastic Pedal  Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 40L Plastic Pedal  Dustbin for hospitals and laboratories. Durable, hygienic, and compliant waste disposal solution for safe biomedical waste management. Bulk orders available.",
-"model":"pw40p",
-"color":[  "red  ", "yellow  " , "blue  ", "black  "],
+        model: "pw40p",
+        color: ["red  ", "yellow  ", "blue  ", "black  "],
         excerpt:
           "The 40L Plastic Pedal  Dustbin is designed for safe, hygienic, and compliant disposal of biomedical and hazardous waste in hospitals, clinics, and laboratories.",
 
@@ -485,30 +478,33 @@ export const categories = [
           },
         ],
 
-
-
         image: [
           {
             src: "/product/20L PP Pedal Bio Bin/4.webp",
             alt: "40L Plastic Pedal Dustbin Yellow Front View",
           },
-      
         ],
       },
 
-
       // 6
 
-
-         {
+      {
         id: "50l-pedal-dustbin",
         name: "50L Pedal Dustbin",
         metaTitle:
           "50L Pedal Dustbin Manufacturer | PolyWell Office & Hospital Dustbin",
         metaDescription:
           "Buy 50L PW50P Pedal Dustbin for offices, hospitals and commercial use. Hands-free HDPE plastic dustbin designed for hygienic waste disposal.",
-"model":"PW50P ",
-        color: ["red  ", "yellow  ", "blue  ", "black  ", "green  ","white  ","gray"],
+        model: "PW50P ",
+        color: [
+          "red  ",
+          "yellow  ",
+          "blue  ",
+          "black  ",
+          "green  ",
+          "white  ",
+          "gray",
+        ],
         excerpt:
           "The 50L Pedal Dustbin is a medium-capacity, hands-free waste management solution designed for offices, hospitals, and commercial spaces.",
 
@@ -582,8 +578,7 @@ export const categories = [
         ],
 
         image: [
-
-           {
+          {
             src: "/product/50L PW50P Pedal Dustbin/3.webp",
             alt: "50L PW50P Pedal Dustbin Top View",
           },
@@ -595,21 +590,20 @@ export const categories = [
             src: "/product/50L PW50P Pedal Dustbin/2.webp",
             alt: "50L PW50P Pedal Dustbin Side View",
           },
-         
         ],
       },
 
-// 7
+      // 7
 
- {
+      {
         id: "50l-red-plastic-pedal-dustbin",
         name: "50L Red Plastic Pedal Dustbin",
         metaTitle: "50L Red Plastic Pedal Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 50L Red Plastic Pedal Dustbin for hospital, garden and commercial use. Durable cylindrical standing design for hygienic waste management.",
 
-"model":"generic",
-"color":["  red"],
+        model: "generic",
+        color: ["  red"],
 
         excerpt:
           "The 50L Red Plastic Pedal Dustbin is a medium-capacity waste management solution suitable for gardens, hospitals, and commercial spaces.",
@@ -674,8 +668,6 @@ export const categories = [
           },
         ],
 
-    
-
         image: [
           {
             src: "/product/new plastic dustbin products/50L Red Plastic Dustbin/1.webp",
@@ -684,11 +676,6 @@ export const categories = [
         ],
       },
 
-
-
-
-
-  
       // 8 done
       {
         id: "60l-foot-operated-dustbin",
@@ -696,8 +683,8 @@ export const categories = [
         metaTitle: "60 L Foot Operated Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 60 L Foot Operated Dustbin for home, office and commercial use. Durable plastic build with hands-free pedal operation for hygienic waste disposal.",
-"model":"pw60p",
-"color":["red","yellow","blue","green","black","white"],
+        model: "pw60p",
+        color: ["red", "yellow", "blue", "green", "black", "white"],
         excerpt:
           "The 60L Foot Operated Dustbin is a medium-capacity, hands-free waste disposal solution designed for homes, offices, and small commercial spaces.",
 
@@ -787,15 +774,14 @@ export const categories = [
       },
 
       // 9 done
-       {
+      {
         id: "65l-pedal-bin",
         name: "65L Pedal Bin",
-        metaTitle:
-          "65L Pedal Bin Manufacturer | Hospital Biomedical Waste Bin",
+        metaTitle: "65L Pedal Bin Manufacturer | Hospital Biomedical Waste Bin",
         metaDescription:
           "Buy 65L Pedal Bin for hospitals and healthcare facilities. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
-"model":"pw65p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white  "],
+        model: "pw65p",
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white  "],
         excerpt:
           "The 65L Pedal Bin is a high-capacity, hands-free waste management solution designed for hospitals, clinics, and large healthcare facilities.",
 
@@ -859,8 +845,6 @@ export const categories = [
           },
         ],
 
-   
-
         image: [
           {
             src: "/product/65L PP Pedal Bio Bin/1.png",
@@ -881,11 +865,6 @@ export const categories = [
         ],
       },
 
-
-
-
- 
-
       // 10 done
       {
         id: "90l-plastic-pedal-dustbin",
@@ -895,9 +874,9 @@ export const categories = [
         metaDescription:
           "Buy 90L Plastic Pedal Dustbin for office, hospital and commercial use. Hands-free garbage bin made from durable plastic for hygienic waste disposal.",
 
-          "model":"pw90p",
-          "color":["red  ","yellow  ","blue  ","green  ","black  "],
-          
+        model: "pw90p",
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  "],
+
         excerpt:
           "The 90L Plastic Pedal Dustbin is a large-capacity, hands-free waste management solution designed for offices, hospitals, and commercial spaces.",
 
@@ -996,16 +975,15 @@ export const categories = [
 
     products: [
       // product 1 done
-    {
+      {
         id: "80l-Wheeled-central-pedal-bio-bin",
         name: "80L Wheeled Central Pedal Bio Bin",
-        metaTitle:
-          "80L Wheeled Central Pedal Bio Bin Manufacturer | PolyWell",
+        metaTitle: "80L Wheeled Central Pedal Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 80L Wheeled Central Pedal Bio Bin for hygienic waste disposal in hospitals and institutions. Durable polypropylene construction with wheels and pedal system.",
 
-          "model":"pw80cp",
-          "color":["  red  ","yellow  ","blue  ","green  ","black"],
+        model: "pw80cp",
+        color: ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The 80L Wheeled Central Pedal Bio Bin is designed for hygienic and efficient waste management in healthcare, institutional, and commercial environments.",
 
@@ -1069,11 +1047,8 @@ export const categories = [
           },
         ],
 
-    
-
         image: [
-
-              {
+          {
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/2.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Side View",
           },
@@ -1081,7 +1056,7 @@ export const categories = [
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/4.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Front View",
           },
-      
+
           {
             src: "/product/80L PP Central Wheeled Pedal Bio Bin/3.webp",
             alt: "80L PP Central Wheeled Pedal Bio Bin Wheels",
@@ -1093,18 +1068,16 @@ export const categories = [
         ],
       },
 
-
-// 2
-  {
+      // 2
+      {
         id: "120l-pp-central-wheeled-bio-bin",
         name: "120L PP Central Wheeled Bio Bin",
-        metaTitle:
-          "120L PP Central Wheeled Bio Bin Manufacturer | PolyWell",
+        metaTitle: "120L PP Central Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L PP Central Wheeled Bio Bin for hygienic waste disposal in hospitals and healthcare facilities. Durable polypropylene construction with wheels and pedal system.",
-"model":"pw120r",
+        model: "pw120r",
 
-"color":["  red  ","yellow  ","blue  " ,"black"],
+        color: ["  red  ", "yellow  ", "blue  ", "black"],
 
         excerpt:
           "The 120L PP Central Wheeled Bio Bin is designed for hygienic and efficient waste management in hospitals, laboratories, and commercial establishments with durable PP construction.",
@@ -1129,7 +1102,6 @@ export const categories = [
           {
             type: "ul",
             items: [
-          
               "120L capacity suitable for healthcare environments.",
               "Durable polypropylene material construction.",
               "Central wheeled design for easy mobility.",
@@ -1145,7 +1117,7 @@ export const categories = [
             type: "ul",
             items: [
               "High-quality PP material for long-term durability.",
-             
+
               "Smooth-rolling wheels for easy movement.",
               "Secure lid to prevent odor and spillage.",
               "Optimized compact dimensions.",
@@ -1169,8 +1141,6 @@ export const categories = [
           },
         ],
 
-      
-
         image: [
           {
             src: "/product/120L PP Central Wheeled Pedal Bio Bin/1.webp",
@@ -1191,16 +1161,17 @@ export const categories = [
         ],
       },
 
-// 3
+      // 3
 
-   {
+      {
         id: "120l-pp-central-pedal-wheeled-bio-bin",
         name: "120L PP Central Pedal Wheeled Bio Bin",
-        metaTitle: "120L PP Central Pedal Wheeled Bio Bin Manufacturer | PolyWell",
+        metaTitle:
+          "120L PP Central Pedal Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L PP Central Pedal Wheeled Bio Bin for hygienic waste disposal in hospitals, commercial, and institutional environments. Durable polypropylene construction with wheels and lid.",
-"model":"pw120cp",
-"color":["  red  ","yellow  ","blue  ","green  ","black"],
+        model: "pw120cp",
+        color: ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The 120L PP Central Pedal Wheeled Bio Bin is designed for practical and hygienic waste management in hospitals, commercial buildings, and institutional environments.",
 
@@ -1264,7 +1235,6 @@ export const categories = [
           },
         ],
 
-      
         image: [
           {
             src: "/product/120L PP Wheeled Bio Bin/3.webp",
@@ -1287,15 +1257,16 @@ export const categories = [
 
       // 4
 
-          {
+      {
         id: "120l-large-foot-operated-wheeled-dustbin",
         name: "120L Large Foot Operated Wheeled Dustbins ",
-        metaTitle: "120L Large Foot Operated Wheeled Dustbin Manufacturer | PolyWell",
+        metaTitle:
+          "120L Large Foot Operated Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 120L Large Foot Operated Wheeled Dustbin for hygienic waste disposal in offices and commercial spaces. Durable plastic construction with pedal and wheels.",
 
-          "model":"pw120fp",
-          "color":["  blue","  green"],
+        model: "pw120fp",
+        color: ["  blue", "  green"],
 
         excerpt:
           "The 120L Large Foot Operated Wheeled  Dustbin is designed for hygienic and efficient waste management in offices, commercial buildings, and institutional environments.",
@@ -1320,7 +1291,6 @@ export const categories = [
           {
             type: "ul",
             items: [
-           
               "120L capacity suitable for office use.",
               "Durable premium-grade plastic construction.",
               "Wheeled design for easy mobility.",
@@ -1336,7 +1306,7 @@ export const categories = [
             type: "ul",
             items: [
               "Strong plastic body for long-term durability.",
-            
+
               "Smooth-rolling wheels for easy movement.",
               "Space-efficient square design.",
               "Reliable performance for daily use.",
@@ -1360,8 +1330,6 @@ export const categories = [
           },
         ],
 
-     
-
         image: [
           {
             src: "/product/120L Large Wheeled Pedal Dustbins/2.webp",
@@ -1376,15 +1344,15 @@ export const categories = [
 
       // 5
 
-         {
+      {
         id: "240l-plastic-wheeled-dustbin",
         name: "240L Plastic Wheeled Dustbins ",
         metaTitle: "240L Plastic Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 240L Plastic Wheeled Dustbin for industrial and commercial waste collection. Durable plastic construction with easy mobility wheels. Bulk orders available.",
 
-          "model":"pw240r",
-          "color":["  red","  yellow","  blue","  black"],
+        model: "pw240r",
+        color: ["  red", "  yellow", "  blue", "  black"],
         excerpt:
           "240L Plastic Wheeled Dustbins are designed for efficient and organized waste collection in industrial, commercial, and institutional environments.",
 
@@ -1458,7 +1426,6 @@ export const categories = [
         ],
 
         image: [
-       
           {
             src: "/product/Plastic Wheeled Dustbins 240l/2.webp",
             alt: "240L Plastic Wheeled Dustbin Side View",
@@ -1470,10 +1437,9 @@ export const categories = [
         ],
       },
 
-
       // 6
 
-          {
+      {
         id: "240l-pp-foot-operated-wheeled-bin",
         name: "240L PP Foot Operated Wheeled Bin",
         metaTitle:
@@ -1481,8 +1447,8 @@ export const categories = [
         metaDescription:
           "Buy 240L PP Foot Operated Wheeled Bin for hospitals and healthcare facilities. Durable polypropylene biomedical waste bin with hands-free pedal, lid and wheels for hygienic disposal.",
 
-"model":"pw240fp",
-"color":["  yellow  ","blue"],
+        model: "pw240fp",
+        color: ["  yellow  ", "blue"],
 
         excerpt:
           "The 240L PP Foot Operated Wheeled Bin is a large-capacity, hands-free waste management solution designed for hospitals, healthcare facilities, and commercial spaces.",
@@ -1570,17 +1536,16 @@ export const categories = [
         ],
       },
 
-
-      // extra 
-        {
+      // extra
+      {
         id: "240l-hospitals-wheeled-bin",
         name: "240L Hospitals Wheeled Bins",
         metaTitle: "240L Hospitals Wheeled Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 240L Hospitals Wheeled Bin for hygienic waste management in healthcare facilities. Durable plastic construction with smooth mobility wheels.",
 
-"model":"generic",
-"color":["  red", "  black","  blue","  yellow"],
+        model: "generic",
+        color: ["  red", "  black", "  blue", "  yellow"],
 
         excerpt:
           "The 240L Hospitals Wheeled Bin is a reliable waste management solution designed for organized waste collection in hospital and healthcare environments.",
@@ -1676,15 +1641,15 @@ export const categories = [
 
       // 7
 
-        {
+      {
         id: "660l-four-wheel-plastic-dustbin",
         name: "660L Four Wheel Plastic Dustbin",
         metaTitle: "660L Four Wheel Plastic Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 660L Four Wheel Plastic Dustbin for hospitals, industries, and societies. Durable high-capacity plastic bin with smooth mobility wheels. Bulk orders available.",
 
-"model":"pw660",
-"color":["  red  ","yellow  ","blue  ","black  ","green"],
+        model: "pw660",
+        color: ["  red  ", "yellow  ", "blue  ", "black  ", "green"],
 
         excerpt:
           "The 660L Four Wheel Plastic Dustbin is designed for large-scale waste collection in hospitals, industrial units, housing societies, and public spaces with durable plastic construction.",
@@ -1775,15 +1740,15 @@ export const categories = [
 
       // 8
 
-          {
+      {
         id: "1100l-pp-wheeled-bio-bin",
         name: "1100L PP Wheeled Bio Bin",
         metaTitle: "1100L PP Wheeled Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 1100L PP Wheeled Bio Bin for large-volume waste collection in hospitals, industries, and residential societies. Durable polypropylene construction with wheels and lid.",
 
-"model":"pw1100",
-"color":["  red","  yellow","  blue","  black","  green"],
+        model: "pw1100",
+        color: ["  red", "  yellow", "  blue", "  black", "  green"],
 
         excerpt:
           "The 1100L PP Wheeled Bio Bin is designed for heavy-duty waste management in hospitals, industrial facilities, and municipal environments with durable PP construction.",
@@ -1878,22 +1843,16 @@ export const categories = [
       // jhgv
 
       // product 2
-    
 
       // 3 done
-    
 
       // 4
-     
 
       // 5
-  
 
       // 6 dpne
-   
 
       // 7 done
-   
 
       // 9
       {
@@ -1903,8 +1862,8 @@ export const categories = [
         metaDescription:
           "Buy Garbage Stations (Roto) for outdoor, industrial, and institutional waste handling. Durable plastic construction with four-wheel mobility.",
 
-"model":"generic",
-"color":["yellow","blue"],
+        model: "generic",
+        color: ["yellow", "blue"],
 
         excerpt:
           "The Garbage Stations (Roto) is designed for heavy-duty outdoor waste collection in industrial, institutional, and commercial environments.",
@@ -1969,18 +1928,14 @@ export const categories = [
           },
         ],
 
-   
-
         image: [
           {
             src: "/product/Plastic Wheeled Dustbins 240l/4.webp",
             alt: "500L Plastic Dustbin Trolley Front View",
           },
-        
         ],
       },
 
-   
       // 11 done
       {
         id: "plastic-wheeled-dustbin",
@@ -1988,8 +1943,8 @@ export const categories = [
         metaTitle: " Plastic Wheeled Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy  Plastic  Wheeled Dustbin with foot pedal for industrial and commercial waste handling. Durable plastic construction with easy mobility.",
-"model":"generic",
-"color":["  red  ","yellow  ","blue  ","green  ","black"],
+        model: "generic",
+        color: ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
         excerpt:
           "The Plastic Wheeled Dustbin is designed for industrial, institutional, and commercial waste management with durable plastic construction.",
 
@@ -2013,12 +1968,10 @@ export const categories = [
           {
             type: "ul",
             items: [
-            
               "  Suitable for industrial use.",
               "Durable premium-grade plastic construction.",
               "Wheeled design for easy mobility.",
               "Square shape for improved stability.",
-              
             ],
           },
           {
@@ -2029,7 +1982,7 @@ export const categories = [
             type: "ul",
             items: [
               "Strong plastic body for long-term durability.",
-             
+
               "Smooth-rolling wheels for easy movement.",
               "Space-efficient square design.",
               "Industrial-grade performance.",
@@ -2053,7 +2006,6 @@ export const categories = [
           },
         ],
 
-
         image: [
           {
             src: "/product/240L Plastic Green Wheeled Dustbins/4.webp",
@@ -2075,373 +2027,373 @@ export const categories = [
       },
 
       // 12 done
-   
 
       // 13 done
-    
 
       // 14 done
-  
-
-
 
       // 15
 
-    
-
       // 16
 
-{
-  "id": "polywell-wheelbarrows-roto",
-  "name": "Polywell Wheelbarrows (Roto)",
-  "metaTitle": "Polywell Wheelbarrows Roto Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Polywell Roto Wheelbarrows designed for heavy-duty material handling in agriculture, construction, and industrial environments. Durable roto-moulded plastic wheelbarrows available in multiple capacities.",
+      {
+        id: "polywell-wheelbarrows-roto",
+        name: "Polywell Wheelbarrows (Roto)",
+        metaTitle:
+          "Polywell Wheelbarrows Roto Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy Polywell Roto Wheelbarrows designed for heavy-duty material handling in agriculture, construction, and industrial environments. Durable roto-moulded plastic wheelbarrows available in multiple capacities.",
 
-  "model": "generic",
+        model: "generic",
 
-  "color": ["blue"],
+        color: ["blue"],
 
-  "size":["size available -  ", "100 ltr , ", "150 ltr , ", "250 ltr "],
+        size: ["size available -  ", "100 ltr , ", "150 ltr , ", "250 ltr "],
 
-  "excerpt": "Polywell Roto Wheelbarrows are durable roto-moulded plastic wheelbarrows designed for heavy-duty material handling in agricultural, construction, and industrial environments.",
+        excerpt:
+          "Polywell Roto Wheelbarrows are durable roto-moulded plastic wheelbarrows designed for heavy-duty material handling in agricultural, construction, and industrial environments.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Polywell Roto Wheelbarrows – Heavy Duty Material Handling Solution"
-    },
-    {
-      "type": "p",
-      "text": "Polywell Roto Wheelbarrows are designed for heavy-duty material handling in agricultural, construction, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality roto-moulded plastic, these wheelbarrows are lightweight yet extremely strong, offering excellent resistance to impact, corrosion, and harsh outdoor conditions."
-    },
-    {
-      "type": "p",
-      "text": "The rotational moulding process ensures a seamless and leak-proof body that can withstand heavy loads without cracking or deforming."
-    },
-    {
-      "type": "p",
-      "text": "Ergonomically designed for smooth handling, stability, and easy maneuverability, making them suitable for transporting soil, sand, gravel, waste, and other materials efficiently."
-    },
-    {
-      "type": "p",
-      "text": "Available in multiple capacity options including 100 L, 150 L, and 250 L to meet various operational requirements ranging from gardening to large-scale construction projects."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Polywell Roto Wheelbarrows – Heavy Duty Material Handling Solution",
+          },
+          {
+            type: "p",
+            text: "Polywell Roto Wheelbarrows are designed for heavy-duty material handling in agricultural, construction, and industrial environments.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality roto-moulded plastic, these wheelbarrows are lightweight yet extremely strong, offering excellent resistance to impact, corrosion, and harsh outdoor conditions.",
+          },
+          {
+            type: "p",
+            text: "The rotational moulding process ensures a seamless and leak-proof body that can withstand heavy loads without cracking or deforming.",
+          },
+          {
+            type: "p",
+            text: "Ergonomically designed for smooth handling, stability, and easy maneuverability, making them suitable for transporting soil, sand, gravel, waste, and other materials efficiently.",
+          },
+          {
+            type: "p",
+            text: "Available in multiple capacity options including 100 L, 150 L, and 250 L to meet various operational requirements ranging from gardening to large-scale construction projects.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Heavy-duty roto-moulded plastic body for maximum durability.",
-        "Lightweight design for easy handling and maneuverability.",
-        "Resistant to corrosion, impact, and harsh outdoor conditions.",
-        "Seamless one-piece construction ensuring leak-proof performance.",
-        "Ergonomic handles and balanced design for comfortable usage.",
-        "Available in multiple capacities: 100 L, 150 L, and 250 L.",
-        "Stable base and strong wheel support for improved balance.",
-        "Suitable for gardening, construction, landscaping, waste handling, and industrial material transport."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Heavy-duty roto-moulded plastic body for maximum durability.",
+              "Lightweight design for easy handling and maneuverability.",
+              "Resistant to corrosion, impact, and harsh outdoor conditions.",
+              "Seamless one-piece construction ensuring leak-proof performance.",
+              "Ergonomic handles and balanced design for comfortable usage.",
+              "Available in multiple capacities: 100 L, 150 L, and 250 L.",
+              "Stable base and strong wheel support for improved balance.",
+              "Suitable for gardening, construction, landscaping, waste handling, and industrial material transport.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium-grade roto-moulded plastic materials.",
-        "Innovative designs engineered for stability and efficiency.",
-        "Products built for long-lasting performance in demanding environments.",
-        "Wide range of plastic storage, waste management, and utility solutions.",
-        "Customer-focused approach delivering reliable and practical products."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium-grade roto-moulded plastic materials.",
+              "Innovative designs engineered for stability and efficiency.",
+              "Products built for long-lasting performance in demanding environments.",
+              "Wide range of plastic storage, waste management, and utility solutions.",
+              "Customer-focused approach delivering reliable and practical products.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/wheelbarrow1.webp",
-      "alt": "Polywell Roto Wheelbarrow Heavy Duty Plastic Wheelbarrow"
-    }
-  ]
-}
-,
+        image: [
+          {
+            src: "/product/wheelbarrow1.webp",
+            alt: "Polywell Roto Wheelbarrow Heavy Duty Plastic Wheelbarrow",
+          },
+        ],
+      },
 
-// 17
+      // 17
 
-{
-  "id": "garbage-cycle-rickshaw-roto",
-  "name": "Garbage Cycle Rickshaw (Roto)",
-  "metaTitle": "Garbage Cycle Rickshaw Roto Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Garbage Cycle Rickshaw with 290 Litre roto-moulded plastic bin designed for efficient municipal waste collection. Durable, leak-proof and ideal for urban, residential, and commercial waste management.",
+      {
+        id: "garbage-cycle-rickshaw-roto",
+        name: "Garbage Cycle Rickshaw (Roto)",
+        metaTitle:
+          "Garbage Cycle Rickshaw Roto Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy Garbage Cycle Rickshaw with 290 Litre roto-moulded plastic bin designed for efficient municipal waste collection. Durable, leak-proof and ideal for urban, residential, and commercial waste management.",
 
-  "model": "generic",
+        model: "generic",
 
-  "color": [ "blue"],
+        color: ["blue"],
 
-  "size":["size availabe  - ","290 ltr  "],
+        size: ["size availabe  - ", "290 ltr  "],
 
-  "excerpt": "Garbage Cycle Rickshaw (Roto) with a 290 litre roto-moulded plastic bin designed for efficient municipal waste collection and transportation.",
+        excerpt:
+          "Garbage Cycle Rickshaw (Roto) with a 290 litre roto-moulded plastic bin designed for efficient municipal waste collection and transportation.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Garbage Cycle Rickshaw (Roto) – Efficient Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Garbage Cycle Rickshaw (Roto) is designed for efficient waste collection and transportation in urban, residential, and commercial areas."
-    },
-    {
-      "type": "p",
-      "text": "It features a 290-litre roto-moulded plastic bin that offers excellent durability, impact resistance, and a seamless leak-proof design for hygienic waste handling."
-    },
-    {
-      "type": "p",
-      "text": "Equipped with manual pedal operation, the rickshaw allows smooth and controlled movement, making it ideal for narrow streets, parks, campuses, and industrial premises."
-    },
-    {
-      "type": "p",
-      "text": "The strong and durable frame supports heavy loads while maintaining stability and balance during everyday waste collection operations."
-    },
-    {
-      "type": "p",
-      "text": "Its practical design allows easy loading and unloading of waste, improving operational efficiency while reducing physical strain on workers."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Garbage Cycle Rickshaw (Roto) – Efficient Waste Collection Solution",
+          },
+          {
+            type: "p",
+            text: "The Garbage Cycle Rickshaw (Roto) is designed for efficient waste collection and transportation in urban, residential, and commercial areas.",
+          },
+          {
+            type: "p",
+            text: "It features a 290-litre roto-moulded plastic bin that offers excellent durability, impact resistance, and a seamless leak-proof design for hygienic waste handling.",
+          },
+          {
+            type: "p",
+            text: "Equipped with manual pedal operation, the rickshaw allows smooth and controlled movement, making it ideal for narrow streets, parks, campuses, and industrial premises.",
+          },
+          {
+            type: "p",
+            text: "The strong and durable frame supports heavy loads while maintaining stability and balance during everyday waste collection operations.",
+          },
+          {
+            type: "p",
+            text: "Its practical design allows easy loading and unloading of waste, improving operational efficiency while reducing physical strain on workers.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Roto-moulded plastic bin with seamless and durable construction.",
-        "Manual pedal operation for easy and controlled movement.",
-        "Large 290 litre capacity suitable for municipal waste collection.",
-        "Strong and durable frame for heavy load support.",
-        "Leak-proof and hygienic design for safe waste handling.",
-        "Ergonomic structure for comfortable use during long routes.",
-        "Suitable for municipalities, parks, campuses, and housing societies.",
-        "Improves waste collection efficiency while reducing manual effort."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Roto-moulded plastic bin with seamless and durable construction.",
+              "Manual pedal operation for easy and controlled movement.",
+              "Large 290 litre capacity suitable for municipal waste collection.",
+              "Strong and durable frame for heavy load support.",
+              "Leak-proof and hygienic design for safe waste handling.",
+              "Ergonomic structure for comfortable use during long routes.",
+              "Suitable for municipalities, parks, campuses, and housing societies.",
+              "Improves waste collection efficiency while reducing manual effort.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer known for reliable and durable plastic products.",
-        "High-quality roto-moulded plastic ensuring strength and longevity.",
-        "Practical and ergonomic product designs for efficient waste management.",
-        "Products built for long-lasting performance in outdoor environments.",
-        "Cost-effective waste management solutions.",
-        "Wide range of dustbins, containers, wheelbarrows, and municipal waste collection products."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer known for reliable and durable plastic products.",
+              "High-quality roto-moulded plastic ensuring strength and longevity.",
+              "Practical and ergonomic product designs for efficient waste management.",
+              "Products built for long-lasting performance in outdoor environments.",
+              "Cost-effective waste management solutions.",
+              "Wide range of dustbins, containers, wheelbarrows, and municipal waste collection products.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/wheelbarrow2.webp",
-      "alt": "Garbage Cycle Rickshaw Roto 290 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
-,
+        image: [
+          {
+            src: "/product/wheelbarrow2.webp",
+            alt: "Garbage Cycle Rickshaw Roto 290 Litre Waste Collection Rickshaw",
+          },
+        ],
+      },
 
-// 18
+      // 18
 
-{
-  "id": "multiple-container-garbage-rickshaw",
-  "name": "Multiple Container Garbage Rickshaw",
-  "metaTitle": "Multiple Container Garbage Rickshaw 30–50 Litre Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Multiple Container Garbage Rickshaw with durable plastic containers available in 30 L and 50 L capacities. Ideal for hygienic municipal and residential waste collection.",
+      {
+        id: "multiple-container-garbage-rickshaw",
+        name: "Multiple Container Garbage Rickshaw",
+        metaTitle:
+          "Multiple Container Garbage Rickshaw 30–50 Litre Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy Multiple Container Garbage Rickshaw with durable plastic containers available in 30 L and 50 L capacities. Ideal for hygienic municipal and residential waste collection.",
 
-  "model": "generic",
+        model: "generic",
 
-  "color": ["green  ", "blue"],
-  "size":["size availabe - ", "30 ltr  " ,"50 ltr"],
+        color: ["green  ", "blue"],
+        size: ["size availabe - ", "30 ltr  ", "50 ltr"],
 
-  "excerpt": "Multiple Container Garbage Rickshaw designed for hygienic waste collection with durable plastic containers available in 30 L and 50 L capacities.",
+        excerpt:
+          "Multiple Container Garbage Rickshaw designed for hygienic waste collection with durable plastic containers available in 30 L and 50 L capacities.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Multiple Container Garbage Rickshaw – Efficient Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Multiple Container Garbage Rickshaw is designed for efficient and hygienic manual waste collection in urban areas, residential complexes, and commercial facilities."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with durable plastic containers, it offers lightweight yet strong performance suitable for daily waste management operations."
-    },
-    {
-      "type": "p",
-      "text": "The pedal-driven mechanism enables smooth and controlled movement, allowing waste collectors to operate efficiently without motorized assistance."
-    },
-    {
-      "type": "p",
-      "text": "Its multiple-container design allows easy loading and unloading of waste while securely enclosing the contents to prevent spillage and reduce odour."
-    },
-    {
-      "type": "p",
-      "text": "Available in 30 Litre and 50 Litre capacities, making it suitable for small to medium-scale waste collection needs in municipal and commercial environments."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Multiple Container Garbage Rickshaw – Efficient Waste Collection Solution",
+          },
+          {
+            type: "p",
+            text: "The Multiple Container Garbage Rickshaw is designed for efficient and hygienic manual waste collection in urban areas, residential complexes, and commercial facilities.",
+          },
+          {
+            type: "p",
+            text: "Constructed with durable plastic containers, it offers lightweight yet strong performance suitable for daily waste management operations.",
+          },
+          {
+            type: "p",
+            text: "The pedal-driven mechanism enables smooth and controlled movement, allowing waste collectors to operate efficiently without motorized assistance.",
+          },
+          {
+            type: "p",
+            text: "Its multiple-container design allows easy loading and unloading of waste while securely enclosing the contents to prevent spillage and reduce odour.",
+          },
+          {
+            type: "p",
+            text: "Available in 30 Litre and 50 Litre capacities, making it suitable for small to medium-scale waste collection needs in municipal and commercial environments.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction offering lightweight strength and long service life.",
-        "Multiple container design prevents waste spillage and helps control odours.",
-        "Pedal-operated movement for easy maneuverability without motor assistance.",
-        "Available in 30 L and 50 L capacity options.",
-        "Ergonomic containers designed for easy loading and unloading.",
-        "Stable and balanced frame ensuring smooth and safe operation.",
-        "Suitable for municipal bodies, housing societies, parks, schools, and commercial areas.",
-        "Low maintenance design with easy-to-clean plastic containers."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Durable plastic construction offering lightweight strength and long service life.",
+              "Multiple container design prevents waste spillage and helps control odours.",
+              "Pedal-operated movement for easy maneuverability without motor assistance.",
+              "Available in 30 L and 50 L capacity options.",
+              "Ergonomic containers designed for easy loading and unloading.",
+              "Stable and balanced frame ensuring smooth and safe operation.",
+              "Suitable for municipal bodies, housing societies, parks, schools, and commercial areas.",
+              "Low maintenance design with easy-to-clean plastic containers.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer known for durable and high-quality plastic products.",
-        "Premium materials ensuring strength, impact resistance, and long product life.",
-        "Functional and ergonomic product designs for efficient waste handling.",
-        "Products engineered for long-lasting performance in outdoor conditions.",
-        "Cost-effective waste management solutions at competitive prices.",
-        "Wide product portfolio including dustbins, containers, wheelbarrows, and cycle rickshaws.",
-        "Customer-focused approach delivering reliable and practical waste management solutions."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer known for durable and high-quality plastic products.",
+              "Premium materials ensuring strength, impact resistance, and long product life.",
+              "Functional and ergonomic product designs for efficient waste handling.",
+              "Products engineered for long-lasting performance in outdoor conditions.",
+              "Cost-effective waste management solutions at competitive prices.",
+              "Wide product portfolio including dustbins, containers, wheelbarrows, and cycle rickshaws.",
+              "Customer-focused approach delivering reliable and practical waste management solutions.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/multiplecontainer.webp",
-      "alt": "Multiple Container Garbage Rickshaw Plastic 30 50 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
-,
+        image: [
+          {
+            src: "/product/multiplecontainer.webp",
+            alt: "Multiple Container Garbage Rickshaw Plastic 30 50 Litre Waste Collection Rickshaw",
+          },
+        ],
+      },
 
-// 19
+      // 19
 
-{
-  "id": "single-container-garbage-rickshaw-roto",
-  "name": "Single Container Garbage Rickshaw (Roto)",
-  "metaTitle": "Single Container Garbage Rickshaw 450–550 Litre Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy Single Container Garbage Rickshaw with roto-moulded plastic container available in 450 L and 550 L capacities. Ideal for high-volume municipal and industrial waste collection.",
+      {
+        id: "single-container-garbage-rickshaw-roto",
+        name: "Single Container Garbage Rickshaw (Roto)",
+        metaTitle:
+          "Single Container Garbage Rickshaw 450–550 Litre Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy Single Container Garbage Rickshaw with roto-moulded plastic container available in 450 L and 550 L capacities. Ideal for high-volume municipal and industrial waste collection.",
 
-  "model": "generic",
+        model: "generic",
 
-  "color": [" black",],
+        color: [" black"],
 
-  "size":["size available  -  ","450 ltr  , ","550 ltr "],
+        size: ["size available  -  ", "450 ltr  , ", "550 ltr "],
 
-  "excerpt": "Single Container Garbage Rickshaw with large roto-moulded plastic container designed for efficient large-scale waste collection in municipalities and commercial areas.",
+        excerpt:
+          "Single Container Garbage Rickshaw with large roto-moulded plastic container designed for efficient large-scale waste collection in municipalities and commercial areas.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Single Container Garbage Rickshaw (Roto) – High Capacity Waste Collection Solution"
-    },
-    {
-      "type": "p",
-      "text": "The Single Container Garbage Rickshaw (Roto) is designed for efficient large-scale manual waste collection in urban, commercial, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "It features a large roto-moulded plastic container that is seamless, highly durable, and resistant to impact, ensuring hygienic and reliable waste handling."
-    },
-    {
-      "type": "p",
-      "text": "The manual pedal-driven mechanism allows smooth and controlled movement without the need for motorized assistance, making it eco-friendly and easy to operate."
-    },
-    {
-      "type": "p",
-      "text": "A strong and durable frame supports heavy loads while maintaining stability and balance during transportation."
-    },
-    {
-      "type": "p",
-      "text": "Available in 450 Litre and 550 Litre capacities, this rickshaw is ideal for high-volume waste collection in municipalities, housing complexes, campuses, and industrial facilities."
-    },
-    {
-      "type": "p",
-      "text": "The design allows easy loading, unloading, and disposal of waste, improving operational efficiency and maintaining hygiene standards."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Single Container Garbage Rickshaw (Roto) – High Capacity Waste Collection Solution",
+          },
+          {
+            type: "p",
+            text: "The Single Container Garbage Rickshaw (Roto) is designed for efficient large-scale manual waste collection in urban, commercial, and industrial environments.",
+          },
+          {
+            type: "p",
+            text: "It features a large roto-moulded plastic container that is seamless, highly durable, and resistant to impact, ensuring hygienic and reliable waste handling.",
+          },
+          {
+            type: "p",
+            text: "The manual pedal-driven mechanism allows smooth and controlled movement without the need for motorized assistance, making it eco-friendly and easy to operate.",
+          },
+          {
+            type: "p",
+            text: "A strong and durable frame supports heavy loads while maintaining stability and balance during transportation.",
+          },
+          {
+            type: "p",
+            text: "Available in 450 Litre and 550 Litre capacities, this rickshaw is ideal for high-volume waste collection in municipalities, housing complexes, campuses, and industrial facilities.",
+          },
+          {
+            type: "p",
+            text: "The design allows easy loading, unloading, and disposal of waste, improving operational efficiency and maintaining hygiene standards.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Roto-moulded plastic container with seamless and durable construction.",
-        "High-capacity options available in 450 L and 550 L.",
-        "Manual pedal operation for eco-friendly and smooth movement.",
-        "Strong and durable frame supporting heavy loads.",
-        "Hygienic design that prevents waste spillage and contains odour.",
-        "Efficient loading and unloading for improved waste management.",
-        "Suitable for municipalities, housing societies, industrial areas, and campuses.",
-        "Low maintenance roto-moulded plastic container that is easy to clean."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Roto-moulded plastic container with seamless and durable construction.",
+              "High-capacity options available in 450 L and 550 L.",
+              "Manual pedal operation for eco-friendly and smooth movement.",
+              "Strong and durable frame supporting heavy loads.",
+              "Hygienic design that prevents waste spillage and contains odour.",
+              "Efficient loading and unloading for improved waste management.",
+              "Suitable for municipalities, housing societies, industrial areas, and campuses.",
+              "Low maintenance roto-moulded plastic container that is easy to clean.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted expertise in manufacturing durable plastic waste management products.",
-        "Premium roto-moulded plastic ensuring strength, durability, and leak-proof performance.",
-        "Functional and ergonomic product designs for efficient waste collection.",
-        "Products engineered for long-lasting performance in demanding environments.",
-        "Cost-effective waste management solutions at competitive pricing.",
-        "Extensive product range including dustbins, containers, wheelbarrows, and garbage cycle rickshaws.",
-        "Customer-focused approach delivering reliable and practical waste management solutions."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted expertise in manufacturing durable plastic waste management products.",
+              "Premium roto-moulded plastic ensuring strength, durability, and leak-proof performance.",
+              "Functional and ergonomic product designs for efficient waste collection.",
+              "Products engineered for long-lasting performance in demanding environments.",
+              "Cost-effective waste management solutions at competitive pricing.",
+              "Extensive product range including dustbins, containers, wheelbarrows, and garbage cycle rickshaws.",
+              "Customer-focused approach delivering reliable and practical waste management solutions.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/singlecontainer.webp",
-      "alt": "Single Container Garbage Rickshaw Roto 450 550 Litre Waste Collection Rickshaw"
-    }
-  ]
-}
+        image: [
+          {
+            src: "/product/singlecontainer.webp",
+            alt: "Single Container Garbage Rickshaw Roto 450 550 Litre Waste Collection Rickshaw",
+          },
+        ],
+      },
     ],
   },
 
-
-
-    // category Bio Bins
+  // category Bio Bins
   {
     id: "bio-bins",
     name: "Bio Bins",
@@ -2451,7 +2403,7 @@ export const categories = [
 
     products: [
       // product 1 done
-       {
+      {
         id: "10l-pedal-bio-bin",
         name: "10L Pedal Bio Bin",
         metaTitle:
@@ -2459,8 +2411,8 @@ export const categories = [
         metaDescription:
           "Buy 10L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb10p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white"] ,
+        model: "pwbb10p",
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white"],
 
         excerpt:
           "The 10L Pedal Bio Bin is a compact, hands-free waste disposal solution designed for hospitals, clinics, and small healthcare facilities.",
@@ -2525,9 +2477,8 @@ export const categories = [
           },
         ],
 
-      
         image: [
-            {
+          {
             src: "/product/biobin/10L bio bin 2.webp",
             alt: "10L PP Pedal Bio Bin Side View",
           },
@@ -2535,7 +2486,6 @@ export const categories = [
             src: "/product/biobin/10L bio bin 1.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-        
         ],
       },
 
@@ -2548,8 +2498,8 @@ export const categories = [
         metaDescription:
           "Buy 15L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb15p",
-"color":["red  ","yellow  ","blue  ","green  ","black  ","white  "],
+        model: "pwbb15p",
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black  ", "white  "],
 
         excerpt:
           "The 15L Pedal Bio Bin is a compact, hands-free waste management solution designed for hospitals, clinics, and healthcare facilities.",
@@ -2563,7 +2513,7 @@ export const categories = [
             type: "p",
             text: "The 15L Pedal Bio Bin is a compact, hands-free waste management solution designed for hospitals, clinics, and healthcare facilities.",
           },
-          { 
+          {
             type: "p",
             text: "Made from durable polypropylene (PP) plastic, it ensures long-lasting strength and resistance to daily medical waste disposal.",
           },
@@ -2614,20 +2564,15 @@ export const categories = [
           },
         ],
 
-     
-
         image: [
-
-            {
+          {
             src: "/product/biobin/15 Ltr bio bin 2.webp",
             alt: "15L PP Pedal Bio Bin Side View",
-          },  
+          },
           {
             src: "/product/biobin/15 Ltr Bio Bin 1.webp",
             alt: "15L PP Pedal Bio Bin Front View",
           },
-        
-         
         ],
       },
 
@@ -2640,8 +2585,8 @@ export const categories = [
         metaDescription:
           "Buy 20L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb20p",
-"color":["red  ","yellow  ","blue  ","green  ","black"],
+        model: "pwbb20p",
+        color: ["red  ", "yellow  ", "blue  ", "green  ", "black"],
 
         excerpt:
           "The 20L Pedal Bio Bin is a hygienic, hands-free waste disposal solution designed for hospitals, clinics, and healthcare facilities.",
@@ -2706,8 +2651,6 @@ export const categories = [
           },
         ],
 
-      
-
         image: [
           {
             src: "/product/biobin/20 Ltr bio bin 1.webp",
@@ -2721,19 +2664,14 @@ export const categories = [
             src: "/product/biobin/20L bio bin 3.webp",
             alt: "20L PP Pedal Bio Bin Top View",
           },
-        
         ],
       },
 
       // 4 done
-    
 
-  
-
-   
       // 7
 
- {
+      {
         id: "30l-pedal-bio-bin",
         name: "30L Pedal Bio Bin",
         metaTitle:
@@ -2741,8 +2679,8 @@ export const categories = [
         metaDescription:
           "Buy 30L Pedal Bio Bin for hospitals and clinics. Durable polypropylene biomedical waste bin with hands-free pedal operation for hygienic disposal.",
 
-"model":"pwbb30p",
-"color":["  red  ","yellow  ","blue  ","green  ","black  ","white"] ,
+        model: "pwbb30p",
+        color: ["  red  ", "yellow  ", "blue  ", "green  ", "black  ", "white"],
 
         excerpt:
           "The 30L Pedal Bio Bin is a compact, hands-free waste disposal solution designed for hospitals, clinics, and small healthcare facilities.",
@@ -2807,47 +2745,39 @@ export const categories = [
           },
         ],
 
-      
         image: [
-
-            {
+          {
             src: "/product/biobin/30L bio bin 4.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
 
-              {
+          {
             src: "/product/biobin/30L bio bin 2.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-            {
+          {
             src: "/product/biobin/30L bio bin 1.webp",
             alt: "10L PP Pedal Bio Bin Side View",
           },
-      
 
-             {
+          {
             src: "/product/biobin/30L bio bin 3.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-           
 
-             {
+          {
             src: "/product/biobin/30L bio bin 5.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
 
-             {
+          {
             src: "/product/biobin/30L bio bin 6.webp",
             alt: "10L PP Pedal Bio Bin Front View",
           },
-        
         ],
       },
-
     ],
   },
-
-
 
   // cat litter Bin
   {
@@ -2861,15 +2791,14 @@ export const categories = [
     products: [
       // product 1 done
 
-
-        {
+      {
         id: "60l-litter-bins",
         name: "60L Litter Bins",
         metaTitle: "60L Plastic Litter Bin Manufacturer | Dome Lid Waste Bin",
         metaDescription:
           "Buy 60L Plastic Litter Bin with dome shaped lid for hospitals, malls, gardens and parking areas. Durable hygienic waste bin for indoor & outdoor waste management.",
-"model":"pw60lb",
-"color":["  blue","  green",],
+        model: "pw60lb",
+        color: ["  blue", "  green"],
 
         excerpt:
           "The 60L Litter Bin is a durable and hygienic waste disposal solution designed for hospitals, clinics, gardens, malls, and parking areas.",
@@ -2934,8 +2863,6 @@ export const categories = [
           },
         ],
 
-  
-
         image: [
           {
             src: "/product/new plastic dustbin products/60L litter Bins/1.webp",
@@ -2946,17 +2873,15 @@ export const categories = [
             alt: "60L Litter Bin Side View",
           },
 
-           {
+          {
             src: "/product/new plastic dustbin products/100L Public Litter Bins/2.webp",
             alt: "100L Public Litter Bin Outdoor Use",
           },
         ],
       },
 
-   
-
       // product 2 done
-       {
+      {
         id: "110l-litter-bins-roto",
         name: "110L Litter Bins (Roto)",
         metaTitle:
@@ -2964,10 +2889,15 @@ export const categories = [
         metaDescription:
           "Buy 110L Roto Molded Litter Bin with dome shaped lid for hospitals, malls, hotels and offices. Durable plastic waste bin for indoor & outdoor waste management. ",
 
-"model":"generic",
-"color":["blue"],
-"size":["size available  ","  60 ltr", "  80 ltr", "  100 ltr", "  150 ltr"],
-
+        model: "generic",
+        color: ["blue"],
+        size: [
+          "size available  ",
+          "  60 ltr",
+          "  80 ltr",
+          "  100 ltr",
+          "  150 ltr",
+        ],
 
         excerpt:
           "The 110L Litter Bin (Roto) is a versatile high-capacity waste disposal solution designed for offices, hospitals, hotels, malls, and public spaces.",
@@ -3063,8 +2993,8 @@ export const categories = [
         metaDescription:
           "Buy 110L Plastic Litter Bin for parks, streets, and public places. Durable outdoor plastic waste bin with open top design for easy disposal and collection.",
 
-          "model":"pw110lb",
-          "color":["  blue","  green"],
+        model: "pw110lb",
+        color: ["  blue", "  green"],
 
         excerpt:
           "The 110L Plastic Litter Bin is a high-capacity outdoor waste management solution designed for parks, streets, public spaces, and commercial areas.",
@@ -3129,8 +3059,6 @@ export const categories = [
           },
         ],
 
-  
-
         image: [
           {
             src: "/product/new plastic dustbin products/100L Public Litter Bins/1.webp",
@@ -3142,14 +3070,10 @@ export const categories = [
           },
         ],
       },
-
-  
     ],
   },
 
-
-
-    // cat Garbage Dustbin
+  // cat Garbage Dustbin
   {
     id: "garbage-dustbin",
     name: "Garbage Dustbin",
@@ -3162,341 +3086,340 @@ export const categories = [
       // product 1 done
 
       {
-  "id": "10l-swing-lid-round-dustbin",
-  "name": "10 L Swing Lid Round Dustbin",
-  "metaTitle": "10 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 L Swing Lid Round Dustbin designed for hygienic waste disposal in homes, kitchens, offices, and commercial spaces. Durable plastic dustbin with convenient swing lid design.",
+        id: "10l-swing-lid-round-dustbin",
+        name: "10 L Swing Lid Round Dustbin",
+        metaTitle:
+          "10 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 10 L Swing Lid Round Dustbin designed for hygienic waste disposal in homes, kitchens, offices, and commercial spaces. Durable plastic dustbin with convenient swing lid design.",
 
-  "model": "pwe10(slro)",
-  "color": ["  blue ","  green ","  yellow ","  white ","  red",],
+        model: "pwe10(slro)",
+        color: ["  blue ", "  green ", "  yellow ", "  white ", "  red"],
 
-  "excerpt": "The 10 L Swing Lid Round Dustbin provides a hygienic and convenient waste disposal solution with a durable plastic body and easy-to-use swing lid mechanism.",
+        excerpt:
+          "The 10 L Swing Lid Round Dustbin provides a hygienic and convenient waste disposal solution with a durable plastic body and easy-to-use swing lid mechanism.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 L Swing Lid Round Dustbin – Hygienic Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 L Swing Lid Round Dustbin is designed to provide a practical, hygienic, and convenient waste disposal solution for everyday use in homes, offices, kitchens, and commercial environments."
-    },
-    {
-      "type": "p",
-      "text": "Manufactured using high-quality, durable plastic, the dustbin offers long-lasting performance while maintaining its shape and strength even with regular use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows users to dispose of waste easily without lifting the lid manually, ensuring better hygiene and reducing direct contact with the bin."
-    },
-    {
-      "type": "p",
-      "text": "Its round and compact design allows it to fit easily in corners, under desks, near kitchen counters, or in washrooms where space efficiency is important."
-    },
-    {
-      "type": "p",
-      "text": "With a 10-liter capacity, the bin is perfectly suited for handling daily waste generation in medium-usage areas without taking up too much space."
-    },
-    {
-      "type": "p",
-      "text": "The design helps maintain cleanliness and reduce odor spread by keeping waste covered inside the container."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "10 L Swing Lid Round Dustbin – Hygienic Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 10 L Swing Lid Round Dustbin is designed to provide a practical, hygienic, and convenient waste disposal solution for everyday use in homes, offices, kitchens, and commercial environments.",
+          },
+          {
+            type: "p",
+            text: "Manufactured using high-quality, durable plastic, the dustbin offers long-lasting performance while maintaining its shape and strength even with regular use.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows users to dispose of waste easily without lifting the lid manually, ensuring better hygiene and reducing direct contact with the bin.",
+          },
+          {
+            type: "p",
+            text: "Its round and compact design allows it to fit easily in corners, under desks, near kitchen counters, or in washrooms where space efficiency is important.",
+          },
+          {
+            type: "p",
+            text: "With a 10-liter capacity, the bin is perfectly suited for handling daily waste generation in medium-usage areas without taking up too much space.",
+          },
+          {
+            type: "p",
+            text: "The design helps maintain cleanliness and reduce odor spread by keeping waste covered inside the container.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Convenient swing lid mechanism for quick and effortless waste disposal.",
-        "Durable plastic construction resistant to everyday wear and tear.",
-        "Covered lid design helps promote hygienic waste disposal.",
-        "Helps contain unpleasant odors and maintain a fresh environment.",
-        "Compact round design suitable for tight spaces like bathrooms, kitchens, and offices."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Convenient swing lid mechanism for quick and effortless waste disposal.",
+              "Durable plastic construction resistant to everyday wear and tear.",
+              "Covered lid design helps promote hygienic waste disposal.",
+              "Helps contain unpleasant odors and maintain a fresh environment.",
+              "Compact round design suitable for tight spaces like bathrooms, kitchens, and offices.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Experienced manufacturer of high-quality plastic utility products.",
-        "Strict quality control using carefully selected raw materials.",
-        "Functional and user-friendly product designs.",
-        "Durable products built for long-term everyday usage.",
-        "Cost-effective solutions delivering excellent value for money.",
-        "Wide range of plastic household, commercial, and industrial products."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Experienced manufacturer of high-quality plastic utility products.",
+              "Strict quality control using carefully selected raw materials.",
+              "Functional and user-friendly product designs.",
+              "Durable products built for long-term everyday usage.",
+              "Cost-effective solutions delivering excellent value for money.",
+              "Wide range of plastic household, commercial, and industrial products.",
+            ],
+          },
+        ],
 
+        image: [
+          {
+            src: "/product/10ltrswing.webp",
+            alt: "10 L Swing Lid Round Dustbin Front View",
+          },
+        ],
+      },
 
+      // 2
+      {
+        id: "15l-swing-lid-rectangular-dustbin",
+        name: "15 L Swing Lid Rectangular Dustbin",
+        metaTitle:
+          "15 L Swing Lid Rectangular Dustbin Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 15 L Swing Lid Rectangular Dustbin designed for hygienic and space-efficient waste disposal in homes, offices, kitchens, and commercial environments.",
 
-  "image": [
-    {
-      "src": "/product/10ltrswing.webp",
-      "alt": "10 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
+        model: "pwe15(slre)",
+        color: ["  blue ", "  green ", "  yellow ", "  black ", "  red "],
 
-// 2
-{
-  "id": "15l-swing-lid-rectangular-dustbin",
-  "name": "15 L Swing Lid Rectangular Dustbin",
-  "metaTitle": "15 L Swing Lid Rectangular Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 15 L Swing Lid Rectangular Dustbin designed for hygienic and space-efficient waste disposal in homes, offices, kitchens, and commercial environments.",
+        excerpt:
+          "The 15 L Swing Lid Rectangular Dustbin offers a hygienic and space-saving waste disposal solution with durable plastic construction and an easy-to-use swing lid.",
 
-  "model": "pwe15(slre)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
+        description: [
+          {
+            type: "h2",
+            text: "15 L Swing Lid Rectangular Dustbin – Efficient Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 15 L Swing Lid Rectangular Dustbin is designed to provide an efficient, hygienic, and space-saving waste disposal solution suitable for homes, offices, kitchens, and commercial environments.",
+          },
+          {
+            type: "p",
+            text: "Manufactured using high-quality, durable plastic, this dustbin is built to withstand regular daily use while maintaining its strength, structure, and appearance over time.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows users to dispose of waste conveniently without lifting the lid manually, ensuring better hygiene and minimizing direct contact with the bin.",
+          },
+          {
+            type: "p",
+            text: "Its rectangular shape is specifically designed to fit neatly against walls, under counters, or in narrow spaces, making it ideal for areas where efficient space utilization is important.",
+          },
+          {
+            type: "p",
+            text: "With a 15-liter capacity, the dustbin offers sufficient space for daily waste collection in medium-traffic areas without requiring frequent emptying.",
+          },
+          {
+            type: "p",
+            text: "The covered lid design helps maintain cleanliness and control odor, keeping waste concealed and the surrounding environment neat.",
+          },
 
-  "excerpt": "The 15 L Swing Lid Rectangular Dustbin offers a hygienic and space-saving waste disposal solution with durable plastic construction and an easy-to-use swing lid.",
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Convenient swing lid mechanism for quick and effortless waste disposal.",
+              "Durable plastic construction resistant to everyday wear and tear.",
+              "Hygienic covered lid design that minimizes direct contact with waste.",
+              "Helps control unpleasant odors and maintain a fresh environment.",
+              "Space-efficient rectangular design ideal for walls, corners, and narrow areas.",
+            ],
+          },
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "15 L Swing Lid Rectangular Dustbin – Efficient Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 15 L Swing Lid Rectangular Dustbin is designed to provide an efficient, hygienic, and space-saving waste disposal solution suitable for homes, offices, kitchens, and commercial environments."
-    },
-    {
-      "type": "p",
-      "text": "Manufactured using high-quality, durable plastic, this dustbin is built to withstand regular daily use while maintaining its strength, structure, and appearance over time."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows users to dispose of waste conveniently without lifting the lid manually, ensuring better hygiene and minimizing direct contact with the bin."
-    },
-    {
-      "type": "p",
-      "text": "Its rectangular shape is specifically designed to fit neatly against walls, under counters, or in narrow spaces, making it ideal for areas where efficient space utilization is important."
-    },
-    {
-      "type": "p",
-      "text": "With a 15-liter capacity, the dustbin offers sufficient space for daily waste collection in medium-traffic areas without requiring frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "The covered lid design helps maintain cleanliness and control odor, keeping waste concealed and the surrounding environment neat."
-    },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of reliable plastic utility products.",
+              "Quality-focused production using carefully selected materials.",
+              "Functional and modern product designs.",
+              "Durable products built for long-term everyday usage.",
+              "Cost-effective solutions delivering excellent value for customers.",
+              "Wide range of plastic household, storage, and waste management products.",
+            ],
+          },
+        ],
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Convenient swing lid mechanism for quick and effortless waste disposal.",
-        "Durable plastic construction resistant to everyday wear and tear.",
-        "Hygienic covered lid design that minimizes direct contact with waste.",
-        "Helps control unpleasant odors and maintain a fresh environment.",
-        "Space-efficient rectangular design ideal for walls, corners, and narrow areas."
-      ]
-    },
+        image: [
+          {
+            src: "/product/15ltrswing.webp",
+            alt: "15 L Swing Lid Rectangular Dustbin Front View",
+          },
+        ],
+      },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of reliable plastic utility products.",
-        "Quality-focused production using carefully selected materials.",
-        "Functional and modern product designs.",
-        "Durable products built for long-term everyday usage.",
-        "Cost-effective solutions delivering excellent value for customers.",
-        "Wide range of plastic household, storage, and waste management products."
-      ]
-    }
-  ],
+      // 3
 
+      {
+        id: "25l-swing-lid-round-dustbin",
+        name: "25 L Swing Lid Round Dustbin",
+        metaTitle:
+          "25 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 25 L Swing Lid Round Dustbin made from durable Polypropylene Copolymer for hygienic and spacious waste disposal in homes, offices, kitchens, and commercial spaces.",
 
-  "image": [
-    {
-      "src": "/product/15ltrswing.webp",
-      "alt": "15 L Swing Lid Rectangular Dustbin Front View"
-    }
-  ]
-},
+        model: "pwe25(slro)",
+        color: ["  blue ", "  green ", "  yellow ", "  black ", "  red "],
 
+        excerpt:
+          "The 25 L Swing Lid Round Dustbin provides a hygienic and spacious waste disposal solution with durable polypropylene construction and a convenient swing lid mechanism.",
 
-// 3
+        description: [
+          {
+            type: "h2",
+            text: "25 L Swing Lid Round Dustbin – Spacious Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 25 L Swing Lid Round Dustbin is designed to offer a convenient, hygienic, and spacious waste management solution for homes, offices, commercial spaces, and institutional environments.",
+          },
+          {
+            type: "p",
+            text: "Constructed with high-quality Polypropylene Copolymer, the dustbin is durable, lightweight, and resistant to wear and tear, ensuring long-lasting use.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows effortless disposal of waste without the need to lift the lid, promoting hygienic waste handling and reducing odor spread.",
+          },
+          {
+            type: "p",
+            text: "Its round shape makes it easy to place in corners or open spaces while maintaining a neat and organized look.",
+          },
+          {
+            type: "p",
+            text: "With a 25-liter capacity, this dustbin is ideal for medium to high-usage areas, reducing the need for frequent emptying while keeping the environment clean.",
+          },
 
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Swing lid mechanism allows easy, one-touch waste disposal.",
+              "Made from durable Polypropylene Copolymer for long-lasting performance.",
+              "Covered lid design promotes hygienic waste handling.",
+              "Helps reduce odor spread and keeps waste concealed.",
+              "Spacious 25-liter capacity suitable for medium to high-traffic areas.",
+              "Round shape design for easy placement near walls, corners, or counters.",
+            ],
+          },
 
-{
-  "id": "25l-swing-lid-round-dustbin",
-  "name": "25 L Swing Lid Round Dustbin",
-  "metaTitle": "25 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 25 L Swing Lid Round Dustbin made from durable Polypropylene Copolymer for hygienic and spacious waste disposal in homes, offices, kitchens, and commercial spaces.",
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Extensive expertise in manufacturing reliable plastic utility products.",
+              "Use of premium quality materials for durability and strength.",
+              "Functional designs combining practicality and modern aesthetics.",
+              "Long-lasting products engineered for everyday use.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products.",
+            ],
+          },
+        ],
 
-  "model": "pwe25(slro)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
+        image: [
+          {
+            src: "/product/20lswing.webp",
+            alt: "25 L Swing Lid Round Dustbin Front View",
+          },
+        ],
+      },
 
+      // 4
 
-  "excerpt": "The 25 L Swing Lid Round Dustbin provides a hygienic and spacious waste disposal solution with durable polypropylene construction and a convenient swing lid mechanism.",
+      {
+        id: "40l-swing-lid-round-dustbin",
+        name: "40 L Swing Lid Round Dustbin",
+        metaTitle:
+          "40 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 40 L Swing Lid Round Dustbin designed for hygienic and large-capacity waste disposal in homes, offices, commercial spaces, and industrial environments.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "25 L Swing Lid Round Dustbin – Spacious Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 25 L Swing Lid Round Dustbin is designed to offer a convenient, hygienic, and spacious waste management solution for homes, offices, commercial spaces, and institutional environments."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with high-quality Polypropylene Copolymer, the dustbin is durable, lightweight, and resistant to wear and tear, ensuring long-lasting use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows effortless disposal of waste without the need to lift the lid, promoting hygienic waste handling and reducing odor spread."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape makes it easy to place in corners or open spaces while maintaining a neat and organized look."
-    },
-    {
-      "type": "p",
-      "text": "With a 25-liter capacity, this dustbin is ideal for medium to high-usage areas, reducing the need for frequent emptying while keeping the environment clean."
-    },
+        model: "pwe40(slro)",
+        color: ["  blue ", "  green ", "  yellow ", "  black ", "  red "],
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism allows easy, one-touch waste disposal.",
-        "Made from durable Polypropylene Copolymer for long-lasting performance.",
-        "Covered lid design promotes hygienic waste handling.",
-        "Helps reduce odor spread and keeps waste concealed.",
-        "Spacious 25-liter capacity suitable for medium to high-traffic areas.",
-        "Round shape design for easy placement near walls, corners, or counters."
-      ]
-    },
+        excerpt:
+          "The 40 L Swing Lid Round Dustbin offers a large-capacity and hygienic waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Extensive expertise in manufacturing reliable plastic utility products.",
-        "Use of premium quality materials for durability and strength.",
-        "Functional designs combining practicality and modern aesthetics.",
-        "Long-lasting products engineered for everyday use.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "40 L Swing Lid Round Dustbin – Large Capacity Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 40 L Swing Lid Round Dustbin is designed to provide a large-capacity, hygienic, and durable waste disposal solution for homes, offices, commercial spaces, and industrial environments.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality, durable plastic, this dustbin is resistant to daily wear, impact, and cracking, ensuring long-term use.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows for easy, touch-free waste disposal, promoting hygiene and preventing the spread of odours.",
+          },
+          {
+            type: "p",
+            text: "Its round shape ensures space-efficient placement in corners, kitchens, corridors, or open areas while maintaining a neat and organised environment.",
+          },
+          {
+            type: "p",
+            text: "With a 40-litre capacity, this dustbin is suitable for medium to high-traffic areas, reducing the frequency of emptying and making waste management more efficient.",
+          },
 
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Swing lid mechanism for easy and hygienic waste disposal.",
+              "Strong plastic construction resistant to cracking and impact.",
+              "Covered lid design helps conceal waste and reduce odour spread.",
+              "Large 40-litre capacity suitable for medium to high-traffic areas.",
+              "Round design allows space-efficient placement in corners or open spaces.",
+            ],
+          },
 
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Renowned manufacturer of reliable plastic utility products.",
+              "Use of premium-grade plastic materials for durability.",
+              "Practical designs combining functionality with modern aesthetics.",
+              "Products engineered for long-lasting performance.",
+              "Cost-effective solutions providing excellent value for customers.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/20lswing.webp",
-      "alt": "25 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
-
-// 4
-
-{
-  "id": "40l-swing-lid-round-dustbin",
-  "name": "40 L Swing Lid Round Dustbin",
-  "metaTitle": "40 L Swing Lid Round Dustbin Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 40 L Swing Lid Round Dustbin designed for hygienic and large-capacity waste disposal in homes, offices, commercial spaces, and industrial environments.",
-
-  "model": "pwe40(slro)",
-  "color": ["  blue ","  green ","  yellow ","  black ","  red " ,],
-
-
-
-  "excerpt": "The 40 L Swing Lid Round Dustbin offers a large-capacity and hygienic waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "40 L Swing Lid Round Dustbin – Large Capacity Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 40 L Swing Lid Round Dustbin is designed to provide a large-capacity, hygienic, and durable waste disposal solution for homes, offices, commercial spaces, and industrial environments."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin is resistant to daily wear, impact, and cracking, ensuring long-term use."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows for easy, touch-free waste disposal, promoting hygiene and preventing the spread of odours."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape ensures space-efficient placement in corners, kitchens, corridors, or open areas while maintaining a neat and organised environment."
-    },
-    {
-      "type": "p",
-      "text": "With a 40-litre capacity, this dustbin is suitable for medium to high-traffic areas, reducing the frequency of emptying and making waste management more efficient."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism for easy and hygienic waste disposal.",
-        "Strong plastic construction resistant to cracking and impact.",
-        "Covered lid design helps conceal waste and reduce odour spread.",
-        "Large 40-litre capacity suitable for medium to high-traffic areas.",
-        "Round design allows space-efficient placement in corners or open spaces."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Renowned manufacturer of reliable plastic utility products.",
-        "Use of premium-grade plastic materials for durability.",
-        "Practical designs combining functionality with modern aesthetics.",
-        "Products engineered for long-lasting performance.",
-        "Cost-effective solutions providing excellent value for customers."
-      ]
-    }
-  ],
-
-
-
-  "image": [
-    {
-      "src": "/product/40ltrswing.webp",
-      "alt": "40 L Swing Lid Round Dustbin Front View"
-    }
-  ]
-},
-
+        image: [
+          {
+            src: "/product/40ltrswing.webp",
+            alt: "40 L Swing Lid Round Dustbin Front View",
+          },
+        ],
+      },
 
       // rh
-     {
+      {
         id: "10l-blue-plastic-garbage-bin",
         name: "10L Blue Plastic Garbage Bin",
         metaTitle: "10L Blue Plastic Garbage Bin Manufacturer | PolyWell",
@@ -3566,8 +3489,6 @@ export const categories = [
           },
         ],
 
-     
-
         image: [
           {
             src: "/product/10L Blue Plastic Garbage Bin/1.webp",
@@ -3585,9 +3506,9 @@ export const categories = [
         metaDescription:
           "Buy Bins On Stands (Roto) for safe biomedical waste collection. Durable yellow plastic bin for hygienic and organized waste disposal.",
 
-          "model":"generic",
-          "size":["  size available  ","  60 ltr",  "  100 ltr", "  150 ltr"],
-          "color":["  blue","  green",],
+        model: "generic",
+        size: ["  size available  ", "  60 ltr", "  100 ltr", "  150 ltr"],
+        color: ["  blue", "  green"],
         excerpt:
           "The Bins On Stands (Roto) is designed for safe collection and temporary storage of biomedical and segregated waste.",
 
@@ -3741,8 +3662,6 @@ export const categories = [
           },
         ],
 
-      
-
         image: [
           {
             src: "/product/new plastic dustbin products/Plastic Garbage Container/1.webp",
@@ -3752,26 +3671,15 @@ export const categories = [
       },
 
       // 4 done
-    
 
       // 5
 
+      // 7
 
+      // 8
 
-
-
-
-// 7
-
-
-
-
-// 8
-
-
-
-// 9
-   // 10 done
+      // 9
+      // 10 done
       {
         id: "1100l-pedal-garbage-bin",
         name: "1100L Pedal Garbage Bins",
@@ -3869,479 +3777,470 @@ export const categories = [
           },
         ],
       },
-
-
     ],
   },
 
-
-
   // swachh bharat range
 
-
-{
-   id: "swacch-bharat-range-bin",
+  {
+    id: "swacch-bharat-range-bin",
     name: "Swach Bharat Range Bin",
-    metaTitle: "Swach Bharat Range Bin Manufacturer | Durable Waste Management Bins",
-metaDescription:
-  "Swach Bharat Range Bin Manufacturer – High-quality plastic waste management bins designed for public places, offices, and municipal use. Durable, hygienic, and ideal for maintaining cleanliness under Swachh Bharat initiatives.",
+    metaTitle:
+      "Swach Bharat Range Bin Manufacturer | Durable Waste Management Bins",
+    metaDescription:
+      "Swach Bharat Range Bin Manufacturer – High-quality plastic waste management bins designed for public places, offices, and municipal use. Durable, hygienic, and ideal for maintaining cleanliness under Swachh Bharat initiatives.",
 
-      products:[
+    products: [
+      // 1
 
-        // 1
+      {
+        id: "10l-round-container",
+        name: "10 Litre Round Container",
+        metaTitle:
+          "10 Litre Round Plastic Container Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 10 Litre Round Plastic Container designed for versatile storage in homes, kitchens, offices, and commercial spaces. Durable and lightweight container for multipurpose use.",
 
-{
-  "id": "10l-round-container",
-  "name": "10 Litre Round Container",
-  "metaTitle": "10 Litre Round Plastic Container Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 Litre Round Plastic Container designed for versatile storage in homes, kitchens, offices, and commercial spaces. Durable and lightweight container for multipurpose use.",
+        model: "generic",
 
-  "model": "generic",
-   
-"color":["  blue ","  green"],
+        color: ["  blue ", "  green"],
 
-  "excerpt": "The 10 Litre Round Container is a durable and versatile plastic storage solution suitable for homes, kitchens, offices, and commercial environments.",
+        excerpt:
+          "The 10 Litre Round Container is a durable and versatile plastic storage solution suitable for homes, kitchens, offices, and commercial environments.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 Litre Round Container – Multipurpose Storage Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 Litre Round Container is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this container ensures long-lasting use and is resistant to cracks, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "Its round design makes it easy to store in cupboards, shelves, or counters while optimising space efficiency."
-    },
-    {
-      "type": "p",
-      "text": "It is ideal for storing dry goods, liquids, or miscellaneous items, making it suitable for multiple household and commercial applications."
-    },
-    {
-      "type": "p",
-      "text": "Lightweight and portable, the container is easy to carry, move, and handle, ensuring convenience during everyday use."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "10 Litre Round Container – Multipurpose Storage Solution",
+          },
+          {
+            type: "p",
+            text: "The 10 Litre Round Container is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality, durable plastic, this container ensures long-lasting use and is resistant to cracks, impact, and daily wear.",
+          },
+          {
+            type: "p",
+            text: "Its round design makes it easy to store in cupboards, shelves, or counters while optimising space efficiency.",
+          },
+          {
+            type: "p",
+            text: "It is ideal for storing dry goods, liquids, or miscellaneous items, making it suitable for multiple household and commercial applications.",
+          },
+          {
+            type: "p",
+            text: "Lightweight and portable, the container is easy to carry, move, and handle, ensuring convenience during everyday use.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction for long-lasting usage.",
-        "Round shape design for space-efficient storage.",
-        "Lightweight and portable for easy handling.",
-        "Suitable for storing dry goods, liquids, or miscellaneous items.",
-        "Smooth surface for easy cleaning and maintenance.",
-        "Helps protect contents from dust, moisture, and pests.",
-        "Multipurpose usage for homes, offices, restaurants, or industrial storage."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Durable plastic construction for long-lasting usage.",
+              "Round shape design for space-efficient storage.",
+              "Lightweight and portable for easy handling.",
+              "Suitable for storing dry goods, liquids, or miscellaneous items.",
+              "Smooth surface for easy cleaning and maintenance.",
+              "Helps protect contents from dust, moisture, and pests.",
+              "Multipurpose usage for homes, offices, restaurants, or industrial storage.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of reliable plastic utility products.",
-        "Use of high-quality materials ensuring durability and strength.",
-        "Practical and functional designs for versatile storage needs.",
-        "Products engineered for long-lasting performance.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products.",
-        "Customer-focused approach delivering practical and reliable solutions."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of reliable plastic utility products.",
+              "Use of high-quality materials ensuring durability and strength.",
+              "Practical and functional designs for versatile storage needs.",
+              "Products engineered for long-lasting performance.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products.",
+              "Customer-focused approach delivering practical and reliable solutions.",
+            ],
+          },
+        ],
 
+        image: [
+          {
+            src: "/product/10lswachh.webp",
+            alt: "10 Litre Round Plastic Container Front View",
+          },
+        ],
+      },
 
+      // 2
 
-  "image": [
-    {
-      "src": "/product/10lswachh.webp",
-      "alt": "10 Litre Round Plastic Container Front View"
-    }
-  ]
-},
+      {
+        id: "10l-round-container-with-handle-lid",
+        name: "10 Litre Round Container with Handle & Lid",
+        metaTitle:
+          "10 Litre Round Container with Handle & Lid Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 10 Litre Round Container with Handle & Lid designed for secure and versatile storage in homes, kitchens, offices, and commercial spaces.",
 
-// 2
+        model: "generic",
 
-{
-  "id": "10l-round-container-with-handle-lid",
-  "name": "10 Litre Round Container with Handle & Lid",
-  "metaTitle": "10 Litre Round Container with Handle & Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 10 Litre Round Container with Handle & Lid designed for secure and versatile storage in homes, kitchens, offices, and commercial spaces.",
+        color: ["  blue ", "  green"],
 
-  "model": "generic",
-   
-"color":["  blue ","  green"],
+        excerpt:
+          "The 10 Litre Round Container with Handle & Lid is a durable and multipurpose plastic storage solution designed for secure storage and easy transportation.",
 
+        description: [
+          {
+            type: "h2",
+            text: "10 Litre Round Container with Handle & Lid – Secure Storage Solution",
+          },
+          {
+            type: "p",
+            text: "The 10 Litre Round Container with Handle & Lid is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces.",
+          },
+          {
+            type: "p",
+            text: "Constructed with high-quality, durable plastic, the container is resistant to cracks, impact, and everyday wear, ensuring long-lasting use.",
+          },
+          {
+            type: "p",
+            text: "It features a tight-fitting lid that keeps contents secure, fresh, and protected from dust, moisture, or pests.",
+          },
+          {
+            type: "p",
+            text: "The sturdy handle makes it easy to carry, transport, and store the container without spilling its contents.",
+          },
+          {
+            type: "p",
+            text: "Its round shape allows efficient stacking and storage in cupboards, shelves, or counters while optimizing available space.",
+          },
+          {
+            type: "p",
+            text: "Ideal for storing dry goods, liquids, grains, snacks, or household items, making it a practical multipurpose storage solution.",
+          },
 
-  "excerpt": "The 10 Litre Round Container with Handle & Lid is a durable and multipurpose plastic storage solution designed for secure storage and easy transportation.",
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Durable plastic construction for long-term use.",
+              "Secure lid protects contents from dust, moisture, and pests.",
+              "Strong handle for convenient carrying and handling.",
+              "Suitable for storing dry goods, liquids, grains, snacks, or household items.",
+              "Round shape design for space-efficient stacking and storage.",
+              "Lightweight and portable for easy movement.",
+              "Smooth surface allows quick cleaning and maintenance.",
+              "Versatile for homes, kitchens, offices, restaurants, and small commercial use.",
+            ],
+          },
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "10 Litre Round Container with Handle & Lid – Secure Storage Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 10 Litre Round Container with Handle & Lid is a versatile storage solution designed for homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Constructed with high-quality, durable plastic, the container is resistant to cracks, impact, and everyday wear, ensuring long-lasting use."
-    },
-    {
-      "type": "p",
-      "text": "It features a tight-fitting lid that keeps contents secure, fresh, and protected from dust, moisture, or pests."
-    },
-    {
-      "type": "p",
-      "text": "The sturdy handle makes it easy to carry, transport, and store the container without spilling its contents."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape allows efficient stacking and storage in cupboards, shelves, or counters while optimizing available space."
-    },
-    {
-      "type": "p",
-      "text": "Ideal for storing dry goods, liquids, grains, snacks, or household items, making it a practical multipurpose storage solution."
-    },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of durable plastic products.",
+              "Use of premium quality materials ensuring strength and longevity.",
+              "Functional and user-friendly product designs.",
+              "Durable products built to withstand frequent usage.",
+              "Affordable and value-oriented product range.",
+              "Wide portfolio of plastic storage, utility, and waste management products.",
+              "Customer-centric approach focused on practical everyday solutions.",
+            ],
+          },
+        ],
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Durable plastic construction for long-term use.",
-        "Secure lid protects contents from dust, moisture, and pests.",
-        "Strong handle for convenient carrying and handling.",
-        "Suitable for storing dry goods, liquids, grains, snacks, or household items.",
-        "Round shape design for space-efficient stacking and storage.",
-        "Lightweight and portable for easy movement.",
-        "Smooth surface allows quick cleaning and maintenance.",
-        "Versatile for homes, kitchens, offices, restaurants, and small commercial use."
-      ]
-    },
+        image: [
+          {
+            src: "/product/10lswachhwithhandle.webp",
+            alt: "10 Litre Round Container with Handle and Lid Front View",
+          },
+        ],
+      },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic products.",
-        "Use of premium quality materials ensuring strength and longevity.",
-        "Functional and user-friendly product designs.",
-        "Durable products built to withstand frequent usage.",
-        "Affordable and value-oriented product range.",
-        "Wide portfolio of plastic storage, utility, and waste management products.",
-        "Customer-centric approach focused on practical everyday solutions."
-      ]
-    }
-  ],
+      // 3
 
+      {
+        id: "11-5l-round-dustbin-with-foot-pedal",
+        name: "11.5 Litre Round Dustbin with Foot Pedal",
+        metaTitle:
+          "11.5 Litre Round Dustbin with Foot Pedal Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 11.5 Litre Round Dustbin with Foot Pedal designed for hygienic hands-free waste disposal in homes, kitchens, offices, and commercial spaces.",
 
+        model: "generic",
 
-  "image": [
-    {
-      "src": "/product/10lswachhwithhandle.webp",
-      "alt": "10 Litre Round Container with Handle and Lid Front View"
-    }
-  ]
-},
+        color: ["  blue ", "  green"],
 
+        excerpt:
+          "The 11.5 Litre Round Dustbin with Foot Pedal provides hygienic, hands-free waste disposal with a durable plastic body and compact round design.",
 
-// 3
+        description: [
+          {
+            type: "h2",
+            text: "11.5 Litre Round Dustbin with Foot Pedal – Hygienic Hands-Free Waste Solution",
+          },
+          {
+            type: "p",
+            text: "The 11.5 Litre Round Dustbin with Foot Pedal is designed for hygienic, convenient, and hands-free waste disposal in homes, offices, kitchens, and commercial spaces.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality, durable plastic, this dustbin offers long-lasting performance and resistance to cracking, impact, and daily wear.",
+          },
+          {
+            type: "p",
+            text: "The foot pedal mechanism allows users to open the lid without using their hands, promoting better hygiene and reducing contact with germs.",
+          },
+          {
+            type: "p",
+            text: "Its round and compact design fits easily into corners, under counters, or next to workstations, making it ideal for areas where cleanliness and space efficiency are important.",
+          },
+          {
+            type: "p",
+            text: "With a capacity of 11.5 litres, the dustbin is suitable for handling daily waste while reducing the need for frequent emptying.",
+          },
+          {
+            type: "p",
+            text: "It is suitable for residential, commercial, and institutional environments such as kitchens, bathrooms, offices, hospitals, and cafeterias.",
+          },
 
-{
-  "id": "11-5l-round-dustbin-with-foot-pedal",
-  "name": "11.5 Litre Round Dustbin with Foot Pedal",
-  "metaTitle": "11.5 Litre Round Dustbin with Foot Pedal Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 11.5 Litre Round Dustbin with Foot Pedal designed for hygienic hands-free waste disposal in homes, kitchens, offices, and commercial spaces.",
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Foot pedal mechanism for hygienic hands-free operation.",
+              "Durable plastic construction ensuring long-term reliability.",
+              "Helps maintain hygienic waste disposal by reducing hand contact.",
+              "Covered lid design helps contain unpleasant odors.",
+              "Compact round shape suitable for corners and small spaces.",
+              "Lightweight and portable for easy movement and emptying.",
+              "Smooth surface allows easy cleaning and maintenance.",
+              "Multipurpose usage for homes, offices, hospitals, hotels, and commercial spaces.",
+              "Stable and balanced base for secure everyday use.",
+            ],
+          },
 
-  "model": "generic",
-   
-"color":["  blue ","  green"],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium-grade plastic materials for strength and longevity.",
+              "Functional and practical designs focused on convenience and hygiene.",
+              "Products engineered for long-lasting performance.",
+              "Cost-effective solutions delivering excellent value.",
+              "Wide range of plastic containers, dustbins, and utility products.",
+              "Customer-focused approach ensuring reliable everyday solutions.",
+            ],
+          },
+        ],
 
+        image: [
+          {
+            src: "/product/11.5swachh.webp",
+            alt: "11.5 Litre Round Dustbin with Foot Pedal Front View",
+          },
+        ],
+      },
 
+      // 4
 
-  "excerpt": "The 11.5 Litre Round Dustbin with Foot Pedal provides hygienic, hands-free waste disposal with a durable plastic body and compact round design.",
+      {
+        id: "12l-round-dustbin-with-swing-lid",
+        name: "12 Litre Round Dustbin with Swing Lid",
+        metaTitle:
+          "12 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 12 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "11.5 Litre Round Dustbin with Foot Pedal – Hygienic Hands-Free Waste Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 11.5 Litre Round Dustbin with Foot Pedal is designed for hygienic, convenient, and hands-free waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin offers long-lasting performance and resistance to cracking, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "The foot pedal mechanism allows users to open the lid without using their hands, promoting better hygiene and reducing contact with germs."
-    },
-    {
-      "type": "p",
-      "text": "Its round and compact design fits easily into corners, under counters, or next to workstations, making it ideal for areas where cleanliness and space efficiency are important."
-    },
-    {
-      "type": "p",
-      "text": "With a capacity of 11.5 litres, the dustbin is suitable for handling daily waste while reducing the need for frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "It is suitable for residential, commercial, and institutional environments such as kitchens, bathrooms, offices, hospitals, and cafeterias."
-    },
+        model: "generic",
+        color: ["  blue ", "  green"],
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Foot pedal mechanism for hygienic hands-free operation.",
-        "Durable plastic construction ensuring long-term reliability.",
-        "Helps maintain hygienic waste disposal by reducing hand contact.",
-        "Covered lid design helps contain unpleasant odors.",
-        "Compact round shape suitable for corners and small spaces.",
-        "Lightweight and portable for easy movement and emptying.",
-        "Smooth surface allows easy cleaning and maintenance.",
-        "Multipurpose usage for homes, offices, hospitals, hotels, and commercial spaces.",
-        "Stable and balanced base for secure everyday use."
-      ]
-    },
+        excerpt:
+          "The 12 Litre Round Dustbin with Swing Lid offers hygienic and convenient waste disposal with durable plastic construction and a compact round design.",
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium-grade plastic materials for strength and longevity.",
-        "Functional and practical designs focused on convenience and hygiene.",
-        "Products engineered for long-lasting performance.",
-        "Cost-effective solutions delivering excellent value.",
-        "Wide range of plastic containers, dustbins, and utility products.",
-        "Customer-focused approach ensuring reliable everyday solutions."
-      ]
-    }
-  ],
+        description: [
+          {
+            type: "h2",
+            text: "12 Litre Round Dustbin with Swing Lid – Hygienic Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 12 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality, durable plastic, the dustbin is resistant to cracking, impact, and daily wear, ensuring long-term usability.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows easy disposal of waste without touching the lid manually, promoting better hygiene and minimising odour spread.",
+          },
+          {
+            type: "p",
+            text: "Its compact round design fits easily under counters, in corners, or near workstations, optimising space while keeping areas tidy.",
+          },
+          {
+            type: "p",
+            text: "With a 12-litre capacity, this dustbin is suitable for daily waste collection in medium-use areas.",
+          },
+          {
+            type: "p",
+            text: "It is suitable for residential, commercial, and institutional environments including kitchens, bathrooms, offices, hotels, hospitals, and classrooms.",
+          },
 
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Swing lid design for convenient and hygienic waste disposal.",
+              "Durable plastic construction resistant to cracking and impact.",
+              "Covered lid helps conceal waste and reduce unpleasant odors.",
+              "Compact round shape suitable for kitchens, bathrooms, and offices.",
+              "Lightweight and portable for easy movement and emptying.",
+              "Smooth plastic surface allows quick cleaning and maintenance.",
+              "Multipurpose use for homes, offices, restaurants, hospitals, and educational institutions.",
+              "Stable base design prevents tipping during regular use.",
+            ],
+          },
 
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of durable plastic utility products.",
+              "Use of premium quality materials for strength and longevity.",
+              "Practical and user-friendly product designs.",
+              "Products engineered for long-lasting everyday performance.",
+              "Cost-effective solutions providing excellent value.",
+              "Wide range of plastic dustbins, containers, and utility products.",
+            ],
+          },
+        ],
 
-  "image": [
-    {
-      "src": "/product/11.5swachh.webp",
-      "alt": "11.5 Litre Round Dustbin with Foot Pedal Front View"
-    }
-  ]
-}
-,
+        image: [
+          {
+            src: "/product/12lswachh.webp",
+            alt: "12 Litre Round Dustbin with Swing Lid Front View",
+          },
+        ],
+      },
 
-// 4
+      // 5
 
-{
-  "id": "12l-round-dustbin-with-swing-lid",
-  "name": "12 Litre Round Dustbin with Swing Lid",
-  "metaTitle": "12 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 12 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
+      {
+        id: "20l-round-dustbin-with-swing-lid",
+        name: "20 Litre Round Dustbin with Swing Lid",
+        metaTitle:
+          "20 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
+        metaDescription:
+          "Buy 20 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
 
-  "model": "generic",
-  "color":["  blue ","  green"],
+        model: "generic",
+        color: ["  blue ", "  green"],
 
-  "excerpt": "The 12 Litre Round Dustbin with Swing Lid offers hygienic and convenient waste disposal with durable plastic construction and a compact round design.",
+        excerpt:
+          "The 20 Litre Round Dustbin with Swing Lid offers a hygienic and spacious waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "12 Litre Round Dustbin with Swing Lid – Hygienic Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 12 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, the dustbin is resistant to cracking, impact, and daily wear, ensuring long-term usability."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows easy disposal of waste without touching the lid manually, promoting better hygiene and minimising odour spread."
-    },
-    {
-      "type": "p",
-      "text": "Its compact round design fits easily under counters, in corners, or near workstations, optimising space while keeping areas tidy."
-    },
-    {
-      "type": "p",
-      "text": "With a 12-litre capacity, this dustbin is suitable for daily waste collection in medium-use areas."
-    },
-    {
-      "type": "p",
-      "text": "It is suitable for residential, commercial, and institutional environments including kitchens, bathrooms, offices, hotels, hospitals, and classrooms."
-    },
+        description: [
+          {
+            type: "h2",
+            text: "20 Litre Round Dustbin with Swing Lid – Efficient Waste Management Solution",
+          },
+          {
+            type: "p",
+            text: "The 20 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces.",
+          },
+          {
+            type: "p",
+            text: "Made from high-quality, durable plastic, this dustbin ensures long-lasting performance and resistance to cracks, impact, and daily wear.",
+          },
+          {
+            type: "p",
+            text: "The swing lid mechanism allows easy disposal of waste without touching the lid, promoting better hygiene and helping control unpleasant odours.",
+          },
+          {
+            type: "p",
+            text: "Its round shape and large capacity make it suitable for medium to high-traffic areas while reducing the need for frequent emptying.",
+          },
+          {
+            type: "p",
+            text: "Ideal for residential, commercial, and institutional use including kitchens, washrooms, offices, hotels, hospitals, and schools.",
+          },
+          {
+            type: "p",
+            text: "The design helps maintain cleanliness and organise spaces efficiently while keeping waste concealed.",
+          },
 
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid design for convenient and hygienic waste disposal.",
-        "Durable plastic construction resistant to cracking and impact.",
-        "Covered lid helps conceal waste and reduce unpleasant odors.",
-        "Compact round shape suitable for kitchens, bathrooms, and offices.",
-        "Lightweight and portable for easy movement and emptying.",
-        "Smooth plastic surface allows quick cleaning and maintenance.",
-        "Multipurpose use for homes, offices, restaurants, hospitals, and educational institutions.",
-        "Stable base design prevents tipping during regular use."
-      ]
-    },
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+          {
+            type: "ul",
+            items: [
+              "Swing lid mechanism enables quick and hygienic waste disposal.",
+              "Durable plastic construction ensures long-term reliability.",
+              "Covered lid design helps contain odours and conceal waste.",
+              "Large 20 litre capacity suitable for moderate waste output areas.",
+              "Round shape design fits easily in corners, under counters, or open spaces.",
+              "Lightweight and portable for easy lifting and repositioning.",
+              "Smooth plastic surface allows quick cleaning and maintenance.",
+              "Multipurpose use for homes, offices, kitchens, hospitals, hotels, and schools.",
+              "Stable base ensures balanced placement during everyday use.",
+            ],
+          },
 
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable plastic utility products.",
-        "Use of premium quality materials for strength and longevity.",
-        "Practical and user-friendly product designs.",
-        "Products engineered for long-lasting everyday performance.",
-        "Cost-effective solutions providing excellent value.",
-        "Wide range of plastic dustbins, containers, and utility products."
-      ]
-    }
-  ],
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+          },
+          {
+            type: "ul",
+            items: [
+              "Trusted manufacturer of durable and reliable plastic products.",
+              "Premium quality materials ensuring strength and long-lasting use.",
+              "Practical and user-friendly designs focused on hygiene and convenience.",
+              "Products engineered for long-term performance.",
+              "Cost-effective solutions offering excellent value.",
+              "Wide range of dustbins, containers, and plastic utility products.",
+              "Customer-focused approach delivering functional everyday solutions.",
+            ],
+          },
+        ],
 
-
-
-  "image": [
-    {
-      "src": "/product/12lswachh.webp",
-      "alt": "12 Litre Round Dustbin with Swing Lid Front View"
-    }
-  ]
-},
-
-
-// 5
-
-{
-  "id": "20l-round-dustbin-with-swing-lid",
-  "name": "20 Litre Round Dustbin with Swing Lid",
-  "metaTitle": "20 Litre Round Dustbin with Swing Lid Manufacturer | Sangam Plastic Industries",
-  "metaDescription": "Buy 20 Litre Round Dustbin with Swing Lid designed for hygienic and convenient waste disposal in homes, kitchens, offices, and commercial spaces.",
-
-  "model": "generic",
-  "color":["  blue ","  green"],
-
-  "excerpt": "The 20 Litre Round Dustbin with Swing Lid offers a hygienic and spacious waste disposal solution with durable plastic construction and a convenient swing lid mechanism.",
-
-  "description": [
-    {
-      "type": "h2",
-      "text": "20 Litre Round Dustbin with Swing Lid – Efficient Waste Management Solution"
-    },
-    {
-      "type": "p",
-      "text": "The 20 Litre Round Dustbin with Swing Lid is designed for efficient, hygienic, and convenient waste disposal in homes, offices, kitchens, and commercial spaces."
-    },
-    {
-      "type": "p",
-      "text": "Made from high-quality, durable plastic, this dustbin ensures long-lasting performance and resistance to cracks, impact, and daily wear."
-    },
-    {
-      "type": "p",
-      "text": "The swing lid mechanism allows easy disposal of waste without touching the lid, promoting better hygiene and helping control unpleasant odours."
-    },
-    {
-      "type": "p",
-      "text": "Its round shape and large capacity make it suitable for medium to high-traffic areas while reducing the need for frequent emptying."
-    },
-    {
-      "type": "p",
-      "text": "Ideal for residential, commercial, and institutional use including kitchens, washrooms, offices, hotels, hospitals, and schools."
-    },
-    {
-      "type": "p",
-      "text": "The design helps maintain cleanliness and organise spaces efficiently while keeping waste concealed."
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Swing lid mechanism enables quick and hygienic waste disposal.",
-        "Durable plastic construction ensures long-term reliability.",
-        "Covered lid design helps contain odours and conceal waste.",
-        "Large 20 litre capacity suitable for moderate waste output areas.",
-        "Round shape design fits easily in corners, under counters, or open spaces.",
-        "Lightweight and portable for easy lifting and repositioning.",
-        "Smooth plastic surface allows quick cleaning and maintenance.",
-        "Multipurpose use for homes, offices, kitchens, hospitals, hotels, and schools.",
-        "Stable base ensures balanced placement during everyday use."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Sangam Plastic Industries Pvt. Ltd."
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Trusted manufacturer of durable and reliable plastic products.",
-        "Premium quality materials ensuring strength and long-lasting use.",
-        "Practical and user-friendly designs focused on hygiene and convenience.",
-        "Products engineered for long-term performance.",
-        "Cost-effective solutions offering excellent value.",
-        "Wide range of dustbins, containers, and plastic utility products.",
-        "Customer-focused approach delivering functional everyday solutions."
-      ]
-    }
-  ],
-
-
-
-  "image": [
-    {
-      "src": "/product/20lswachh.webp",
-      "alt": "20 Litre Round Dustbin with Swing Lid Front View"
-    }
-  ]
-},
-      ]
-}
-,
-
-
+        image: [
+          {
+            src: "/product/20lswachh.webp",
+            alt: "20 Litre Round Dustbin with Swing Lid Front View",
+          },
+        ],
+      },
+    ],
+  },
 
   // category  Bio Medical Waste Bins
   {
@@ -4361,9 +4260,8 @@ metaDescription:
         metaDescription:
           "Buy 10L Plastic Pedal Bin for hygienic hands-free waste disposal in hospitals, offices, hotels, and malls. Durable square design with foot pedal. Bulk orders available.",
 
-
-          "model":"generic",
-          "color":["  blue","  red","  yellow","  black"],
+        model: "generic",
+        color: ["  blue", "  red", "  yellow", "  black"],
         excerpt:
           "The 10L Plastic Pedal Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, hotels, malls, and commercial spaces with durable plastic construction.",
 
@@ -4455,9 +4353,6 @@ metaDescription:
         ],
       },
 
-
-      
-
       // product 2 done
       {
         id: "15l-plastic-pedal-dustbin",
@@ -4465,8 +4360,8 @@ metaDescription:
         metaTitle: "15L Plastic Pedal Dustbin Manufacturer | PolyWell",
         metaDescription:
           "Buy 15L Plastic Pedal Dustbin in Yellow. Durable, hygienic, and hands-free waste disposal solution for offices, hospitals, and commercial spaces. Bulk orders available.",
-"model" :"pw15p",
-"color":["  red","  yellow","  black"],
+        model: "pw15p",
+        color: ["  red", "  yellow", "  black"],
         excerpt:
           "The 15L Plastic Pedal Dustbin is designed for hygienic, hands-free waste disposal in offices, hospitals, clinics, and commercial spaces with durable premium plastic construction.",
 
@@ -4562,19 +4457,15 @@ metaDescription:
         ],
       },
 
-
-
-   {
+      {
         id: "30l-bio-bin",
         name: "30L Bio Bin",
         metaTitle: "30L Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 30L Bio Bin with foot pedal for hygienic and hands-free waste disposal in hospitals, offices, and commercial spaces. Durable plastic construction. Bulk orders available.",
 
-
-          
-          "model":"generic",
-         "color":["  red","  yellow","  blue","  green","  black","  white"],
+        model: "generic",
+        color: ["  red", "  yellow", "  blue", "  green", "  black", "  white"],
         excerpt:
           "The 30L Bio Bin is designed for hygienic, hands-free waste disposal in hospitals, offices, and commercial facilities with durable plastic construction.",
 
@@ -4648,12 +4539,11 @@ metaDescription:
         ],
 
         image: [
-
-             {
+          {
             src: "/product/biobin/30L bio bin 1.webp",
             alt: "30L Bio Bin Commercial Use",
           },
-       
+
           {
             src: "/product/biobin/30L bio bin 2.webp",
             alt: "30L Bio Bin Side View",
@@ -4662,26 +4552,24 @@ metaDescription:
             src: "/product/biobin/30L bio bin 3.webp",
             alt: "30L Bio Bin Foot Pedal",
           },
-             {
+          {
             src: "/product/biobin/30L bio bin 6.webp",
             alt: "30L Bio Bin Front View",
           },
-       
         ],
       },
 
-
       // 4
 
-           {
+      {
         id: "50l-bio-bin",
         name: "50L Bio Bin",
         metaTitle: "50L Bio Bin Manufacturer | PolyWell",
         metaDescription:
           "Buy 50L Bio Bin with lid for hygienic biomedical waste disposal in hospitals and healthcare facilities. Durable plastic construction. Bulk orders available.",
 
-          "model":"generic",
-          "color":["  white"],
+        model: "generic",
+        color: ["  white"],
         excerpt:
           "The 50L Bio Bin is designed for safe and hygienic biomedical waste disposal in hospitals and healthcare facilities with durable plastic construction.",
 
@@ -4764,7 +4652,6 @@ metaDescription:
             src: "/product/30L PP Pedal Bio Bin/30L PP Pedal Bio Bin (1).webp",
             alt: "20L Bio Bin White Front View",
           },
-       
         ],
       },
 
@@ -4777,12 +4664,22 @@ metaDescription:
         metaDescription:
           "Buy  Polywell Bio Medical Waste Bin (Roto) for hospitals and healthcare facilities. Durable, hygienic, and printed for safe biomedical waste segregation. Bulk orders available.",
 
-          "model":"generic",
+        model: "generic",
 
-          
-          "model":"generic",
-          "color":["  yellow"],
-          "size":["  size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,",  "  30 ltr,","  40 ltr,", "  50 ltr," , "  70 ltr," ,"  90 ltr," ,"  100 ltr"],
+        model: "generic",
+        color: ["  yellow"],
+        size: [
+          "  size available  : ",
+          "  10 ltr,",
+          "  15 ltr,",
+          "  20 ltr,",
+          "  30 ltr,",
+          "  40 ltr,",
+          "  50 ltr,",
+          "  70 ltr,",
+          "  90 ltr,",
+          "  100 ltr",
+        ],
         excerpt:
           "The  Polywell Bio Medical Waste Bin (Roto) is designed for safe and hygienic disposal of biomedical waste in hospitals, clinics, and laboratories with printed segregation markings.",
 
@@ -4807,7 +4704,7 @@ metaDescription:
             type: "ul",
             items: [
               "Designed for safe biomedical and hazardous waste disposal.",
-          
+
               "Made from premium-grade durable plastic.",
               "Printed markings for proper waste segregation.",
               "Professional design suitable for healthcare environments.",
@@ -4845,18 +4742,13 @@ metaDescription:
           },
         ],
 
-     
-
         image: [
           {
             src: "/product/add1.webp",
             alt: " Polywell Bio Medical Waste Bin Front View",
           },
-       
         ],
       },
-
-  
 
       // 5 done
       {
@@ -4866,12 +4758,24 @@ metaDescription:
         metaDescription:
           "Buy  Biomedical Waste Bin (Roto) with foot pedal for hygienic and hands-free disposal in hospitals and clinics. Durable plastic construction with compact design. Bulk orders available.",
 
-          "model":"generic",
-          
-          "model":"generic",
-          "color":["  blue"],
+        model: "generic",
 
-          "size":["size available  : ","  10 ltr,", "  15 ltr,", "  20 ltr,", "  25 ltr,", "  30 ltr,","  40 ltr,", "  50 ltr," , "  60 ltr," , "  70 ltr," , "  100 ltr"],
+        model: "generic",
+        color: ["  blue"],
+
+        size: [
+          "size available  : ",
+          "  10 ltr,",
+          "  15 ltr,",
+          "  20 ltr,",
+          "  25 ltr,",
+          "  30 ltr,",
+          "  40 ltr,",
+          "  50 ltr,",
+          "  60 ltr,",
+          "  70 ltr,",
+          "  100 ltr",
+        ],
         excerpt:
           "The Biomedical Waste Bin (Roto) is designed for hygienic, hands-free disposal of biomedical waste in hospitals, clinics, and laboratories with durable plastic construction.",
 
@@ -4896,7 +4800,7 @@ metaDescription:
             type: "ul",
             items: [
               "Hands-free waste disposal with foot pedal operation.",
-            
+
               "Durable premium-grade plastic construction.",
               "Plain professional design for clinical environments.",
               "Ergonomic and safe usage for healthcare staff.",
@@ -4935,24 +4839,15 @@ metaDescription:
           },
         ],
 
-     
-
         image: [
           {
             src: "/product/10L Polywell Bio Medical Waste Bins/5.webp",
             alt: "10L Biomedical Waste Bin Front View",
           },
-      
         ],
       },
 
-
-  
-
- 
-
       // 9 done
-   
 
       // 10 done
       {
@@ -4962,8 +4857,8 @@ metaDescription:
         metaDescription:
           "Buy 660L Bio Bin for heavy-duty waste collection in hospitals, industries, and commercial spaces. Durable LDPE construction with large storage capacity. Bulk orders available.",
 
-          "model":"generic",
-          "color":["  green","  yellow"],
+        model: "generic",
+        color: ["  green", "  yellow"],
         excerpt:
           "The 660L Bio Bin is designed for large-scale hygienic waste management in hospitals, industries, and commercial facilities with durable LDPE construction.",
 
@@ -5053,30 +4948,11 @@ metaDescription:
         ],
       },
 
-   
-
       // 12 done
- 
 
       // 13 done
-    
     ],
   },
-
-
-
-
-
-
-
-  
-
- 
-
- 
-
-
-
 
   // cat Outdoor Dustbin
   {
@@ -5574,9 +5450,6 @@ metaDescription:
     ],
   },
 
-
-
-
   // category  Plastic Pallets
   {
     id: "plastic-pallets",
@@ -5595,7 +5468,7 @@ metaDescription:
         metaDescription:
           "Buy 160mm Four Way Roto Molded Plastic Pallet for industrial storage and logistics operations. Durable plastic pallet with four-way forklift entry.",
 
-"model":"pw-001",
+        model: "pw-001",
 
         excerpt:
           "The 160mm Four Way Roto Molded Plastic Pallet is designed for industrial storage and logistics operations with durable roto-molded plastic construction.",
@@ -5671,104 +5544,13 @@ metaDescription:
 
         image: [
           {
-            src: "/product/250mm Two Way Pallets/1.png",
-            alt: "160mm Four Way Roto Molded Plastic Pallet Front View",
+            src: "/product/135mm Blue Export Pallets/1.webp",
+            alt: "250mm HDPE Polywell Pallet Front View",
           },
           // {
           //   "src": "/product/160mm Four Way Roto Molded Plastic Pallets/2.webp",
           //   "alt": "160mm Four Way Roto Molded Plastic Pallet Side View"
           // },
-        ],
-      },
-
-  
-
-      // 3 dome
-      {
-        id: "150mm-auto-paper-industry-pallet",
-        name: "150mm Auto Paper Industry Pallet",
-        metaTitle: "150mm Auto Paper Industry Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 150mm Auto Paper Industry Pallet for handling paper rolls and packaging materials. Durable plastic pallet for industrial storage and logistics.",
-
-        excerpt:
-          "The 150mm Auto Paper Industry Pallet is designed for handling, stacking, and transporting paper rolls and packaging materials in industrial environments.",
-"model":"pw-024",
-          
-        description: [
-          {
-            type: "h2",
-            text: "150mm Auto Paper Industry Pallet – Industrial Handling Solution",
-          },
-          {
-            type: "p",
-            text: "The 150mm Auto Paper Industry Pallet is designed for efficient handling, stacking, and transportation of paper rolls and packaging materials in industrial environments.",
-          },
-          {
-            type: "p",
-            text: "Manufactured using high-strength plastic, this pallet offers excellent load-bearing capacity, dimensional stability, and long-term performance for continuous production environments.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Heavy-duty plastic construction.",
-              "Optimized size of 1400 x 1100 x 150 mm.",
-              "Rectangular structure for stable stacking.",
-              "Suitable for paper and packaging industries.",
-              "Moisture and chemical resistant design.",
-              "Compatible with forklifts and pallet trucks.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Strong load-bearing capacity.",
-              "Industry-specific design for paper materials.",
-              "Uniform weight distribution support.",
-              "Resistant to moisture and chemicals.",
-              "Smooth surface for easy cleaning.",
-              "Stable rectangular shape design.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Application-specific pallet solutions.",
-              "Consistent quality and durability.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Length", value: "1400 mm" },
-          { label: "Width", value: "1100 mm" },
-          { label: "Height", value: "150 mm" },
-          { label: "Shape", value: "Rectangular" },
-        ],
-
-        image: [
-          {
-            src: "/product/150mm Auto Paper Industry Pallet/2.webp",
-            alt: "150mm Auto Paper Industry Pallet Front View",
-          },
         ],
       },
 
@@ -5779,8 +5561,7 @@ metaDescription:
         metaTitle: "160mm Plastic Roto Moulding Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 160mm Plastic Roto Moulding Pallet for industrial storage of non-edible materials. Durable roto-moulded plastic pallet for warehouse and logistics use.",
-"model":"pw-002",
-          
+        model: "pw-002",
 
         excerpt:
           "The 160mm Plastic Roto Moulding Pallet is designed for organized storage and handling of non-edible materials in industrial and warehouse environments.",
@@ -5856,31 +5637,33 @@ metaDescription:
 
         image: [
           {
-            src: "/product/250mm Two Way Pallets/1.png",
-            alt: "160mm Plastic Roto Moulding Pallet Front View",
+            src: "/product/150mm Auto Paper Industry Pallet/2.webp",
+            alt: "150mm Auto Paper Industry Pallet Front View",
           },
         ],
       },
 
       // 5 done
       {
-        id: "250mm-hdpe-polywell-pallet",
-        name: "250mm HDPE Polywell Pallet",
-        metaTitle: "250mm HDPE Polywell Pallet Manufacturer | PolyWell",
+        id: "hdpe-polywell-pallet",
+        name: " HDPE Polywell Pallet",
+        metaTitle: " HDPE Polywell Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 250mm HDPE Polywell Pallet for industrial storage and handling of non-edible materials. Durable HDPE plastic pallet for warehouse and logistics use.",
+          "Buy  HDPE Polywell Pallet for industrial storage and handling of non-edible materials. Durable HDPE plastic pallet for warehouse and logistics use.",
+
+        model: "generic",
 
         excerpt:
-          "The 250mm HDPE Polywell Pallet is designed for safe storage and handling of non-edible materials in demanding industrial environments.",
+          "The  HDPE Polywell Pallet is designed for safe storage and handling of non-edible materials in demanding industrial environments.",
 
         description: [
           {
             type: "h2",
-            text: "250mm HDPE Polywell Pallet – Industrial Storage Solution",
+            text: " HDPE Polywell Pallet – Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 250mm HDPE Polywell Pallet is designed for efficient storage and handling of non-edible materials in industrial environments. It supports organized material handling in demanding applications.",
+            text: "The  HDPE Polywell Pallet is designed for efficient storage and handling of non-edible materials in industrial environments. It supports organized material handling in demanding applications.",
           },
           {
             type: "p",
@@ -5934,7 +5717,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size (LxW)", value: "1300 x 1100 mm" },
           { label: "Brand", value: "PolyWell" },
           { label: "Usage/Application", value: "Industrial" },
           { label: "Material", value: "Plastic" },
@@ -5952,24 +5734,24 @@ metaDescription:
 
       // 6 done
       {
-        id: "300mm-blue-rectangle-four-way-plastic-pallet",
-        name: "300mm Blue Rectangle Four Way Plastic Pallet",
+        id: "blue-rectangle-four-way-plastic-pallet",
+        name: " Blue Rectangle Four Way Plastic Pallet",
         metaTitle:
-          "300mm Blue Rectangle Four Way Plastic Pallet Manufacturer | PolyWell",
+          " Blue Rectangle Four Way Plastic Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 300mm Blue Rectangle Four Way Plastic Pallet for industrial storage and material handling. Durable plastic pallet with four-way entry design.",
-
+          "Buy  Blue Rectangle Four Way Plastic Pallet for industrial storage and material handling. Durable plastic pallet with four-way entry design.",
+        model: "generic",
         excerpt:
-          "The 300mm Blue Rectangle Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments.",
+          "The Blue Rectangle Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments.",
 
         description: [
           {
             type: "h2",
-            text: "300mm Blue Rectangle Four Way Plastic Pallet – Industrial Storage Solution",
+            text: " Blue Rectangle Four Way Plastic Pallet – Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 300mm Blue Rectangle Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments. It supports safe stacking and transportation of non-edible materials.",
+            text: "The  Blue Rectangle Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments. It supports safe stacking and transportation of non-edible materials.",
           },
           {
             type: "p",
@@ -5984,7 +5766,7 @@ metaDescription:
             items: [
               "Durable plastic construction for industrial use.",
               "Four-way entry for easy forklift handling.",
-              "Standard size of 1000 x 1000 mm.",
+
               "Rectangular structure for stable stacking.",
               "Moisture and corrosion resistant design.",
               "Suitable for non-edible material storage.",
@@ -6023,7 +5805,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1000 x 1000 mm" },
           { label: "Storing Product", value: "Non-Edible" },
           { label: "Material", value: "Plastic" },
           { label: "Usage/Application", value: "Storage" },
@@ -6033,31 +5814,31 @@ metaDescription:
 
         image: [
           {
-            src: "/product/250mm Two Way Pallets/1.png",
-            alt: "300mm Blue Rectangle Four Way Plastic Pallet Front View",
+            src: "/product/150mm Auto Paper Industry Pallet/2.webp",
+            alt: "150mm Auto Paper Industry Pallet Front View",
           },
         ],
       },
 
       // 7 done
       {
-        id: "130mm-plastic-plain-top-pallet",
-        name: "130mm Plastic Plain Top Pallets",
-        metaTitle: "130mm Plastic Plain Top Pallet Manufacturer | PolyWell",
+        id: "135mm-plastic-plain-top-pallet",
+        name: "135mm Plastic Plain Top Pallets",
+        metaTitle: "135mm Plastic Plain Top Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 130mm Plastic Plain Top Pallet for industrial storage and material handling. Durable plastic pallet with uniform load distribution.",
-
+          "Buy 135mm Plastic Plain Top Pallet for industrial storage and material handling. Durable plastic pallet with uniform load distribution.",
+        model: "pw-016",
         excerpt:
-          "The 130mm Plastic Plain Top Pallet is designed for dependable performance in demanding industrial and storage environments.",
+          "The 135mm Plastic Plain Top Pallet is designed for dependable performance in demanding industrial and storage environments.",
 
         description: [
           {
             type: "h2",
-            text: "130mm Plastic Plain Top Pallet – Industrial Storage Solution",
+            text: "135mm Plastic Plain Top Pallet – Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 130mm Plastic Plain Top Pallet is engineered to provide reliable performance in industrial and storage environments where strength, stability, and hygiene are essential.",
+            text: "The 135mm Plastic Plain Top Pallet is engineered to provide reliable performance in industrial and storage environments where strength, stability, and hygiene are essential.",
           },
           {
             type: "p",
@@ -6071,7 +5852,7 @@ metaDescription:
             type: "ul",
             items: [
               "Heavy-duty plastic construction.",
-              "Standard size of 1200 x 1000 x 130 mm.",
+              "Standard size of 1200 x 1000 x 135 mm.",
               "Plain top surface for stable stacking.",
               "Rectangular structure for uniform load distribution.",
               "Moisture and chemical resistant design.",
@@ -6087,7 +5868,7 @@ metaDescription:
             items: [
               "High load-bearing capacity.",
               "Smooth and stable top surface.",
-              "Optimized 130mm height for handling.",
+
               "Hygienic non-porous material.",
               "Low maintenance and cost-effective.",
               "Stable rectangular shape design.",
@@ -6111,7 +5892,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1200 x 1000 x 130 mm" },
           { label: "Shape", value: "Rectangular" },
           { label: "Material", value: "Plastic" },
           { label: "Usage/Application", value: "Industrial" },
@@ -6129,23 +5909,23 @@ metaDescription:
 
       // 8 done
       {
-        id: "200mm-hdpe-industrial-pallet",
-        name: "200mm HDPE Industrial Pallet",
-        metaTitle: "200mm HDPE Industrial Pallet Manufacturer | PolyWell",
+        id: "hdpe-industrial-pallet",
+        name: " HDPE Industrial Pallet",
+        metaTitle: " HDPE Industrial Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 200mm HDPE Industrial Pallet for hygienic storage of edible products. Durable square pallet for food processing units and cold storage facilities.",
-
+          "Buy HDPE Industrial Pallet for hygienic storage of edible products. Durable square pallet for food processing units and cold storage facilities.",
+        model: "generic",
         excerpt:
-          "The 200mm HDPE Industrial Pallet is designed for heavy-duty storage and material handling of edible products in hygienic environments.",
+          "The HDPE Industrial Pallet is designed for heavy-duty storage and material handling of edible products in hygienic environments.",
 
         description: [
           {
             type: "h2",
-            text: "200mm HDPE Industrial Pallet – Hygienic Storage Solution",
+            text: " HDPE Industrial Pallet – Hygienic Storage Solution",
           },
           {
             type: "p",
-            text: "The 200mm HDPE Industrial Pallet is designed for heavy-duty storage and material handling applications where hygiene, strength, and load stability are essential.",
+            text: "The HDPE Industrial Pallet is designed for heavy-duty storage and material handling applications where hygiene, strength, and load stability are essential.",
           },
           {
             type: "p",
@@ -6159,7 +5939,7 @@ metaDescription:
             type: "ul",
             items: [
               "HDPE material construction for durability.",
-              "Standard size of 1300 x 1300 x 200 mm.",
+
               "Square structure for balanced load support.",
               "Moisture and chemical resistant design.",
               "Suitable for edible product storage.",
@@ -6175,7 +5955,7 @@ metaDescription:
             items: [
               "High load-bearing capacity.",
               "Food-grade hygienic design.",
-              "Heavy-duty 200mm thickness.",
+              "Heavy-duty thickness.",
               "Uniform weight distribution support.",
               "Resistant to moisture and chemicals.",
               "Low maintenance and long service life.",
@@ -6199,7 +5979,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1300 x 1300 x 200 mm" },
           { label: "Storing Product", value: "Edible" },
           { label: "Shape", value: "Square" },
           { label: "Brand", value: "PolyWell" },
@@ -6217,23 +5996,23 @@ metaDescription:
 
       // 9 done
       {
-        id: "500kg-plastic-industrial-pallet",
-        name: "500kg Plastic Industrial Pallet",
-        metaTitle: "500kg Plastic Industrial Pallet Manufacturer | PolyWell",
+        id: "plastic-industrial-pallet",
+        name: " Plastic Industrial Pallet",
+        metaTitle: " Plastic Industrial Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 500kg Plastic Industrial Pallet for medium to heavy-duty industrial storage. Durable four-way entry pallet for warehouses and logistics use.",
-
+          "Buy  Plastic Industrial Pallet for medium to heavy-duty industrial storage. Durable four-way entry pallet for warehouses and logistics use.",
+        model: "generic",
         excerpt:
-          "The 500kg Plastic Industrial Pallet is designed for medium to heavy-duty storage loads with durable plastic construction.",
+          "The  Plastic Industrial Pallet is designed for medium to heavy-duty storage loads with durable plastic construction.",
 
         description: [
           {
             type: "h2",
-            text: "500kg Plastic Industrial Pallet – Reliable Storage Solution",
+            text: " Plastic Industrial Pallet – Reliable Storage Solution",
           },
           {
             type: "p",
-            text: "The 500kg Plastic Industrial Pallet is engineered to support medium-to-heavy storage loads while ensuring long-term durability and operational efficiency in industrial environments.",
+            text: "The Plastic Industrial Pallet is engineered to support medium-to-heavy storage loads while ensuring long-term durability and operational efficiency in industrial environments.",
           },
           {
             type: "p",
@@ -6246,8 +6025,6 @@ metaDescription:
           {
             type: "ul",
             items: [
-              "Load capacity up to 500 kg.",
-              "Standard size of 1300 x 1200 mm.",
               "Four-way forklift entry design.",
               "Durable plastic construction.",
               "Moisture and chemical resistant.",
@@ -6287,9 +6064,8 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1300 x 1200 mm" },
           { label: "Storing Product", value: "Non Edible" },
-          { label: "Capacity", value: "500 Kg" },
+
           { label: "Entry Type", value: "4 Way" },
           { label: "Usage/Application", value: "Storage" },
           { label: "Brand", value: "PolyWell" },
@@ -6305,23 +6081,23 @@ metaDescription:
 
       // 10 done
       {
-        id: "200mm-blue-plastic-pallet",
-        name: "200mm Blue Plastic Pallets",
-        metaTitle: "200mm Blue Plastic Pallet Manufacturer | PolyWell",
+        id: "blue-plastic-pallet",
+        name: " Blue Plastic Pallets",
+        metaTitle: " Blue Plastic Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 200mm Blue Plastic Pallet for industrial storage and material handling. Durable rectangular pallet for warehouses and logistics use.",
-
+          "Buy Blue Plastic Pallet for industrial storage and material handling. Durable rectangular pallet for warehouses and logistics use.",
+        model: "generic",
         excerpt:
-          "The 200mm Blue Plastic Pallet is designed for demanding industrial environments requiring durability and stability.",
+          "The Blue Plastic Pallet is designed for demanding industrial environments requiring durability and stability.",
 
         description: [
           {
             type: "h2",
-            text: "200mm Blue Plastic Pallet – Industrial Storage Solution",
+            text: " Blue Plastic Pallet – Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 200mm Blue Plastic Pallet is designed for demanding industrial environments where durability, stability, and long-term usability are essential.",
+            text: "The  Blue Plastic Pallet is designed for demanding industrial environments where durability, stability, and long-term usability are essential.",
           },
           {
             type: "p",
@@ -6335,7 +6111,7 @@ metaDescription:
             type: "ul",
             items: [
               "Heavy-duty plastic construction.",
-              "Standard size of 1300 x 1300 x 200 mm.",
+
               "Rectangular structure for stable stacking.",
               "Moisture and corrosion resistant.",
               "Blue color for easy identification.",
@@ -6350,7 +6126,7 @@ metaDescription:
             type: "ul",
             items: [
               "High load-bearing capability.",
-              "Enhanced 200mm height for strength.",
+              "Enhanced height for strength.",
               "Stable rectangular design.",
               "Smooth industrial-grade surface.",
               "Resistant to moisture and chemicals.",
@@ -6375,7 +6151,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1300 x 1300 x 200 mm" },
           { label: "Storing Product", value: "Non Edible" },
           { label: "Material", value: "Plastic" },
           { label: "Shape", value: "Rectangular" },
@@ -6393,23 +6168,23 @@ metaDescription:
 
       // 11 done
       {
-        id: "1000mm-hdpe-four-way-pallet",
-        name: "1000mm HDPE Four Way Pallets",
-        metaTitle: "1000mm HDPE Four Way Pallet Manufacturer | PolyWell",
+        id: "hdpe-four-way-pallet",
+        name: " HDPE Four Way Pallets",
+        metaTitle: " HDPE Four Way Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 1000mm HDPE Four Way Pallet for industrial storage and material handling. Durable square pallet with four-way entry design.",
-
+          "Buy HDPE Four Way Pallet for industrial storage and material handling. Durable square pallet with four-way entry design.",
+        model: "generic",
         excerpt:
-          "The 1000mm HDPE Four Way Pallet is designed for efficient storage and material movement in industrial environments.",
+          "The HDPE Four Way Pallet is designed for efficient storage and material movement in industrial environments.",
 
         description: [
           {
             type: "h2",
-            text: "1000mm HDPE Four Way Pallet – Industrial Storage Solution",
+            text: " HDPE Four Way Pallet – Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 1000mm HDPE Four Way Pallet is designed to deliver strength, stability, and efficient handling for organized storage and material movement in industrial and commercial environments.",
+            text: "The HDPE Four Way Pallet is designed to deliver strength, stability, and efficient handling for organized storage and material movement in industrial and commercial environments.",
           },
           {
             type: "p",
@@ -6423,7 +6198,7 @@ metaDescription:
             type: "ul",
             items: [
               "HDPE material construction for strength.",
-              "Standard size of 1000 x 1000 mm.",
+
               "Four-way forklift entry design.",
               "Square structure for stable stacking.",
               "Moisture and chemical resistant surface.",
@@ -6463,7 +6238,6 @@ metaDescription:
         ],
 
         specs: [
-          { label: "Size", value: "1000 x 1000 mm" },
           { label: "Material", value: "HDPE" },
           { label: "Storing Product", value: "Non Edible" },
           { label: "Usage/Application", value: "Storage" },
@@ -6486,7 +6260,7 @@ metaDescription:
         metaTitle: "160mm Roto Molded Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 160mm Roto Molded Pallet for industrial storage and material handling. Durable plastic pallet with seamless one-piece construction.",
-
+        model: "pw-003",
         excerpt:
           "The 160mm Roto Molded Pallet is designed for industrial storage and material handling with uniform load support and durability.",
 
@@ -6574,7 +6348,7 @@ metaDescription:
         metaTitle: "150mm Export Plastic Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 150mm Export Plastic Pallet for international shipping and industrial storage. Durable, reusable pallet for non-edible goods transportation.",
-
+        model: "pw-023",
         excerpt:
           "The 150mm Export Plastic Pallet is designed for international shipping and industrial storage with durable and hygienic plastic construction.",
 
@@ -6662,7 +6436,7 @@ metaDescription:
         metaTitle: "120mm Plastic Nestable Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 120mm Plastic Nestable Pallet for industrial storage and logistics operations. Durable PE pallet with space-saving nestable design.",
-
+        model: "pw-018",
         excerpt:
           "The 120mm Plastic Nestable Pallet is designed for industrial storage and logistics operations requiring space efficiency and durability.",
 
@@ -6745,23 +6519,23 @@ metaDescription:
 
       // 15
       {
-        id: "250mm-two-way-pallet",
-        name: "250mm Two Way Pallets",
-        metaTitle: "250mm Two Way Plastic Pallet Manufacturer | PolyWell",
+        id: "two-way-pallet",
+        name: " Two Way Pallets",
+        metaTitle: " Two Way Plastic Pallet Manufacturer | PolyWell",
         metaDescription:
-          "Buy 250mm Two Way Plastic Pallet for heavy-duty industrial storage and material handling. Durable rectangular pallet for warehouses and logistics use.",
-
+          "Buy  Two Way Plastic Pallet for heavy-duty industrial storage and material handling. Durable rectangular pallet for warehouses and logistics use.",
+        model: "generic",
         excerpt:
-          "The 250mm Two Way Pallet is designed for heavy-duty industrial storage and material handling with enhanced load stability.",
+          "The  Two Way Pallet is designed for heavy-duty industrial storage and material handling with enhanced load stability.",
 
         description: [
           {
             type: "h2",
-            text: "250mm Two Way Pallet – Heavy Duty Industrial Storage Solution",
+            text: " Two Way Pallet – Heavy Duty Industrial Storage Solution",
           },
           {
             type: "p",
-            text: "The 250mm Two Way Pallet is engineered for heavy-duty industrial storage and material handling applications where strength, stability, and long service life are essential.",
+            text: "The  Two Way Pallet is engineered for heavy-duty industrial storage and material handling applications where strength, stability, and long service life are essential.",
           },
           {
             type: "p",
@@ -6777,7 +6551,7 @@ metaDescription:
               "Two-way entry handling design.",
               "Heavy-duty plastic construction.",
               "Rectangular structure for stable stacking.",
-              "Enhanced 250mm height.",
+              "Enhanced height.",
               "Moisture and chemical resistant.",
               "Suitable for non-edible material storage.",
             ],
@@ -6819,7 +6593,7 @@ metaDescription:
           { label: "Shape", value: "Rectangular" },
           { label: "Usage/Application", value: "Industrial" },
           { label: "Brand", value: "PolyWell" },
-          { label: "Height", value: "250 mm" },
+
           { label: "Storing Product", value: "Non Edible" },
         ],
 
@@ -6838,7 +6612,7 @@ metaDescription:
         metaTitle: "150mm Spill Containment Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 150mm Spill Containment Pallet for industrial storage. Durable plastic pallet designed to manage leaks, drips, and accidental spills.",
-
+        model: "pw-024",
         excerpt:
           "The 150mm Spill Containment Pallet is designed to safely manage leaks, drips, and accidental spills in industrial environments.",
 
@@ -6926,7 +6700,7 @@ metaDescription:
         metaTitle: "135mm Blue Export Plastic Pallet Manufacturer | PolyWell",
         metaDescription:
           "Buy 135mm Blue Export Plastic Pallet for export packaging and storage. Durable rectangular pallet for international shipping.",
-
+        model: "pw-017",
         excerpt:
           "The 135mm Blue Export Pallet is designed for export packaging and organized storage with durable plastic construction.",
 
@@ -7010,1252 +6784,1248 @@ metaDescription:
   },
 
   // category  Industrial Plastic Pallets
-  {
-    id: "industrial-plastic-pallets",
-    name: "Industrial Plastic Pallets",
-    metaTitle: "Industrial Plastic Pallets Manufacturer – Polywell",
-    metaDescription:
-      "Industrial Plastic Pallets Category Page	Industrial Plastic Pallets Manufacturer – Polywell	Discover industrial plastic pallets by Polywell, engineered for heavy loads, long-term durability, and safe storage solutions for warehouses and logistics operations.",
-
-    products: [
-      // product 1 done
-      {
-        id: "160mm-four-way-roto-molded-plastic-pallet",
-        name: "160mm Four Way Roto Molded Plastic Pallets",
-        metaTitle:
-          "160mm Four Way Roto Molded Plastic Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 160mm Four Way Roto Molded Plastic Pallet for industrial storage and logistics operations. Durable plastic pallet with four-way forklift entry.",
-
-        excerpt:
-          "The 160mm Four Way Roto Molded Plastic Pallet is designed for industrial storage and logistics operations with durable roto-molded plastic construction.",
-
-        description: [
-          {
-            type: "h2",
-            text: "160mm Four Way Roto Molded Plastic Pallet – Industrial Handling Solution",
-          },
-          {
-            type: "p",
-            text: "The 160mm Four Way Roto Molded Plastic Pallet is designed for efficient material handling in industrial storage and logistics operations. It supports organized storage and transportation in demanding environments.",
-          },
-          {
-            type: "p",
-            text: "Manufactured using premium-grade roto-molded plastic, this pallet offers durability, uniform load distribution, and long-term performance in industrial applications.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Roto-molded plastic construction for durability.",
-              "Four-way forklift entry for easy handling.",
-              "Standard size of 800 x 1000 x 160 mm.",
-              "Uniform load distribution support.",
-              "Moisture and chemical resistant design.",
-              "Suitable for non-edible material storage.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Strong plastic body for long-term durability.",
-              "Easy handling from all four sides.",
-              "Supports heavy industrial loads.",
-              "Resistant to moisture and chemicals.",
-              "Smooth surface for easy cleaning.",
-              "Stable square shape design.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic product manufacturer with extensive experience.",
-              "High-performance industrial storage solutions.",
-              "Consistent quality and durability.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size (LxWxH)", value: "800 x 1000 x 160 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Material", value: "Plastic" },
-          { label: "Storing Material", value: "Non-Edible" },
-          { label: "Shape", value: "Square" },
-        ],
-
-        image: [
-          {
-            src: "/product/160mm Four Way Roto Molded Plastic Pallets/1.webp",
-            alt: "160mm Four Way Roto Molded Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // product 2 done
-      {
-        id: "800mm-four-way-plastic-pallet",
-        name: "800mm Four Way Plastic Pallet",
-        metaTitle: "800mm Four Way Plastic Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 800mm Four Way Plastic Pallet for industrial storage and material handling. Durable pallet with four-way entry for efficient movement.",
-
-        excerpt:
-          "The 800mm Four Way Plastic Pallet is designed for efficient storage and material handling in industrial environments.",
-
-        description: [
-          {
-            type: "h2",
-            text: "800mm Four Way Plastic Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 800mm Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments where durability and ease of movement are essential.",
-          },
-          {
-            type: "p",
-            text: "Manufactured using high-quality plastic material, this pallet offers excellent resistance to impact, moisture, and daily operational wear.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Four-way entry access design.",
-              "Durable plastic construction.",
-              "Standard size of 800 x 1200 mm.",
-              "Stable stacking support.",
-              "Moisture and chemical resistant.",
-              "Suitable for non-edible product storage.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Smooth forklift handling.",
-              "High impact resistance.",
-              "Optimized storage efficiency.",
-              "Hygienic easy-to-clean surface.",
-              "Reusable long-life design.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in storage environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "800 x 1200 mm" },
-          { label: "Material", value: "Plastic" },
-          { label: "Storing Product", value: "Non Edible" },
-          { label: "Usage/Application", value: "Storage" },
-          { label: "Shape", value: "Square" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-          {
-            src: "/product/800mm Four Way Plastic Pallet/1.webp",
-            alt: "800mm Four Way Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // 3 done
-      {
-        id: "1000mm-plastic-industrial-pallet",
-        name: "1000mm Plastic Industrial Pallet",
-        metaTitle: "1000mm Plastic Industrial Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 1000mm Plastic Industrial Pallet for industrial storage applications. Durable rectangular pallet for warehouses and logistics operations.",
-
-        excerpt:
-          "The 1000mm Plastic Industrial Pallet is designed for industrial and commercial storage with durability and stability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "1000mm Plastic Industrial Pallet – Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 1000mm Plastic Industrial Pallet is designed for industrial and commercial storage applications where durability, stability, and long-term performance are essential.",
-          },
-          {
-            type: "p",
-            text: "Constructed from high-quality plastic, this pallet offers resistance to impact, moisture, and heavy loads for repetitive use in warehouses and logistics operations.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable plastic construction.",
-              "Standard size of 1300 x 1000 mm.",
-              "Rectangular structure for stable stacking.",
-              "Moisture and chemical resistant.",
-              "Lightweight yet strong.",
-              "Suitable for non-edible product storage.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "High load-bearing capability.",
-              "Stable weight distribution.",
-              "Reusable long-lasting design.",
-              "Easy forklift handling.",
-              "Smooth hygienic surface.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in storage environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1300 x 1000 mm" },
-          { label: "Storing Product", value: "Non Edible" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Storage" },
-        ],
-
-        image: [
-          {
-            src: "/product/1000mm Plastic Industrial Pallet/1.webp",
-            alt: "1000mm Plastic Industrial Pallet Front View",
-          },
-        ],
-      },
-
-      // 4 done
-      {
-        id: "150mm-plastic-storage-pallet",
-        name: "150mm Plastic Storage Pallet",
-        metaTitle: "150mm Plastic Storage Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 150mm Plastic Storage Pallet for industrial storage and material handling. Durable PE pallet for warehouses and logistics operations.",
-
-        excerpt:
-          "The 150mm Plastic Storage Pallet is designed for industrial storage and material handling with durability and efficient space utilization.",
-
-        description: [
-          {
-            type: "h2",
-            text: "150mm Plastic Storage Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 150mm Plastic Storage Pallet is engineered for industrial storage and material handling, providing durability, stability, and efficient use of space.",
-          },
-          {
-            type: "p",
-            text: "Manufactured using high-quality PE plastic, this pallet offers resistance to impact, moisture, and wear for long-term performance in warehouses and logistics operations.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable PE plastic construction.",
-              "Standard size of 1100 x 1100 mm.",
-              "Rectangular load surface.",
-              "Optimized 150mm height.",
-              "Moisture and chemical resistant.",
-              "Reusable industrial storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Even weight distribution support.",
-              "Lightweight yet strong design.",
-              "Easy forklift handling.",
-              "Smooth hygienic surface.",
-              "Low maintenance requirement.",
-              "Long service life.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in storage environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable PE materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1100 x 1100 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Material", value: "PE" },
-          { label: "Height", value: "150 mm" },
-          { label: "Usage/Application", value: "Industrial" },
-        ],
-
-        image: [
-          {
-            src: "/product/250mm Two Way Pallets/1.png",
-            alt: "150mm Plastic Storage Pallet Front View",
-          },
-        ],
-      },
-
-      // 5 done
-      {
-        id: "130mm-hdpe-industrial-pallet",
-        name: "130mm HDPE Industrial Pallet",
-        metaTitle: "130mm HDPE Industrial Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 130mm HDPE Industrial Pallet for heavy-duty industrial storage and logistics. Durable pallet for warehouses, factories and distribution centers.",
-
-        excerpt:
-          "The 130mm HDPE Industrial Pallet is designed for heavy-duty industrial storage and logistics with superior strength and durability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "130mm HDPE Industrial Pallet – Heavy Duty Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 130mm HDPE Industrial Pallet is designed for heavy-duty industrial storage and logistics applications, providing high strength, stability, and long-term durability.",
-          },
-          {
-            type: "p",
-            text: "Constructed using premium-grade HDPE plastic, this pallet resists impact, moisture, and chemical exposure for consistent performance in warehouses, factories, and distribution centers.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium HDPE plastic construction.",
-              "Standard size of 1200 x 1000 x 130 mm.",
-              "Rectangular load-bearing design.",
-              "Optimized 130mm height.",
-              "Moisture and chemical resistant.",
-              "Reusable industrial storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "High impact resistance.",
-              "Uniform load distribution.",
-              "Easy forklift handling.",
-              "Smooth hygienic surface.",
-              "Low maintenance requirement.",
-              "Long service life.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in logistics environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable HDPE materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1200 x 1000 x 130 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "HDPE" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Storing Material", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/200mm Stackable Plastic Pallets/1.webp",
-            alt: "130mm HDPE Industrial Pallet Front View",
-          },
-        ],
-      },
-
-      // 6 done
-      {
-        id: "130mm-hdpe-plastic-pallet",
-        name: "130mm HDPE Plastic Pallet",
-        metaTitle: "130mm HDPE Plastic Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 130mm HDPE Plastic Pallet for industrial and commercial storage applications. Durable pallet for warehouses, factories and logistics centers.",
-
-        excerpt:
-          "The 130mm HDPE Plastic Pallet is designed for heavy-duty industrial and commercial storage with superior strength and durability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "130mm HDPE Plastic Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 130mm HDPE Plastic Pallet is designed for heavy-duty industrial and commercial storage applications, delivering reliability, strength, and long-term durability.",
-          },
-          {
-            type: "p",
-            text: "Made from premium HDPE plastic, it resists impact, moisture, and chemical exposure, ensuring consistent performance across warehouses, factories, and logistics operations.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium HDPE plastic construction.",
-              "Standard size of 1200 x 1000 x 130 mm.",
-              "Rectangular load-bearing design.",
-              "Optimized 130mm height.",
-              "Moisture and chemical resistant.",
-              "Reusable industrial storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "High impact resistance.",
-              "Uniform load distribution.",
-              "Easy forklift handling.",
-              "Smooth hygienic surface.",
-              "Low maintenance requirement.",
-              "Long service life.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in logistics environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable HDPE materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1200 x 1000 x 130 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "HDPE" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Storing Material", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/200mm Stackable Plastic Pallets/1.webp",
-            alt: "130mm HDPE Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // 7
-      {
-        id: "200mm-stackable-plastic-pallet",
-        name: "200mm Stackable Plastic Pallets",
-        metaTitle: "200mm Stackable Plastic Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 200mm Stackable Plastic Pallet for industrial storage and logistics operations. Durable and hygienic pallet for warehouses and commercial facilities.",
-
-        excerpt:
-          "The 200mm Stackable Plastic Pallet is designed for heavy-duty industrial storage with superior strength and space optimization.",
-
-        description: [
-          {
-            type: "h2",
-            text: "200mm Stackable Plastic Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 200mm Stackable Plastic Pallet is designed for heavy-duty industrial storage and logistics operations where strength, durability, and space optimization are essential.",
-          },
-          {
-            type: "p",
-            text: "Made from high-quality plastic, this pallet delivers excellent resistance to impact, moisture, and long-term wear, making it suitable for repeated use in warehouses, factories, and commercial facilities.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium plastic construction.",
-              "Standard size of 1300 x 1300 x 200 mm.",
-              "Stackable industrial design.",
-              "Optimized 200mm height.",
-              "Moisture and impact resistant.",
-              "Reusable storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Stackable design for space saving.",
-              "High impact resistance.",
-              "Uniform load distribution.",
-              "Easy forklift handling.",
-              "Smooth hygienic surface.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Reliable performance in logistics environments.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strong customer support.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1300 x 1300 x 200 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "Plastic" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Usage/Application", value: "Storage" },
-          { label: "Storing Product", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/130mm Plastic Plain Top Pallets/2.webp",
-            alt: "200mm Stackable Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // 8 done
-      {
-        id: "160mm-roto-molded-plastic-pallet",
-        name: "160mm Roto Molded Plastic Pallets",
-        metaTitle: "160mm Roto Molded Plastic Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 160mm Roto Molded Plastic Pallet for industrial storage and heavy-duty material handling applications. Durable, hygienic and impact resistant pallet.",
-
-        excerpt:
-          "The 160mm Roto Molded Plastic Pallet is designed for industrial storage and heavy-duty material handling with excellent strength and durability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "160mm Roto Molded Plastic Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 160mm Roto Molded Plastic Pallet is engineered for industrial storage and heavy-duty material handling, delivering durability, stability, and long-term reliability.",
-          },
-          {
-            type: "p",
-            text: "Manufactured using high-quality plastic through a roto-molding process, it provides uniform strength, excellent impact resistance, and long-lasting performance.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Roto-molded plastic construction.",
-              "Standard size of 800 x 1000 x 160 mm.",
-              "High impact resistance.",
-              "Optimized 160mm height.",
-              "Moisture and chemical resistant.",
-              "Reusable industrial pallet solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Uniform thickness construction.",
-              "Even load distribution.",
-              "Forklift compatible design.",
-              "Smooth hygienic surface.",
-              "Long service life.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic product manufacturer.",
-              "Consistent quality and durability.",
-              "Bulk order capability.",
-              "Timely delivery support.",
-              "Eco-friendly recyclable materials.",
-              "Reliable customer service.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "800 x 1000 x 160 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "Plastic" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Storing Material", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/150mm Auto Paper Industry Pallet/2.webp",
-            alt: "160mm Roto Molded Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // 9 done
-      {
-        id: "150mm-blue-hdpe-pallet",
-        name: "150mm Blue HDPE Pallets",
-        metaTitle: "150mm Blue HDPE Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 150mm Blue HDPE Pallet for industrial storage and heavy-duty material handling applications. Durable, moisture resistant and long-lasting pallet.",
-
-        excerpt:
-          "The 150mm Blue HDPE Pallet is designed for industrial storage and heavy-duty material handling with excellent durability and stability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "150mm Blue HDPE Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 150mm Blue HDPE Pallet is designed for industrial storage and heavy-duty material handling, providing durability, stability, and long-lasting performance.",
-          },
-          {
-            type: "p",
-            text: "Made from premium HDPE plastic, this pallet resists impact, moisture, and chemical exposure, ensuring reliable use in warehouses, factories, and logistics centers.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium HDPE plastic construction.",
-              "Standard size of 1300 x 1100 mm.",
-              "Optimized 150mm height.",
-              "High impact resistance.",
-              "Moisture and chemical resistant.",
-              "Reusable industrial pallet solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "High load-bearing capacity.",
-              "Even weight distribution surface.",
-              "Forklift compatible design.",
-              "Smooth hygienic finish.",
-              "Long service life.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted industrial plastic manufacturer.",
-              "Consistent quality and durability.",
-              "Bulk order capability.",
-              "Timely delivery support.",
-              "Eco-friendly recyclable materials.",
-              "Reliable customer service.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1300 x 1100 mm" },
-          { label: "Height", value: "150 mm" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Material", value: "HDPE" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Storing Material", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/150mm Blue HDPE Pallets/1.webp",
-            alt: "150mm Blue HDPE Pallet Front View",
-          },
-        ],
-      },
-
-      // 10 done
-      {
-        id: "200mm-plastic-industrial-pallet",
-        name: "200mm Plastic Industrial Pallet",
-        metaTitle: "200mm Plastic Industrial Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 200mm Plastic Industrial Pallet for heavy-duty industrial storage and logistics use. Durable, reusable and moisture-resistant plastic pallet.",
-
-        excerpt:
-          "The 200mm Plastic Industrial Pallet is designed for heavy-duty industrial storage applications with superior strength and durability.",
-
-        description: [
-          {
-            type: "h2",
-            text: "200mm Plastic Industrial Pallet – Heavy Duty Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 200mm Plastic Industrial Pallet is designed for heavy-duty industrial and commercial storage applications, offering superior strength, stability, and durability.",
-          },
-          {
-            type: "p",
-            text: "Made from high-quality plastic, it resists impact, moisture, and daily wear, ensuring long-term performance in warehouses, factories, and logistics operations.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium plastic construction.",
-              "Standard size of 1300 x 1300 x 200 mm.",
-              "Optimized 200mm height.",
-              "Moisture and chemical resistant.",
-              "Suitable for industrial applications.",
-              "Reusable storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Heavy-duty plastic body.",
-              "Even load distribution surface.",
-              "Forklift compatible structure.",
-              "Smooth hygienic finish.",
-              "Impact resistant design.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic manufacturer.",
-              "Consistent quality standards.",
-              "Bulk order supply available.",
-              "Eco-friendly recyclable materials.",
-              "Timely delivery support.",
-              "Reliable customer assistance.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1300 x 1300 x 200 mm" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Shape", value: "Square" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Storing Product", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/200mm Plastic Industrial Pallet/1.webp",
-            alt: "200mm Plastic Industrial Pallet Front View",
-          },
-        ],
-      },
-
-      // 11 done
-      {
-        id: "130mm-blue-square-plastic-pallets",
-        name: "130mm Blue Square Plastic Pallets",
-        metaTitle: "130mm Blue Square Plastic Pallets Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 130mm Blue Square Plastic Pallets for industrial storage and logistics use. Durable, moisture-resistant and reusable pallet solution.",
-
-        excerpt:
-          "The 130mm Blue Square Plastic Pallet is designed for industrial and commercial storage with strength, stability, and long-lasting performance.",
-
-        description: [
-          {
-            type: "h2",
-            text: "130mm Blue Square Plastic Pallet – Industrial Storage Solution",
-          },
-          {
-            type: "p",
-            text: "The 130mm Blue Square Plastic Pallet is designed for industrial and commercial storage, offering strength, stability, and long-lasting performance.",
-          },
-          {
-            type: "p",
-            text: "Made from high-quality plastic, it resists impact, moisture, and wear, making it suitable for repeated use in warehouses, factories, and logistics centers.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium plastic construction.",
-              "Standard size of 1200 x 1000 x 130 mm.",
-              "Optimized 130mm height.",
-              "Moisture and chemical resistant.",
-              "Suitable for industrial applications.",
-              "Reusable storage solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable plastic body.",
-              "Even load distribution surface.",
-              "Forklift compatible structure.",
-              "Smooth hygienic finish.",
-              "Impact resistant design.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic manufacturer.",
-              "Consistent quality standards.",
-              "Bulk order supply available.",
-              "Eco-friendly recyclable materials.",
-              "Timely delivery support.",
-              "Reliable customer assistance.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1200 x 1000 x 130 mm" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Shape", value: "Square" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Storing Product", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/250mm Two Way Pallets/1.png",
-            alt: "130mm Blue Square Plastic Pallet Front View",
-          },
-        ],
-      },
-
-      // 12 done
-      {
-        id: "120mm-plastic-export-pallet",
-        name: "120mm Plastic Export Pallet",
-        metaTitle: "120mm Plastic Export Pallet Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 120mm Plastic Export Pallet for industrial storage and export logistics. Durable, moisture-resistant and reusable pallet solution for safe handling.",
-
-        excerpt:
-          "The 120mm Plastic Export Pallet is designed for industrial storage and export logistics, offering durability, stability, and safe handling for non-edible goods.",
-
-        description: [
-          {
-            type: "h2",
-            text: "120mm Plastic Export Pallet – Storage & Logistics Solution",
-          },
-          {
-            type: "p",
-            text: "The 120mm Plastic Export Pallet is designed for industrial storage and export logistics, offering durability, stability, and safe handling for non-edible goods.",
-          },
-          {
-            type: "p",
-            text: "Made from premium-quality plastic, it resists impact, moisture, and repeated use, making it ideal for warehouses, factories, and commercial storage facilities.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium-quality plastic construction.",
-              "Standard size of 1100 x 1100 x 120 mm.",
-              "Optimized 120mm height.",
-              "Moisture and chemical resistant.",
-              "Suitable for industrial storage.",
-              "Reusable pallet solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable plastic body.",
-              "Even load distribution surface.",
-              "Forklift compatible structure.",
-              "Smooth hygienic finish.",
-              "Impact resistant design.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic manufacturer.",
-              "Consistent quality standards.",
-              "Bulk order supply available.",
-              "Eco-friendly recyclable materials.",
-              "Timely delivery support.",
-              "Reliable customer assistance.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1100 x 1100 x 120 mm" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Storage" },
-          { label: "Shape", value: "Square" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Storing Product", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/1000mm Plastic Industrial Pallet/1.webp",
-            alt: "120mm Plastic Export Pallet Front View",
-          },
-        ],
-      },
-
-      // 13 done
-      {
-        id: "120mm-plastic-4-way-export-pallets",
-        name: "120mm Plastic 4 Way Export Pallets",
-        metaTitle: "120mm Plastic 4 Way Export Pallets Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 120mm Plastic 4 Way Export Pallets for industrial storage and logistics. Durable, moisture-resistant and forklift-compatible pallet solution.",
-
-        excerpt:
-          "The 120mm Plastic 4 Way Export Pallet is designed for industrial storage and logistics applications, providing durability, strength, and versatility in material handling.",
-
-        description: [
-          {
-            type: "h2",
-            text: "120mm Plastic 4 Way Export Pallet – Industrial Handling Solution",
-          },
-          {
-            type: "p",
-            text: "The 120mm Plastic 4 Way Export Pallet is designed for industrial storage and logistics applications, providing durability, strength, and versatility in material handling.",
-          },
-          {
-            type: "p",
-            text: "Constructed from high-quality plastic, it resists impact, moisture, and repeated use, making it ideal for warehouses, factories, and commercial storage facilities.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium plastic construction.",
-              "Standard size of 1100 x 1100 x 120 mm.",
-              "4-way forklift entry design.",
-              "Moisture and chemical resistant.",
-              "Suitable for industrial applications.",
-              "Reusable pallet solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable plastic body.",
-              "Even load distribution surface.",
-              "Forklift and pallet jack compatible.",
-              "Smooth hygienic finish.",
-              "Impact resistant design.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic manufacturer.",
-              "Consistent quality standards.",
-              "Bulk order supply available.",
-              "Eco-friendly recyclable materials.",
-              "Timely delivery support.",
-              "Reliable customer assistance.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Size", value: "1100 x 1100 x 120 mm" },
-          { label: "Material", value: "Plastic" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Shape", value: "Square" },
-          { label: "Brand", value: "PolyWell" },
-          { label: "Storing Product", value: "Non-Edible" },
-        ],
-
-        image: [
-          {
-            src: "/product/1000mm Plastic Industrial Pallet/1.webp",
-            alt: "120mm Plastic 4 Way Export Pallet Front View",
-          },
-        ],
-      },
-
-      // 14
-      {
-        id: "150mm-material-movement-pallets",
-        name: "150mm Material Movement Pallets",
-        metaTitle: "150mm Material Movement Pallets Manufacturer | PolyWell",
-        metaDescription:
-          "Buy 150mm Material Movement Pallets for industrial storage and handling. Durable PE pallet solution for warehouses, factories, and logistics use.",
-
-        excerpt:
-          "The 150mm Material Movement Pallet is designed for industrial operations, offering reliable strength, durability, and smooth handling for material storage and movement.",
-
-        description: [
-          {
-            type: "h2",
-            text: "150mm Material Movement Pallet – Industrial Handling Solution",
-          },
-          {
-            type: "p",
-            text: "The 150mm Material Movement Pallet is designed for industrial operations, offering reliable strength, durability, and smooth handling for material storage and movement.",
-          },
-          {
-            type: "p",
-            text: "Made from premium PE plastic, it is resistant to impact, moisture, and repeated industrial use, ensuring long-lasting performance in warehouses, factories, and commercial facilities.",
-          },
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
-          {
-            type: "ul",
-            items: [
-              "Premium PE plastic construction.",
-              "Rectangular load surface.",
-              "Optimized 150mm height.",
-              "Moisture and impact resistant.",
-              "Suitable for industrial handling.",
-              "Reusable pallet solution.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Key Features",
-          },
-          {
-            type: "ul",
-            items: [
-              "Durable PE material body.",
-              "Even load distribution.",
-              "Forklift compatible structure.",
-              "Smooth hygienic finish.",
-              "Industrial-grade reliability.",
-              "Low maintenance requirement.",
-            ],
-          },
-          {
-            type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
-          },
-          {
-            type: "ul",
-            items: [
-              "Trusted plastic manufacturer.",
-              "Consistent quality standards.",
-              "Bulk order supply available.",
-              "Eco-friendly recyclable materials.",
-              "Timely delivery support.",
-              "Reliable customer assistance.",
-            ],
-          },
-        ],
-
-        specs: [
-          { label: "Material", value: "PE" },
-          { label: "Usage/Application", value: "Industrial" },
-          { label: "Shape", value: "Rectangular" },
-          { label: "Height", value: "150 mm" },
-          { label: "Length", value: "1400 mm" },
-          { label: "Brand", value: "PolyWell" },
-        ],
-
-        image: [
-          {
-            src: "/product/130mm Plastic Plain Top Pallets/2.webp",
-            alt: "150mm Material Movement Pallet Front View",
-          },
-        ],
-      },
-    ],
-  },
-
-
-
-
+  // {
+  //   id: "industrial-plastic-pallets",
+  //   name: "Industrial Plastic Pallets",
+  //   metaTitle: "Industrial Plastic Pallets Manufacturer – Polywell",
+  //   metaDescription:
+  //     "Industrial Plastic Pallets Category Page	Industrial Plastic Pallets Manufacturer – Polywell	Discover industrial plastic pallets by Polywell, engineered for heavy loads, long-term durability, and safe storage solutions for warehouses and logistics operations.",
+
+  //   products: [
+  //     // product 1 done
+  //     {
+  //       id: "160mm-four-way-roto-molded-plastic-pallet",
+  //       name: "160mm Four Way Roto Molded Plastic Pallets",
+  //       metaTitle:
+  //         "160mm Four Way Roto Molded Plastic Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 160mm Four Way Roto Molded Plastic Pallet for industrial storage and logistics operations. Durable plastic pallet with four-way forklift entry.",
+
+  //       excerpt:
+  //         "The 160mm Four Way Roto Molded Plastic Pallet is designed for industrial storage and logistics operations with durable roto-molded plastic construction.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "160mm Four Way Roto Molded Plastic Pallet – Industrial Handling Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 160mm Four Way Roto Molded Plastic Pallet is designed for efficient material handling in industrial storage and logistics operations. It supports organized storage and transportation in demanding environments.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Manufactured using premium-grade roto-molded plastic, this pallet offers durability, uniform load distribution, and long-term performance in industrial applications.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Roto-molded plastic construction for durability.",
+  //             "Four-way forklift entry for easy handling.",
+  //             "Standard size of 800 x 1000 x 160 mm.",
+  //             "Uniform load distribution support.",
+  //             "Moisture and chemical resistant design.",
+  //             "Suitable for non-edible material storage.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Strong plastic body for long-term durability.",
+  //             "Easy handling from all four sides.",
+  //             "Supports heavy industrial loads.",
+  //             "Resistant to moisture and chemicals.",
+  //             "Smooth surface for easy cleaning.",
+  //             "Stable square shape design.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic product manufacturer with extensive experience.",
+  //             "High-performance industrial storage solutions.",
+  //             "Consistent quality and durability.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable plastic materials.",
+  //             "Reliable customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size (LxWxH)", value: "800 x 1000 x 160 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Storing Material", value: "Non-Edible" },
+  //         { label: "Shape", value: "Square" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/160mm Four Way Roto Molded Plastic Pallets/1.webp",
+  //           alt: "160mm Four Way Roto Molded Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // product 2 done
+  //     {
+  //       id: "800mm-four-way-plastic-pallet",
+  //       name: "800mm Four Way Plastic Pallet",
+  //       metaTitle: "800mm Four Way Plastic Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 800mm Four Way Plastic Pallet for industrial storage and material handling. Durable pallet with four-way entry for efficient movement.",
+
+  //       excerpt:
+  //         "The 800mm Four Way Plastic Pallet is designed for efficient storage and material handling in industrial environments.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "800mm Four Way Plastic Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 800mm Four Way Plastic Pallet is designed for efficient storage and material handling in industrial and commercial environments where durability and ease of movement are essential.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Manufactured using high-quality plastic material, this pallet offers excellent resistance to impact, moisture, and daily operational wear.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Four-way entry access design.",
+  //             "Durable plastic construction.",
+  //             "Standard size of 800 x 1200 mm.",
+  //             "Stable stacking support.",
+  //             "Moisture and chemical resistant.",
+  //             "Suitable for non-edible product storage.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Smooth forklift handling.",
+  //             "High impact resistance.",
+  //             "Optimized storage efficiency.",
+  //             "Hygienic easy-to-clean surface.",
+  //             "Reusable long-life design.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in storage environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable plastic materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "800 x 1200 mm" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Storing Product", value: "Non Edible" },
+  //         { label: "Usage/Application", value: "Storage" },
+  //         { label: "Shape", value: "Square" },
+  //         { label: "Brand", value: "PolyWell" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/800mm Four Way Plastic Pallet/1.webp",
+  //           alt: "800mm Four Way Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 3 done
+  //     {
+  //       id: "1000mm-plastic-industrial-pallet",
+  //       name: "1000mm Plastic Industrial Pallet",
+  //       metaTitle: "1000mm Plastic Industrial Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 1000mm Plastic Industrial Pallet for industrial storage applications. Durable rectangular pallet for warehouses and logistics operations.",
+
+  //       excerpt:
+  //         "The 1000mm Plastic Industrial Pallet is designed for industrial and commercial storage with durability and stability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "1000mm Plastic Industrial Pallet – Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 1000mm Plastic Industrial Pallet is designed for industrial and commercial storage applications where durability, stability, and long-term performance are essential.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Constructed from high-quality plastic, this pallet offers resistance to impact, moisture, and heavy loads for repetitive use in warehouses and logistics operations.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable plastic construction.",
+  //             "Standard size of 1300 x 1000 mm.",
+  //             "Rectangular structure for stable stacking.",
+  //             "Moisture and chemical resistant.",
+  //             "Lightweight yet strong.",
+  //             "Suitable for non-edible product storage.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "High load-bearing capability.",
+  //             "Stable weight distribution.",
+  //             "Reusable long-lasting design.",
+  //             "Easy forklift handling.",
+  //             "Smooth hygienic surface.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in storage environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable plastic materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1300 x 1000 mm" },
+  //         { label: "Storing Product", value: "Non Edible" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Usage/Application", value: "Storage" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/1000mm Plastic Industrial Pallet/1.webp",
+  //           alt: "1000mm Plastic Industrial Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 4 done
+  //     {
+  //       id: "150mm-plastic-storage-pallet",
+  //       name: "150mm Plastic Storage Pallet",
+  //       metaTitle: "150mm Plastic Storage Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 150mm Plastic Storage Pallet for industrial storage and material handling. Durable PE pallet for warehouses and logistics operations.",
+
+  //       excerpt:
+  //         "The 150mm Plastic Storage Pallet is designed for industrial storage and material handling with durability and efficient space utilization.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "150mm Plastic Storage Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 150mm Plastic Storage Pallet is engineered for industrial storage and material handling, providing durability, stability, and efficient use of space.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Manufactured using high-quality PE plastic, this pallet offers resistance to impact, moisture, and wear for long-term performance in warehouses and logistics operations.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable PE plastic construction.",
+  //             "Standard size of 1100 x 1100 mm.",
+  //             "Rectangular load surface.",
+  //             "Optimized 150mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Reusable industrial storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Even weight distribution support.",
+  //             "Lightweight yet strong design.",
+  //             "Easy forklift handling.",
+  //             "Smooth hygienic surface.",
+  //             "Low maintenance requirement.",
+  //             "Long service life.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in storage environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable PE materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1100 x 1100 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Material", value: "PE" },
+  //         { label: "Height", value: "150 mm" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/250mm Two Way Pallets/1.png",
+  //           alt: "150mm Plastic Storage Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 5 done
+  //     {
+  //       id: "130mm-hdpe-industrial-pallet",
+  //       name: "130mm HDPE Industrial Pallet",
+  //       metaTitle: "130mm HDPE Industrial Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 130mm HDPE Industrial Pallet for heavy-duty industrial storage and logistics. Durable pallet for warehouses, factories and distribution centers.",
+
+  //       excerpt:
+  //         "The 130mm HDPE Industrial Pallet is designed for heavy-duty industrial storage and logistics with superior strength and durability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "130mm HDPE Industrial Pallet – Heavy Duty Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 130mm HDPE Industrial Pallet is designed for heavy-duty industrial storage and logistics applications, providing high strength, stability, and long-term durability.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Constructed using premium-grade HDPE plastic, this pallet resists impact, moisture, and chemical exposure for consistent performance in warehouses, factories, and distribution centers.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium HDPE plastic construction.",
+  //             "Standard size of 1200 x 1000 x 130 mm.",
+  //             "Rectangular load-bearing design.",
+  //             "Optimized 130mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Reusable industrial storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "High impact resistance.",
+  //             "Uniform load distribution.",
+  //             "Easy forklift handling.",
+  //             "Smooth hygienic surface.",
+  //             "Low maintenance requirement.",
+  //             "Long service life.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in logistics environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable HDPE materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1200 x 1000 x 130 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "HDPE" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Storing Material", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/200mm Stackable Plastic Pallets/1.webp",
+  //           alt: "130mm HDPE Industrial Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 6 done
+  //     {
+  //       id: "130mm-hdpe-plastic-pallet",
+  //       name: "130mm HDPE Plastic Pallet",
+  //       metaTitle: "130mm HDPE Plastic Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 130mm HDPE Plastic Pallet for industrial and commercial storage applications. Durable pallet for warehouses, factories and logistics centers.",
+
+  //       excerpt:
+  //         "The 130mm HDPE Plastic Pallet is designed for heavy-duty industrial and commercial storage with superior strength and durability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "130mm HDPE Plastic Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 130mm HDPE Plastic Pallet is designed for heavy-duty industrial and commercial storage applications, delivering reliability, strength, and long-term durability.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from premium HDPE plastic, it resists impact, moisture, and chemical exposure, ensuring consistent performance across warehouses, factories, and logistics operations.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium HDPE plastic construction.",
+  //             "Standard size of 1200 x 1000 x 130 mm.",
+  //             "Rectangular load-bearing design.",
+  //             "Optimized 130mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Reusable industrial storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "High impact resistance.",
+  //             "Uniform load distribution.",
+  //             "Easy forklift handling.",
+  //             "Smooth hygienic surface.",
+  //             "Low maintenance requirement.",
+  //             "Long service life.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in logistics environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable HDPE materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1200 x 1000 x 130 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "HDPE" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Storing Material", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/200mm Stackable Plastic Pallets/1.webp",
+  //           alt: "130mm HDPE Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 7
+  //     {
+  //       id: "200mm-stackable-plastic-pallet",
+  //       name: "200mm Stackable Plastic Pallets",
+  //       metaTitle: "200mm Stackable Plastic Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 200mm Stackable Plastic Pallet for industrial storage and logistics operations. Durable and hygienic pallet for warehouses and commercial facilities.",
+
+  //       excerpt:
+  //         "The 200mm Stackable Plastic Pallet is designed for heavy-duty industrial storage with superior strength and space optimization.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "200mm Stackable Plastic Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 200mm Stackable Plastic Pallet is designed for heavy-duty industrial storage and logistics operations where strength, durability, and space optimization are essential.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from high-quality plastic, this pallet delivers excellent resistance to impact, moisture, and long-term wear, making it suitable for repeated use in warehouses, factories, and commercial facilities.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium plastic construction.",
+  //             "Standard size of 1300 x 1300 x 200 mm.",
+  //             "Stackable industrial design.",
+  //             "Optimized 200mm height.",
+  //             "Moisture and impact resistant.",
+  //             "Reusable storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Stackable design for space saving.",
+  //             "High impact resistance.",
+  //             "Uniform load distribution.",
+  //             "Easy forklift handling.",
+  //             "Smooth hygienic surface.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Reliable performance in logistics environments.",
+  //             "Bulk order capability with timely delivery.",
+  //             "Eco-friendly recyclable plastic materials.",
+  //             "Strong customer support.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1300 x 1300 x 200 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Usage/Application", value: "Storage" },
+  //         { label: "Storing Product", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/130mm Plastic Plain Top Pallets/2.webp",
+  //           alt: "200mm Stackable Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 8 done
+  //     {
+  //       id: "160mm-roto-molded-plastic-pallet",
+  //       name: "160mm Roto Molded Plastic Pallets",
+  //       metaTitle: "160mm Roto Molded Plastic Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 160mm Roto Molded Plastic Pallet for industrial storage and heavy-duty material handling applications. Durable, hygienic and impact resistant pallet.",
+
+  //       excerpt:
+  //         "The 160mm Roto Molded Plastic Pallet is designed for industrial storage and heavy-duty material handling with excellent strength and durability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "160mm Roto Molded Plastic Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 160mm Roto Molded Plastic Pallet is engineered for industrial storage and heavy-duty material handling, delivering durability, stability, and long-term reliability.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Manufactured using high-quality plastic through a roto-molding process, it provides uniform strength, excellent impact resistance, and long-lasting performance.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Roto-molded plastic construction.",
+  //             "Standard size of 800 x 1000 x 160 mm.",
+  //             "High impact resistance.",
+  //             "Optimized 160mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Reusable industrial pallet solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Uniform thickness construction.",
+  //             "Even load distribution.",
+  //             "Forklift compatible design.",
+  //             "Smooth hygienic surface.",
+  //             "Long service life.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic product manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Bulk order capability.",
+  //             "Timely delivery support.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Reliable customer service.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "800 x 1000 x 160 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Storing Material", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/150mm Auto Paper Industry Pallet/2.webp",
+  //           alt: "160mm Roto Molded Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 9 done
+  //     {
+  //       id: "150mm-blue-hdpe-pallet",
+  //       name: "150mm Blue HDPE Pallets",
+  //       metaTitle: "150mm Blue HDPE Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 150mm Blue HDPE Pallet for industrial storage and heavy-duty material handling applications. Durable, moisture resistant and long-lasting pallet.",
+
+  //       excerpt:
+  //         "The 150mm Blue HDPE Pallet is designed for industrial storage and heavy-duty material handling with excellent durability and stability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "150mm Blue HDPE Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 150mm Blue HDPE Pallet is designed for industrial storage and heavy-duty material handling, providing durability, stability, and long-lasting performance.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from premium HDPE plastic, this pallet resists impact, moisture, and chemical exposure, ensuring reliable use in warehouses, factories, and logistics centers.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium HDPE plastic construction.",
+  //             "Standard size of 1300 x 1100 mm.",
+  //             "Optimized 150mm height.",
+  //             "High impact resistance.",
+  //             "Moisture and chemical resistant.",
+  //             "Reusable industrial pallet solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "High load-bearing capacity.",
+  //             "Even weight distribution surface.",
+  //             "Forklift compatible design.",
+  //             "Smooth hygienic finish.",
+  //             "Long service life.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted industrial plastic manufacturer.",
+  //             "Consistent quality and durability.",
+  //             "Bulk order capability.",
+  //             "Timely delivery support.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Reliable customer service.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1300 x 1100 mm" },
+  //         { label: "Height", value: "150 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Material", value: "HDPE" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Storing Material", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/150mm Blue HDPE Pallets/1.webp",
+  //           alt: "150mm Blue HDPE Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 10 done
+  //     {
+  //       id: "200mm-plastic-industrial-pallet",
+  //       name: "200mm Plastic Industrial Pallet",
+  //       metaTitle: "200mm Plastic Industrial Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 200mm Plastic Industrial Pallet for heavy-duty industrial storage and logistics use. Durable, reusable and moisture-resistant plastic pallet.",
+
+  //       excerpt:
+  //         "The 200mm Plastic Industrial Pallet is designed for heavy-duty industrial storage applications with superior strength and durability.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "200mm Plastic Industrial Pallet – Heavy Duty Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 200mm Plastic Industrial Pallet is designed for heavy-duty industrial and commercial storage applications, offering superior strength, stability, and durability.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from high-quality plastic, it resists impact, moisture, and daily wear, ensuring long-term performance in warehouses, factories, and logistics operations.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium plastic construction.",
+  //             "Standard size of 1300 x 1300 x 200 mm.",
+  //             "Optimized 200mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Suitable for industrial applications.",
+  //             "Reusable storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Heavy-duty plastic body.",
+  //             "Even load distribution surface.",
+  //             "Forklift compatible structure.",
+  //             "Smooth hygienic finish.",
+  //             "Impact resistant design.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic manufacturer.",
+  //             "Consistent quality standards.",
+  //             "Bulk order supply available.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Timely delivery support.",
+  //             "Reliable customer assistance.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1300 x 1300 x 200 mm" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Shape", value: "Square" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Storing Product", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/200mm Plastic Industrial Pallet/1.webp",
+  //           alt: "200mm Plastic Industrial Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 11 done
+  //     {
+  //       id: "130mm-blue-square-plastic-pallets",
+  //       name: "130mm Blue Square Plastic Pallets",
+  //       metaTitle: "130mm Blue Square Plastic Pallets Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 130mm Blue Square Plastic Pallets for industrial storage and logistics use. Durable, moisture-resistant and reusable pallet solution.",
+
+  //       excerpt:
+  //         "The 130mm Blue Square Plastic Pallet is designed for industrial and commercial storage with strength, stability, and long-lasting performance.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "130mm Blue Square Plastic Pallet – Industrial Storage Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 130mm Blue Square Plastic Pallet is designed for industrial and commercial storage, offering strength, stability, and long-lasting performance.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from high-quality plastic, it resists impact, moisture, and wear, making it suitable for repeated use in warehouses, factories, and logistics centers.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium plastic construction.",
+  //             "Standard size of 1200 x 1000 x 130 mm.",
+  //             "Optimized 130mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Suitable for industrial applications.",
+  //             "Reusable storage solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable plastic body.",
+  //             "Even load distribution surface.",
+  //             "Forklift compatible structure.",
+  //             "Smooth hygienic finish.",
+  //             "Impact resistant design.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic manufacturer.",
+  //             "Consistent quality standards.",
+  //             "Bulk order supply available.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Timely delivery support.",
+  //             "Reliable customer assistance.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1200 x 1000 x 130 mm" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Shape", value: "Square" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Storing Product", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/250mm Two Way Pallets/1.png",
+  //           alt: "130mm Blue Square Plastic Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 12 done
+  //     {
+  //       id: "120mm-plastic-export-pallet",
+  //       name: "120mm Plastic Export Pallet",
+  //       metaTitle: "120mm Plastic Export Pallet Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 120mm Plastic Export Pallet for industrial storage and export logistics. Durable, moisture-resistant and reusable pallet solution for safe handling.",
+
+  //       excerpt:
+  //         "The 120mm Plastic Export Pallet is designed for industrial storage and export logistics, offering durability, stability, and safe handling for non-edible goods.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "120mm Plastic Export Pallet – Storage & Logistics Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 120mm Plastic Export Pallet is designed for industrial storage and export logistics, offering durability, stability, and safe handling for non-edible goods.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from premium-quality plastic, it resists impact, moisture, and repeated use, making it ideal for warehouses, factories, and commercial storage facilities.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium-quality plastic construction.",
+  //             "Standard size of 1100 x 1100 x 120 mm.",
+  //             "Optimized 120mm height.",
+  //             "Moisture and chemical resistant.",
+  //             "Suitable for industrial storage.",
+  //             "Reusable pallet solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable plastic body.",
+  //             "Even load distribution surface.",
+  //             "Forklift compatible structure.",
+  //             "Smooth hygienic finish.",
+  //             "Impact resistant design.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic manufacturer.",
+  //             "Consistent quality standards.",
+  //             "Bulk order supply available.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Timely delivery support.",
+  //             "Reliable customer assistance.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1100 x 1100 x 120 mm" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Usage/Application", value: "Storage" },
+  //         { label: "Shape", value: "Square" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Storing Product", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/1000mm Plastic Industrial Pallet/1.webp",
+  //           alt: "120mm Plastic Export Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 13 done
+  //     {
+  //       id: "120mm-plastic-4-way-export-pallets",
+  //       name: "120mm Plastic 4 Way Export Pallets",
+  //       metaTitle: "120mm Plastic 4 Way Export Pallets Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 120mm Plastic 4 Way Export Pallets for industrial storage and logistics. Durable, moisture-resistant and forklift-compatible pallet solution.",
+
+  //       excerpt:
+  //         "The 120mm Plastic 4 Way Export Pallet is designed for industrial storage and logistics applications, providing durability, strength, and versatility in material handling.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "120mm Plastic 4 Way Export Pallet – Industrial Handling Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 120mm Plastic 4 Way Export Pallet is designed for industrial storage and logistics applications, providing durability, strength, and versatility in material handling.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Constructed from high-quality plastic, it resists impact, moisture, and repeated use, making it ideal for warehouses, factories, and commercial storage facilities.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium plastic construction.",
+  //             "Standard size of 1100 x 1100 x 120 mm.",
+  //             "4-way forklift entry design.",
+  //             "Moisture and chemical resistant.",
+  //             "Suitable for industrial applications.",
+  //             "Reusable pallet solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable plastic body.",
+  //             "Even load distribution surface.",
+  //             "Forklift and pallet jack compatible.",
+  //             "Smooth hygienic finish.",
+  //             "Impact resistant design.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic manufacturer.",
+  //             "Consistent quality standards.",
+  //             "Bulk order supply available.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Timely delivery support.",
+  //             "Reliable customer assistance.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Size", value: "1100 x 1100 x 120 mm" },
+  //         { label: "Material", value: "Plastic" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Shape", value: "Square" },
+  //         { label: "Brand", value: "PolyWell" },
+  //         { label: "Storing Product", value: "Non-Edible" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/1000mm Plastic Industrial Pallet/1.webp",
+  //           alt: "120mm Plastic 4 Way Export Pallet Front View",
+  //         },
+  //       ],
+  //     },
+
+  //     // 14
+  //     {
+  //       id: "150mm-material-movement-pallets",
+  //       name: "150mm Material Movement Pallets",
+  //       metaTitle: "150mm Material Movement Pallets Manufacturer | PolyWell",
+  //       metaDescription:
+  //         "Buy 150mm Material Movement Pallets for industrial storage and handling. Durable PE pallet solution for warehouses, factories, and logistics use.",
+
+  //       excerpt:
+  //         "The 150mm Material Movement Pallet is designed for industrial operations, offering reliable strength, durability, and smooth handling for material storage and movement.",
+
+  //       description: [
+  //         {
+  //           type: "h2",
+  //           text: "150mm Material Movement Pallet – Industrial Handling Solution",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "The 150mm Material Movement Pallet is designed for industrial operations, offering reliable strength, durability, and smooth handling for material storage and movement.",
+  //         },
+  //         {
+  //           type: "p",
+  //           text: "Made from premium PE plastic, it is resistant to impact, moisture, and repeated industrial use, ensuring long-lasting performance in warehouses, factories, and commercial facilities.",
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Product Overview",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Premium PE plastic construction.",
+  //             "Rectangular load surface.",
+  //             "Optimized 150mm height.",
+  //             "Moisture and impact resistant.",
+  //             "Suitable for industrial handling.",
+  //             "Reusable pallet solution.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Key Features",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Durable PE material body.",
+  //             "Even load distribution.",
+  //             "Forklift compatible structure.",
+  //             "Smooth hygienic finish.",
+  //             "Industrial-grade reliability.",
+  //             "Low maintenance requirement.",
+  //           ],
+  //         },
+  //         {
+  //           type: "h2",
+  //           text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+  //         },
+  //         {
+  //           type: "ul",
+  //           items: [
+  //             "Trusted plastic manufacturer.",
+  //             "Consistent quality standards.",
+  //             "Bulk order supply available.",
+  //             "Eco-friendly recyclable materials.",
+  //             "Timely delivery support.",
+  //             "Reliable customer assistance.",
+  //           ],
+  //         },
+  //       ],
+
+  //       specs: [
+  //         { label: "Material", value: "PE" },
+  //         { label: "Usage/Application", value: "Industrial" },
+  //         { label: "Shape", value: "Rectangular" },
+  //         { label: "Height", value: "150 mm" },
+  //         { label: "Length", value: "1400 mm" },
+  //         { label: "Brand", value: "PolyWell" },
+  //       ],
+
+  //       image: [
+  //         {
+  //           src: "/product/130mm Plastic Plain Top Pallets/2.webp",
+  //           alt: "150mm Material Movement Pallet Front View",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 // cities
@@ -8435,6 +8205,4 @@ export const serviceLocations = [
     label: "West Bengal",
     id: 35,
   },
-
-
 ];

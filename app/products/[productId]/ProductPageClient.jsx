@@ -170,7 +170,7 @@ export default function ProductPage({ params }) {
 
 
 <a
-  href={files.brochure}
+  href="/Polywellcatalogue.pdf"
   download
   className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
 >
@@ -184,7 +184,7 @@ export default function ProductPage({ params }) {
       <h4 className="font-semibold text-[#0B2545] text-xl">
         Product Brochure
       </h4>
-      <p className="text-xs text-gray-500">PDF • 2.4 MB</p>
+
     </div>
   </div>
 
@@ -198,7 +198,7 @@ export default function ProductPage({ params }) {
 
   {/* ISO Certificate */}
  <a
-  href={files.iso}
+  href="/iso-certificate.pdf"
   download
   className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
 >
@@ -210,7 +210,7 @@ export default function ProductPage({ params }) {
       <h4 className="font-semibold text-[#0B2545] text-xl">
         ISO Certificate
       </h4>
-      <p className="text-xs text-gray-500">PDF • 0.8 MB</p>
+ 
     </div>
   </div>
 
