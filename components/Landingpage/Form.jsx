@@ -24,8 +24,8 @@ const EnquiryForm = () => {
 
     try {
       const { data } = await axios.post("https://brandbnalo.com/api/form/add", {
-        platform: "Titanium wholesaler city page Enquiry Form",
-        platformEmail: "sales@aanyaenterprise.com",
+        platform: "plastic  dustbin  Enquiry Form",
+        platformEmail: "info@polywell.co.in",
         name,
         phone,
         email,
@@ -89,7 +89,7 @@ Contact: ${phone}`;
         <div className="flex flex-col items-center text-center space-y-4">
           <Image
             src="/formimg.jpg"
-            alt="Application of Titanium Dioxide"
+            alt="Application of plastic  dustbin "
             width={550}
             height={400}
             className="object-cover rounded-xl z-10"

@@ -31,8 +31,8 @@ export default function ContactForm() {
 
     try {
       const formData = {
-        platform: "Titanium Dioxide Wholesaler Popup Form",
-        platformEmail: "sales@aanyaenterprise.com",
+        platform: "plastic  dustbin  Popup Form",
+        platformEmail: "info@polywell.co.in",
         name,
         phone,
         email,
