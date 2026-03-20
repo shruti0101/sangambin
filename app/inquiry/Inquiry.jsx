@@ -157,7 +157,7 @@ export default function Inquiry() {
         </div>
 
         {/* Hero Section */}
-        <div className="relative min-h-[550px] flex items-center mt-18 bg-no-repeat bg-cover bg-left md:bg-center lg:bg-[position:75%_center]"
+        <div className="relative min-h-[600px] flex items-center mt-18 bg-no-repeat bg-cover bg-left md:bg-center lg:bg-[position:75%_center]"
             style={{ backgroundImage: "url('/banner.webp')", }}>
             <div className="container mx-auto px-4 lg:px-20">
                 <div className="max-w-2xl text-left">
@@ -165,12 +165,12 @@ export default function Inquiry() {
                         Plastic Dustbin Manufacturer & Supplier in India
                     </h1>
 
-                    <p className="text-lg md:text-xl font-medium leading-tight mb-4 text-black">
+                    <p className="text-xl md:text-2xl font-semibold leading-tight mb-4 text-black">
                         Trusted Manufacturer & Supplier of Durable Plastic Dustbins for Hospitals,
                         Offices, Municipalities & Industries Across India
                     </p>
 
-                    <ul className="text-lg mb-6 text-black font-medium space-y-1">
+                    <ul className="text-xl mb-6 text-black font-semibold space-y-1">
                         <li>Durable High Quality Plastic</li>
                         <li>Multiple Sizes & Colour Options</li>
                         <li>Pedal & Wheeled Dustbin Models</li>
@@ -189,7 +189,7 @@ export default function Inquiry() {
         </div>
 
         {/* Form Section */}
-        <div className="py-8 bg-white">
+        <div className="py-8 bg-gray-50">
             <div className="container mx-auto px-4 lg:px-18 grid lg:grid-cols-2 gap-5 items-center">
                 <div className="relative">
                     <img
@@ -208,14 +208,17 @@ export default function Inquiry() {
             </div>
         </div>
 
+        {/* features */}
+        <ServiceProcess />
+
         {/* Introducing */}
-        <section className="py-8 bg-gray-100">
-            <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
+        <section className="py-8 bg-gradient-to-t from-gray-100 to-gray-50">
+            <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 lg:gap-12 gap-5 items-center">
                 <div className="relative">
                     <img
                         src="/ctaimg.png"
                         alt="Polywell Manufacturing"
-                        className="w-full h-[450px] object-cover rounded-2xl shadow-lg"
+                        className="w-full lg:h-[450px] object-cover rounded-2xl shadow-lg"
                     />
                     <div className="absolute inset-0 bg-black/10 rounded-2xl"></div>
                 </div>
@@ -279,9 +282,6 @@ export default function Inquiry() {
             </div>
         </section>
 
-        {/* features */}
-        <ServiceProcess />
-
         {/* Product */}
         <div id='product'>
             <Otherpro inquiry={true} setIsOpen={setIsOpen1} />
@@ -337,22 +337,22 @@ export default function Inquiry() {
 
                     <ul className="space-y-4 mb-4">
                         <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+                                ✓
                             </span>
                             <p>Chasing updates and delivery timelines</p>
                         </li>
 
                         <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+                                ✓
                             </span>
                             <p>Receiving inconsistent quality that puts your contract at risk</p>
                         </li>
 
                         <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+                                ✓
                             </span>
                             <p>
                                 Scrambling to meet client expectations with incomplete or delayed
@@ -361,8 +361,8 @@ export default function Inquiry() {
                         </li>
 
                         <li className="flex items-start gap-3">
-                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-red-100 text-red-600 font-bold">
-                                !
+                            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+                                ✓
                             </span>
                             <p>
                                 Losing margin due to last-minute price changes and hidden costs
