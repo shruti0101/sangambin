@@ -123,7 +123,7 @@ export async function generateStaticParams() {
 /* ✅ SEO METADATA */
 export async function generateMetadata({ params }) {
   
-  const slug = await params.location;
+  const slug = await params?.location;
 
   const city = slug
     .replace("plastic-dustbin-manufacturer-in-", "")
@@ -155,5 +155,5 @@ export default async function Page({ params }) {
     notFound();
   }
 
-  return <Clientlocation location={params.location} />;
+  return <Clientlocation location={params?.location} />;
 }

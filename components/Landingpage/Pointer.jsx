@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 function MediaStatCard({ title, desc, imgSrc }) {
   return (
     <div className="bg-white rounded-[12px] border border-[#E5E7EB] shadow-[0_1px_2px_rgba(16,24,40,0.04)] overflow-hidden">
-      <div className="relative h-[120px] sm:h-[150px] w-full">
+      <div className="relative h-[120px] sm:h-[150px] w-full hidden md:block">
         <Image
           src={imgSrc}
           alt={title}
           fill
-          className="object-cover"
+          className="object-cover "
         />
       </div>
       <div className="p-4 sm:p-6 text-center">
@@ -97,12 +97,12 @@ export default function PolywellTrustStatsSection() {
             title="100% Tender-Ready Documentation Support"
             desc="Specification compliance, and procurement paperwork assistance for smooth order processing."
           />
-          <StatCardLeft 
+          <StatCardLeft
             title="1,000+ Institutional & Government Orders Executed"
             desc="Supplying to municipal corporations, healthcare institutions, procurement contractors, and wholesale distributors."
           />
 
-            <StatCardLeft
+          <StatCardLeft
             title="150+ OEM & Custom Tender Projects Executed"
             desc="Customized manufacturing support based on tender specifications and institutional requirements."
           />
@@ -115,14 +115,7 @@ export default function PolywellTrustStatsSection() {
             desc="Strong logistics coordination supporting large-scale deliveries nationwide."
           />
         </div>
-
- 
-
-
-      
-        
-        </div>
-     
+      </div>
     </section>
   );
 }

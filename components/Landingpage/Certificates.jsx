@@ -7,8 +7,6 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const Certificates = () => {
-
-
   const certificates = [
     {
       id: 1,
@@ -61,22 +59,12 @@ const Certificates = () => {
       src: "/certificate/9.webp",
       alt: "Certificate 3",
     },
-
-    // {
-    //   id: 10,
-    //   src: "/certificate/10.webp",
-    //   alt: "Certificate 3",
-    // },
-
     {
       id: 11,
       src: "/certificate/11.webp",
       alt: "Certificate 3",
     },
-
   ];
-
-
 
   return (
     <section className="w-full relative bg-white py-8 sm:py-10 px-4 sm:px-6 md:px-12">
@@ -86,7 +74,22 @@ const Certificates = () => {
         <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-16 sm:w-20 md:w-24 h-1 bg-[#147A4C] rounded-full"></span>
       </h2>
 
-      <div className="grid gird-col-2 md:grid-cols-5 gap-5">
+      <Swiper
+        modules={[Autoplay]}
+        spaceBetween={20}
+        slidesPerView={1}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          1024: { slidesPerView: 5 },
+        }}
+        className="py-5"
+      >
         {certificates.map((cert) => (
           <SwiperSlide key={cert.id}>
             <div className="flex justify-center">
@@ -103,11 +106,9 @@ const Certificates = () => {
             </div>
           </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
     </section>
   );
 };
 
 export default Certificates;
-
-
