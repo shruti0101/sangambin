@@ -237,7 +237,7 @@ export default function Navbar() {
 
               <div className="mt-8 pt-6 border-t">
                 <a
-                  href="tel:+918527557778"
+                  href="tel:+919810057441"
                   className="block bg-green-600 text-white text-center py-3 rounded-lg mb-4"
                 >
                   Call Now

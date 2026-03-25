@@ -133,14 +133,14 @@ export default function ProductPage({ params }) {
               {/* BUTTONS */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
                 <a
-                  href="tel:+918527557778"
+                  href="tel:+919810057441"
                   className="text-center px-5 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition"
                 >
                   Call Now
                 </a>
 
                 <a
-                  href={`https://wa.me/+918527557778?text=Hello, I am interested in ${encodeURIComponent(
+                  href={`https://wa.me/+919810057441?text=Hello, I am interested in ${encodeURIComponent(
                     product.name
                   )}`}
                   target="_blank"
