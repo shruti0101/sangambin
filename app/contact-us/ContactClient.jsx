@@ -49,7 +49,7 @@ Message: ${message}
 
 Contact: ${phone}`;
 
-        const waUrl = `https://wa.me/+919810316441?text=${encodeURIComponent(
+        const waUrl = `https://wa.me/+919810057441?text=${encodeURIComponent(
           whatsappText
         )}`;
 
@@ -231,8 +231,8 @@ Contact: ${phone}`;
                   <h4 className="text-lg font-semibold text-[#0B2545] mb-1">
                     Phone:
                   </h4>
-                  <a href="tel:+919810316441" className="text-lg text-black">
-                    +91-9810316441
+                  <a href="tel:+919810057441" className="text-lg text-black">
+                    +91-9810057441
                   </a>
                 </div>
               </div>

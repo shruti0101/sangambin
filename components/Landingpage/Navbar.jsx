@@ -86,7 +86,7 @@ export default function Navbar() {
                   </span>
 
                   <a
-                    href="https://wa.me/+919810316441"
+                    href="https://wa.me/+919810057441"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#016630] font-medium"
@@ -153,10 +153,10 @@ export default function Navbar() {
                       Call us on:
                     </span>
                     <a
-                      href="tel:+919810316441"
+                      href="tel:+919810057441"
                       className="text-lg xl:text-xl font-bold"
                     >
-                      +91-9810316441
+                      +91-9810057441
                     </a>
                   </div>
 
