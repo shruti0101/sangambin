@@ -29,7 +29,8 @@ import Otherpro from "@/components/Landingpage/Otherpro";
 import PopupForm from "@/components/Popup2";
 import ServiceProcess from "@/components/Landingpage/Industries";
 import Image from "next/image";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 export default function Inquiry() {
   const [open, setOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -308,6 +309,9 @@ export default function Inquiry() {
       {/* features */}
       <ServiceProcess />
 
+      {/* Sharp Container */}
+      
+
       {/* Introducing */}
       <section className="py-8 bg-gradient-to-t from-gray-100 to-gray-50">
         <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 lg:gap-12 gap-5 items-center">
@@ -322,17 +326,11 @@ export default function Inquiry() {
 
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-2">
-              Introducing Polywell Manufacturer
+              Plastic Dustbin Manufacturer in India
             </h2>
 
             <p className="text-lg text-gray-900 mb-6">
-              We manufacture and supply high quality plastic dustbins designed
-              for durability, hygiene and efficient waste management. Available
-              in multiple sizes, colours and models for hospitals, offices,
-              municipalities and industries. Our dustbins are built with durable
-              plastic material to ensure long lasting performance, easy
-              maintenance and efficient waste collection, making them ideal for
-              commercial spaces, public areas and industrial environments.
+              We manufacture and supply high quality plastic dustbins at best price, designed for durability, hygiene and efficient waste management. Available in multiple sizes, colours and models for hospitals, offices, municipalities and industries with bulk supply across India.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
@@ -340,28 +338,28 @@ export default function Inquiry() {
                 <span className="w-6 h-6 rounded-full bg-[#0A3A49]/10 flex items-center justify-center text-[#0A3A49]">
                   ✓
                 </span>
-                <p>Experienced Plastic Dustbin Manufacturer</p>
+                <p>Direct Manufacturer Pricing </p>
               </div>
 
               <div className="flex items-center gap-3">
                 <span className="w-6 h-6 rounded-full bg-[#0A3A49]/10 flex items-center justify-center text-[#0A3A49]">
                   ✓
                 </span>
-                <p>Designed for Commercial & Industrial Waste Management</p>
+                <p>Strong & Durable Plastic</p>
               </div>
 
               <div className="flex items-center gap-3">
                 <span className="w-6 h-6 rounded-full bg-[#0A3A49]/10 flex items-center justify-center text-[#0A3A49]">
                   ✓
                 </span>
-                <p>Strong, Durable & Easy to Maintain Products</p>
+                <p>All Sizes Available (120L, 240L, 1100L)</p>
               </div>
 
               <div className="flex items-center gap-3">
                 <span className="w-6 h-6 rounded-full bg-[#0A3A49]/10 flex items-center justify-center text-[#0A3A49]">
                   ✓
                 </span>
-                <p>Wide Range of Plastic Waste Bins</p>
+                <p>Fast Delivery Across India</p>
               </div>
 
               <div className="flex items-center gap-3">
@@ -394,7 +392,7 @@ export default function Inquiry() {
       </div>
 
       {/* Why us */}
-      <section className="py-8 bg-gray-100">
+      <section className="py-8 bg-gray-100 md:block hidden">
         <div className="container mx-auto px-4 lg:px-20">
           <div className="text-center mb-6">
             <h2 className="text-3xl md:text-4xl font-bold">
@@ -402,24 +400,43 @@ export default function Inquiry() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
-            {features.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group"
-              >
-                <div
-                  className={`mb-4 w-12 h-12 flex items-center justify-center rounded-lg ${item.color}`}
-                >
-                  {item.icon}
-                </div>
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            breakpoints={{
+              320: {
+                slidesPerView: 1, // mobile
+              },
+              768: {
+                slidesPerView: 2, // tablet
+              },
+              1024: {
+                slidesPerView: 4, // desktop
+              },
+            }}
+          >
+            {features.map((item, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
+                    <div
+                      className={`w-12 h-12 flex items-center justify-center rounded-lg mb-2 ${item.color}`}
+                    >
+                      {item.icon}
+                    </div>
 
-                <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
-
-                <p className="text-sm text-gray-600">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+                    <h3 className="font-semibold text-lg text-center mb-1">{item.title}</h3>
+                    <p className="text-sm text-gray-600 text-center">{item.desc}</p>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
       </section>
 
@@ -434,7 +451,7 @@ export default function Inquiry() {
 
         <div className="container mx-auto px-4 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-gray-900 mb-4 leading-relaxed text-lg">
+            <p className="text-gray-900 mb-4 leading-relaxed text-lg lg:block hidden">
               Imagine this: <br />
               You secured a government tender for supplying dustbins and
               hospital bins. The deadline is tight, the documentation needs to
@@ -480,7 +497,7 @@ export default function Inquiry() {
               </li>
             </ul>
 
-            <p className="text-gray-900 font-medium mb-4">
+            <p className="text-gray-900 font-medium mb-4 lg:block hidden">
               These are not just scenarios — they’re real situations our clients
               faced before they partnered with{" "}
               <span className="text-[#0A3A49] font-semibold">Polywell</span>.
@@ -542,25 +559,44 @@ export default function Inquiry() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            breakpoints={{
+              320: {
+                slidesPerView: 1, // mobile
+              },
+              768: {
+                slidesPerView: 2, // tablet
+              },
+              1024: {
+                slidesPerView: 4, // desktop
+              },
+            }}
+          >
             {benefits.map((item, index) => {
               const Icon = item.icon;
-              return (
-                <div
-                  key={index}
-                  className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group"
-                >
-                  <div
-                    className={`w-12 h-12 flex items-center justify-center rounded-lg mb-4 ${item.color}`}
-                  >
-                    <Icon size={24} />
-                  </div>
 
-                  <h3 className="font-semibold text-lg">{item.title}</h3>
-                </div>
+              return (
+                <SwiperSlide key={index}>
+                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
+                    <div
+                      className={`w-12 h-12 flex items-center justify-center rounded-lg mb-4 ${item.color}`}
+                    >
+                      <Icon size={24} />
+                    </div>
+
+                    <h3 className="font-semibold text-lg text-center">{item.title}</h3>
+                  </div>
+                </SwiperSlide>
               );
             })}
-          </div>
+          </Swiper>
         </div>
       </section>
 
