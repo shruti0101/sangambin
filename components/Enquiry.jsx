@@ -52,7 +52,7 @@ Message: ${message}
 
 Contact: ${phone}`;
 
-        const waUrl = `https://wa.me/+919810057441?text=${encodeURIComponent(
+        const waUrl = `https://wa.me/+918810422935?text=${encodeURIComponent(
           whatsappText
         )}`;
 

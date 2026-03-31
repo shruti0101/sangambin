@@ -178,18 +178,18 @@ export default function Inquiry() {
 
           {/* Phone (Desktop only) */}
           <a
-            href="tel:+919810057441"
+            href="tel:+918810422935"
             className="mr-2 hidden lg:flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
           >
             <span className="flex items-center justify-center bg-white/20 p-2 rounded-full">
               <PhoneCall size={20} />
             </span>
 
-            <span className="font-semibold tracking-wide"> +91-9810057441</span>
+            <span className="font-semibold tracking-wide"> +91-8810422935</span>
           </a>
 
           <a
-            href="tel:+919810057441"
+            href="tel:+918810422935"
             className="mr-2 items-center gap-3 text-white animate-pulse px-3 py-3 font-bold text-center transition-all duration-300 border rounded-lg bg-green-600 md:hidden text-sm lg:hidden"
           >
             Get Bulk Quote Today!
@@ -224,11 +224,11 @@ export default function Inquiry() {
             </a>
 
             <a
-              href="tel:+919810057441"
+              href="tel:+918810422935"
               className="flex items-center gap-3 pt-2"
             >
               <Phone size={20} className="text-red-600" />
-              <span className="font-semibold"> +91-9810057441</span>
+              <span className="font-semibold"> +91-8810422935</span>
             </a>
           </div>
         )}

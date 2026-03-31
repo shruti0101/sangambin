@@ -86,7 +86,7 @@ export default function Navbar() {
                   </span>
 
                   <a
-                    href="https://wa.me/+919810057441"
+                    href="https://wa.me/+918810422935"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-[#016630] font-medium"
@@ -153,10 +153,10 @@ export default function Navbar() {
                       Call us on:
                     </span>
                     <a
-                      href="tel:+919810057441"
+                      href="tel:+918810422935"
                       className="text-lg xl:text-xl font-bold"
                     >
-                      +91-9810057441
+                      +91-8810422935
                     </a>
                   </div>
 
@@ -237,7 +237,7 @@ export default function Navbar() {
 
               <div className="mt-8 pt-6 border-t">
                 <a
-                  href="tel:+919810057441"
+                  href="tel:+918810422935"
                   className="block bg-green-600 text-white text-center py-3 rounded-lg mb-4"
                 >
                   Call Now

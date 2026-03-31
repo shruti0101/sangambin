@@ -449,7 +449,7 @@ As a leading <strong>Plastic Dustbin Manufacturer,</strong>  we offer a wide ran
         Ready to upgrade your waste management solutions? Contact Sangam Plastic Industries Private Limited, the trusted Plastic Dustbin Manufacturer in {city}, for durable, eco-friendly, and customizable dustbins. Whether it’s for home, office, or industrial use, we have the perfect solution for you.
         </p>
         <div className="mt-10">
-          <a href="tel:9810057441"
+          <a href="tel:8810422935"
            
             className=" bg-white text-black px-12 py-4 rounded-2xl font-semibold shadow-xl  transition"
           >
