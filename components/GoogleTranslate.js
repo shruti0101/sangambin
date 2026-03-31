@@ -39,7 +39,7 @@ export default function TranslateButton() {
       {/* your button */}
       <button
         onClick={translateToHindi}
-        className="absolute text-white font-semibold top-30 sm:top-32 right-5 bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md"
+        className="absolute text-white font-semibold top-28 right-2 sm:top-32 sm:right-5 bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md"
       >
         हिंदी में देखें
       </button>

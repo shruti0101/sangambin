@@ -72,7 +72,7 @@ Contact: ${phone}`;
     <>
       {/* ===== PREMIUM BANNER ===== */}
       <div
-        className="mt-20 relative bg-cover bg-center h-[50vh] md:h-[100vh] flex flex-col items-center justify-center text-center overflow-hidden"
+        className="mt-20 sm:mt-0 relative bg-cover bg-center h-[50vh] md:h-[100vh] flex flex-col items-center justify-center text-center overflow-hidden"
         style={{
           backgroundImage: "url('/ctaimg.png')",
         }}
