@@ -17,10 +17,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
 
-  if (pathname === "/inquiry") {
-    return null;
-  }
-
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -36,6 +32,10 @@ export default function Navbar() {
     { label: "Blogs", link: "/blogs" },
     { label: "Contact Us", link: "/contact-us" },
   ];
+
+  if (pathname === "/inquiry") {
+    return null;
+  }
 
   return (
     <>
