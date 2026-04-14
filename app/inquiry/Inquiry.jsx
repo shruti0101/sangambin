@@ -27,10 +27,11 @@ import Certificates from "@/components/Landingpage/Certificates";
 import ZigzagShowcase from "@/components/Landingpage/Testmonial";
 import Otherpro from "@/components/Landingpage/Otherpro";
 import PopupForm from "@/components/Popup2";
-import ServiceProcess from "@/components/Landingpage/Industries";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Pointer from "@/components/Landingpage/Pointer";
+
 export default function Inquiry() {
   const [open, setOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -307,10 +308,34 @@ export default function Inquiry() {
       </div>
 
       {/* features */}
-      <ServiceProcess />
+      <div className="w-full mx-auto bg-[#DCFAEA] py-8">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+          <div className="flex flex-col items-center gap-2">
+            <img src="/3.webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
+          </div>
 
-      {/* Sharp Container */}
-      
+          <div className="flex flex-col items-center gap-1">
+            <img src="/gem.png" className="h-20 w-35" />
+            <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-2">
+            <img src="/certificate (1).webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">All Necessary Certificate</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-2">
+            <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
+            <p className="font-semibold text-gray-900 text-xl">CDSCO Licences</p>
+          </div>
+
+          <div className="hidden md:flex flex-col items-center gap-2">
+            <img src="/meeting.webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
+          </div>
+        </div>
+      </div>
 
       {/* Introducing */}
       <section className="py-8 bg-gradient-to-t from-gray-100 to-gray-50">
@@ -391,54 +416,7 @@ export default function Inquiry() {
         <Otherpro inquiry={true} setIsOpen={setIsOpen1} />
       </div>
 
-      {/* Why us */}
-      <section className="py-8 bg-gray-100 md:block hidden">
-        <div className="container mx-auto px-4 lg:px-20">
-          <div className="text-center mb-6">
-            <h2 className="text-3xl md:text-4xl font-bold">
-              Why Buyers Count on Polywell
-            </h2>
-          </div>
-
-          <Swiper
-            modules={[Autoplay]}
-            spaceBetween={20}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            loop={true}
-            breakpoints={{
-              320: {
-                slidesPerView: 1, // mobile
-              },
-              768: {
-                slidesPerView: 2, // tablet
-              },
-              1024: {
-                slidesPerView: 4, // desktop
-              },
-            }}
-          >
-            {features.map((item, index) => {
-              return (
-                <SwiperSlide key={index}>
-                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
-                    <div
-                      className={`w-12 h-12 flex items-center justify-center rounded-lg mb-2 ${item.color}`}
-                    >
-                      {item.icon}
-                    </div>
-
-                    <h3 className="font-semibold text-lg text-center mb-1">{item.title}</h3>
-                    <p className="text-sm text-gray-600 text-center">{item.desc}</p>
-                  </div>
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-        </div>
-      </section>
+      <Pointer></Pointer>
 
       {/* About Us */}
       <section className="py-8 bg-white" id="aboutus">
@@ -521,6 +499,55 @@ export default function Inquiry() {
             {/* overlay */}
             {/* <div className="absolute inset-0 bg-black/20 rounded-2xl"></div> */}
           </div>
+        </div>
+      </section>
+
+      {/* Why us */}
+      <section className="py-8 bg-gray-100 md:block hidden">
+        <div className="container mx-auto px-4 lg:px-20">
+          <div className="text-center mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Why Buyers Count on Polywell
+            </h2>
+          </div>
+
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            breakpoints={{
+              320: {
+                slidesPerView: 1, // mobile
+              },
+              768: {
+                slidesPerView: 2, // tablet
+              },
+              1024: {
+                slidesPerView: 4, // desktop
+              },
+            }}
+          >
+            {features.map((item, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
+                    <div
+                      className={`w-12 h-12 flex items-center justify-center rounded-lg mb-2 ${item.color}`}
+                    >
+                      {item.icon}
+                    </div>
+
+                    <h3 className="font-semibold text-lg text-center mb-1">{item.title}</h3>
+                    <p className="text-sm text-gray-600 text-center">{item.desc}</p>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
       </section>
 
