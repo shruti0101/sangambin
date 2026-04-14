@@ -281,7 +281,7 @@ export default function Inquiry() {
         />
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-green-500 text-white lg:px-20 px-8 py-4 font-semibold rounded-full shadow hover:bg-green-600 hover:text-gray-500 transition hover:border "
+          className="bg-green-500 text-white px-20 py-4 font-semibold rounded-full shadow hover:bg-green-600 hover:text-gray-500 transition hover:border "
         >
           Get Product Details & Price
         </button>
@@ -403,7 +403,7 @@ export default function Inquiry() {
             </div>
             <button
               onClick={() => setIsOpen(true)}
-              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition"
+              className="bg-green-600 text-white px-12 py-3 rounded-full font-semibold hover:bg-green-700 transition"
             >
               Build a Stronger Supply Chain with Us
             </button>
