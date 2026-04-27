@@ -252,7 +252,7 @@ const points = [
 
             <p className="mb-6 text-md text-black leading-relaxed">
              Looking for a <strong>reliable Plastic Dustbin Manufacturer in {city}?</strong>  Sangam Plastic Industries Private Limited is a trusted name in producing high-quality, durable, and eco-friendly plastic dustbins. Our products are designed to meet the needs of homes, offices, commercial spaces, and industrial facilities, offering long-lasting performance and easy maintenance. With years of expertise in the plastic manufacturing industry, we ensure every dustbin is made from premium-grade materials that are both strong and environmentally safe.
-As a leading <strong>Plastic Dustbin Manufacturer,</strong>  we offer a wide range of dustbins, including household bins, commercial waste bins, industrial dustbins, and recycling solutions. We also provide customized options to match specific requirements in size, color, and design. With a focus on quality, timely delivery, and customer satisfaction, <strong>Sangam Plastic Industries Private Limited  is your go-to Plastic Dustbin Manufacturer in {city} </strong> for all waste management needs.
+As a leading <Link href={"/"} className="font-bold">Plastic Dustbin Manufacturer,</Link>  we offer a wide range of dustbins, including household bins, commercial waste bins, industrial dustbins, and recycling solutions. We also provide customized options to match specific requirements in size, color, and design. With a focus on quality, timely delivery, and customer satisfaction, <strong>Sangam Plastic Industries Private Limited  is your go-to Plastic Dustbin Manufacturer in {city} </strong> for all waste management needs.
             </p>
 
           </div>
