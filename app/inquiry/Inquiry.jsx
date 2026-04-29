@@ -29,8 +29,10 @@ import Otherpro from "@/components/Landingpage/Otherpro";
 import PopupForm from "@/components/Popup2";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import Pointer from "@/components/Landingpage/Pointer";
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Inquiry() {
   const [open, setOpen] = useState(false);
@@ -128,6 +130,21 @@ export default function Inquiry() {
       icon: IndianRupee,
       color: "bg-orange-100 text-orange-600",
     },
+  ];
+
+  const services = [
+    { title: "120L PP Central Wheeled Bio Bin", image: "/product/120L PP Central Wheeled Pedal Bio Bin/1.webp", link: "/products/120l-pp-central-wheeled-bio-bin" },
+
+    { title: "120l large foot operated wheeled dustbin", image: "/product/120L Large Wheeled Pedal Dustbins/2.webp", link: "/products/120l-large-foot-operated-wheeled-dustbin" },
+
+    { title: "240l plastic wheeled dustbin", image: "/product/Plastic Wheeled Dustbins 240l/2.webp", link: "/products/240l-plastic-wheeled-dustbin" },
+
+    { title: "240l PP foot operated wheeled bin", image: "/product/120L PP Pedal Bio Bin/1.webp", link: "/products/240l-pp-foot-operated-wheeled-bin" },
+
+    { title: "660L Four Wheel Plastic Dustbin", image: "/product/1100L Pedal Garbage Bins/1.webp", link: "/products/660l-four-wheel-plastic-dustbin" },
+
+    { title: "1100L PP Wheeled Bio Bin", image: "/product/1100L PP Wheeled Bio Bin/3.webp", link: "/products/1100l-pp-wheeled-bio-bin" },
+
   ];
 
   return (
@@ -307,35 +324,59 @@ export default function Inquiry() {
         </div>
       </div>
 
-      {/* features */}
-      <div className="w-full mx-auto bg-[#DCFAEA] py-8">
-        <div className="mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
-          <div className="flex flex-col items-center gap-2">
-            <img src="/3.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
+      <section className="py-3 mt-10 bg-gradient-to-br from-white to-blue-50">
+        <div className="text-center max-w-3xl mx-auto mb-8 px-4">
+          <div className="flex items-center  justify-center">
+            <div className="w-10 h-1 bg-sky-500 mr-3 rounded-full" />
+            <h3 className="text-sky-600 font-bold uppercase tracking-[0.15em] text-sm sm:text-base">
+              Our Bestsellers
+            </h3>
+            <div className="w-10 h-1 bg-sky-500 ml-3 rounded-full" />
           </div>
 
-          <div className="flex flex-col items-center gap-1">
-            <img src="/gem.png" className="h-20 w-35" />
-            <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <img src="/certificate (1).webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">All Necessary Certificate</p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
-            <p className="font-semibold text-gray-900 text-xl">CDSCO Licences</p>
-          </div>
-
-          <div className="hidden md:flex flex-col items-center gap-2">
-            <img src="/meeting.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
-          </div>
+          <h2 className="relative inline-block font-bold text-[#1E2939] text-3xl sm:text-3xl md:text-5xl leading-snug group">
+            Our Featured Product
+          </h2>
         </div>
-      </div>
+
+        <div className="px-4 md:px-10">
+          <Swiper
+            modules={[Autoplay]}
+            // navigation
+            autoplay={{ delay: 4000 }}
+            loop
+            spaceBetween={20}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 },
+            }}
+          >
+            {services.map((service, index) => (
+              <SwiperSlide key={index}>
+                <div onClick={() => setIsOpen(true)} className="relative border border-black w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-lg cursor-pointer">
+                 <div className="h-60">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-contain"
+                  />
+                 </div>
+
+                  {/* Product Name Bottom */}
+                  <div className="w-full bg-stone-300 py-4 px-1 text-center">
+                    <h3 className="text-lg md:text-xl font-semibold capitalize text-gray-800">
+                      {service.title}
+                    </h3>
+                  </div>
+
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </section>
 
       {/* Introducing */}
       <section className="py-8 bg-gradient-to-t from-gray-100 to-gray-50">
