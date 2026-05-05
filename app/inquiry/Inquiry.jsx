@@ -591,7 +591,7 @@ export default function Inquiry() {
             {features.map((item, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
+                  <div className="bg-white p-6 rounded-xl h-50 shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
                     <div
                       className={`w-12 h-12 flex items-center justify-center rounded-lg mb-2 ${item.color}`}
                     >
@@ -599,7 +599,7 @@ export default function Inquiry() {
                     </div>
 
                     <h3 className="font-semibold text-lg text-center mb-1">{item.title}</h3>
-                    <p className="text-sm text-gray-600 text-center">{item.desc}</p>
+                    <p className="text-sm text-gray-600 text-center mt-auto">{item.desc}</p>
                   </div>
                 </SwiperSlide>
               );
