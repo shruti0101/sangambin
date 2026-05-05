@@ -42,7 +42,7 @@ function StatCardLeft({ title, desc }) {
 
 export default function PolywellTrustStatsSection() {
   return (
-    <section className="w-full py-10 bg-[#F5F6F8]">
+    <section className="w-full py-5 bg-[#F5F6F8]">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ export default function PolywellTrustStatsSection() {
 
         {/* MIDDLE ROW */}
         {/* Mobile 2 columns */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-6 md:mb-3">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 mb-2 md:mb-3">
           <StatCardLeft
             title="99%+ On-Time Tender Fulfillment Rate"
             desc="Aligned production scheduling and dispatch planning to meet strict government and institutional deadlines."

@@ -23,6 +23,7 @@ import {
   Users,
   PhoneCall,
 } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Certificates from "@/components/Landingpage/Certificates";
 import ZigzagShowcase from "@/components/Landingpage/Testmonial";
 import Otherpro from "@/components/Landingpage/Otherpro";
@@ -256,9 +257,9 @@ export default function Inquiry() {
       {/* Hero Section */}
       <div
         className="relative min-h-[600px] items-center mt-18 bg-no-repeat bg-cover  md:bg-center lg:bg-[position:75%_center] hidden md:flex"
-        style={{ backgroundImage: "url('/banner.webp')" }}
+        style={{ backgroundImage: "url('/polywell banner landscape.webp')" }}
       >
-        <div className="container mx-auto px-4 lg:px-20">
+        {/* <div className="container mx-auto px-4 lg:px-20">
           <div className="max-w-2xl text-left">
             <h1 className="text-3xl md:text-5xl mb-4 font-bold">
               50+ Years of Manufacturing Experiance
@@ -269,9 +270,9 @@ export default function Inquiry() {
               Hospitals, Offices, Municipalities & Industries Across India
               {/* Municipalities, Hospitals और Offices के लिए बेहतरीन क्वालिटी के
               डस्टबिन्स - पूरे भारत में सप्लाई उपलब्ध */}
-            </p>
+            {/* </p> */}
 
-            <ul className="text-xl mb-6 text-black font-semibold space-y-1">
+            {/* <ul className="text-xl mb-6 text-black font-semibold space-y-1">
               <li>Desiged for Institutional Procurement</li>
               <li>High-Volume Production Capacity</li>
               <li>Tender Documentation Support</li>
@@ -284,12 +285,12 @@ export default function Inquiry() {
             >
               Get Product Details & Price
             </button>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */} 
       </div>
 
       {/* hero section form phone  */}
-      <div className="relative md:hidden flex items-center flex-col gap-5 mt-14 mb-5">
+      <div className="relative bg-gray-50 md:hidden py-1 flex items-center flex-col gap-5 mt-14 ">
         <Image
           src="/garbage image.webp"
           width="1000"
@@ -298,7 +299,7 @@ export default function Inquiry() {
         />
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-green-500 text-white px-20 py-4 font-semibold rounded-full shadow hover:bg-green-600 hover:text-gray-500 transition hover:border "
+          className="bg-green-500 bg-gray-50 text-white px-20 py-4 font-semibold rounded-full shadow hover:bg-green-600 hover:text-gray-500 transition hover:border "
         >
           Get Product Details & Price
         </button>
@@ -339,44 +340,59 @@ export default function Inquiry() {
           </h2>
         </div>
 
-        <div className="px-4 md:px-10">
-          <Swiper
-            modules={[Autoplay]}
-            // navigation
-            autoplay={{ delay: 4000 }}
-            loop
-            spaceBetween={20}
-            breakpoints={{
-              0: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              768: { slidesPerView: 3 },
-              1024: { slidesPerView: 4 },
-            }}
-          >
-            {services.map((service, index) => (
-              <SwiperSlide key={index}>
-                <div onClick={() => setIsOpen(true)} className="relative border border-black w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-lg cursor-pointer">
-                 <div className="h-60">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-contain"
-                  />
-                 </div>
+  <div className="px-4 md:px-10 relative">
 
-                  {/* Product Name Bottom */}
-                  <div className="w-full bg-stone-300 py-4 px-1 text-center">
-                    <h3 className="text-lg md:text-xl font-semibold capitalize text-gray-800">
-                      {service.title}
-                    </h3>
-                  </div>
+      {/* LEFT ARROW */}
+      <div className="custom-prev absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow cursor-pointer">
+        <ChevronLeft size={24} />
+      </div>
 
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </section>
+      {/* RIGHT ARROW */}
+      <div className="custom-next absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow cursor-pointer">
+        <ChevronRight size={24} />
+      </div>
+
+      <Swiper
+        modules={[Autoplay, Navigation]}
+        navigation={{
+          prevEl: ".custom-prev",
+          nextEl: ".custom-next",
+        }}
+        autoplay={{ delay: 4000 }}
+        loop
+        spaceBetween={20}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          1024: { slidesPerView: 4 },
+        }}
+      >
+        {services.map((service, index) => (
+          <SwiperSlide key={index}>
+            <div
+              onClick={() => setIsOpen(true)}
+              className="relative border h-[320px] border-black w-full max-w-sm mx-auto rounded-xl overflow-hidden shadow-lg cursor-pointer"
+            >
+              <div className="h-60">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              <div className="w-full bg-stone-300 py-4 px-1 h-full text-center">
+                <h3 className="text-lg md:text-xl font-semibold capitalize h-full text-gray-800">
+                  {service.title}
+                </h3>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>     
+  </section>
 
       {/* Introducing */}
       <section className="py-8 bg-gradient-to-t from-gray-100 to-gray-50">
@@ -637,7 +653,7 @@ export default function Inquiry() {
             loop={true}
             breakpoints={{
               320: {
-                slidesPerView: 1, // mobile
+                slidesPerView: 2, // mobile
               },
               768: {
                 slidesPerView: 2, // tablet
@@ -652,7 +668,7 @@ export default function Inquiry() {
 
               return (
                 <SwiperSlide key={index}>
-                  <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
+                  <div className="bg-white p-6 h-[168px] rounded-xl shadow-sm hover:shadow-lg transition group flex flex-col items-center gap-">
                     <div
                       className={`w-12 h-12 flex items-center justify-center rounded-lg mb-4 ${item.color}`}
                     >

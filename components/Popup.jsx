@@ -16,8 +16,8 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 15000);
-    return () => clearTimeout(timer);
+    const timer = setTimeout(() => setIsOpen(true), 10000);
+    
   }, []);
 
   if (!isOpen) return null;

@@ -84,6 +84,9 @@ const Certificates = () => {
           disableOnInteraction: false,
         }}
         breakpoints={{
+          320: {
+            slidesPerView: 2, // mobile
+          },
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 5 },
