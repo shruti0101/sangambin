@@ -256,7 +256,7 @@ export default function Inquiry() {
 
       {/* Hero Section */}
       <div
-        className="relative min-h-[600px] items-center mt-18 bg-no-repeat bg-cover  md:bg-center lg:bg-[position:75%_center] hidden md:flex"
+        className="relative min-h-[100vh] items-center mt-18 bg-no-repeat bg-cover  md:bg-center lg:bg-[position:75%_center] hidden md:flex"
         style={{ backgroundImage: "url('/polywell banner landscape.webp')" }}
       >
         {/* <div className="container mx-auto px-4 lg:px-20">
