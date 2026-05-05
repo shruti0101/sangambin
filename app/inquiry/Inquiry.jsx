@@ -316,7 +316,7 @@ export default function Inquiry() {
             />
           </div>
 
-          <div className="bg-gray-50 border border-gray-200 lg:p-8 p-4 rounded-2xl shadow-lg">
+          <div className="bg-gray-50 border border-2 border-green-500 lg:p-8 p-4 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-bold mb-4 text-center">
               Request a Quote
             </h2>
