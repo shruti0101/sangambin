@@ -55,13 +55,13 @@ const Page = () => {
       <section className="bg-gradient-to-b from-white to-[#F6DB9C] w-full">
 
 
-      <div className="max-w-7xl  px-10 py-10 mx-auto">
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl  px-3 py-10 mx-auto">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {currentProducts.map((product) => (
             <Link
               key={product.id}
               href={`/products/${product.id}`}
-              className="border bg-white rounded-lg overflow-hidden hover:scale-105 shadow-sm hover:shadow-md transition "
+              className="border bg-white min-w-42 rounded-lg overflow-hidden hover:scale-105 shadow-sm hover:shadow-md transition "
             >
                      <div className="absolute top-3 right-3 bg-[#F8CC19] p-2 rounded-full transition-opacity group-hover:opacity-100 opacity-90">
                                 <ArrowUpRight className="w-4 h-4 text-white" />
