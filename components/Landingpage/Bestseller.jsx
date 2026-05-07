@@ -36,12 +36,12 @@ const ServicesCarousel = () => {
     <section className="py-3 mt-10 bg-gradient-to-br from-white to-blue-50">
       {/* Heading */}
       <div
-        className="text-center max-w-3xl mx-auto mb-8 px-4"
+        className="text-center max-w-3xl mx-auto mb-4 md:mb-8 px-4"
       
       >
          <div className="flex items-center  justify-center">
           <div className="w-10 h-1 bg-sky-500 mr-3 rounded-full" />
-          <h3 className="text-sky-600 font-bold uppercase tracking-[0.15em] text-sm sm:text-base">
+          <h3 className="text-sky-600 font-bold uppercase tracking-[0.15em] text-md sm:text-base">
             Our Bestsellers
           </h3>
           <div className="w-10 h-1 bg-sky-500 ml-3 rounded-full" />

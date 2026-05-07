@@ -7,7 +7,8 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "1. What products does Sangam Plastic Industries Pvt. Ltd. manufacture?",
+    question:
+      "1. What products does Sangam Plastic Industries Pvt. Ltd. manufacture?",
     answer:
       "We manufacture a wide range of plastic dustbins, hospital dustbins, plastic pedal bins, bio-medical waste bins, wheeled bins, plastic pallets, crates, and sanitation products. Our products serve residential, commercial, industrial, and healthcare sectors across India.",
   },
@@ -17,7 +18,8 @@ const faqs = [
       "Yes, we are a trusted plastic dustbin manufacturer in India with decades of experience. Our products are manufactured using high-grade materials, modern machinery, and strict quality control processes.",
   },
   {
-    question: "3. Do you manufacture hospital dustbins for medical waste disposal?",
+    question:
+      "3. Do you manufacture hospital dustbins for medical waste disposal?",
     answer:
       "Yes, we are a leading hospital dustbin manufacturer offering bio-medical waste bins designed for hospitals, clinics, and healthcare institutions. Our bins ensure safe disposal, hygiene compliance, and contamination prevention.",
   },
@@ -27,7 +29,8 @@ const faqs = [
       "Our plastic pedal bins feature a hands-free foot pedal mechanism, reducing direct contact and improving hygiene. They are ideal for hospitals, kitchens, offices, restaurants, and laboratories.",
   },
   {
-    question: "5. What materials are used in your dustbins and sanitation products?",
+    question:
+      "5. What materials are used in your dustbins and sanitation products?",
     answer:
       "We use virgin plastic, recyclable plastic, food-grade plastic, UV-resistant plastic, stainless steel, mild steel, and impact-resistant materials. All materials are selected to ensure durability, hygiene, and environmental safety.",
   },
@@ -52,12 +55,12 @@ const faqs = [
       "Every product undergoes strict quality inspections at multiple production stages. We use high-strength materials, advanced molding techniques, and durability testing to ensure long-lasting performance.",
   },
   {
-    question: "10. Are your hospital bins compliant with healthcare safety standards?",
+    question:
+      "10. Are your hospital bins compliant with healthcare safety standards?",
     answer:
       "Yes, our hospital bins are designed according to healthcare waste management guidelines, ensuring safe segregation, disposal, hygiene, and infection control.",
   },
 ];
-
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -69,11 +72,12 @@ export default function FAQSection() {
   const col2 = faqs.slice(half);
 
   return (
-    <section style={{backgroundImage:"url(/ctaimg.png)"}} className="py-12 md:py-20 relative bg-center bg-cover bg-fixed overflow-hidden">
-
-
- {/* Dark gradient overlay for better readability */}
-  <div className="absolute inset-0 bg-black/50 "></div>
+    <section
+      style={{ backgroundImage: "url(/ctaimg.png)" }}
+      className="py-12 md:py-20 relative bg-center bg-cover bg-fixed overflow-hidden"
+    >
+      {/* Dark gradient overlay for better readability */}
+      <div className="absolute inset-0 bg-black/50 "></div>
 
       <div className="max-w-7xl mx-auto px-6 relative">
         {/* Floating Decor Images */}
@@ -82,33 +86,20 @@ export default function FAQSection() {
           animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
         >
-          <Image
-            src="/33.gif"
-            width={200}
-            height={200}
-            alt="Decor"
-          />
+          <Image src="/33.gif" width={200} height={200} alt="Decor" />
         </motion.div>
 
-
-    <motion.div
+        <motion.div
           className="hidden md:block absolute top-30 -left-30 z-0 "
           animate={{ y: [0, -20, 0], rotate: [0, 10, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
         >
-          <Image
-            src="/33.gif"
-            width={200}
-            height={200}
-            alt="Decor"
-          />
+          <Image src="/33.gif" width={200} height={200} alt="Decor" />
         </motion.div>
         {/* Title */}
-       <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-10 ">
-  Frequently Asked Questions for  Sangam Plastic Industries Pvt. Ltd.
- 
-</h2>
-
+        <h2 className="text-3xl md:text-5xl font-bold text-center text-white mb-10 ">
+          Frequently Asked Questions for Sangam Plastic Industries Pvt. Ltd.
+        </h2>
 
         {/* FAQ Two Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

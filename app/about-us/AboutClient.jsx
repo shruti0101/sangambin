@@ -44,7 +44,7 @@ const AboutPage = () => {
       >
         <div className="absolute inset-0 bg-black/50"></div>
 
-        <div className="relative z-10 text-white max-w-3xl">
+        <div className="relative z-10 flex flex-col justify-center items-center text-white max-w-3xl">
           <Link
             href="/"
             className="text-sm sm:text-lg md:text-xl font-semibold text-yellow-400 hover:text-yellow-300 transition underline"
@@ -52,7 +52,7 @@ const AboutPage = () => {
             Home / About Us
           </Link>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif md:text-6xl font-extrabold tracking-tight drop-shadow-lg">
+          <h1 className="text-5xl   font-serif md:text-7xl font-extrabold tracking-tight drop-shadow-lg">
             About Us
           </h1>
 
@@ -66,11 +66,11 @@ const AboutPage = () => {
     <main className="bg-[#F1F5F9] text-gray-900">
 
       {/* HERO SECTION */}
-      <section className="relative text-white py-12 md:py-18 px-4 sm:px-8 md:px-16">
+      <section className="relative text-white py-8 md:py-18 px-4 sm:px-8 md:px-16">
         <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
           <div>
-            <h1 className="text-3xl sm:text-4xl text-black font-bold leading-tight">
+            <h1 className="text-4xl sm:text-4xl text-black font-bold leading-tight">
               About Us – Sangam Plastic Industries
             </h1>
 
@@ -115,11 +115,11 @@ const AboutPage = () => {
 
 
 {/* VISION */}
-<section className="bg-white relative py-12 sm:py-16 px-4 sm:px-6">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<section className="bg-white relative py-8 md:py-9  px-4 sm:px-6">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-12 items-center">
 
     <div>
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0B2545] mb-6">
+      <h2 className="text-3xl text-center md:text-start sm:text-3xl md:text-4xl font-bold text-[#0B2545] mb-3 md:mb-6">
         Our Vision
       </h2>
 
@@ -148,8 +148,8 @@ const AboutPage = () => {
 
 
 {/* MISSION */}
-<section className="max-w-7xl relative mx-auto py-12 sm:py-16 px-4 sm:px-6">
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0B2545] mb-6">
+<section className="max-w-7xl relative mx-auto py-8 md:py-16 px-4 sm:px-6">
+  <h2 className="text-3xl text-center md:text-start sm:text-3xl md:text-4xl font-bold text-[#0B2545] mb-3 md:mb-6">
     Our Mission
   </h2>
 
@@ -161,11 +161,11 @@ const AboutPage = () => {
     alt="eco"
   />
 
-  <p className="text-base sm:text-lg text-black mb-6">
+  <p className="text-base sm:text-lg text-center md:text-start text-black mb-6">
     Our mission guides every decision at Sangam Plastic Industries. We are committed to:
   </p>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
     {[
       {
         title: "Delivering High-Quality Products",
@@ -184,7 +184,7 @@ const AboutPage = () => {
         text: "Innovation is central to our growth. We continually improve product designs, manufacturing processes, and waste management solutions to meet evolving market demands and provide customers with practical, reliable, and advanced products."
       }
     ].map((item, i) => (
-      <div key={i} className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+      <div key={i} className="bg-white p-4 md:p-6 rounded-xl shadow-md border border-gray-200">
         <h3 className="text-xl sm:text-2xl font-bold text-[#266913]">
           {item.title}
         </h3>
@@ -197,9 +197,9 @@ const AboutPage = () => {
 
 
 {/* CORE VALUES */}
-<section className="bg-[#1a3e6a] text-white py-12 sm:py-16 px-4 sm:px-6">
+<section className="bg-[#1a3e6a] text-white py-9 sm:py-16 px-4 sm:px-6">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-6 text-white">
+    <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold mb-3 md:mb-6 text-white">
       Our Core Values
     </h2>
 
@@ -218,12 +218,12 @@ const AboutPage = () => {
 {/* CTA SECTION */}
 <section
   style={{ backgroundImage: "url(/ctaimg.png)" }}
-  className="bg-center bg-fixed bg-cover py-16 sm:py-20 px-4 sm:px-6 relative"
+  className="bg-center bg-fixed bg-cover py-8 md:py-16 sm:py-20 px-4 sm:px-6 relative"
 >
   <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/75"></div>
 
   <div className="relative max-w-7xl mx-auto text-center text-white">
-    <h2 className="text-2xl sm:text-3xl md:text-6xl font-bold tracking-wide">
+    <h2 className="text-3xl sm:text-3xl md:text-6xl font-bold tracking-wide">
       Get in Touch
     </h2>
 

@@ -47,13 +47,13 @@ const ServiceProcess = () => {
       {/* who we work with section*/}
 
 
-      <section className="bg-white relative   mb-8 mt-8 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+      <section className="bg-white relative   mb-8 md:mt-8 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-10 lg:gap-12 items-center">
 
           {/* LEFT: TEXT */}
           <div className="order-2 lg:order-1">
 
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B2545] mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B2545] mb-2   leading-tight">
               Who We Work With
             </h2>
 

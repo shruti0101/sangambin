@@ -28,7 +28,7 @@ const Footer = () => {
 
   return (
     <footer
-      className="relative text-gray-300 pt-16 pb-8 bg-cover bg-center"
+      className="relative text-gray-300 pt-8 md:pt-16 pb-8 bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.6)), url(/try.png)`,
       }}

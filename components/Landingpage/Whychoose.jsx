@@ -13,13 +13,13 @@ const Whychoose = () => {
 
 
 
-    <section className="relative w-full py-18 bg-gradient-to-b from-[#F9FAFB] to-[#EEF1F5] overflow-hidden">
+    <section className="relative w-full py-5 md:py-10 bg-gradient-to-b from-[#F9FAFB] to-[#EEF1F5] overflow-hidden">
 
   {/* BACKGROUND GLOW */}
   <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-[#D1D5DB]/30 blur-[120px] rounded-full"></div>
 
   <div className="max-w-7xl mx-auto px-4 relative z-10 overflow-x-hidden">
-    <div className="grid lg:grid-cols-2 gap-14 items-center">
+    <div className="grid lg:grid-cols-2 gap-5 md:gap-14 items-center">
 
       {/* LEFT CONTENT */}
       <div
@@ -33,7 +33,7 @@ const Whychoose = () => {
         </h2>
 
         {/* IMAGINE BLOCK */}
-        <div className="bg-white/70 backdrop-blur-md border border-white/40 rounded-[18px] p-7 shadow-[0_10px_30px_rgba(16,24,40,0.06)] relative overflow-hidden">
+        <div className="bg-white/70 backdrop-blur-md border border-white/40 rounded-[18px] p-5 md:p-7 shadow-[0_10px_30px_rgba(16,24,40,0.06)] relative overflow-hidden">
 
           <div className="absolute left-0 top-0 h-full w-[4px] bg-green-600"></div>
 
@@ -41,7 +41,7 @@ const Whychoose = () => {
             Imagine This:
           </p>
 
-          <div className="space-y-2 text-black text-[20px] leading-[26px]">
+          <div className="space-y-2 text-black text-[18px] md:text-[20px] leading-[26px]">
             <p>You win a hospital or government tender.</p>
             <p>The quantities are high.</p>
             <p>The documentation must be precise.</p>
@@ -50,13 +50,13 @@ const Whychoose = () => {
         </div>
 
         {/* SUPPLIER RISK BLOCK */}
-        <div className="bg-[#377e36] text-white rounded-[18px] p-7 shadow-[0_15px_40px_rgba(2,6,23,0.35)] relative">
+        <div className="bg-[#377e36] text-white rounded-[18px] p-5 md:p-7 shadow-[0_15px_40px_rgba(2,6,23,0.35)] relative">
 
           <p className="text-[25px] font-semibold mb-3 text-[#F9FAFB] tracking-wide">
             But your supplier:
           </p>
 
-          <div className="space-y-2 text-[20px] text-white leading-[26px]">
+          <div className="space-y-2 text-[18px] md:text-[20px] text-white leading-[26px]">
             <p>Delays dispatch</p>
             <p>Changes pricing at the last minute</p>
             <p>Sends inconsistent quality</p>

@@ -74,7 +74,7 @@ export default function BlogsPage() {
                   className="w-full h-48 object-cover rounded-t-lg"
                 />
               )}
-              <div className="p-4">
+              <div className="p-4"  >
                 <h2 className="text-lg font-semibold mb-2">{b.title}</h2>
                 <p className="text-sm text-gray-500 mb-3">
                   {b.date
@@ -86,10 +86,10 @@ export default function BlogsPage() {
                     : "No date"}
                 </p>
 
-                <p className="text-gray-700 text-sm">{b.excerpt}</p>
+                <p className="text-gray-700 mt-full text-sm">{b.excerpt}</p>
                 <Link
                   href={`/blogs/${b.slug.current}`}
-                  className="text-blue-600 font-medium hover:underline mt-3 block"
+                  className="text-blue-600 font-medium  mt-auto hover:underline  block"
                 >
                   Read More →
                 </Link>

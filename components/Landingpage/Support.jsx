@@ -6,10 +6,10 @@ import { PhoneCall, Send } from "lucide-react";
 
 export default function OneStopWasteSolutionSection() {
   return (
-    <section className="w-full py-6  bg-white">
+    <section className="w-full md:py-6  bg-white">
       {/* Added mobile padding only, md stays px-10 exactly same */}
       <div className="px-4 sm:px-6 md:px-10">
-        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-4 md:gap-12 items-center">
 
           {/* LEFT IMAGE */}
           <motion.div

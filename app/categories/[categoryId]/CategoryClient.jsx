@@ -16,15 +16,15 @@ export default function CategoryPage({ params }) {
   return (
     <>
       {/* ========== PREMIUM CATALOG LAYOUT ========== */}
-      <section className="bg-[#F8FAFC] py-24 md:py-32 lg:py-45 px-4 sm:px-6">
-        <div className="pl-0 sm:pl-6 md:pl-10 max-w-[1600px] mx-auto">
+      <section className="bg-[#F8FAFC] py-7 md:py-12  px-4 sm:px-6">
+        <div className="pl-0 sm:pl-6 md:pl-10 max-w-[1600px] mt-15 md:mt-25 mx-auto">
 
           {/* HEADER */}
-          <div className="mb-12 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+          <div className="mb-6 md:mb-12 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
 
             {/* Left Content */}
             <div>
-              <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-10 md:mt-0 text-[#0B2545]">
+              <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold mt-10 md:mt-0 text-[#0B2545]">
                 Our Product Catalog
               </h1>
 
@@ -94,7 +94,7 @@ export default function CategoryPage({ params }) {
 
               {/* TOP CONTROL BAR */}
               <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
-                <p className="text-gray-700 font-medium text-sm sm:text-base">
+                <p className="text-gray-700 font-medium text-md md:text-sm sm:text-base">
                   Showing {category.products.length} of{" "}
                   {category.products.length} products
                 </p>

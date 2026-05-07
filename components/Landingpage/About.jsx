@@ -47,8 +47,8 @@ const About = () => {
 
 
     {/* about us */}
-      <section className="bg-[#DBF0F7] blueprint-bg py-16 relative">
-        <div className="w-full  mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <section className="bg-[#DBF0F7] blueprint-bg py-5 md:py-10 relative">
+        <div className="w-full  mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
           <Image
             alt="gif"
             width={140}
@@ -75,11 +75,11 @@ const About = () => {
 
           {/* LEFT CONTENT */}
           <div className="space-y-5">
-            <span className="text-green-700 font-semibold tracking-widest text-lg uppercase">
+            <span className="text-green-700 font-semibold tracking-widest text-2xl uppercase">
               Since 1988 ♻
             </span>
 
-            <h2 className="text-xl md:text-5xl font-bold leading-tight text-gray-900">
+            <h2 className="text-2xl md:text-5xl mt-2 font-bold leading-tight text-gray-900">
               Your Trusted Plastic Dustbin, Pedal Bin & Hospital Dustbin
               Manufacturer
             </h2>

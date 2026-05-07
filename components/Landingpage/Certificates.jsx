@@ -67,7 +67,7 @@ const Certificates = () => {
   ];
 
   return (
-    <section className="w-full relative bg-white py-8 sm:py-10 px-4 sm:px-6 md:px-12">
+    <section className="w-full relative bg-white py-3  md:py-8  px-4 sm:px-6 md:px-12">
       {/* Heading */}
       <h2 className="font-bold  relative text-3xl sm:text-4xl md:text-5xl mb-5 sm:mb-16 text-center text-gray-900">
         Our Certificates

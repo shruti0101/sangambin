@@ -35,7 +35,7 @@ const Contact = () => {
 
       const { data } = await axios.post(
         "https://brandbnalo.com/api/form/add",
-        payload
+        payload,
       );
 
       if (data?.success) {
@@ -50,7 +50,7 @@ Message: ${message}
 Contact: ${phone}`;
 
         const waUrl = `https://wa.me/+918810422935?text=${encodeURIComponent(
-          whatsappText
+          whatsappText,
         )}`;
 
         setTimeout(() => {
@@ -90,19 +90,18 @@ Contact: ${phone}`;
             Contact Sangam Plastic Industries
           </h1>
           <p className="text-white mt-4 max-w-2xl mx-auto text-sm md:text-lg">
-            India’s trusted manufacturer of premium plastic dustbins, pedal bins,
-            hospital bins, and commercial waste management solutions.
+            India’s trusted manufacturer of premium plastic dustbins, pedal
+            bins, hospital bins, and commercial waste management solutions.
           </p>
         </div>
       </div>
 
       {/* ===== MAIN CONTACT SECTION ===== */}
-      <section className="w-full bg-gradient-to-b from-white to-[#ECFEF2] py-16 relative">
+      <section className="w-full bg-gradient-to-b from-white to-[#ECFEF2] pt-7 md:pt-16 relative">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
-
           {/* ===== LEFT SIDE — FORM ===== */}
           <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100">
-            <h2 className="text-3xl md:text-5xl font-extrabold text-[#0B2545] mb-8 leading-snug">
+            <h2 className="text-3xl md:text-5xl font-extrabold text-[#0B2545] mb-5 md:mb-8 leading-snug">
               Request a Quote or Product Enquiry
             </h2>
 
@@ -117,29 +116,33 @@ Contact: ${phone}`;
                     className="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#10B981]"
                   />
 
-             <select
-  name="products"
-  className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
-  defaultValue=""
->
-  <option value="" disabled>
-    Select Product
-  </option>
+                  <select
+                    name="products"
+                    className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
+                    defaultValue=""
+                  >
+                    <option value="" disabled>
+                      Select Product
+                    </option>
 
-  <option value="Bio Medical Waste Bins">Bio Medical Waste Bins</option>
-  <option value="Wheeled Bins">Wheeled Bins</option>
-  <option value="Plastic Pallets">Plastic Pallets</option>
-  <option value="Industrial Plastic Pallets">Industrial Plastic Pallets</option>
-  <option value="Pedal Dustbin">Pedal Dustbin</option>
-  <option value="Bio Bins">Bio Bins</option>
-  <option value="Waste Bin">Waste Bin</option>
-  <option value="Litter Bin">Litter Bin</option>
-  <option value="Garbage Dustbin">Garbage Dustbin</option>
-  <option value="Outdoor Dustbin">Outdoor Dustbin</option>
-  <option value="Plastic Dustbin">Plastic Dustbin</option>
-  <option value="Wheeled Dustbin">Wheeled Dustbin</option>
-  <option value="Plastic Waste Bin">Plastic Waste Bin</option>
-</select>
+                    <option value="Bio Medical Waste Bins">
+                      Bio Medical Waste Bins
+                    </option>
+                    <option value="Wheeled Bins">Wheeled Bins</option>
+                    <option value="Plastic Pallets">Plastic Pallets</option>
+                    <option value="Industrial Plastic Pallets">
+                      Industrial Plastic Pallets
+                    </option>
+                    <option value="Pedal Dustbin">Pedal Dustbin</option>
+                    <option value="Bio Bins">Bio Bins</option>
+                    <option value="Waste Bin">Waste Bin</option>
+                    <option value="Litter Bin">Litter Bin</option>
+                    <option value="Garbage Dustbin">Garbage Dustbin</option>
+                    <option value="Outdoor Dustbin">Outdoor Dustbin</option>
+                    <option value="Plastic Dustbin">Plastic Dustbin</option>
+                    <option value="Wheeled Dustbin">Wheeled Dustbin</option>
+                    <option value="Plastic Waste Bin">Plastic Waste Bin</option>
+                  </select>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-4">
@@ -191,13 +194,14 @@ Contact: ${phone}`;
           {/* ===== RIGHT SIDE — INFO ===== */}
           <div className="md:pl-6">
             <p className="text-gray-700 text-lg leading-relaxed mb-10 font-medium">
-              <span className="block text-[#0B2545] text-2xl font-extrabold mb-4">
+              <span className="block text-[#0B2545] text-3xl font-extrabold mb-4">
                 Looking for high-quality plastic dustbins in bulk?
               </span>
 
               <span className="block mb-3 text-gray-800">
-                We manufacture durable, hygienic, and long-lasting bins suitable for
-                homes, hospitals, offices, schools, malls, and industrial use.
+                We manufacture durable, hygienic, and long-lasting bins suitable
+                for homes, hospitals, offices, schools, malls, and industrial
+                use.
               </span>
 
               <span className="block text-gray-600">
@@ -208,7 +212,6 @@ Contact: ${phone}`;
             </p>
 
             <div className="space-y-8">
-
               <div className="flex items-start gap-4">
                 <div className="bg-[#10B981]/10 p-4 rounded-xl">
                   <MapPin className="text-[#10B981] w-6 h-6" />
@@ -218,7 +221,8 @@ Contact: ${phone}`;
                     Address:
                   </h4>
                   <p className="text-black text-lg leading-snug">
-                  Address - 110, Satya Bhawan, 36 Community Center, Wazirpur Industrial Area, New Delhi-110052
+                    Address - 110, Satya Bhawan, 36 Community Center, Wazirpur
+                    Industrial Area, New Delhi-110052
                   </p>
                 </div>
               </div>
@@ -245,22 +249,23 @@ Contact: ${phone}`;
                   <h4 className="text-lg font-semibold text-[#0B2545] mb-1">
                     Email:
                   </h4>
-                  <p className="text-lg text-black">
-                 info@polywell.co.in
-                  </p>
+                  <p className="text-lg text-black">info@polywell.co.in</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-      
-       {/* map */}
-<div className="mt-5 h-100">
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2848900849685!2d77.1662442!3d28.702004099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0223846e0903%3A0x6b8f0fbb73c40b4c!2sSangam%20Plastic%20Industries%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1771318884119!5m2!1sen!2sin" className="w-full h-full" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-        
+        {/* map */}
+        <div className="mt-5 h-100">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2848900849685!2d77.1662442!3d28.702004099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0223846e0903%3A0x6b8f0fbb73c40b4c!2sSangam%20Plastic%20Industries%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1771318884119!5m2!1sen!2sin"
+            className="w-full h-full"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
     </>
   );

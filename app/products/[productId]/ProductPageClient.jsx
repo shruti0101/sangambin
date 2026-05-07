@@ -5,7 +5,6 @@ import Image from "next/image";
 import Head from "next/head";
 import Enquiry from "@/components/Enquiry";
 
-
 export default function ProductPage({ params }) {
   const { productId } = React.use(params);
   const allProducts = categories.flatMap((c) => c.products);
@@ -37,18 +36,14 @@ export default function ProductPage({ params }) {
 
       <section className="bg-[#F6F6F8] py-10 mt-24 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto space-y-12">
-
           {/* BREADCRUMB */}
-          <div className="text-sm sm:text-base text-gray-600">
+          <div className="text-sm md:mt-5 sm:text-base text-gray-600">
             Home &gt; Category &gt; Product &gt;
-            <span className="text-black font-medium ml-1 ">
-              {product.name}
-            </span>
+            <span className="text-black font-medium ml-1 ">{product.name}</span>
           </div>
 
           {/* MAIN GRID */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
-
             {/* IMAGE SECTION */}
             <div>
               <div className="relative bg-white border border-gray-300 overflow-hidden h-[300px] sm:h-[400px] lg:h-[500px] flex items-center justify-center">
@@ -92,24 +87,22 @@ export default function ProductPage({ params }) {
               </h1>
 
               <p className="text-sm text-gray-800 uppercase">
-               Model No.: {" "} {product.model}
+                Model No.: {product.model}
               </p>
 
               <p className="text-base sm:text-lg text-black leading-relaxed">
                 {product.excerpt}
               </p>
 
-<div className="">
+              <div className="">
+                <p className="text-red-500 capitalize text-md leading-relaxed ">
+                  Available Colors: {product.color}
+                </p>
+              </div>
 
-              <p className="text-red-500 capitalize text-md leading-relaxed ">
-             Available Colors:{" "}
-             {product.color}
+              <p className="text-md capitalize font-bold  list-disc leading-relaxed">
+                {product.size}
               </p>
-</div>
-
-<p className="text-md capitalize font-bold  list-disc leading-relaxed">
-  {product.size}
-</p>
 
               <ul className="space-y-3 text-sm sm:text-base">
                 <li className="flex gap-2">
@@ -141,7 +134,7 @@ export default function ProductPage({ params }) {
 
                 <a
                   href={`https://wa.me/+918810422935?text=Hello, I am interested in ${encodeURIComponent(
-                    product.name
+                    product.name,
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -162,76 +155,68 @@ export default function ProductPage({ params }) {
         </div>
       </section>
 
-     {/* ===== DOCUMENT DOWNLOADS ===== */}
+      {/* ===== DOCUMENT DOWNLOADS ===== */}
 
-<section className="bg-yellow-50">
+      <section className="bg-yellow-50">
+        <section className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <a
+            href="/Polywellcatalogue.pdf"
+            download
+            className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-13 h-13 bg-red-50 rounded-lg flex items-center justify-center">
+                <span className="material-symbols-outlined text-red-500 text-5xl">
+                  picture_as_pdf
+                </span>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#0B2545] text-xl">
+                  Product Brochure
+                </h4>
+              </div>
+            </div>
 
-  <section className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <span className="material-symbols-outlined text-gray-400 hover:text-blue-600 transition">
+              download
+            </span>
+          </a>
 
+          {/* ISO Certificate */}
+          <a
+            href="/iso-certificate.pdf"
+            download
+            className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-green-50 rounded-lg flex items-center justify-center">
+                <span className="text-green-600 font-semibold">✔</span>
+              </div>
+              <div>
+                <h4 className="font-semibold text-[#0B2545] text-xl">
+                  ISO Certificate
+                </h4>
+              </div>
+            </div>
 
-<a
-  href="/Polywellcatalogue.pdf"
-  download
-  className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
->
-  <div className="flex items-center gap-3">
-    <div className="w-13 h-13 bg-red-50 rounded-lg flex items-center justify-center">
-      <span className="material-symbols-outlined text-red-500 text-5xl">
-        picture_as_pdf
-      </span>
-    </div>
-    <div>
-      <h4 className="font-semibold text-[#0B2545] text-xl">
-        Product Brochure
-      </h4>
+            <span className="material-symbols-outlined text-gray-400 hover:text-blue-600 transition">
+              download
+            </span>
+          </a>
+        </section>
+      </section>
 
-    </div>
-  </div>
+      <section className="bg-green-50 py-5 md:py-4">
+        <section className="px-4 md:px-20 md:mt-10 mb-4 ">
+          <h2 className="text-3xl sm:text-3xl md:text-5xl  font-semibold text-[#155DFC] mb-6 border-b pb-5">
+            Product Description
+          </h2>
 
-  <span className="material-symbols-outlined text-gray-400 hover:text-blue-600 transition">
-    download
-  </span>
-</a>
-
-
- 
-
-  {/* ISO Certificate */}
- <a
-  href="/iso-certificate.pdf"
-  download
-  className="bg-white p-5 rounded-xl border border-blue-100 shadow-sm flex items-center justify-between hover:shadow-md transition"
->
-  <div className="flex items-center gap-3">
-    <div className="w-10 h-10 bg-green-50 rounded-lg flex items-center justify-center">
-      <span className="text-green-600 font-semibold">✔</span>
-    </div>
-    <div>
-      <h4 className="font-semibold text-[#0B2545] text-xl">
-        ISO Certificate
-      </h4>
- 
-    </div>
-  </div>
-
-  <span className="material-symbols-outlined text-gray-400 hover:text-blue-600 transition">
-    download
-  </span>
-</a>
-
-</section>
-</section>
-
-<section className="bg-green-50 py-10">
-
-     <section className="px-4 md:px-20 md:mt-10 mb-8 md:mb-18">
-        <h2 className="text-2xl sm:text-3xl md:text-5xl  font-semibold text-[#155DFC] mb-6 border-b pb-5">
-          Product Description
-        </h2>
-
-        <div className="space-y-6 text-base sm:text-lg leading-relaxed text-gray-800">
-          {(Array.isArray(product.description) ? product.description : []).map(
-            (block, i) => {
+          <div className="space-y-6 text-base sm:text-lg leading-relaxed text-gray-800">
+            {(Array.isArray(product.description)
+              ? product.description
+              : []
+            ).map((block, i) => {
               switch (block.type) {
                 case "h2":
                   return (
@@ -262,54 +247,50 @@ export default function ProductPage({ params }) {
                 default:
                   return null;
               }
-            }
-          )}
-        </div>
+            })}
+          </div>
+        </section>
       </section>
-</section>
-
-
 
       {/* RELATED PRODUCTS */}
 
       <section className="bg-blue-50">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 py-5  md:py-6">
+          <h2 className="text-2xl sm:text-4xl font-bold text-[#0B2545] mb-6">
+            Related Products
+          </h2>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <h2 className="text-2xl sm:text-4xl font-bold text-[#0B2545] mb-6">
-          Related Products
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {categories
-            .flatMap((c) => c.products)
-            .filter((p) => p.id !== product.id)
-            .slice(0, 4)
-            .map((relatedProduct) => (
-              <div
-                key={relatedProduct.id}
-                className="bg-green-50 rounded-xl shadow-md p-4 text-center"
-              >
-                <div className="w-full h-40 sm:h-52 relative overflow-hidden rounded-lg">
-                  <Image
-                    src={relatedProduct.image[0]?.src}
-                    alt={relatedProduct.name}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="mt-4 text-base sm:text-lg font-semibold">
-                  {relatedProduct.name}
-                </h3>
-                <a
-                  href={`/products/${relatedProduct.id}`}
-                  className="text-blue-600 mt-2 inline-block text-sm"
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {categories
+              .flatMap((c) => c.products)
+              .filter((p) => p.id !== product.id)
+              .slice(0, 4)
+              .map((relatedProduct) => (
+                <div
+                  key={relatedProduct.id}
+                  className="bg-green-50 rounded-xl shadow-md p-4 text-center"
                 >
-                  View Details →
-                </a>
-              </div>
-            ))}
-        </div>
-      </section>
+                  <div className="w-full h-40 sm:h-52 relative overflow-hidden rounded-lg">
+                    <Image
+                      src={relatedProduct.image[0]?.src}
+                      alt={relatedProduct.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-4 text-base sm:text-lg font-semibold">
+                    {relatedProduct.name}
+                  </h3>
+                  <a
+                    href={`/products/${relatedProduct.id}`}
+                    className="text-blue-600 mt-2 inline-block text-sm"
+                  >
+                    View Details →
+                  </a>
+                </div>
+              ))}
+          </div>
+        </section>
       </section>
 
       {isFormOpen && (

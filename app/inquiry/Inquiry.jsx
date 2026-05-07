@@ -165,31 +165,26 @@ export default function Inquiry() {
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-6 text-xl">
             <a
-              href="#"
+              href="/"
               className="text-red-600 font-medium hover:text-black transition"
             >
               Home
             </a>
             <a
-              href="#product"
+              href="/products"
               className="text-red-600 font-medium hover:text-black transition"
             >
               Product
             </a>
             <a
-              href="#aboutus"
+              href="/aboutus"
               className="text-red-600 font-medium hover:text-black transition"
             >
               About Us
             </a>
+            
             <a
-              href="#certificates"
-              className="text-red-600 font-medium hover:text-black transition"
-            >
-              Certificates
-            </a>
-            <a
-              href="#contactus"
+              href="/contactus"
               className="text-red-600 font-medium hover:text-black transition"
             >
               Contact Us
@@ -210,7 +205,7 @@ export default function Inquiry() {
 
           <a
             href="tel:+918810422935"
-            className="mr-2 items-center gap-3 text-white animate-pulse px-3 py-3 font-bold text-center transition-all duration-300 border rounded-lg bg-green-600 md:hidden text-sm lg:hidden"
+            className="mr-2 ml-1 items-center gap-3 text-white animate-pulse px-2 py-3 font-bold text-center transition-all duration-300 border rounded-lg bg-green-600 md:hidden text-sm lg:hidden"
           >
             Get Bulk Quote Today!
           </a>
@@ -227,19 +222,17 @@ export default function Inquiry() {
         {/* Mobile Menu */}
         {open && (
           <div className="lg:hidden bg-white shadow-md px-6 py-4 flex flex-col gap-4">
-            <a href="#" className="text-red-600 font-medium">
+            <a href="/" className="text-red-600 font-medium">
               Home
             </a>
-            <a href="#product" className="text-red-600 font-medium">
+            <a href="/products" className="text-red-600 font-medium">
               Product
             </a>
-            <a href="#aboutus" className="text-red-600 font-medium">
+            <a href="/aboutus" className="text-red-600 font-medium">
               About Us
             </a>
-            <a href="#certificates" className="text-red-600 font-medium">
-              Certificates
-            </a>
-            <a href="#contactus" className="text-red-600 font-medium">
+           
+            <a href="/contactus" className="text-red-600 font-medium">
               Contact Us
             </a>
 
@@ -255,38 +248,14 @@ export default function Inquiry() {
       </div>
 
       {/* Hero Section */}
-      <div
-        className="relative min-h-[100vh] items-center mt-18 bg-no-repeat bg-cover  md:bg-center lg:bg-[position:75%_center] hidden md:flex"
-        style={{ backgroundImage: "url('/polywell banner landscape.webp')" }}
-      >
-        {/* <div className="container mx-auto px-4 lg:px-20">
-          <div className="max-w-2xl text-left">
-            <h1 className="text-3xl md:text-5xl mb-4 font-bold">
-              50+ Years of Manufacturing Experiance
-            </h1>
-
-            <p className="text-xl md:text-2xl font-semibold leading-tight mb-4 text-black">
-              Trusted Manufacturer & Supplier of Durable Plastic Dustbins for
-              Hospitals, Offices, Municipalities & Industries Across India
-              {/* Municipalities, Hospitals और Offices के लिए बेहतरीन क्वालिटी के
-              डस्टबिन्स - पूरे भारत में सप्लाई उपलब्ध */}
-            {/* </p> */}
-
-            {/* <ul className="text-xl mb-6 text-black font-semibold space-y-1">
-              <li>Desiged for Institutional Procurement</li>
-              <li>High-Volume Production Capacity</li>
-              <li>Tender Documentation Support</li>
-              <li>Pan-India Bulk Dispatch</li>
-            </ul>
-
-            <button
-              onClick={() => setIsOpen(true)}
-              className="bg-gray-900 text-white lg:px-20 px-15 py-4 font-semibold rounded-full shadow hover:bg-white hover:text-[#0A3A49] transition hover:border"
-            >
-              Get Product Details & Price
-            </button>
-          </div> */}
-        {/* </div> */} 
+      <div className="relative min-h-[100vh] mt-18 hidden md:flex items-center overflow-hidden">
+          <Image
+            src="/polywell banner landscape.webp"
+            alt="Polywell Banner"
+            fill
+            priority
+            className="object-cover md:object-center lg:object-[75%_center]"
+        />
       </div>
 
       {/* hero section form phone  */}
@@ -737,8 +706,8 @@ export default function Inquiry() {
 
       {/* Contact Us */}
       <div className="py-8 bg-gray-50" id="contactus">
-        <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center">
-          <div className="bg-white p-8 rounded-2xl shadow-lg">
+        <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center  ">
+          <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-500">
             <h2 className="text-3xl font-bold mb-4 text-center">
               Request a Quote
             </h2>

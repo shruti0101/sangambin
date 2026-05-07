@@ -33,6 +33,14 @@ export default function Navbar() {
     { label: "Contact Us", link: "/contact-us" },
   ];
 
+  const translateToHindi = () => {
+    const select = document.querySelector(".goog-te-combo");
+    if (select) {
+      select.value = "hi";
+      select.dispatchEvent(new Event("change"));
+    }
+  };
+
   if (pathname === "/inquiry") {
     return null;
   }
@@ -40,11 +48,11 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all ${scrolled ? "shadow-lg bg-white" : "bg-white"
-          }`}
+        className={`fixed top-0 left-0 w-full z-50 transition-all ${
+          scrolled ? "shadow-lg bg-white" : "bg-white"
+        }`}
       >
         <div className="w-full mx-auto lg:grid lg:grid-cols-[260px_1fr] border-b border-gray-300">
-
           {/* ================= LEFT COLUMN : LOGO ================= */}
           <div className="flex items-center justify-between px-4 sm:px-6 border-b lg:border-b-0 lg:border-r border-gray-300 bg-white">
             <Link
@@ -65,6 +73,12 @@ export default function Navbar() {
 
             {/* MOBILE MENU BUTTON */}
             <button
+              onClick={translateToHindi}
+              className="w-fit px-3 md:hidden bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold whitespace-nowrap"
+            >
+              हिंदी में देखें
+            </button>
+            <button
               className="lg:hidden mr-2"
               onClick={() => setMobileNavOpen(true)}
             >
@@ -74,28 +88,32 @@ export default function Navbar() {
 
           {/* ================= RIGHT COLUMN ================= */}
           <div className="hidden lg:block">
-
             {/* ===== TOP STRIP ===== */}
             <div className="bg-[#E6F4FF]">
-              <div className="w-full px-4 sm:px-6 flex flex-col lg:flex-row items-center justify-between text-gray-800 gap-3 py-2">
-
-                <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-8 lg:gap-20 text-center lg:text-left w-full lg:w-auto">
-
+              <div className="w-full px-4  sm:px-6 flex flex-col lg:flex-row items-center justify-between text-gray-800 gap-3 py-2">
+                <div className="flex flex-col sm:flex-row items-center whitespace-nowrap justify-center lg:justify-start gap-4 sm:gap-8 lg:gap-20 text-center lg:text-left w-full lg:w-auto">
                   <span className="text-red-500 font-bold font-serif text-sm sm:text-lg md:text-xl lg:text-2xl animate-pulse">
-                    India's Only Integrated Waste Management Products Manufacturer
+                    India's Only Integrated Waste Management Products
+                    Manufacturer
                   </span>
 
                   <a
                     href="https://wa.me/+918810422935"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-[#016630] font-medium"
+                    className="flex items-center gap-2 whitespace-nowrap text-[#016630] font-medium"
                   >
                     <span className="capitalize text-sm sm:text-lg animate-pulse">
                       Whatsapp Now
                     </span>
                     <FaWhatsappSquare className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
                   </a>
+                  <button
+                    onClick={translateToHindi}
+                    className="text-white text-sm font-semibold bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md whitespace-nowrap"
+                  >
+                    हिंदी में देखें
+                  </button>
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -109,8 +127,8 @@ export default function Navbar() {
             {/* ===== MAIN NAV ===== */}
             <nav className="bg-white h-[68px] flex items-center">
               <div className="w-full px-4 sm:px-6 flex items-center justify-between">
-
                 {/* CENTER MENU */}
+
                 <ul className="flex items-center gap-6 xl:gap-10 text-lg xl:text-xl font-medium text-gray-800">
                   {menuItems.map((item, idx) => (
                     <li
@@ -167,7 +185,6 @@ export default function Navbar() {
                     Get Quote
                   </button>
                 </div>
-
               </div>
             </nav>
           </div>
@@ -177,18 +194,13 @@ export default function Navbar() {
         {mobileNavOpen && (
           <div className="fixed inset-0 bg-black/60 z-50 lg:hidden">
             <div className="absolute right-0 top-0 w-[85%] sm:w-80 h-full bg-white p-6 overflow-y-auto">
-
-              <button
-                className="mb-6"
-                onClick={() => setMobileNavOpen(false)}
-              >
+              <button className="mb-6" onClick={() => setMobileNavOpen(false)}>
                 <X size={28} />
               </button>
 
               <ul className="space-y-5 text-lg font-medium">
                 {menuItems.map((item, idx) => (
                   <li key={idx}>
-
                     {/* Normal Links */}
                     {!item.hasCategories && (
                       <Link
@@ -203,14 +215,17 @@ export default function Navbar() {
                     {item.hasCategories && (
                       <>
                         <button
-                          onClick={() => setMobileProductsOpen(!mobileProductsOpen)}
+                          onClick={() =>
+                            setMobileProductsOpen(!mobileProductsOpen)
+                          }
                           className="flex items-center justify-between w-full"
                         >
                           {item.label}
                           <ChevronDown
                             size={18}
-                            className={`transition-transform ${mobileProductsOpen ? "rotate-180" : ""
-                              }`}
+                            className={`transition-transform ${
+                              mobileProductsOpen ? "rotate-180" : ""
+                            }`}
                           />
                         </button>
 
@@ -230,7 +245,6 @@ export default function Navbar() {
                         )}
                       </>
                     )}
-
                   </li>
                 ))}
               </ul>
@@ -258,10 +272,7 @@ export default function Navbar() {
         )}
 
         {isFormOpen && (
-          <Enquiry
-            isOpen={isFormOpen}
-            onClose={() => setIsFormOpen(false)}
-          />
+          <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
         )}
 
         <TranslateButton />
