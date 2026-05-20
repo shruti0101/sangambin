@@ -26,6 +26,9 @@ const products = [
 ];
 
 export default function ProductsManufacturing({ inquiry, setIsOpen }) {
+
+  const whatsappNumber = "+918810422935"; 
+
   return (
     <section className="py-7 bg-white">
       <div className="max-w-7xl mx-auto px-4">
@@ -38,12 +41,18 @@ export default function ProductsManufacturing({ inquiry, setIsOpen }) {
 
         {/* Cards */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {products.map((item, index) => (
-            inquiry ?
-              <div key={index} onClick={() => setIsOpen(true)}
-                className="cursor-pointer border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white">
+          {products.map((item, index) => {
+
+            const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hi, I'm interested in ${item.title}`;
+
+            return inquiry ? (
+              <div
+                key={index}
+                onClick={() => setIsOpen(true)}
+                className="cursor-pointer border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white"
+              >
                 {/* Image Area */}
-                <div className="bg-white  flex items-center justify-center " >
+                <div className="bg-white flex items-center justify-center">
                   <Image
                     src={item.image}
                     alt={item.title}
@@ -53,35 +62,63 @@ export default function ProductsManufacturing({ inquiry, setIsOpen }) {
                   />
                 </div>
 
-                {/* Bottom Title Bar */}
-                <div className="bg-green-600 text-white text-center py-4 text-lg font-semibold">
-                  {item.title}
+                {/* Bottom */}
+                <div className="bg-green-600 text-white text-center py-4 px-3">
+                  <h3 className="text-lg font-semibold mb-3">
+                    {item.title}
+                  </h3>
+
+                  {/* WhatsApp Button */}
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-block bg-white text-green-600 font-semibold px-4 py-2 rounded-md hover:bg-green-100 transition"
+                  >
+                     WhatsApp Now
+                  </a>
                 </div>
               </div>
-              : <Link
-                href={item.href}
+            ) : (
+              <div
                 key={index}
                 className="border border-green-600 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 bg-white"
               >
-                {/* Image Area */}
-                <div className="bg-white  flex items-center justify-center " >
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    width={500}
-                    height={400}
-                    className="object-cover h-full w-full"
-                  />
-                </div>
+                <Link href={item.href}>
+                  {/* Image Area */}
+                  <div className="bg-white flex items-center justify-center">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      width={500}
+                      height={400}
+                      className="object-cover h-full w-full"
+                    />
+                  </div>
+                </Link>
 
-                {/* Bottom Title Bar */}
-                <div className="bg-green-600 text-white text-center py-4 text-lg font-semibold">
-                  {item.title}
+                {/* Bottom */}
+                <div className="bg-green-600 text-white text-center py-4 px-3">
+                  <h3 className="text-lg font-semibold mb-3">
+                    {item.title}
+                  </h3>
+
+                  {/* WhatsApp Button */}
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-white text-green-600 font-semibold px-4 py-2 rounded-md hover:bg-green-100 transition"
+                  >
+                    Chat on WhatsApp
+                  </a>
                 </div>
-              </Link>
-          ))}
+              </div>
+            );
+          })}
         </div>
-      </div >
-    </section >
+      </div>
+    </section>
   );
 }

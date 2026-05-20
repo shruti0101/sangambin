@@ -27,7 +27,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Certificates from "@/components/Landingpage/Certificates";
 import ZigzagShowcase from "@/components/Landingpage/Testmonial";
 import Otherpro from "@/components/Landingpage/Otherpro";
-import PopupForm from "@/components/Popup2";
+
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -861,7 +861,7 @@ export default function Inquiry() {
       </div>
 
       <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
-      <PopupForm isOpen={isOpen1} onClose={() => setIsOpen1(false)} />
+
     </>
   );
 }
