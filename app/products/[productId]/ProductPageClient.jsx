@@ -223,27 +223,34 @@ export default function ProductPage({ params }) {
                     <h2
                       key={i}
                       className="text-xl sm:text-2xl md:text-3xl font-semibold mt-6"
-                    >
-                      {block.text}
-                    </h2>
+                      dangerouslySetInnerHTML={{ __html: block.text }}
+                    />
                   );
+
                 case "p":
                   return (
-                    <p key={i} className="leading-relaxed mt-2">
-                      {block.text}
-                    </p>
+                    <p
+                      key={i}
+                      className="leading-relaxed mt-2"
+                      dangerouslySetInnerHTML={{ __html: block.text }}
+                    />
                   );
+
                 case "ul":
                   return (
                     <ul
                       key={i}
-                      className="list-disc   sm:ml-6 space-y-2 mt-2 text-gray-800"
+                      className="list-disc sm:ml-6 space-y-2 mt-2 text-gray-800"
                     >
                       {block.items.map((item, j) => (
-                        <li key={j}>{item}</li>
+                        <li
+                          key={j}
+                          dangerouslySetInnerHTML={{ __html: item }}
+                        />
                       ))}
                     </ul>
                   );
+
                 default:
                   return null;
               }
