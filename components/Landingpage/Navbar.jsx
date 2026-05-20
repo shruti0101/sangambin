@@ -97,8 +97,8 @@ export default function Navbar() {
                     Manufacturer
                   </span>
 
-                  <a
-                    href="https://wa.me/+918810422935"
+                  <Link
+                    href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 whitespace-nowrap text-[#016630] font-medium"
@@ -107,7 +107,7 @@ export default function Navbar() {
                       Whatsapp Now
                     </span>
                     <FaWhatsappSquare className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
-                  </a>
+                  </Link>
                   <button
                     onClick={translateToHindi}
                     className="text-white text-sm font-semibold bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md whitespace-nowrap"
