@@ -656,12 +656,15 @@ export default function Inquiry() {
             understand your requirements.
           </p>
 
+          <div className="flex justify-center items-center">
+
           <button
             onClick={() => setIsOpen(true)}
             className="bg-white hidden md:block text-[#0A3A49] font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
           >
             Let’s Begin a Conversation
           </button>
+          </div>
           <Link
             href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
             className="bg-white md:hidden text-[#0A3A49] font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
