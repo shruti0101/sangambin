@@ -91,7 +91,7 @@ export default function PopupForm({ isOpen, onClose }) {
         </h2>
 
         <p className="text-center text-gray-500 mt-2 text-sm">
-          Fill in your details and our team will contact you shortly.
+          Fill in your details and our team will contact you shortly.SFC
         </p>
 
         <div className="w-20 h-[3px] bg-green-600 mx-auto mt-4 mb-8 rounded-full"></div>
