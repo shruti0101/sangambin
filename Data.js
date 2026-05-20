@@ -36,7 +36,7 @@ export const categories = [
             items: [
               "The 10L Plastic Pedal Dustbin is a compact, hygienic, and durable waste management solution designed for hospitals, clinics, laboratories, and healthcare facilities requiring safe, hands-free waste disposal.",
 
-`Sangam Plastic Industries Pvt. Ltd. is a leading <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline text-blue-600"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality pedal dustbins manufactured using high-grade chemical-resistant polypropylene (PP) material for long-lasting performance.`,
+`Sangam Plastic Industries Pvt. Ltd. is a leading <a href="https://plasticdustbinmanufacturer.com" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline text-blue-600"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality pedal dustbins manufactured using high-grade chemical-resistant polypropylene (PP) material for long-lasting performance.`,
               "As an experienced <strong> Plastic Dustbin Manufacturer </strong> , Sangam Plastic Industries Pvt. Ltd. designs this pedal dustbin with a hands-free operation system that helps reduce direct contact with waste and improves hygiene standards.",
 
               "The compact 10-liter capacity makes this product ideal for patient rooms, washrooms, office cabins, laboratories, and healthcare spaces where efficient waste management is essential.",
@@ -103,7 +103,7 @@ export const categories = [
 
   `Sangam Plastic Industries Pvt. Ltd. is recognized as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and excellent customer support services.`,
 
-  `With years of industry expertise and a strong commitment to quality and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> in Delhi for hospitals, institutions, distributors, and commercial buyers.`
+  `With years of industry expertise and a strong commitment to quality and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a>  for hospitals, institutions, distributors, and commercial buyers.`
 ]
           },
         ],
@@ -162,7 +162,7 @@ export const categories = [
             items: [
   `The 15L Pedal Dustbin Model PW15P is a compact and hygienic waste management solution designed for offices, healthcare facilities, clinics, and small commercial spaces requiring safe and hands-free waste disposal.`,
 
-  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline text-blue-600"><strong>Plastic Dustbin Manufacturer</strong></a> offering high-quality pedal dustbins manufactured using premium-grade chemical-resistant polypropylene (PP) material.`,
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline text-blue-600"><strong>Plastic Dustbin Manufacturer</strong></a> offering high-quality pedal dustbins manufactured using premium-grade chemical-resistant polypropylene (PP) material.`,
 
   `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this pedal dustbin with a hands-free operation system that helps maintain hygiene standards and minimizes direct contact with waste.`,
 
