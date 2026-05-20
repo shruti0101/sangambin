@@ -103,7 +103,7 @@ export const categories = [
 
   `Sangam Plastic Industries Pvt. Ltd. is recognized as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and excellent customer support services.`,
 
-  `With years of industry expertise and a strong commitment to quality and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a>  for hospitals, institutions, distributors, and commercial buyers.`
+  `With years of industry expertise and a strong commitment to quality and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a>  for hospitals, institutions, distributors, and commercial buyers.`
 ]
           },
         ],
@@ -230,7 +230,7 @@ export const categories = [
 
   `Sangam Plastic Industries Pvt. Ltd. is recognized as a trusted <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk production capabilities, timely delivery, and dependable customer support services.`,
 
-  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, institutions, distributors, and commercial buyers.`
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600  hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, institutions, distributors, and commercial buyers.`
 ],
           },
         ],
