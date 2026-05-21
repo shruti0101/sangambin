@@ -1224,9 +1224,9 @@ export const categories = [
       {
         id: "80l-Wheeled-central-pedal-bio-bin",
         name: "80L Wheeled Central Pedal Bio Bin",
-        metaTitle: "80L Wheeled Central Pedal Bio Bin Manufacturer | PolyWell",
+        metaTitle: "80L Wheeled Central Pedal Bio Bin PW80CP | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 80L Wheeled Central Pedal Bio Bin for hygienic waste disposal in hospitals and institutions. Durable polypropylene construction with wheels and pedal system.",
+          "Buy durable 80L Wheeled Central Pedal Bio Bin Model PW80CP from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for healthcare, institutional, and commercial spaces.",
 
         model: "pw80cp",
         color: ["  red  ", "yellow  ", "blue  ", "green  ", "black"],
@@ -1234,18 +1234,7 @@ export const categories = [
           "The 80L Wheeled Central Pedal Bio Bin is designed for hygienic and efficient waste management in healthcare, institutional, and commercial environments.",
 
         description: [
-          {
-            type: "h2",
-            text: "80L Wheeled Central Pedal Bio Bin – Compact Hygienic Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 80L Wheeled Central Pedal Bio Bin is designed for efficient and hygienic waste management in healthcare, institutional, and commercial environments. It supports safe waste handling in areas where cleanliness and sanitation are essential.",
-          },
-          {
-            type: "p",
-            text: "With an 80-litre capacity, this bin is ideal for medium-volume waste disposal. Manufactured using premium-grade PP material, it offers durability, chemical resistance, and long-term performance in demanding environments.",
-          },
+          
           {
             type: "h2",
             text: "Product Overview",
@@ -1253,13 +1242,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Hands-free waste disposal with pedal operation.",
-              "80L capacity suitable for medium waste volumes.",
-              "Durable polypropylene material construction.",
-              "Central wheeled design for easy mobility.",
-              "Secure lid system for improved hygiene.",
-              "Distinct blue color for waste segregation.",
-            ],
+  `The 80L Wheeled Central Pedal Bio Bin Model PW80CP is a high-capacity and hygienic waste management solution designed for healthcare facilities, institutions, commercial spaces, and biomedical waste disposal applications.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Wheeled Central Pedal Bio Bins manufactured using high-grade chemical-resistant polypropylene (PP) material for long-lasting durability and superior performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this Bio Bin with a central pedal mechanism that enables hands-free waste disposal and helps maintain hygiene standards in healthcare and institutional environments.`,
+
+  `The 80-liter capacity makes this Plastic Pedal Bio Bin ideal for hospitals, clinics, laboratories, nursing homes, commercial buildings, and institutional facilities requiring efficient and organized waste management systems.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the bio bin ensures smooth mobility, easy handling, and convenient day-to-day operation in high-usage environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this Wheeled Central Pedal Bio Bin in Red, Yellow, Blue, Green, and Black colors for effective biomedical and general waste segregation practices.`,
+],
           },
           {
             type: "h2",
@@ -1268,28 +1262,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "High-quality PP material for long-term durability.",
-              "Foot pedal operation reduces contamination risk.",
-              "Smooth-rolling wheels for easy movement.",
-              "Secure lid to prevent odor and spillage.",
-              "Optimized compact dimensions.",
-              "Suitable for hospitals, clinics, and institutions.",
-            ],
+  `The central pedal operation ensures touch-free and hygienic waste disposal, making this Plastic Pedal Bio Bin highly suitable for hospitals, laboratories, healthcare centers, and commercial environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the bio bin is made from premium-quality chemical-resistant PP material that offers excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring smooth functionality and dependable performance for continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or marks on flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in healthcare, institutional, and commercial facilities.`,
+
+  `The large-capacity structure and multiple color options make this Plastic Pedal Bio Bin ideal for organized biomedical waste segregation and efficient waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Hospital-grade bins meeting hygiene standards.",
-              "Expertise in pedal-operated waste bins.",
-              "Bulk order capability with consistent quality.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support with timely delivery.",
-            ],
+  `Widely used in hospitals, healthcare centers, clinics, and medical institutions for hygienic biomedical and hazardous waste collection and disposal management.`,
+
+  `Suitable for laboratories, operation theatres, ICUs, nursing stations, and patient care units where hygiene and contamination control are highly important.`,
+
+  `Ideal for educational institutions, offices, commercial complexes, and public utility spaces requiring durable and organized waste management solutions.`,
+
+  `Commonly used in pharmaceutical companies, research facilities, and healthcare environments requiring chemical-resistant and high-capacity Plastic Pedal Bio Bins.`,
+
+  `Applicable in hotels, hospitality sectors, industrial facilities, and institutional environments where wheeled waste management bins are required for efficient waste handling.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for healthcare, commercial, industrial, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Plastic Pedal Bio Bins for healthcare and commercial industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of pedal dustbins, biomedical waste bins, housekeeping products, and customized plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognized as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, institutions, distributors, and commercial buyers.`
+],
           },
         ],
 
@@ -1318,9 +1342,9 @@ export const categories = [
       {
         id: "120l-pp-central-wheeled-bio-bin",
         name: "120L PP Central Wheeled Bio Bin",
-        metaTitle: "120L PP Central Wheeled Bio Bin Manufacturer | PolyWell",
+        metaTitle: "120L PP Central Wheeled Bio Bin PW120R | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 120L PP Central Wheeled Bio Bin for hygienic waste disposal in hospitals and healthcare facilities. Durable polypropylene construction with wheels and pedal system.",
+          "Buy durable 120L PP Central Wheeled Bio Bin Model PW120R from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for hospitals, laboratories, and commercial establishments",
         model: "pw120r",
 
         color: ["  red  ", "yellow  ", "blue  ", "black"],
@@ -1329,18 +1353,7 @@ export const categories = [
           "The 120L PP Central Wheeled Bio Bin is designed for hygienic and efficient waste management in hospitals, laboratories, and commercial establishments with durable PP construction.",
 
         description: [
-          {
-            type: "h2",
-            text: "120L PP Central Wheeled Bio Bin – Hygienic Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 120L PP Central Wheeled Bio Bin is designed for efficient and hygienic waste management in hospitals, healthcare facilities, laboratories, and commercial establishments. It ensures safe waste handling in environments where hygiene is critical.",
-          },
-          {
-            type: "p",
-            text: "With a large 120-litre capacity, this bin is suitable for moderate to high waste generation areas. Manufactured using premium-grade PP material, it provides durability, chemical resistance, and long-term performance for daily use.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
@@ -1348,12 +1361,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "120L capacity suitable for healthcare environments.",
-              "Durable polypropylene material construction.",
-              "Central wheeled design for easy mobility.",
-              "Secure lid system for improved hygiene.",
-              "Distinct blue color for waste segregation.",
-            ],
+  `The 120L PP Central Wheeled Bio Bin Model PW120R is a high-capacity and hygienic waste management solution designed for hospitals, laboratories, healthcare facilities, and commercial establishments requiring safe and efficient waste disposal systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality PP Central Wheeled Bio Bins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this Bio Bin with a central wheeled structure and hands-free operation to maintain hygiene standards and support organized waste management practices.`,
+
+  `The 120-liter capacity makes this PP Central Wheeled Bio Bin ideal for hospitals, patient care units, laboratories, healthcare facilities, commercial spaces, and institutional environments requiring high-volume waste collection solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the bio bin ensures smooth mobility, easy handling, and convenient operation in high-usage environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this PP Central Wheeled Bio Bin in Red, Yellow, Blue, and Black colors for efficient biomedical and general waste segregation systems.`
+],
           },
           {
             type: "h2",
@@ -1362,28 +1381,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "High-quality PP material for long-term durability.",
+  `The central wheeled design ensures hygienic and efficient waste disposal, making this PP Central Wheeled Bio Bin highly suitable for hospitals, laboratories, and commercial establishments.`,
 
-              "Smooth-rolling wheels for easy movement.",
-              "Secure lid to prevent odor and spillage.",
-              "Optimized compact dimensions.",
-              "Suitable for hospitals, clinics, and institutions.",
-            ],
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the bio bin is made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring smooth functionality and dependable performance during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or marks on flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in healthcare, institutional, and commercial facilities.`,
+
+  `The large-capacity structure and multiple color options make this PP Central Wheeled Bio Bin ideal for organized biomedical waste segregation and efficient waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Hospital-grade bins meeting hygiene standards.",
-              "Expertise in pedal-operated waste bins.",
-              "Bulk order capability with consistent quality.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support with timely delivery.",
-            ],
+  `Widely used in hospitals, healthcare centers, clinics, and medical institutions for hygienic biomedical and hazardous waste collection and disposal management.`,
+
+  `Suitable for laboratories, operating theatres, ICUs, nursing stations, and patient care units where hygiene and contamination control are highly important.`,
+
+  `Ideal for pharmaceutical companies, research laboratories, and healthcare facilities requiring durable and chemical-resistant waste management products.`,
+
+  `Commonly used in offices, commercial complexes, educational institutions, and public utility spaces for organized and hygienic waste disposal systems.`,
+
+  `Applicable in hotels, hospitality sectors, industrial facilities, and institutional environments where high-capacity wheeled bio bins are required for efficient waste handling.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for healthcare, commercial, industrial, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting PP Central Wheeled Bio Bins for healthcare and commercial industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of pedal dustbins, biomedical waste bins, housekeeping products, and customized plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognized as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <strong>Plastic Dustbin Manufacturer</strong> for hospitals, institutions, distributors, and commercial buyers.`
+],
           },
         ],
 
@@ -1507,9 +1556,9 @@ export const categories = [
         id: "120l-large-foot-operated-wheeled-dustbin",
         name: "120L Large Foot Operated Wheeled Dustbins ",
         metaTitle:
-          "120L Large Foot Operated Wheeled Dustbin Manufacturer | PolyWell",
+          "Buy a durable 120L Large Foot Operated Wheeled Dustbin from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for offices, commercial buildings, and institutional environments.",
         metaDescription:
-          "Buy 120L Large Foot Operated Wheeled Dustbin for hygienic waste disposal in offices and commercial spaces. Durable plastic construction with pedal and wheels.",
+          "",
 
         model: "pw120fp",
         color: ["  blue", "  green"],
@@ -1518,31 +1567,26 @@ export const categories = [
           "The 120L Large Foot Operated Wheeled  Dustbin is designed for hygienic and efficient waste management in offices, commercial buildings, and institutional environments.",
 
         description: [
-          {
-            type: "h2",
-            text: "120L Large Foot Operated Wheeled Dustbin – Hygienic Office Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 120L Large Foot Operated Wheeled Dustbin is designed for efficient waste disposal in offices, commercial buildings, and institutional environments. It supports organized waste management in professional spaces where cleanliness is essential.",
-          },
-          {
-            type: "p",
-            text: "With a high-capacity design, this dustbin is suitable for regular waste disposal needs. Manufactured using premium-grade plastic, it offers durability and long-term performance for daily use.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
           },
           {
             type: "ul",
-            items: [
-              "120L capacity suitable for office use.",
-              "Durable premium-grade plastic construction.",
-              "Wheeled design for easy mobility.",
-              "Open-top structure for quick disposal.",
-              "Square shape for improved stability.",
-            ],
+            items:[
+  `The 120L Large Foot Operated Wheeled Dustbin is a high-capacity and hygienic waste management solution designed for offices, commercial buildings, institutional facilities, and large public spaces requiring efficient waste disposal systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Foot Operated Wheeled Dustbins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this wheeled dustbin with a foot-operated mechanism that ensures hands-free waste disposal and helps maintain hygiene standards in commercial and institutional environments.`,
+
+  `The 120-liter large-capacity structure makes this Plastic Wheeled Dustbin suitable for offices, commercial complexes, educational institutions, healthcare facilities, and public utility spaces requiring high-volume waste collection solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the dustbin provides smooth mobility, easy handling, and convenient operation in high-usage environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this Foot Operated Wheeled Dustbin in Blue and Green colors for organized waste segregation and efficient waste management practices.`
+],
           },
           {
             type: "h2",
@@ -1550,29 +1594,59 @@ export const categories = [
           },
           {
             type: "ul",
-            items: [
-              "Strong plastic body for long-term durability.",
+            items:[
+  `The foot-operated pedal mechanism ensures touch-free and hygienic waste disposal, making this Plastic Wheeled Dustbin highly suitable for offices, institutions, and commercial environments.`,
 
-              "Smooth-rolling wheels for easy movement.",
-              "Space-efficient square design.",
-              "Reliable performance for daily use.",
-              "Suitable for offices and commercial spaces.",
-            ],
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the dustbin is made from premium-quality chemical-resistant PP material that offers excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring smooth functionality and dependable performance during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or damage to flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in offices, institutional spaces, and commercial facilities.`,
+
+  `The large-capacity structure and multiple color options make this foot-operated wheeled dustbin ideal for organized waste segregation and efficient waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Hospital-grade bins meeting hygiene standards.",
-              "Expertise in pedal-operated waste solutions.",
-              "Bulk order capability with consistent quality.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support with timely delivery.",
-            ],
+  `Widely used in offices, corporate buildings, and commercial complexes for hygienic and organized waste collection and disposal management.`,
+
+  `Suitable for educational institutions, public utility areas, and institutional facilities requiring durable and high-capacity waste management solutions.`,
+
+  `Ideal for hospitals, healthcare centers, laboratories, and clinics where cleanliness, hygiene, and contamination control are highly important.`,
+
+  `Commonly used in shopping malls, retail stores, hospitality sectors, and industrial facilities for efficient waste disposal and waste handling systems.`,
+
+  `Applicable in residential societies, apartment complexes, and outdoor utility spaces where wheeled and easy-to-maintain Plastic Dustbins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for commercial, healthcare, institutional, and industrial applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Foot Operated Wheeled Dustbins for commercial and institutional industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of pedal dustbins, biomedical waste bins, wheeled dustbins, housekeeping products, and customized plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognized as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for offices, institutions, distributors, healthcare facilities, and commercial buyers.`
+],
           },
         ],
 
@@ -1593,9 +1667,9 @@ export const categories = [
       {
         id: "240l-plastic-wheeled-dustbin",
         name: "240L Plastic Wheeled Dustbins ",
-        metaTitle: "240L Plastic Wheeled Dustbin Manufacturer | PolyWell",
+        metaTitle: "240L Plastic Wheeled Dustbins PW240R | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 240L Plastic Wheeled Dustbin for industrial and commercial waste collection. Durable plastic construction with easy mobility wheels. Bulk orders available.",
+          "Buy durable 240L Plastic Wheeled Dustbins Model PW240R from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for industrial, commercial, and institutional environments.",
 
         model: "pw240r",
         color: ["  red", "  yellow", "  blue", "  black"],
@@ -1603,18 +1677,7 @@ export const categories = [
           "240L Plastic Wheeled Dustbins are designed for efficient and organized waste collection in industrial, commercial, and institutional environments.",
 
         description: [
-          {
-            type: "h2",
-            text: "240L Plastic Wheeled Dustbin – Industrial Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The Plastic Wheeled Dustbin 240L is designed for efficient and organized waste collection in industrial, commercial, and institutional environments. It supports hygienic waste management in facilities where handling high waste volumes is essential.",
-          },
-          {
-            type: "p",
-            text: "With a high-capacity design, this dustbin is ideal for areas with continuous waste generation. Manufactured using premium-grade plastic, it offers durability, impact resistance, and long-term performance under heavy daily use.",
-          },
+        
           {
             type: "h2",
             text: "Product Overview",
@@ -1622,13 +1685,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Designed for industrial waste disposal.",
-              "240L capacity suitable for bulk waste collection.",
-              "Durable premium-grade plastic construction.",
-              "Wheeled design for easy movement.",
-              "Open-top structure for quick disposal.",
-              "Square shape for better stability.",
-            ],
+  `The 240L Plastic Wheeled Dustbins Model PW240R are high-capacity and durable waste management solutions designed for industrial, commercial, and institutional environments requiring efficient and organised waste collection systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Plastic Wheeled Dustbins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs these wheeled dustbins to support hygienic waste handling and efficient waste transportation in high-volume waste collection areas.`,
+
+  `The 240-litre large-capacity structure makes these Plastic Wheeled Dustbins ideal for factories, warehouses, hospitals, shopping complexes, institutions, and commercial buildings requiring bulk waste management solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the dustbins ensure smooth mobility, easy handling, and convenient operation in industrial and commercial environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers these Plastic Wheeled Dustbins in Red, Yellow, Blue, and Black colours for organised waste segregation and efficient waste disposal management.`
+],
           },
           {
             type: "h2",
@@ -1636,29 +1704,59 @@ export const categories = [
           },
           {
             type: "ul",
-            items: [
-              "Strong plastic body for long-term durability.",
-              "Large waste holding capacity.",
-              "Smooth-running wheels for easy mobility.",
-              "Open-top design for convenience.",
-              "Space-efficient square shape.",
-              "Suitable for industrial and commercial use.",
-            ],
+            items:[
+  `The large-capacity design ensures efficient and organised waste collection, making these Plastic Wheeled Dustbins highly suitable for industrial, institutional, and commercial environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the dustbins are made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring dependable performance and smooth functionality during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or marks on flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and waste handling in industrial, institutional, and commercial facilities.`,
+
+  `The heavy-duty structure and multiple colour options make these Plastic Wheeled Dustbins ideal for organised waste segregation and large-scale waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Consistent quality and functional design.",
-              "Hospital-grade solutions provider.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strict quality assurance and durability testing.",
-            ],
+  `Widely used in factories, warehouses, manufacturing units, and industrial facilities for bulk waste collection and organised waste disposal management.`,
+
+  `Suitable for hospitals, healthcare centres, laboratories, and medical institutions requiring hygienic and high-capacity waste management solutions.`,
+
+  `Ideal for shopping malls, commercial complexes, offices, and retail stores requiring durable and easy-to-move Plastic Wheeled Dustbins.`,
+
+  `Commonly used in educational institutions, public utility spaces, railway stations, airports, and institutional environments for efficient waste collection systems.`,
+
+  `Applicable in hotels, restaurants, hospitality sectors, and residential societies where large-capacity waste handling solutions are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for industrial, commercial, healthcare, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Plastic Wheeled Dustbins for industrial and commercial industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled dustbins, pedal bins, biomedical waste bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for industries, institutions, distributors, hospitals, and commercial buyers.`
+],
           },
         ],
 
@@ -1689,9 +1787,9 @@ export const categories = [
         id: "240l-pp-foot-operated-wheeled-bin",
         name: "240L PP Foot Operated Wheeled Bin",
         metaTitle:
-          "240L PP Foot Operated Wheeled Bin Manufacturer | Hospital Biomedical Waste Bin with Wheels",
+          "240L PP Foot Operated Wheeled Bin | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 240L PP Foot Operated Wheeled Bin for hospitals and healthcare facilities. Durable polypropylene biomedical waste bin with hands-free pedal, lid and wheels for hygienic disposal.",
+          "Buy a durable 240L PP Foot Operated Wheeled Bin from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for hospitals, healthcare facilities, and commercial spaces.",
 
         model: "pw240fp",
         color: ["  yellow  ", "blue"],
@@ -1700,18 +1798,7 @@ export const categories = [
           "The 240L PP Foot Operated Wheeled Bin is a large-capacity, hands-free waste management solution designed for hospitals, healthcare facilities, and commercial spaces.",
 
         description: [
-          {
-            type: "h2",
-            text: "240L PP Foot Operated Wheeled Bin – High Capacity Biomedical Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 240L PP Foot Operated Wheeled Bin is a large-capacity, hands-free waste management solution designed for hospitals, healthcare facilities, and commercial spaces.",
-          },
-          {
-            type: "p",
-            text: "Made from durable polypropylene (PP) plastic, it offers long-lasting strength, impact resistance, and reliable performance in high-usage environments.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
@@ -1719,13 +1806,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "120L large waste capacity.",
-              "Hands-free foot pedal operation.",
-              "Durable PP plastic construction.",
-              "Hinged lid for odor control.",
-              "Wheel support for mobility.",
-              "Eco-friendly recyclable material.",
-            ],
+  `The 240L PP Foot Operated Wheeled Bin is a large-capacity and hygienic waste management solution designed for hospitals, healthcare facilities, commercial buildings, and institutional environments requiring efficient waste disposal systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality PP Foot Operated Wheeled Bins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this wheeled bin with a foot-operated mechanism that enables hands-free waste disposal and helps maintain hygiene standards in healthcare and commercial environments.`,
+
+  `The 240-litre large-capacity structure makes this PP Foot Operated Wheeled Bin suitable for hospitals, laboratories, healthcare centres, shopping complexes, commercial spaces, and public utility areas requiring bulk waste collection solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the wheeled bin ensures smooth mobility, easy handling, and convenient operation in high-usage environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this PP Foot Operated Wheeled Bin in Yellow and Blue colours for organised biomedical and general waste segregation systems.`
+],
           },
           {
             type: "h2",
@@ -1734,28 +1826,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Foot pedal hands-free disposal.",
-              "Strong polypropylene body.",
-              "Secure lid containment system.",
-              "Wheels for easy movement.",
-              "Chemical-resistant material.",
-              "Ideal for hospital environments.",
-            ],
+  `The foot-operated pedal mechanism ensures touch-free and hygienic waste disposal, making this PP Foot Operated Wheeled Bin highly suitable for hospitals, healthcare centres, and commercial environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the wheeled bin is made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring dependable performance and smooth functionality during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or damage to flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in healthcare, institutional, and commercial facilities.`,
+
+  `The heavy-duty structure and multiple colour options make this PP Foot Operated Wheeled Bin ideal for organised waste segregation and large-scale waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer.",
-              "Healthcare compliant products.",
-              "Bulk order capability.",
-              "Eco-friendly recyclable materials.",
-              "Consistent product quality.",
-              "Reliable nationwide delivery.",
-            ],
+  `Widely used in hospitals, healthcare centres, clinics, and medical institutions for hygienic biomedical and hazardous waste collection and disposal management.`,
+
+  `Suitable for laboratories, operation theatres, ICUs, patient care units, and nursing stations where hygiene and contamination control are highly important.`,
+
+  `Ideal for shopping malls, offices, commercial complexes, and institutional spaces requiring durable and high-capacity waste management solutions.`,
+
+  `Commonly used in pharmaceutical companies, industrial facilities, warehouses, and public utility spaces for efficient waste handling and disposal systems.`,
+
+  `Applicable in hotels, hospitality sectors, educational institutions, and residential societies where wheeled and easy-to-maintain Plastic Dustbins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for healthcare, industrial, institutional, and commercial applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items:[
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting PP foot-operated wheeled bins for healthcare and commercial industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled bins, pedal dustbins, biomedical waste bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, institutions, distributors, industries, and commercial buyers.`
+],
           },
         ],
 
@@ -1786,9 +1908,9 @@ export const categories = [
       {
         id: "240l-hospitals-wheeled-bin",
         name: "240L Hospitals Wheeled Bins",
-        metaTitle: "240L Hospitals Wheeled Bin Manufacturer | PolyWell",
+        metaTitle: "240L Hospitals Wheeled Bins | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 240L Hospitals Wheeled Bin for hygienic waste management in healthcare facilities. Durable plastic construction with smooth mobility wheels.",
+          "Buy durable 240L Hospitals Wheeled Bins from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and chemical-resistant waste management solutions for hospitals and healthcare environments.",
 
         model: "generic",
         color: ["  red", "  black", "  blue", "  yellow"],
@@ -1797,18 +1919,7 @@ export const categories = [
           "The 240L Hospitals Wheeled Bin is a reliable waste management solution designed for organized waste collection in hospital and healthcare environments.",
 
         description: [
-          {
-            type: "h2",
-            text: "240L Hospitals Wheeled Bin – Hygienic Healthcare Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 240L Hospitals Wheeled Bin is designed for efficient and hygienic waste collection in hospital and healthcare environments. It supports organized waste disposal in areas where maintaining cleanliness is essential.",
-          },
-          {
-            type: "p",
-            text: "With a practical capacity, this bin is suitable for centralized waste collection in healthcare facilities with moderate to high waste generation. Manufactured using premium-grade plastic, it offers durability and long-term performance.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
@@ -1816,13 +1927,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Designed for hospital waste disposal.",
-              "240L capacity suitable for healthcare use.",
-              "Durable premium-grade plastic construction.",
-              "Wheeled design for easy movement.",
-              "Open-top structure for quick disposal.",
-              "Square shape for improved stability.",
-            ],
+  `The 240L Hospitals Wheeled Bins are high-capacity and hygienic waste management solutions specially designed for hospitals, healthcare centres, clinics, and medical institutions requiring organised waste collection systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Hospitals Wheeled Bins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs these wheeled bins for efficient biomedical and general waste management while helping maintain hygiene standards in healthcare environments.`,
+
+  `The 240-litre large-capacity structure makes these Hospitals Wheeled Bins suitable for patient care units, operation theatres, laboratories, hospital corridors, nursing stations, and institutional spaces requiring bulk waste collection solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the wheeled bins ensure smooth mobility, easy handling, and convenient day-to-day operation in high-usage healthcare facilities.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer in Delhi</strong>, Sangam Plastic Industries Pvt. Ltd. offers these Hospitals Wheeled Bins in Red, Black, Blue, and Yellow colours for effective biomedical waste segregation and organised waste disposal systems.`
+],
           },
           {
             type: "h2",
@@ -1831,28 +1947,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Strong plastic body for long-term durability.",
-              "Smooth-rolling wheels for easy mobility.",
-              "Open-top design for convenience.",
-              "High load handling capability.",
-              "Smooth surface for easy cleaning.",
-              "Suitable for hospital environments.",
-            ],
+  `The large-capacity design ensures hygienic and efficient waste collection, making these Hospitals Wheeled Bins highly suitable for hospitals, clinics, and healthcare facilities.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the wheeled bins are made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring smooth functionality and dependable performance during continuous healthcare use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides 360-degree non-marking castor wheels for effortless movement without causing scratches or marks on hospital flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in hospitals, laboratories, and healthcare institutions.`,
+
+  `The heavy-duty structure and multiple colour options make these Hospitals Wheeled Bins ideal for organised biomedical waste segregation and efficient waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Hospital-grade bins meeting hygiene standards.",
-              "Comprehensive waste management solutions provider.",
-              "Bulk order capability with consistent quality.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support with timely delivery.",
-            ],
+  `Widely used in hospitals, healthcare centres, clinics, and medical institutions for hygienic biomedical and hazardous waste collection and disposal management.`,
+
+  `Suitable for operation theatres, ICUs, laboratories, nursing stations, and patient care units where hygiene and contamination control are highly important.`,
+
+  `Ideal for pharmaceutical companies, diagnostic laboratories, and research facilities requiring durable and chemical-resistant waste management products.`,
+
+  `Commonly used in healthcare campuses, institutional spaces, public utility areas, and commercial facilities for organised waste disposal systems.`,
+
+  `Applicable in hotels, hospitality sectors, educational institutions, and industrial environments where large-capacity wheeled waste bins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for healthcare, institutional, commercial, and industrial applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Hospital Wheeled Bins for healthcare and institutional industries.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled bins, pedal dustbins, biomedical waste bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, institutions, distributors, and commercial buyers.`
+],
           },
         ],
 
@@ -1890,9 +2036,9 @@ export const categories = [
       {
         id: "660l-four-wheel-plastic-dustbin",
         name: "660L Four Wheel Plastic Dustbin",
-        metaTitle: "660L Four Wheel Plastic Dustbin Manufacturer | PolyWell",
+        metaTitle: "660L Four Wheel Plastic Dustbin PW660 | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 660L Four Wheel Plastic Dustbin for hospitals, industries, and societies. Durable high-capacity plastic bin with smooth mobility wheels. Bulk orders available.",
+          "Buy durable 660L Four Wheel Plastic Dustbin Model PW660 from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and heavy-duty waste management solutions for hospitals, industries, housing societies, and public spaces.",
 
         model: "pw660",
         color: ["  red  ", "yellow  ", "blue  ", "black  ", "green"],
@@ -1901,18 +2047,7 @@ export const categories = [
           "The 660L Four Wheel Plastic Dustbin is designed for large-scale waste collection in hospitals, industrial units, housing societies, and public spaces with durable plastic construction.",
 
         description: [
-          {
-            type: "h2",
-            text: "660L Four Wheel Plastic Dustbin – High Capacity Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 660L Four Wheel Plastic Dustbin is designed for large-scale and organized waste collection in hospitals, industrial units, housing societies, and public spaces. It ensures efficient waste management in environments where handling high waste volumes is essential.",
-          },
-          {
-            type: "p",
-            text: "With a large 660-litre capacity, this bin minimizes frequent emptying and supports smooth operations in busy environments. Manufactured using premium-grade plastic, it provides durability and reliable performance for daily use.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
@@ -1920,13 +2055,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Designed for large-scale waste disposal.",
-              "660L capacity suitable for centralized collection.",
-              "Durable premium-grade plastic construction.",
-              "Four-wheel mobility for easy movement.",
-              "Suitable for indoor and outdoor use.",
-              "Ideal for hospitals, industries, and societies.",
-            ],
+  `The 660L Four Wheel Plastic Dustbin Model PW660 is a heavy-duty and high-capacity waste management solution designed for large-scale waste collection in hospitals, industrial units, housing societies, commercial complexes, and public spaces.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Four Wheel Plastic Dustbins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this large-capacity dustbin to support hygienic, organised, and efficient waste collection in high-volume waste disposal environments.`,
+
+  `The 660-litre capacity makes this four-wheel plastic dustbin ideal for hospitals, factories, warehouses, residential societies, shopping malls, railway stations, airports, and municipal waste management systems.`,
+
+  `Equipped with durable 360-degree non-marking castor wheels and an ergonomic handle design, the dustbin ensures smooth mobility, easy handling, and convenient waste transportation in industrial and commercial spaces.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this Four Wheel Plastic Dustbin in Red, Yellow, Blue, Black, and Green colours for efficient waste segregation and large-scale waste management practices.`
+],
           },
           {
             type: "h2",
@@ -1935,28 +2075,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "High-capacity waste storage.",
-              "Strong plastic body for long-term durability.",
-              "Smooth-rolling four-wheel mobility system.",
-              "Replaceable wheel spare parts support.",
-              "Smooth surface for easy cleaning.",
-              "Stable height of 123 cm.",
-            ],
+  `The heavy-duty large-capacity design ensures efficient and organized waste collection, making this Four Wheel Plastic Dustbin highly suitable for industrial, healthcare, and public utility environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the dustbin is made from premium-quality chemical-resistant PP material that offers excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring dependable performance and smooth functionality during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides strong 360-degree non-marking castor wheels for effortless movement without causing scratches or damage to floor surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and waste handling in industrial, institutional, and commercial facilities.`,
+
+  `The robust structure and multiple colour options make this Four-Wheel Plastic Dustbin ideal for organised waste segregation and efficient large-scale waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with decades of experience.",
-              "Hospital-grade dustbins meeting hygiene standards.",
-              "Complete waste management solutions provider.",
-              "Bulk order capability with nationwide delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strict quality assurance and durability testing.",
-            ],
+  `Widely used in hospitals, healthcare centres, clinics, and medical institutions for hygienic biomedical and general waste collection and disposal management.`,
+
+  `Suitable for factories, warehouses, manufacturing units, and industrial facilities requiring durable and high-capacity waste management solutions.`,
+
+  `Ideal for housing societies, residential complexes, public utility areas, and municipal waste collection systems requiring bulk waste disposal management.`,
+
+  `Commonly used in shopping malls, commercial complexes, railway stations, airports, and institutional spaces for organised waste collection and transportation.`,
+
+  `Applicable in hotels, hospitality sectors, educational institutions, and outdoor public spaces where large-capacity Four-Wheel Plastic Dustbins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for industrial, healthcare, commercial, municipal, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Four Wheel Plastic Dustbins for industrial and commercial applications.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled dustbins, pedal bins, biomedical waste bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, industries, housing societies, institutions, and commercial buyers.`
+],
           },
         ],
 
@@ -1989,9 +2159,9 @@ export const categories = [
       {
         id: "1100l-pp-wheeled-bio-bin",
         name: "1100L PP Wheeled Bio Bin",
-        metaTitle: "1100L PP Wheeled Bio Bin Manufacturer | PolyWell",
+        metaTitle: "1100L PP Wheeled Bio Bin PW1100 | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy 1100L PP Wheeled Bio Bin for large-volume waste collection in hospitals, industries, and residential societies. Durable polypropylene construction with wheels and lid.",
+          "Buy durable 1100L PP Wheeled Bio Bin Model PW1100 from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering hygienic and heavy-duty waste management solutions for hospitals, industries, and municipal environments.",
 
         model: "pw1100",
         color: ["  red", "  yellow", "  blue", "  black", "  green"],
@@ -2000,32 +2170,26 @@ export const categories = [
           "The 1100L PP Wheeled Bio Bin is designed for heavy-duty waste management in hospitals, industrial facilities, and municipal environments with durable PP construction.",
 
         description: [
-          {
-            type: "h2",
-            text: "1100L PP Wheeled Bio Bin – Heavy Duty Waste Solution",
-          },
-          {
-            type: "p",
-            text: "The 1100L PP Wheeled Bio Bin is designed for large-volume waste collection in hospitals, industrial facilities, residential societies, and municipal environments. It ensures efficient waste management in areas where handling large waste volumes is essential.",
-          },
-          {
-            type: "p",
-            text: "With a large 1100-litre capacity, this bin minimizes the need for frequent emptying and supports smooth waste disposal operations. Manufactured using premium-grade PP material, it offers durability, weather resistance, and long-term performance.",
-          },
+         
           {
             type: "h2",
             text: "Product Overview",
           },
           {
             type: "ul",
-            items: [
-              "Designed for large-scale waste disposal.",
-              "1100L capacity suitable for bulk waste collection.",
-              "Durable polypropylene material construction.",
-              "Heavy-duty wheeled design for easy mobility.",
-              "Secure lid system for improved hygiene.",
-              "Green color for organized waste segregation.",
-            ],
+            items:[
+  `The 1100L PP Wheeled Bio Bin Model PW1100 is a heavy-duty and high-capacity waste management solution designed for hospitals, industrial facilities, municipal waste systems, and large commercial environments requiring efficient waste collection.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality PP Wheeled Bio Bins manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs this wheeled bio bin to support hygienic, organised, and efficient biomedical and industrial waste disposal systems.`,
+
+  `The 1100-litre large-capacity structure makes this PP Wheeled Bio Bin ideal for hospitals, factories, warehouses, municipal waste collection systems, public utility spaces, and industrial facilities requiring bulk waste handling solutions.`,
+
+  `Equipped with durable 360-degree non-marking castor wheels and an ergonomic handle design, the bio bin ensures smooth mobility, easy handling, and convenient waste transportation in high-usage environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers this PP Wheeled Bio Bin in Red, Yellow, Blue, Black, and Green colours for organised waste segregation and large-scale waste management applications.`
+],
           },
           {
             type: "h2",
@@ -2034,28 +2198,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "High-quality PP material for long-term durability.",
-              "Large capacity for industrial and municipal use.",
-              "Smooth-rolling heavy-duty wheels.",
-              "Secure lid to prevent odor and spillage.",
-              "Optimized industrial dimensions.",
-              "Suitable for hospitals, societies, and industries.",
-            ],
+  `The heavy-duty, large-capacity structure ensures efficient and organised waste collection, making this PP Wheeled Bio Bin highly suitable for industrial, municipal, and healthcare environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the bio bin is made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and long-term usability.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring dependable performance and smooth functionality during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides strong 360-degree non-marking castor wheels for effortless movement without causing scratches or damage to flooring surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and operation in industrial, municipal, healthcare, and institutional facilities.`,
+
+  `The robust structure and multiple colour options make this PP Wheeled Bio Bin ideal for organised biomedical waste segregation and efficient large-scale waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Hospital-grade bins meeting hygiene standards.",
-              "Comprehensive waste management solutions provider.",
-              "Bulk order capability with consistent quality.",
-              "Eco-friendly recyclable plastic materials.",
-              "Reliable customer support with timely delivery.",
-            ],
+  `Widely used in hospitals, healthcare centres, clinics, and medical institutions for hygienic biomedical and hazardous waste collection and disposal management.`,
+
+  `Suitable for factories, warehouses, manufacturing units, and industrial facilities requiring durable and high-capacity waste management solutions.`,
+
+  `Ideal for municipal waste collection systems, public utility spaces, railway stations, airports, and smart city waste management projects.`,
+
+  `Commonly used in shopping malls, commercial complexes, educational institutions, and institutional facilities for organised waste collection and transportation.`,
+
+  `Applicable in residential societies, hotels, hospitality sectors, and outdoor public environments where large-capacity PP Wheeled Bio Bins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for healthcare, industrial, municipal, commercial, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer in Delhi?",
+          },
+          {
+            type: "ul",
+            items:[
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting PP Wheeled Bio Bins for industrial, healthcare, and municipal applications.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled dustbins, biomedical waste bins, pedal bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for hospitals, industries, municipal authorities, institutions, and commercial buyers.`
+],
           },
         ],
 
@@ -2104,9 +2298,9 @@ export const categories = [
       {
         id: "garbage-stations-roto",
         name: "Garbage Stations (Roto)",
-        metaTitle: "Garbage Stations (Roto) Manufacturer | PolyWell",
+        metaTitle: "Garbage Stations Roto | Plastic Dustbin Manufacturer | Sangam Plastic Industries",
         metaDescription:
-          "Buy Garbage Stations (Roto) for outdoor, industrial, and institutional waste handling. Durable plastic construction with four-wheel mobility.",
+          "Buy durable Garbage Stations (Roto) from Sangam Plastic Industries Pvt. Ltd., a trusted Plastic Dustbin Manufacturer offering heavy-duty and chemical-resistant waste management solutions for industrial, institutional, and commercial environments.",
 
         model: "generic",
         color: ["yellow", "blue"],
@@ -2115,18 +2309,7 @@ export const categories = [
           "The Garbage Stations (Roto) is designed for heavy-duty outdoor waste collection in industrial, institutional, and commercial environments.",
 
         description: [
-          {
-            type: "h2",
-            text: "Garbage Stations (Roto) – Heavy Duty Waste Collection Solution",
-          },
-          {
-            type: "p",
-            text: "The Garbage Stations (Roto) is designed for efficient waste collection in outdoor, industrial, and institutional environments. It ensures smooth waste movement in areas where handling large waste volumes is essential.",
-          },
-          {
-            type: "p",
-            text: " This trolley minimizes frequent waste disposal trips. Manufactured using premium-grade plastic, it offers durability and reliable performance for daily outdoor use.",
-          },
+          
           {
             type: "h2",
             text: "Product Overview",
@@ -2134,13 +2317,18 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Designed for outdoor waste collection.",
-              " Load capacity for bulk waste handling.",
-              "Durable premium-grade plastic construction.",
-              "Four-wheel mobility for easy movement.",
-              "Square shape for better stability.",
-              "Suitable for industrial and public areas.",
-            ],
+  `The Garbage Stations (Roto) are heavy-duty outdoor waste management solutions designed for industrial, institutional, commercial, and public utility environments requiring efficient large-scale waste collection systems.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <a href="https://plasticdustbinmanufacturer.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer</strong></a> offering premium-quality Roto Garbage Stations manufactured using high-grade chemical-resistant polypropylene (PP) material for superior durability and long-lasting outdoor performance.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. designs these Garbage Stations to support hygienic, organised, and efficient waste disposal management in high-volume outdoor waste collection areas.`,
+
+  `The robust and spacious structure makes these Garbage Stations (Roto) ideal for factories, industrial parks, municipal areas, educational institutions, residential societies, and commercial complexes requiring bulk waste handling solutions.`,
+
+  `Equipped with 360-degree non-marking castor wheels and an ergonomic handle design, the garbage stations ensure smooth mobility, easy handling, and convenient waste transportation in outdoor and industrial environments.`,
+
+  `Being an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers these Garbage Stations (Roto) in Yellow and Blue colours for organised waste segregation and effective waste management systems.`
+],
           },
           {
             type: "h2",
@@ -2149,28 +2337,58 @@ export const categories = [
           {
             type: "ul",
             items: [
-              "Strong plastic body for long-term durability.",
-              "High load-bearing capacity.",
-              "Smooth-rolling four-wheel mobility system.",
-              "Portable design for easy handling.",
-              "Outdoor-ready structural support.",
-              "Space-efficient square shape.",
-            ],
+  `The heavy-duty outdoor design ensures efficient and hygienic waste collection, making these Garbage Stations highly suitable for industrial, institutional, and municipal environments.`,
+
+  `Manufactured by a reliable <strong>Plastic Dustbin Manufacturer</strong>, the garbage stations are made from premium-quality chemical-resistant PP material that provides excellent durability, corrosion resistance, and weather resistance.`,
+
+  `The high-efficiency side press wringer is engineered to withstand up to 50,000 operational cycles, ensuring dependable performance and smooth functionality during continuous use.`,
+
+  `As a trusted <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. provides strong 360-degree non-marking castor wheels for effortless movement without causing scratches or damage to floor surfaces.`,
+
+  `The ergonomic handle design and sturdy body construction allow easy carrying, cleaning, maintenance, and waste handling in industrial and commercial facilities.`,
+
+  `The robust structure and color options make these Garbage Stations (Roto) ideal for organized waste segregation and efficient large-scale outdoor waste management systems.`
+],
           },
           {
             type: "h2",
-            text: "Why Choose Sangam Plastic Industries Pvt. Ltd.",
+            text: "Applications",
           },
           {
             type: "ul",
             items: [
-              "Trusted plastic dustbin manufacturer with extensive experience.",
-              "Consistent quality and dependable performance.",
-              "Hospital-grade waste management solutions provider.",
-              "Bulk order capability with timely delivery.",
-              "Eco-friendly recyclable plastic materials.",
-              "Strict quality assurance and durability testing.",
-            ],
+  `Widely used in factories, warehouses, manufacturing units, and industrial facilities for bulk waste collection and organised waste disposal management.`,
+
+  `Suitable for municipal waste collection systems, public utility spaces, railway stations, airports, and smart city waste management projects.`,
+
+  `Ideal for commercial complexes, shopping malls, educational institutions, and institutional campuses requiring durable outdoor waste management solutions.`,
+
+  `Commonly used in residential societies, housing complexes, parks, and outdoor public spaces for efficient waste collection and transportation systems.`,
+
+  `Applicable in hospitals, healthcare facilities, hospitality sectors, and industrial environments where large-capacity outdoor waste bins are required.`,
+
+  `As a leading <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. supplies high-quality waste management products for industrial, commercial, municipal, healthcare, and institutional applications.`
+],
+          },
+          {
+            type: "h2",
+            text: "Why Choose Sangam Plastic as a Plastic Dustbin Manufacturer in Delhi?",
+          },
+          {
+            type: "ul",
+            items: [
+  `Sangam Plastic Industries Pvt. Ltd. is a trusted <strong>Plastic Dustbin Manufacturer</strong> known for delivering durable, hygienic, and high-quality waste management solutions.`,
+
+  `The company uses premium-grade plastic raw materials and advanced manufacturing technologies to produce strong and long-lasting Garbage Stations and outdoor waste management products.`,
+
+  `As an experienced <strong>Plastic Dustbin Manufacturer</strong>, Sangam Plastic Industries Pvt. Ltd. offers a wide range of wheeled dustbins, garbage stations, biomedical waste bins, housekeeping products, and customised plastic waste management solutions.`,
+
+  `The company focuses on product quality, ergonomic design, hygiene standards, and strict quality control measures to meet modern waste management requirements efficiently.`,
+
+  `Sangam Plastic Industries Pvt. Ltd. is recognised as a reliable <strong>Plastic Dustbin Manufacturer</strong> for competitive pricing, bulk manufacturing capabilities, timely delivery, and dependable customer support services.`,
+
+  `With years of expertise and a strong commitment to innovation and customer satisfaction, the company has become a preferred <a href="https://plasticdustbinmanufacturer.com/plastic-dustbin-manufacturer-in-delhi" target="_blank" rel="noopener noreferrer" class="font-bold text-blue-600 hover:underline"><strong>Plastic Dustbin Manufacturer in Delhi</strong></a> for industries, municipalities, institutions, commercial buyers, and public waste management projects.`
+],
           },
         ],
 
