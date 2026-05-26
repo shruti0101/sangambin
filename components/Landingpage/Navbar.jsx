@@ -74,7 +74,7 @@ export default function Navbar() {
             {/* MOBILE MENU BUTTON */}
             <button
               onClick={translateToHindi}
-              className="w-fit px-3 md:hidden bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold whitespace-nowrap"
+              className="w-fit px-3 lg:hidden bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold whitespace-nowrap"
             >
               हिंदी में देखें
             </button>
@@ -129,7 +129,7 @@ export default function Navbar() {
               <div className="w-full px-4 sm:px-6 flex items-center justify-between">
                 {/* CENTER MENU */}
 
-                <ul className="flex items-center gap-6 xl:gap-10 text-lg xl:text-xl font-medium text-gray-800">
+                <ul className="flex items-center gap-8 xl:gap-10 text-lg xl:text-xl font-medium text-gray-800">
                   {menuItems.map((item, idx) => (
                     <li
                       key={idx}
@@ -165,26 +165,29 @@ export default function Navbar() {
                 </ul>
 
                 {/* RIGHT CALL + BUTTON */}
-                <div className="hidden xl:flex items-center gap-6">
-                  <div className="text-green-600 text-right">
-                    <span className="block text-sm font-semibold">
-                      Call us on:
-                    </span>
-                    <a
-                      href="tel:+918810422935"
-                      className="text-lg xl:text-xl font-bold"
-                    >
-                      +91-8810422935
-                    </a>
-                  </div>
+                {/* RIGHT CALL + BUTTON */}
+<div className="hidden md:flex  items-center gap-4 lg:flex xl:pr-0 lg:gap-6 pr-110">
+  <div className="text-green-600   text-right">
+    <span className="block text-xs md:text-sm font-semibold">
+      Call us on:
+    </span>
 
-                  <button
-                    onClick={() => setIsFormOpen(true)}
-                    className="bg-green-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-green-700"
-                  >
-                    Get Quote
-                  </button>
-                </div>
+    <a
+      href="tel:+918810422935"
+      className="text-base md:text-lg xl:text-xl font-bold"
+    >
+      +91-8810422935
+    </a>
+  </div>
+
+  <button
+    onClick={() => setIsFormOpen(true)}
+    className="bg-green-600 text-white px-4 md:px-5 lg:px-6 py-2 rounded-full font-semibold hover:bg-green-700 whitespace-nowrap"
+  >
+    Get Quote
+  </button>
+</div>
+               
               </div>
             </nav>
           </div>
