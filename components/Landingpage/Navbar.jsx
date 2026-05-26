@@ -75,21 +75,6 @@ export default function Navbar() {
               </p>
             </Link>
 
-<<<<<<< HEAD
-            {/* MOBILE MENU BUTTON */}
-            <button
-              onClick={translateToHindi}
-              className="w-fit px-3 lg:hidden bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold whitespace-nowrap"
-            >
-              हिंदी में देखें
-            </button>
-            <button
-              className="lg:hidden mr-2"
-              onClick={() => setMobileNavOpen(true)}
-            >
-              <Menu size={28} />
-            </button>
-=======
             {/* MOBILE ACTIONS */}
             <div className="flex items-center gap-2 lg:hidden">
               <button
@@ -103,7 +88,6 @@ export default function Navbar() {
                 <Menu size={28} />
               </button>
             </div>
->>>>>>> abce457defef44c6c99200d86c56bf748586efb5
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}
@@ -147,12 +131,7 @@ export default function Navbar() {
             <nav className="bg-white min-h-[68px] flex items-center">
               <div className="w-full px-4 xl:px-6 flex items-center justify-between gap-4">
                 {/* CENTER MENU */}
-<<<<<<< HEAD
-
-                <ul className="flex items-center gap-8 xl:gap-10 text-lg xl:text-xl font-medium text-gray-800">
-=======
-                <ul className="flex items-center gap-4 xl:gap-8 2xl:gap-10 text-base xl:text-lg 2xl:text-xl font-medium text-gray-800 flex-wrap">
->>>>>>> abce457defef44c6c99200d86c56bf748586efb5
+                <ul className="flex items-center gap-7 xl:gap-8 2xl:gap-10 text-base xl:text-lg 2xl:text-xl font-medium text-gray-800 flex-wrap">
                   {menuItems.map((item, idx) => (
                     <li
                       key={idx}
@@ -164,7 +143,7 @@ export default function Navbar() {
                     >
                       <Link
                         href={item.link}
-                        className="flex items-center gap-1 hover:text-green-600 whitespace-nowrap transition-colors"
+                        className="flex items-center gap-1  hover:text-green-600 whitespace-nowrap transition-colors"
                       >
                         {item.label}
 
@@ -189,32 +168,7 @@ export default function Navbar() {
                 </ul>
 
                 {/* RIGHT CALL + BUTTON */}
-<<<<<<< HEAD
-                {/* RIGHT CALL + BUTTON */}
-<div className="hidden md:flex  items-center gap-4 lg:flex xl:pr-0 lg:gap-6 pr-110">
-  <div className="text-green-600   text-right">
-    <span className="block text-xs md:text-sm font-semibold">
-      Call us on:
-    </span>
-
-    <a
-      href="tel:+918810422935"
-      className="text-base md:text-lg xl:text-xl font-bold"
-    >
-      +91-8810422935
-    </a>
-  </div>
-
-  <button
-    onClick={() => setIsFormOpen(true)}
-    className="bg-green-600 text-white px-4 md:px-5 lg:px-6 py-2 rounded-full font-semibold hover:bg-green-700 whitespace-nowrap"
-  >
-    Get Quote
-  </button>
-</div>
-               
-=======
-                <div className="hidden xl:flex items-center gap-5 shrink-0">
+                <div className="hidden lg:flex items-center gap-5 shrink-0">
                   <div className="text-green-600 text-right whitespace-nowrap">
                     <span className="block text-sm font-semibold">
                       Call us on:
@@ -235,7 +189,6 @@ export default function Navbar() {
                     Get Quote
                   </button>
                 </div>
->>>>>>> abce457defef44c6c99200d86c56bf748586efb5
               </div>
             </nav>
           </div>

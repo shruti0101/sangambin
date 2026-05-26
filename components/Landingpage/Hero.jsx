@@ -37,13 +37,8 @@ export default function Hero() {
   return (
     <section
       className="
-<<<<<<< HEAD
-        w-full 
-        h-[50vh] md:h-[35vh] lg:h-[70vh] xl:h-[100vh] mt-25
-=======
         w-full overflow-hidden
         h-full xl:h-[100vh] mt-25
->>>>>>> abce457defef44c6c99200d86c56bf748586efb5
       "
     >
       <AnimatePresence mode="sync">
@@ -57,15 +52,9 @@ export default function Hero() {
           <Image
             src={images[index % images.length]}
             alt="Hero banner"
-<<<<<<< HEAD
-            width={1000}
-            height={800}
-            className="w-full h-full object-contain md:h-auto md:object-cover"
-=======
             width={2500}
             height={1500}
             className="max-w-full h-auto object-cover"
->>>>>>> abce457defef44c6c99200d86c56bf748586efb5
             priority
           />
         </motion.div>
