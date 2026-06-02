@@ -310,8 +310,8 @@ export default function Inquiry() {
           </div>
 
           <div className="bg-gray-50 border border-2 border-green-500 lg:p-8 p-4 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-4 text-center">
-              Request a Quote
+            <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए ,<br/>Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>
@@ -783,9 +783,9 @@ export default function Inquiry() {
       {/* Contact Us */}
       <div className="py-8 bg-gray-50" id="contactus">
         <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center  ">
-          <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-500">
-            <h2 className="text-3xl font-bold mb-4 text-center">
-              Request a Quote
+          <div className="bg-white p-4 md:p-8 rounded-2xl shadow-lg border-2 border-green-500">
+            <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए <br/> Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>

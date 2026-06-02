@@ -91,7 +91,7 @@ export default function Navbar() {
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}
-          <div className="hidden lg:block overflow-hidden">
+          <div className="hidden lg:block overflow-visible">
             {/* ===== TOP STRIP ===== */}
             <div className="bg-[#E6F4FF] border-b border-gray-200">
               <div className="w-full px-4 xl:px-6 flex flex-col xl:flex-row xl:items-center xl:justify-between gap-3 py-2">
@@ -129,9 +129,9 @@ export default function Navbar() {
 
             {/* ===== MAIN NAV ===== */}
             <nav className="bg-white min-h-[68px] flex items-center">
-              <div className="w-full px-4 xl:px-6 flex items-center justify-between gap-4">
+              <div className="w-full relative px-4 xl:px-6 flex items-center justify-between gap-4">
                 {/* CENTER MENU */}
-                <ul className="flex items-center gap-7 xl:gap-8 2xl:gap-10 text-base xl:text-lg 2xl:text-xl font-medium text-gray-800 flex-wrap">
+                <ul className="flex z-50c items-center gap-7 xl:gap-8 2xl:gap-10 text-base xl:text-lg 2xl:text-xl font-medium text-gray-800 flex-wrap">
                   {menuItems.map((item, idx) => (
                     <li
                       key={idx}

@@ -11,6 +11,7 @@ import {
 } from "firebase/auth";
 
 import { auth } from "@/utils/firebase";
+import { div } from "framer-motion/client";
 
 export default function ContactForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,47 +27,47 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
 
   // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [showOtpBox, setShowOtpBox] = useState(false);
-  const [confirmationResult, setConfirmationResult] =
-    useState(null);
+  // const [otp, setOtp] = useState("");
+  // const [showOtpBox, setShowOtpBox] = useState(false);
+  // const [confirmationResult, setConfirmationResult] =
+  //   useState(null);
 
   // CAPTCHA ID
-  const recaptchaId = "popup-contact-recaptcha";
+  // const recaptchaId = "popup-contact-recaptcha";
 
   // OPEN POPUP
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 10000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsOpen(true);
+  //   }, 10000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   // INITIALIZE RECAPTCHA
-  useEffect(() => {
-    if (!isOpen) return;
+  // useEffect(() => {
+  //   if (!isOpen) return;
 
-    const setupRecaptcha = async () => {
-      try {
-        if (
-          typeof window !== "undefined" &&
-          !window.recaptchaVerifier
-        ) {
-          window.recaptchaVerifier =
-            new RecaptchaVerifier(auth, recaptchaId, {
-              size: "invisible",
-            });
+  //   const setupRecaptcha = async () => {
+  //     try {
+  //       if (
+  //         typeof window !== "undefined" &&
+  //         !window.recaptchaVerifier
+  //       ) {
+  //         window.recaptchaVerifier =
+  //           new RecaptchaVerifier(auth, recaptchaId, {
+  //             size: "invisible",
+  //           });
 
-          await window.recaptchaVerifier.render();
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
+  //         await window.recaptchaVerifier.render();
+  //       }
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
 
-    setupRecaptcha();
-  }, [isOpen]);
+  //   setupRecaptcha();
+  // }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -76,43 +77,43 @@ export default function ContactForm() {
   };
 
   // SEND OTP
-  const sendOTP = async () => {
-    try {
-      setLoading(true);
+  // const sendOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!phone || phone.length !== 10) {
-        toast.error("Enter Valid Phone Number");
-        return;
-      }
+  //     if (!phone || phone.length !== 10) {
+  //       toast.error("Enter Valid Phone Number");
+  //       return;
+  //     }
 
-      const appVerifier = window.recaptchaVerifier;
+  //     const appVerifier = window.recaptchaVerifier;
 
-      if (!appVerifier) {
-        toast.error("Captcha not ready. Try again.");
-        return;
-      }
+  //     if (!appVerifier) {
+  //       toast.error("Captcha not ready. Try again.");
+  //       return;
+  //     }
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        `+91${phone}`,
-        appVerifier
-      );
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       `+91${phone}`,
+  //       appVerifier
+  //     );
 
-      setConfirmationResult(result);
+  //     setConfirmationResult(result);
 
-      setShowOtpBox(true);
+  //     setShowOtpBox(true);
 
-      toast.success("OTP Sent Successfully");
-    } catch (error) {
-      console.log(error);
+  //     toast.success("OTP Sent Successfully");
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error(
-        error?.message || "Failed To Send OTP"
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error(
+  //       error?.message || "Failed To Send OTP"
+  //     );
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -166,9 +167,9 @@ Contact: ${phone}`;
         setEmail("");
         setProduct("");
         setMessage("");
-        setOtp("");
+        // setOtp("");
 
-        setShowOtpBox(false);
+        // setShowOtpBox(false);
 
         setTimeout(() => {
           setIsOpen(false);
@@ -190,29 +191,29 @@ Contact: ${phone}`;
   };
 
   // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      setLoading(true);
+  // const verifyOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!otp) {
-        toast.error("Enter OTP");
-        return;
-      }
+  //     if (!otp) {
+  //       toast.error("Enter OTP");
+  //       return;
+  //     }
 
-      await confirmationResult.confirm(otp);
+  //     await confirmationResult.confirm(otp);
 
-      toast.success("Phone Verified Successfully");
+  //     toast.success("Phone Verified Successfully");
 
-      // DIRECT SUBMIT
-      await submitForm();
-    } catch (error) {
-      console.log(error);
+  //     // DIRECT SUBMIT
+  //     await submitForm();
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error("Invalid OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error("Invalid OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // HANDLE SUBMIT
   const handleSubmit = async (e) => {
@@ -223,11 +224,13 @@ Contact: ${phone}`;
       return;
     }
 
-    await sendOTP();
+    // await sendOTP();
+    await submitForm();
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-100 backdrop-blur-sm p-4">
+    <div className="relative">
+    <div className="fixed z-[99999] inset-0 flex items-center justify-center bg-black/50 z-100 backdrop-blur-sm p-4">
       <div className="relative w-full max-w-3xl md:max-w-5xl h-auto flex flex-col md:flex-row rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-white/90 to-white/80">
 
         <button
@@ -249,7 +252,7 @@ Contact: ${phone}`;
         <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col justify-center bg-white/90 backdrop-blur-sm relative z-30 overflow-y-auto">
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-2">
-            Get In Touch With Ussss
+            Get In Touch With Us
           </h2>
 
           <div className="w-20 h-[3px] bg-[#F7C600] mx-auto mb-6 rounded-full"></div>
@@ -436,6 +439,7 @@ Contact: ${phone}`;
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

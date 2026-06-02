@@ -37,7 +37,7 @@ export default function Hero() {
   return (
     <section
       className="
-        w-full overflow-hidden
+        w-full relative z-0
         h-full xl:h-[100vh] mt-25
       "
     >

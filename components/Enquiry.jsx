@@ -4,8 +4,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
-import { auth } from "@/utils/firebase";
+// import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+// import { auth } from "@/utils/firebase";
 
 export default function ContactForm({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
@@ -20,118 +20,118 @@ export default function ContactForm({ isOpen, onClose }) {
   const [message, setMessage] = useState("");
 
   // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [showOtpBox, setShowOtpBox] = useState(false);
-  const [confirmationResult, setConfirmationResult] = useState(null);
-  const [isPhoneVerified, setIsPhoneVerified] = useState(false);
+  // const [otp, setOtp] = useState("");
+  // const [showOtpBox, setShowOtpBox] = useState(false);
+  // const [confirmationResult, setConfirmationResult] = useState(null);
+  // const [isPhoneVerified, setIsPhoneVerified] = useState(false);
 
   // UNIQUE CAPTCHA ID
-  const recaptchaId = "popup-recaptcha-container";
+  // const recaptchaId = "popup-recaptcha-container";
 
   // FIREBASE RECAPTCHA
-  useEffect(() => {
-    if (!isOpen) return;
+//   useEffect(() => {
+//     if (!isOpen) return;
 
-    const initializeRecaptcha = async () => {
-      try {
-        if (
-          typeof window !== "undefined" &&
-          !window[recaptchaId]
-        ) {
-        const verifier = new RecaptchaVerifier(auth, recaptchaId, {
-  size: "invisible",
-});
+//     const initializeRecaptcha = async () => {
+//       try {
+//         if (
+//           typeof window !== "undefined" &&
+//           !window[recaptchaId]
+//         ) {
+//         const verifier = new RecaptchaVerifier(auth, recaptchaId, {
+//   size: "invisible",
+// });
 
-await verifier.render();
+// await verifier.render();
 
-window[recaptchaId] = verifier;
+// window[recaptchaId] = verifier;
 
-          await window[recaptchaId].render();
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
+//           await window[recaptchaId].render();
+//         }
+//       } catch (error) {
+//         console.log(error);
+//       }
+//     };
 
-    initializeRecaptcha();
+//     initializeRecaptcha();
 
- return () => {
-  try {
-    if (
-      window[recaptchaId] &&
-      typeof window[recaptchaId].clear === "function"
-    ) {
-      window[recaptchaId].clear();
-    }
+//  return () => {
+//   try {
+//     if (
+//       window[recaptchaId] &&
+//       typeof window[recaptchaId].clear === "function"
+//     ) {
+//       window[recaptchaId].clear();
+//     }
 
-    window[recaptchaId] = null;
-  } catch (error) {
-    console.log(error);
-  }
-};
-  }, [isOpen]);
+//     window[recaptchaId] = null;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+//   }, [isOpen]);
 
   if (!isOpen) return null;
 
   // SEND OTP
-  const sendOTP = async () => {
-    try {
-      setLoading(true);
+  // const sendOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!phone || phone.length !== 10) {
-        toast.error("Enter Valid Phone Number");
-        return;
+  //     if (!phone || phone.length !== 10) {
+  //       toast.error("Enter Valid Phone Number");
+  //       return;
         
-      }
+  //     }
 
-      const appVerifier = window[recaptchaId];
+  //     const appVerifier = window[recaptchaId];
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        `+91${phone}`,
-        appVerifier
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       `+91${phone}`,
+  //       appVerifier
         
-      );
+  //     );
 
-      setConfirmationResult(result);
+  //     setConfirmationResult(result);
 
-      setShowOtpBox(true);
+  //     setShowOtpBox(true);
 
-      toast.success("OTP Sent Successfully");
-    } catch (error) {
-      console.log(error);
+  //     toast.success("OTP Sent Successfully");
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error(error.message || "Failed to Send OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error(error.message || "Failed to Send OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      setLoading(true);
+  // const verifyOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!otp) {
-        toast.error("Enter OTP");
-        return;
-      }
+  //     if (!otp) {
+  //       toast.error("Enter OTP");
+  //       return;
+  //     }
 
-      await confirmationResult.confirm(otp);
+  //     await confirmationResult.confirm(otp);
 
-      setIsPhoneVerified(true);
+  //     setIsPhoneVerified(true);
 
-      toast.success("Phone Verified Successfully");
+  //     toast.success("Phone Verified Successfully");
 
-      await submitForm();
-    } catch (error) {
-      console.log(error);
+  //     await submitForm();
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error("Invalid OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error("Invalid OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -185,10 +185,10 @@ Contact: ${phone}`;
         setEmail("");
         setProduct("");
         setMessage("");
-        setOtp("");
+        // setOtp("");
 
-        setShowOtpBox(false);
-        setIsPhoneVerified(false);
+        // setShowOtpBox(false);
+        // setIsPhoneVerified(false);
 
         setTimeout(() => {
           setSubmitted(false);
@@ -214,16 +214,17 @@ Contact: ${phone}`;
       return toast.error("Enter Valid Phone Number");
     }
 
-    if (isPhoneVerified) {
-      await submitForm();
-      return;
-    }
+    // if (isPhoneVerified) {
+    //   await submitForm();
+    //   return;
+    // }
 
-    await sendOTP();
+    // await sendOTP();
+    await submitForm();
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
+    <div className="fixed inset-0  flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
       <div className="relative rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-8 md:p-10 w-[350px] md:w-[560px] bg-white">
 
         <button
@@ -234,7 +235,7 @@ Contact: ${phone}`;
         </button>
 
         <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 tracking-wide">
-          Get In Touch With Us
+          Get In Touch With Us  
         </h2>
 
         <div className="w-20 h-[3px] bg-green-600 mx-auto mt-3 mb-8 rounded-full"></div>
@@ -326,10 +327,10 @@ Contact: ${phone}`;
             />
 
             {/* RECAPTCHA */}
-            <div id={recaptchaId}></div>
+            {/* <div id={recaptchaId}></div> */}
 
             {/* OTP BOX */}
-            {showOtpBox && !isPhoneVerified && (
+            {/* {showOtpBox && !isPhoneVerified && (
               <div className="space-y-3">
 
                 <input
@@ -348,7 +349,7 @@ Contact: ${phone}`;
                   {loading ? "Verifying..." : "Verify OTP"}
                 </button>
               </div>
-            )}
+            )} */}
 
             <input
               type="email"
@@ -374,13 +375,7 @@ Contact: ${phone}`;
               disabled={loading}
               className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
             >
-              {loading
-                ? "Loading..."
-                : !showOtpBox
-                ? "Send OTP"
-                : !isPhoneVerified
-                ? "Verify OTP First"
-                : "Send Message"}
+               {loading ? "Loading..." : "Submit Enquiry"}
             </button>
 
           </form>
