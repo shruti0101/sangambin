@@ -35,6 +35,7 @@ import Pointer from "@/components/Landingpage/Pointer";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
+import FooterInquiry from "@/components/Landingpage/FooterInquiry";
 
 export default function Inquiry() {
   const [open, setOpen] = useState(false);
@@ -865,6 +866,7 @@ export default function Inquiry() {
 
       <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
+              <FooterInquiry/>
     </>
   );
 }

@@ -24,7 +24,7 @@ const Contact = () => {
     try {
       const payload = {
         platform: "Sangam Plastic Industries Contact Form",
-        platformEmail: "info@sangamplastic.com",
+        platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         email,

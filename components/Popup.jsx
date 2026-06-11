@@ -121,7 +121,7 @@ export default function ContactForm() {
 
       const formData = {
         platform: "plastic dustbin Popup Form",
-        platformEmail: "info@polywell.co.in",
+        platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         email,

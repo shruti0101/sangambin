@@ -135,7 +135,7 @@ export default function Form() {
         platform:
           "Plastic Dustbin Manufacturer Landing Page Form",
         platformEmail:
-          "info@polywell.co.in",
+          "shaanpolywell@gmail.com",
         name,
         phone,
         email,
