@@ -7,7 +7,8 @@ const Whatsapp = () => {
     <>
       {/* WhatsApp Floating Button (Right side) */}
       <a
-        href="https://wa.me/+918810422935"
+                   href="https://wa.link/5alazl"
+
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp "

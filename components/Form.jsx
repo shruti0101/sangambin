@@ -293,7 +293,30 @@ Contact: ${phone}`;
             className="w-full p-3 rounded-lg border"
           />
 
-          {/* PRODUCT */}
+         
+
+          {/* PHONE */}
+          <input
+            type="tel"
+            maxLength={10}
+            value={phone}
+            onChange={(e) =>
+              setPhone(
+                e.target.value.replace(
+                  /\D/g,
+                  ""
+                )
+              )
+            }
+            placeholder="Phone Number"
+            required
+            disabled={
+              loading 
+            }
+            className="w-full p-3 rounded-lg border"
+          />
+
+           {/* PRODUCT */}
           <select
             value={product}
             onChange={(e) =>
@@ -335,27 +358,6 @@ Contact: ${phone}`;
               </option>
             ))}
           </select>
-
-          {/* PHONE */}
-          <input
-            type="tel"
-            maxLength={10}
-            value={phone}
-            onChange={(e) =>
-              setPhone(
-                e.target.value.replace(
-                  /\D/g,
-                  ""
-                )
-              )
-            }
-            placeholder="Phone Number"
-            required
-            disabled={
-              loading 
-            }
-            className="w-full p-3 rounded-lg border"
-          />
 
           {/* EMAIL */}
           <input

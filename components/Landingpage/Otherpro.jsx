@@ -70,7 +70,8 @@ export default function ProductsManufacturing({ inquiry, setIsOpen }) {
 
                   {/* WhatsApp Button */}
                   <a
-                    href={whatsappLink}
+                                href="https://wa.link/5alazl"
+
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -106,7 +107,7 @@ export default function ProductsManufacturing({ inquiry, setIsOpen }) {
 
                   {/* WhatsApp Button */}
                   <a
-                    href={whatsappLink}
+                    href="https://wa.link/5alazl"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-white text-green-600 font-semibold px-4 py-2 rounded-md hover:bg-green-100 transition"
