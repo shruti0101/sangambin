@@ -21,6 +21,7 @@ export default function Form() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
+  const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
 
   // OTP
@@ -138,8 +139,8 @@ export default function Form() {
           "shaanpolywell@gmail.com",
         name,
         phone,
+        place,
         email,
-        place: "N/A",
         product,
         message,
       };
@@ -188,6 +189,7 @@ Contact: ${phone}`;
       setEmail("");
       setProduct("");
       setMessage("");
+      setPlace("");
       // setOtp("");
 
       // setShowOtpBox(false);
@@ -268,7 +270,7 @@ Contact: ${phone}`;
     }
 
     // await sendOTP();
-       await submitForm();
+    await submitForm();
   };
 
   return (
@@ -288,12 +290,12 @@ Contact: ${phone}`;
             placeholder="Your Name"
             required
             disabled={
-              loading 
+              loading
             }
             className="w-full p-3 rounded-lg border"
           />
 
-         
+
 
           {/* PHONE */}
           <input
@@ -311,53 +313,70 @@ Contact: ${phone}`;
             placeholder="Phone Number"
             required
             disabled={
-              loading 
+              loading
             }
             className="w-full p-3 rounded-lg border"
           />
 
-           {/* PRODUCT */}
-          <select
-            value={product}
-            onChange={(e) =>
-              setProduct(
-                e.target.value
-              )
-            }
-            required
-            disabled={
-              loading 
-            }
-            className="w-full p-3 rounded-lg border"
-          >
-            <option
-              value=""
-              disabled
+          {/* PRODUCT */}
+          <div className="flex justify-between gap-5">
+            <select
+              value={product}
+              onChange={(e) =>
+                setProduct(
+                  e.target.value
+                )
+              }
+              required
+              disabled={
+                loading
+              }
+              className="w-full p-3 rounded-lg border"
             >
-              Select Product
-            </option>
-
-            {[
-              "Bio Medical Waste Bins",
-              "Wheeled Bins",
-              "Plastic Pallets",
-              "Industrial Plastic Pallets",
-              "Pedal Dustbin",
-              "Bio Bins",
-              "Waste Bin",
-              "Litter Bin",
-              "Garbage Dustbin",
-              "Outdoor Dustbin",
-              "Plastic Dustbin",
-            ].map((item) => (
               <option
-                key={item}
-                value={item}
+                value=""
+                disabled
               >
-                {item}
+                Select Product
               </option>
-            ))}
-          </select>
+
+              {[
+                "Bio Medical Waste Bins",
+                "Wheeled Bins",
+                "Plastic Pallets",
+                "Industrial Plastic Pallets",
+                "Pedal Dustbin",
+                "Bio Bins",
+                "Waste Bin",
+                "Litter Bin",
+                "Garbage Dustbin",
+                "Outdoor Dustbin",
+                "Plastic Dustbin",
+              ].map((item) => (
+                <option
+                  key={item}
+                  value={item}
+                >
+                  {item}
+                </option>
+              ))}
+            </select>
+
+            {/* EMAIL */}
+            <input
+              type="place"
+              value={place}
+              onChange={(e) =>
+                setPlace(
+                  e.target.value
+                )
+              }
+              placeholder="Place"
+              required
+              disabled={loading}
+              className="w-full p-3 rounded-lg border"
+            />
+          </div>
 
           {/* EMAIL */}
           <input
@@ -371,7 +390,7 @@ Contact: ${phone}`;
             placeholder="Email"
             required
             disabled={
-              loading 
+              loading
             }
             className="w-full p-3 rounded-lg border"
           />
@@ -387,7 +406,7 @@ Contact: ${phone}`;
             placeholder="Your Message"
             required
             disabled={
-              loading 
+              loading
             }
             className="w-full p-3 rounded-lg border h-28"
           />
@@ -433,13 +452,13 @@ Contact: ${phone}`;
                 : "Verify & Submit"}
             </button>
           ) : ( */}
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white"
-            >
-               {loading ? "Loading..." : "Get Wholesale Price List & Catalogue"}
-            </button>
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white"
+          >
+            {loading ? "Loading..." : "Get Wholesale Price List & Catalogue"}
+          </button>
           {/* )} */}
 
           {successMessage && (

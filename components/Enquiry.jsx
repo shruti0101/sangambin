@@ -17,6 +17,7 @@ export default function ContactForm({ isOpen, onClose }) {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
+  const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
 
   // OTP STATES
@@ -29,47 +30,47 @@ export default function ContactForm({ isOpen, onClose }) {
   // const recaptchaId = "popup-recaptcha-container";
 
   // FIREBASE RECAPTCHA
-//   useEffect(() => {
-//     if (!isOpen) return;
+  //   useEffect(() => {
+  //     if (!isOpen) return;
 
-//     const initializeRecaptcha = async () => {
-//       try {
-//         if (
-//           typeof window !== "undefined" &&
-//           !window[recaptchaId]
-//         ) {
-//         const verifier = new RecaptchaVerifier(auth, recaptchaId, {
-//   size: "invisible",
-// });
+  //     const initializeRecaptcha = async () => {
+  //       try {
+  //         if (
+  //           typeof window !== "undefined" &&
+  //           !window[recaptchaId]
+  //         ) {
+  //         const verifier = new RecaptchaVerifier(auth, recaptchaId, {
+  //   size: "invisible",
+  // });
 
-// await verifier.render();
+  // await verifier.render();
 
-// window[recaptchaId] = verifier;
+  // window[recaptchaId] = verifier;
 
-//           await window[recaptchaId].render();
-//         }
-//       } catch (error) {
-//         console.log(error);
-//       }
-//     };
+  //           await window[recaptchaId].render();
+  //         }
+  //       } catch (error) {
+  //         console.log(error);
+  //       }
+  //     };
 
-//     initializeRecaptcha();
+  //     initializeRecaptcha();
 
-//  return () => {
-//   try {
-//     if (
-//       window[recaptchaId] &&
-//       typeof window[recaptchaId].clear === "function"
-//     ) {
-//       window[recaptchaId].clear();
-//     }
+  //  return () => {
+  //   try {
+  //     if (
+  //       window[recaptchaId] &&
+  //       typeof window[recaptchaId].clear === "function"
+  //     ) {
+  //       window[recaptchaId].clear();
+  //     }
 
-//     window[recaptchaId] = null;
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-//   }, [isOpen]);
+  //     window[recaptchaId] = null;
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+  //   }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -81,7 +82,7 @@ export default function ContactForm({ isOpen, onClose }) {
   //     if (!phone || phone.length !== 10) {
   //       toast.error("Enter Valid Phone Number");
   //       return;
-        
+
   //     }
 
   //     const appVerifier = window[recaptchaId];
@@ -90,7 +91,7 @@ export default function ContactForm({ isOpen, onClose }) {
   //       auth,
   //       `+91${phone}`,
   //       appVerifier
-        
+
   //     );
 
   //     setConfirmationResult(result);
@@ -144,7 +145,7 @@ export default function ContactForm({ isOpen, onClose }) {
         name,
         phone,
         email,
-        place: "N/A",
+        place: place,
         product,
         message,
       };
@@ -185,6 +186,7 @@ Contact: ${phone}`;
         setEmail("");
         setProduct("");
         setMessage("");
+        setPlace("");
         // setOtp("");
 
         // setShowOtpBox(false);
@@ -235,7 +237,7 @@ Contact: ${phone}`;
         </button>
 
         <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 tracking-wide">
-          Get In Touch With Us  
+          Get In Touch With Us
         </h2>
 
         <div className="w-20 h-[3px] bg-green-600 mx-auto mt-3 mb-8 rounded-full"></div>
@@ -311,20 +313,32 @@ Contact: ${phone}`;
                 </option>
               </select>
             </div>
-
-            <input
-              type="tel"
-              value={phone}
-              onChange={(e) =>
-                setPhone(e.target.value.replace(/\D/g, ""))
-              }
-              maxLength={10}
-              minLength={10}
-              placeholder="Phone Number"
-              className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-              required
-              disabled={loading}
-            />
+            <div className="flex flex-col md:flex-row gap-4">
+              <input
+                type="tel"
+                value={phone}
+                onChange={(e) =>
+                  setPhone(e.target.value.replace(/\D/g, ""))
+                }
+                maxLength={10}
+                minLength={10}
+                placeholder="Phone Number"
+                className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                required
+                disabled={loading}
+              />
+              <input
+                type="text"
+                value={place}
+                onChange={(e) =>
+                  setPlace(e.target.value)
+                }
+                placeholder="Place"
+                className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+                required
+                disabled={loading}
+              />
+            </div>
 
             {/* RECAPTCHA */}
             {/* <div id={recaptchaId}></div> */}
@@ -375,7 +389,7 @@ Contact: ${phone}`;
               disabled={loading}
               className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
             >
-               {loading ? "Loading..." : "Submit Enquiry"}
+              {loading ? "Loading..." : "Submit Enquiry"}
             </button>
 
           </form>
