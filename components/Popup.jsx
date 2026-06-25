@@ -21,6 +21,7 @@ export default function ContactForm() {
   // FORM STATES
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [place, setPlace] = useState("");
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
@@ -120,12 +121,12 @@ export default function ContactForm() {
       setLoading(true);
 
       const formData = {
-        platform: "plastic dustbin Popup Form",
+        platform: "Plastic Dustbin Popup Form",
         platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         email,
-        place: "N/A",
+        place: place || "Delhi",
         product,
         message,
       };
@@ -341,28 +342,30 @@ Contact: ${phone}`;
               </select>
             </div>
 
-            <input
-              type="tel"
-              maxLength={10}
-              minLength={10}
-              pattern="[0-9]{10}"
-              placeholder="08123456789"
-              className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
-              required
-              value={phone}
-              onChange={(e) =>
-                setPhone(
-                  e.target.value.replace(/\D/g, "")
-                )
-              }
-              disabled={loading}
-            />
+            <div className="flex flex-col sm:flex-row gap-3">
 
-            {/* RECAPTCHA */}
-            {/* <div id={recaptchaId}></div> */}
+              <input
+                type="tel"
+                maxLength={10}
+                minLength={10}
+                pattern="[0-9]{10}"
+                placeholder="08123456789"
+                className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+                required
+                value={phone}
+                onChange={(e) =>
+                  setPhone(
+                    e.target.value.replace(/\D/g, "")
+                  )
+                }
+                disabled={loading}
+              />
 
-            {/* OTP BOX */}
-            {/* {showOtpBox && (
+              {/* RECAPTCHA */}
+              {/* <div id={recaptchaId}></div> */}
+
+              {/* OTP BOX */}
+              {/* {showOtpBox && (
               <div className="space-y-3">
 
                 <input
@@ -387,15 +390,27 @@ Contact: ${phone}`;
               </div>
             )} */}
 
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+                required
+                value={email}
+                onChange={(e) =>
+                  setEmail(e.target.value)
+                }
+                disabled={loading}
+              />
+
+            </div>
+
             <input
-              type="email"
-              placeholder="Email"
+              type="place"
+              placeholder="Place"
               className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
               required
-              value={email}
-              onChange={(e) =>
-                setEmail(e.target.value)
-              }
+              value={place}
+              onChange={(e) => setPlace(e.target.value)}
               disabled={loading}
             />
 
@@ -415,16 +430,15 @@ Contact: ${phone}`;
               disabled={loading}
               className="w-full py-3 bg-gradient-to-r from-[#F7C600] to-[#F7A400] hover:opacity-90 transition rounded-lg font-semibold text-white text-sm shadow-lg"
             >
-               {loading ? "Loading..." : "Submit Enquiry"}
+              {loading ? "Loading..." : "Submit Enquiry"}
             </button>
 
             {status && (
               <p
-                className={`text-center text-sm mt-2 font-medium ${
-                  status.startsWith("✅")
-                    ? "text-green-600"
-                    : "text-red-600"
-                }`}
+                className={`text-center text-sm mt-2 font-medium ${status.startsWith("✅")
+                  ? "text-green-600"
+                  : "text-red-600"
+                  }`}
               >
                 {status}
               </p>
