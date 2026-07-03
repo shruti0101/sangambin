@@ -48,13 +48,13 @@ export default function PolywellTrustStatsSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="text-center mb-8 md:mb-10"
+          className="text-center  md:mb-10"
         >
           {/* Mobile font added, md untouched */}
           <h2 className="text-[22px] sm:text-[26px] md:text-[40px] font-semibold text-[#101828]">
             Why Government & Institutional Buyers Trust Polywell
           </h2>
-          <p className="text-black mt-2 text-[14px] sm:text-[16px] md:text-[20px]">
+          <p className="text-black mt-0.5 text-[14px] sm:text-[16px] md:text-[20px]">
             Delivering scale, compliance, and execution certainty since 1988.
           </p>
         </motion.div>
@@ -62,12 +62,12 @@ export default function PolywellTrustStatsSection() {
         {/* TOP ROW */}
         {/* Changed only mobile grid to 2 columns */}
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-6">
-          <MediaStatCard
+          {/* <MediaStatCard
             imgSrc="/pointer1.jpeg"
             title="50+ Years of Industry Experience"
             desc="Serving government institutions, healthcare procurement teams, traders, and bulk buyers with consistent manufacturing reliability."
-          />
-          <MediaStatCard
+          /> */}
+          {/* <MediaStatCard
             imgSrc="/pointer2.jpeg"
             title="73,800+ sq. ft. Manufacturing Infrastructure"
             desc="High-capacity production facility engineered for institutional-grade and tender-based bulk supply."
@@ -81,7 +81,7 @@ export default function PolywellTrustStatsSection() {
             imgSrc="/pointer4.jpeg"
             title="7,600+ Distributors & Partners"
             desc="A strong Pan-India supply ecosystem ensuring smooth availability and regional dispatch coordination."
-          />
+          /> */}
         </div>
 
         <div className="h-px w-full bg-[#E5E7EB] my-3 md:my-1" />

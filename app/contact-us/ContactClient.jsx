@@ -24,7 +24,7 @@ const Contact = () => {
     try {
       const payload = {
         platform: "Sangam Plastic Industries Contact Form",
-        platformEmail: "info@sangamplastic.com",
+        platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         email,
@@ -97,7 +97,7 @@ Contact: ${phone}`;
       </div>
 
       {/* ===== MAIN CONTACT SECTION ===== */}
-      <section className="w-full bg-gradient-to-b from-white to-[#ECFEF2] pt-7 md:pt-16 relative">
+      <section className="w-full bg-gradient-to-b from-white to-[#ECFEF2] pt-7 md:pt  -16 relative">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-14 items-start">
           {/* ===== LEFT SIDE — FORM ===== */}
           <div className="bg-white shadow-xl rounded-2xl p-8 border border-gray-100">
@@ -157,6 +157,7 @@ Contact: ${phone}`;
                   <input
                     type="text"
                     name="phone"
+                    maxLength={10}
                     required
                     placeholder="Phone Number"
                     className="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#10B981]"

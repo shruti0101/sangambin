@@ -33,9 +33,15 @@ export default function ContactForm() {
 
   // CAPTCHA ID
   const recaptchaId = "popup-contact-recaptcha";
-  
 
+  // OPEN POPUP
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 10000);
 
+    return () => clearTimeout(timer);
+  }, []);
 
   // INITIALIZE RECAPTCHA
   useEffect(() => {
@@ -243,7 +249,7 @@ Contact: ${phone}`;
         <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col justify-center bg-white/90 backdrop-blur-sm relative z-30 overflow-y-auto">
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-2">
-         Get In Touch With Us
+            Get In Touch With Ussss
           </h2>
 
           <div className="w-20 h-[3px] bg-[#F7C600] mx-auto mb-6 rounded-full"></div>

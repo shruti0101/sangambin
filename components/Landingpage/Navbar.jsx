@@ -50,8 +50,8 @@ export default function Navbar() {
 
   return (
     <>
-     <header
-  className={`fixed top-0 left-0 w-full z-[9999] transition-all duration-300 ${
+      <header
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
           scrolled ? "shadow-lg bg-white" : "bg-white"
         }`}
       >
@@ -91,7 +91,7 @@ export default function Navbar() {
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}
-      <div className="hidden lg:block overflow-visible">
+          <div className="hidden lg:block overflow-hidden">
             {/* ===== TOP STRIP ===== */}
             <div className="bg-[#E6F4FF] border-b border-gray-200">
               <div className="w-full px-4 xl:px-6 flex flex-col xl:flex-row xl:items-center xl:justify-between gap-3 py-2">
@@ -128,14 +128,14 @@ export default function Navbar() {
             </div>
 
             {/* ===== MAIN NAV ===== */}
-          <nav className="relative bg-white min-h-[68px] flex items-center overflow-visible">
+            <nav className="bg-white min-h-[68px] flex items-center">
               <div className="w-full px-4 xl:px-6 flex items-center justify-between gap-4">
                 {/* CENTER MENU */}
                 <ul className="flex items-center gap-4 xl:gap-8 2xl:gap-10 text-base xl:text-lg 2xl:text-xl font-medium text-gray-800 flex-wrap">
                   {menuItems.map((item, idx) => (
                     <li
                       key={idx}
-                      className="relative z-50"
+                      className="relative"
                       onMouseEnter={() =>
                         item.hasCategories && setOpenMenu("Products")
                       }
@@ -151,22 +151,7 @@ export default function Navbar() {
                       </Link>
 
                       {item.hasCategories && openMenu === "Products" && (
-                      <div
-  className="
-    absolute
-    left-0
-    top-full
-    
-    w-72
-    max-h-[400px]
-    overflow-y-auto
-    rounded-lg
-    border
-    bg-white
-    shadow-2xl
-    z-[99999]
-  "
->
+                        <div className="absolute top-full left-0 max-h-[400px] overflow-y-auto pt-2 w-72 bg-white shadow-lg border rounded-lg z-50">
                           {categories.map((cat) => (
                             <Link
                               key={cat.id}
@@ -229,7 +214,7 @@ export default function Navbar() {
               </div>
 
               {/* MENU */}
-              <ul className="space-y-5 text-lg font-medium ">
+              <ul className="space-y-5 text-lg font-medium">
                 {menuItems.map((item, idx) => (
                   <li key={idx}>
                     {/* NORMAL LINKS */}

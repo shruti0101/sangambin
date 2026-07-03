@@ -5,12 +5,12 @@ import Image from "next/image";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import {
-  RecaptchaVerifier,
-  signInWithPhoneNumber,
-} from "firebase/auth";
+// import {
+//   RecaptchaVerifier,
+//   signInWithPhoneNumber,
+// } from "firebase/auth";
 
-import { auth } from "@/utils/firebase";
+// import { auth } from "@/utils/firebase";
 
 export default function ContactForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,18 +21,19 @@ export default function ContactForm() {
   // FORM STATES
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [place, setPlace] = useState("");
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
   // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [showOtpBox, setShowOtpBox] = useState(false);
-  const [confirmationResult, setConfirmationResult] =
-    useState(null);
+  // const [otp, setOtp] = useState("");
+  // const [showOtpBox, setShowOtpBox] = useState(false);
+  // const [confirmationResult, setConfirmationResult] =
+  //   useState(null);
 
-  // CAPTCHA ID
-  const recaptchaId = "popup-contact-recaptcha";
+  // // CAPTCHA ID
+  // const recaptchaId = "popup-contact-recaptcha";
 
   // OPEN POPUP
 useEffect(() => {
@@ -71,29 +72,29 @@ useEffect(() => {
 }, []);
 
   // INITIALIZE RECAPTCHA
-  useEffect(() => {
-    if (!isOpen) return;
+  // useEffect(() => {
+  //   if (!isOpen) return;
 
-    const setupRecaptcha = async () => {
-      try {
-        if (
-          typeof window !== "undefined" &&
-          !window.recaptchaVerifier
-        ) {
-          window.recaptchaVerifier =
-            new RecaptchaVerifier(auth, recaptchaId, {
-              size: "invisible",
-            });
+  //   const setupRecaptcha = async () => {
+  //     try {
+  //       if (
+  //         typeof window !== "undefined" &&
+  //         !window.recaptchaVerifier
+  //       ) {
+  //         window.recaptchaVerifier =
+  //           new RecaptchaVerifier(auth, recaptchaId, {
+  //             size: "invisible",
+  //           });
 
-          await window.recaptchaVerifier.render();
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
+  //         await window.recaptchaVerifier.render();
+  //       }
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
 
-    setupRecaptcha();
-  }, [isOpen]);
+  //   setupRecaptcha();
+  // }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -103,43 +104,43 @@ useEffect(() => {
   };
 
   // SEND OTP
-  const sendOTP = async () => {
-    try {
-      setLoading(true);
+  // const sendOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!phone || phone.length !== 10) {
-        toast.error("Enter Valid Phone Number");
-        return;
-      }
+  //     if (!phone || phone.length !== 10) {
+  //       toast.error("Enter Valid Phone Number");
+  //       return;
+  //     }
 
-      const appVerifier = window.recaptchaVerifier;
+  //     const appVerifier = window.recaptchaVerifier;
 
-      if (!appVerifier) {
-        toast.error("Captcha not ready. Try again.");
-        return;
-      }
+  //     if (!appVerifier) {
+  //       toast.error("Captcha not ready. Try again.");
+  //       return;
+  //     }
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        `+91${phone}`,
-        appVerifier
-      );
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       `+91${phone}`,
+  //       appVerifier
+  //     );
 
-      setConfirmationResult(result);
+  //     setConfirmationResult(result);
 
-      setShowOtpBox(true);
+  //     setShowOtpBox(true);
 
-      toast.success("OTP Sent Successfully");
-    } catch (error) {
-      console.log(error);
+  //     toast.success("OTP Sent Successfully");
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error(
-        error?.message || "Failed To Send OTP"
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error(
+  //       error?.message || "Failed To Send OTP"
+  //     );
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -147,12 +148,12 @@ useEffect(() => {
       setLoading(true);
 
       const formData = {
-        platform: "plastic dustbin Popup Form",
-        platformEmail: "info@polywell.co.in",
+        platform: "Plastic Dustbin Popup Form",
+        platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         email,
-        place: "N/A",
+        place: place || "Delhi",
         product,
         message,
       };
@@ -193,9 +194,9 @@ Contact: ${phone}`;
         setEmail("");
         setProduct("");
         setMessage("");
-        setOtp("");
+        // setOtp("");
 
-        setShowOtpBox(false);
+        // setShowOtpBox(false);
 
         setTimeout(() => {
           setIsOpen(false);
@@ -217,29 +218,29 @@ Contact: ${phone}`;
   };
 
   // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      setLoading(true);
+  // const verifyOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!otp) {
-        toast.error("Enter OTP");
-        return;
-      }
+  //     if (!otp) {
+  //       toast.error("Enter OTP");
+  //       return;
+  //     }
 
-      await confirmationResult.confirm(otp);
+  //     await confirmationResult.confirm(otp);
 
-      toast.success("Phone Verified Successfully");
+  //     toast.success("Phone Verified Successfully");
 
-      // DIRECT SUBMIT
-      await submitForm();
-    } catch (error) {
-      console.log(error);
+  //     // DIRECT SUBMIT
+  //     await submitForm();
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error("Invalid OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error("Invalid OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // HANDLE SUBMIT
   const handleSubmit = async (e) => {
@@ -250,7 +251,8 @@ Contact: ${phone}`;
       return;
     }
 
-    await sendOTP();
+    // await sendOTP();
+    await submitForm();
   };
 
   return (
@@ -367,28 +369,30 @@ Contact: ${phone}`;
               </select>
             </div>
 
-            <input
-              type="tel"
-              maxLength={10}
-              minLength={10}
-              pattern="[0-9]{10}"
-              placeholder="08123456789"
-              className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
-              required
-              value={phone}
-              onChange={(e) =>
-                setPhone(
-                  e.target.value.replace(/\D/g, "")
-                )
-              }
-              disabled={loading}
-            />
+            <div className="flex flex-col sm:flex-row gap-3">
 
-            {/* RECAPTCHA */}
-            <div id={recaptchaId}></div>
+              <input
+                type="tel"
+                maxLength={10}
+                minLength={10}
+                pattern="[0-9]{10}"
+                placeholder="08123456789"
+                className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+                required
+                value={phone}
+                onChange={(e) =>
+                  setPhone(
+                    e.target.value.replace(/\D/g, "")
+                  )
+                }
+                disabled={loading}
+              />
 
-            {/* OTP BOX */}
-            {showOtpBox && (
+              {/* RECAPTCHA */}
+              {/* <div id={recaptchaId}></div> */}
+
+              {/* OTP BOX */}
+              {/* {showOtpBox && (
               <div className="space-y-3">
 
                 <input
@@ -411,17 +415,29 @@ Contact: ${phone}`;
                     : "Verify OTP"}
                 </button>
               </div>
-            )}
+            )} */}
+
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+                required
+                value={email}
+                onChange={(e) =>
+                  setEmail(e.target.value)
+                }
+                disabled={loading}
+              />
+
+            </div>
 
             <input
-              type="email"
-              placeholder="Email"
+              type="place"
+              placeholder="Place"
               className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
               required
-              value={email}
-              onChange={(e) =>
-                setEmail(e.target.value)
-              }
+              value={place}
+              onChange={(e) => setPlace(e.target.value)}
               disabled={loading}
             />
 
@@ -441,20 +457,15 @@ Contact: ${phone}`;
               disabled={loading}
               className="w-full py-3 bg-gradient-to-r from-[#F7C600] to-[#F7A400] hover:opacity-90 transition rounded-lg font-semibold text-white text-sm shadow-lg"
             >
-              {loading
-                ? "Loading..."
-                : !showOtpBox
-                ? "Send OTP"
-                : "Enter OTP Above"}
+              {loading ? "Loading..." : "Submit Enquiry"}
             </button>
 
             {status && (
               <p
-                className={`text-center text-sm mt-2 font-medium ${
-                  status.startsWith("✅")
-                    ? "text-green-600"
-                    : "text-red-600"
-                }`}
+                className={`text-center text-sm mt-2 font-medium ${status.startsWith("✅")
+                  ? "text-green-600"
+                  : "text-red-600"
+                  }`}
               >
                 {status}
               </p>

@@ -35,6 +35,7 @@ import Pointer from "@/components/Landingpage/Pointer";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
+import FooterInquiry from "@/components/Landingpage/FooterInquiry";
 
 export default function Inquiry() {
   const [open, setOpen] = useState(false);
@@ -228,7 +229,7 @@ export default function Inquiry() {
           </a>
 
           <a
-            href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
             className="mr-2 ml-1 items-center gap-3 text-white animate-pulse px-2 py-3 font-bold text-center transition-all duration-300 border rounded-lg bg-green-600 md:hidden text-sm lg:hidden"
           >
             Get Instant Quote <br/>in 2 Mins
@@ -310,8 +311,8 @@ export default function Inquiry() {
           </div>
 
           <div className="bg-gray-50 border border-2 border-green-500 lg:p-8 p-4 rounded-2xl shadow-lg">
-            <h2 className="text-3xl font-bold mb-4 text-center">
-              Request a Quote
+            <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए ,<br/>Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>
@@ -386,7 +387,7 @@ export default function Inquiry() {
         </div>
         <div className=" mt-7 flex justify-center items-center">
           <Link
-            href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
             className="bg-green-500 py-3 md:py-2 bg-gray-50 text-lg text-white whitespace-nowrap px-12  font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
           >
             Ask for Color & Size Options
@@ -470,7 +471,7 @@ export default function Inquiry() {
             </button>
             <div className=" md:hidden mt-7 flex justify-center items-center">
               <Link
-                href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
                 className="bg-green-500 py-3 text-lg bg-gray-50 text-white whitespace-nowrap px-12  font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
               >
                 Ask Our Dustbin Expert
@@ -485,7 +486,7 @@ export default function Inquiry() {
         <Otherpro inquiry={true} setIsOpen={setIsOpen1} />
         <div className=" mb-4 flex justify-center items-center">
           <Link
-            href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
             className="bg-green-500 py-3 bg-gray-50 text-white whitespace-nowrap px-12 font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
           >
             Check Wholesale Prices Instantly
@@ -497,10 +498,10 @@ export default function Inquiry() {
 
       {/* About Us */}
       <section className=" md:hidden bg-[#F5F6F8] pb-2" id="aboutus">
-        <div className="  flex justify-center items-center">
+        <div className="  flex justify-center text-center items-center">
           <Link
-            href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
-            className="bg-green-500  bg-gray-50 text-white whitespace-nowrap px-12 py-4 font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
+            href="https://wa.link/5alazl"
+            className="bg-green-500 w-[90%]  bg-gray-50 text-white whitespace-nowrap px-12 py-4 font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
           >
             Get Bulk Quote
           </Link>
@@ -666,7 +667,7 @@ export default function Inquiry() {
           </button>
           </div>
           <Link
-            href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
             className="bg-white md:hidden text-[#0A3A49] font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
           >
             Let’s Begin a Conversation
@@ -783,9 +784,9 @@ export default function Inquiry() {
       {/* Contact Us */}
       <div className="py-8 bg-gray-50" id="contactus">
         <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center  ">
-          <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-green-500">
-            <h2 className="text-3xl font-bold mb-4 text-center">
-              Request a Quote
+          <div className="bg-white p-4 md:p-8 rounded-2xl shadow-lg border-2 border-green-500">
+            <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए <br/> Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>
@@ -830,7 +831,7 @@ export default function Inquiry() {
 
   {/* WhatsApp */}
   <a
-    href="https://wa.me/918810422935?text=Hi%20Polywell%2C%20I%20need%20the%20wholesale%20price%20list%20and%20catalog%20for%20your%20dustbins.%20Please%20share%20details."
+            href="https://wa.link/5alazl"
     target="_blank"
     rel="noopener noreferrer"
   >
@@ -865,6 +866,7 @@ export default function Inquiry() {
 
       <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
+              <FooterInquiry/>
     </>
   );
 }

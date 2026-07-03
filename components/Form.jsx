@@ -1,112 +1,131 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-
-import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
-import { auth } from "@/utils/firebase";
+// import {
+//   RecaptchaVerifier,
+//   signInWithPhoneNumber,
+// } from "firebase/auth";
+// import { auth } from "@/utils/firebase";
 
 export default function Form() {
+  // const recaptchaId = "firebase-recaptcha-form";
+
+  const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
-  const [loading, setLoading] = useState(false);
 
-  // FORM STATES
+  // FORM
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
+  const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
 
-  // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [showOtpBox, setShowOtpBox] = useState(false);
-  const [confirmationResult, setConfirmationResult] = useState(null);
-
-  // RECAPTCHA ID
-  const recaptchaId = "firebase-recaptcha-form";
+  // OTP
+  // const [otp, setOtp] = useState("");
+  // const [showOtpBox, setShowOtpBox] = useState(false);
+  // const [confirmationResult, setConfirmationResult] =
+  //   useState(null);
 
   // INIT RECAPTCHA
-  useEffect(() => {
-    if (typeof window === "undefined") return;
+  // useEffect(() => {
+  //   if (typeof window === "undefined") return;
 
-    const initRecaptcha = async () => {
-      try {
-        if (!window.recaptchaVerifier) {
-          window.recaptchaVerifier = new RecaptchaVerifier(
-            auth,
-            recaptchaId,
-            {
-              size: "invisible",
-            }
-          );
+  //   const initRecaptcha = async () => {
+  //     try {
+  //       if (!window.recaptchaVerifier) {
+  //         window.recaptchaVerifier =
+  //           new RecaptchaVerifier(
+  //             auth,
+  //             recaptchaId,
+  //             {
+  //               size: "invisible",
+  //             }
+  //           );
 
-          await window.recaptchaVerifier.render();
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
+  //         await window.recaptchaVerifier.render();
+  //       }
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
 
-    initRecaptcha();
-  }, []);
+  //   initRecaptcha();
+
+  //   return () => {
+  //     if (window.recaptchaVerifier) {
+  //       window.recaptchaVerifier.clear();
+  //       window.recaptchaVerifier = null;
+  //     }
+  //   };
+  // }, []);
 
   // SEND OTP
-  const sendOTP = async () => {
-    try {
-      setLoading(true);
+  // const sendOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!phone || phone.length !== 10) {
-        toast.error("Enter Valid Phone Number");
-        return;
-      }
+  //     if (!/^[6-9]\d{9}$/.test(phone)) {
+  //       toast.error("Enter valid phone number");
+  //       return;
+  //     }
 
-      const appVerifier = window.recaptchaVerifier;
+  //     const appVerifier =
+  //       window.recaptchaVerifier;
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        `+91${phone}`,
-        appVerifier
-      );
+  //     const result =
+  //       await signInWithPhoneNumber(
+  //         auth,
+  //         `+91${phone}`,
+  //         appVerifier
+  //       );
 
-      setConfirmationResult(result);
+  //     setConfirmationResult(result);
 
-      setShowOtpBox(true);
+  //     setShowOtpBox(true);
 
-      toast.success("OTP Sent Successfully");
-    } catch (error) {
-      console.log(error);
+  //     toast.success(
+  //       "OTP Sent Successfully"
+  //     );
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error(error.message || "Failed to Send OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error(
+  //       error?.message ||
+  //         "Failed to Send OTP"
+  //     );
 
-  // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      setLoading(true);
+  //     try {
+  //       if (window.recaptchaVerifier) {
+  //         window.recaptchaVerifier.clear();
+  //         window.recaptchaVerifier =
+  //           null;
 
-      if (!otp) {
-        toast.error("Enter OTP");
-        return;
-      }
+  //         const verifier =
+  //           new RecaptchaVerifier(
+  //             auth,
+  //             recaptchaId,
+  //             {
+  //               size:
+  //                 "invisible",
+  //             }
+  //           );
 
-      await confirmationResult.confirm(otp);
+  //         await verifier.render();
 
-      toast.success("Phone Verified Successfully");
-
-      await submitForm();
-    } catch (error) {
-      console.log(error);
-
-      toast.error("Invalid OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //         window.recaptchaVerifier =
+  //           verifier;
+  //       }
+  //     } catch (err) {
+  //       console.log(err);
+  //     }
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -114,31 +133,40 @@ export default function Form() {
       setLoading(true);
 
       const formData = {
-        platform: "Plastic Dustbin Manufacturer Landing Page Form",
-        platformEmail: "info@polywell.co.in",
+        platform:
+          "Plastic Dustbin Manufacturer Landing Page Form",
+        platformEmail:
+          "shaanpolywell@gmail.com",
         name,
         phone,
+        place,
         email,
-        place: "N/A",
         product,
         message,
       };
 
-      const { data } = await axios.post(
-        "https://brandbnalo.com/api/form/add",
-        formData
-      );
-
-      if (data?.success) {
-        setSubmitted(true);
-
-        setSuccessMessage(
-          "✅ Your enquiry has been submitted successfully!"
+      const { data } =
+        await axios.post(
+          "https://brandbnalo.com/api/form/add",
+          formData
         );
 
-        toast.success("Form Submitted Successfully");
+      if (!data?.success) {
+        throw new Error();
+      }
 
-        const whatsappText = `Hi, I am ${name}.
+      setSubmitted(true);
+
+      setSuccessMessage(
+        "✅ Your enquiry has been submitted successfully!"
+      );
+
+      toast.success(
+        "Form Submitted Successfully"
+      );
+
+      const whatsappText = `Hi, I am ${name}
+
 Email: ${email}
 Product: ${product}
 
@@ -146,208 +174,309 @@ Message: ${message}
 
 Contact: ${phone}`;
 
-        const waUrl = `https://wa.me/+918810422935?text=${encodeURIComponent(
-          whatsappText
-        )}`;
+      setTimeout(() => {
+        window.open(
+          `https://wa.me/918810422935?text=${encodeURIComponent(
+            whatsappText
+          )}`,
+          "_blank"
+        );
+      }, 1000);
 
-        setTimeout(() => {
-          window.open(waUrl, "_blank");
-        }, 1000);
+      // RESET
+      setName("");
+      setPhone("");
+      setEmail("");
+      setProduct("");
+      setMessage("");
+      setPlace("");
+      // setOtp("");
 
-        // RESET
-        setName("");
-        setPhone("");
-        setEmail("");
-        setProduct("");
-        setMessage("");
-        setOtp("");
+      // setShowOtpBox(false);
+      // setConfirmationResult(null);
 
-        setShowOtpBox(false);
-
-        setTimeout(() => {
-          setSubmitted(false);
-        }, 4000);
-      } else {
-        setSuccessMessage("❌ Failed to send. Please try again.");
-      }
+      setTimeout(() => {
+        setSubmitted(false);
+        setSuccessMessage("");
+      }, 4000);
     } catch (error) {
-      console.error(error);
+      console.log(error);
 
-      setSuccessMessage("❌ Server error. Try again later.");
+      setSuccessMessage(
+        "❌ Server error. Try again later."
+      );
+
+      toast.error(
+        "Failed to submit form"
+      );
     } finally {
       setLoading(false);
     }
   };
 
+  // VERIFY OTP
+  // const verifyOTP = async () => {
+  //   try {
+  //     if (!confirmationResult) {
+  //       toast.error(
+  //         "Send OTP first"
+  //       );
+  //       return;
+  //     }
+
+  //     if (otp.length !== 6) {
+  //       toast.error(
+  //         "Enter valid OTP"
+  //       );
+  //       return;
+  //     }
+
+  //     setLoading(true);
+
+  //     await confirmationResult.confirm(
+  //       otp
+  //     );
+
+  //     toast.success(
+  //       "Phone Verified Successfully"
+  //     );
+
+  //     await submitForm();
+  //   } catch (error) {
+  //     console.log(error);
+
+  //     toast.error("Invalid OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
   // HANDLE SUBMIT
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!phone || phone.length !== 10) {
-      return toast.error("Enter Valid Phone Number");
+    if (
+      !name ||
+      !phone ||
+      !email ||
+      !product ||
+      !message
+    ) {
+      toast.error(
+        "Please fill all fields"
+      );
+
+      return;
     }
 
-    await sendOTP();
+    // await sendOTP();
+    await submitForm();
   };
 
   return (
     <>
       {!submitted ? (
-        <form className="space-y-5" onSubmit={handleSubmit}>
-          <div className="flex flex-col md:flex-row gap-4">
-            <input
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="flex-1 p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-              required
-              disabled={loading}
-            />
+        <form
+          className="space-y-5"
+          onSubmit={handleSubmit}
+        >
+          {/* NAME */}
+          <input
+            type="text"
+            value={name}
+            onChange={(e) =>
+              setName(e.target.value)
+            }
+            placeholder="Your Name"
+            required
+            disabled={
+              loading
+            }
+            className="w-full p-3 rounded-lg border"
+          />
 
-            <select
-              value={product}
-              onChange={(e) => setProduct(e.target.value)}
-              className="p-3 rounded-md w-full bg-white/95 text-gray-800 outline-none border border-gray-300 focus:ring-2 focus:ring-[#F7C600]"
-              required
-              disabled={loading}
-            >
-              <option value="" disabled>
-                Select Product
-              </option>
 
-              <option value="Bio Medical Waste Bins">
-                Bio Medical Waste Bins
-              </option>
 
-              <option value="Wheeled Bins">
-                Wheeled Bins
-              </option>
-
-              <option value="Plastic Pallets">
-                Plastic Pallets
-              </option>
-
-              <option value="Industrial Plastic Pallets">
-                Industrial Plastic Pallets
-              </option>
-
-              <option value="Pedal Dustbin">
-                Pedal Dustbin
-              </option>
-
-              <option value="Bio Bins">
-                Bio Bins
-              </option>
-
-              <option value="Waste Bin">
-                Waste Bin
-              </option>
-
-              <option value="Litter Bin">
-                Litter Bin
-              </option>
-
-              <option value="Garbage Dustbin">
-                Garbage Dustbin
-              </option>
-
-              <option value="Outdoor Dustbin">
-                Outdoor Dustbin
-              </option>
-
-              <option value="Plastic Dustbin">
-                Plastic Dustbin
-              </option>
-            </select>
-          </div>
-
+          {/* PHONE */}
           <input
             type="tel"
             maxLength={10}
-            minLength={10}
-            placeholder="Phone Number"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-            required
             value={phone}
             onChange={(e) =>
-              setPhone(e.target.value.replace(/\D/g, ""))
+              setPhone(
+                e.target.value.replace(
+                  /\D/g,
+                  ""
+                )
+              )
             }
-            disabled={loading}
+            placeholder="Phone Number"
+            required
+            disabled={
+              loading
+            }
+            className="w-full p-3 rounded-lg border"
+          />
+
+          {/* PRODUCT */}
+          <div className="flex justify-between gap-5">
+            <select
+              value={product}
+              onChange={(e) =>
+                setProduct(
+                  e.target.value
+                )
+              }
+              required
+              disabled={
+                loading
+              }
+              className="w-full p-3 rounded-lg border"
+            >
+              <option
+                value=""
+                disabled
+              >
+                Select Product
+              </option>
+
+              {[
+                "Bio Medical Waste Bins",
+                "Wheeled Bins",
+                "Plastic Pallets",
+                "Industrial Plastic Pallets",
+                "Pedal Dustbin",
+                "Bio Bins",
+                "Waste Bin",
+                "Litter Bin",
+                "Garbage Dustbin",
+                "Outdoor Dustbin",
+                "Plastic Dustbin",
+              ].map((item) => (
+                <option
+                  key={item}
+                  value={item}
+                >
+                  {item}
+                </option>
+              ))}
+            </select>
+
+            {/* EMAIL */}
+            <input
+              type="place"
+              value={place}
+              onChange={(e) =>
+                setPlace(
+                  e.target.value
+                )
+              }
+              placeholder="Place"
+              required
+              disabled={loading}
+              className="w-full p-3 rounded-lg border"
+            />
+          </div>
+
+          {/* EMAIL */}
+          <input
+            type="email"
+            value={email}
+            onChange={(e) =>
+              setEmail(
+                e.target.value
+              )
+            }
+            placeholder="Email"
+            required
+            disabled={
+              loading
+            }
+            className="w-full p-3 rounded-lg border"
+          />
+
+          {/* MESSAGE */}
+          <textarea
+            value={message}
+            onChange={(e) =>
+              setMessage(
+                e.target.value
+              )
+            }
+            placeholder="Your Message"
+            required
+            disabled={
+              loading
+            }
+            className="w-full p-3 rounded-lg border h-28"
           />
 
           {/* RECAPTCHA */}
-          <div id={recaptchaId}></div>
+          {/* <div id={recaptchaId}></div> */}
 
-          {/* OTP BOX */}
-          {showOtpBox && (
+          {/* OTP BELOW TEXTAREA */}
+          {/* {showOtpBox && (
             <div className="space-y-3">
               <input
                 type="text"
-                placeholder="Enter OTP"
+                maxLength={6}
                 value={otp}
-                onChange={(e) => setOtp(e.target.value)}
-                className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                onChange={(e) =>
+                  setOtp(
+                    e.target.value.replace(
+                      /\D/g,
+                      ""
+                    )
+                  )
+                }
+                placeholder="Enter OTP"
+                className="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-700"
               />
-
-              <button
-                type="button"
-                onClick={verifyOTP}
-                className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
-              >
-                {loading ? "Verifying..." : "Verify OTP"}
-              </button>
             </div>
-          )}
+          )} */}
 
-          <input
-            type="email"
-            placeholder="Email Address"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            disabled={loading}
-          />
-
-          <textarea
-            placeholder="Your Message"
-            className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-28 resize-none transition"
-            required
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            disabled={loading}
-          ></textarea>
-
+          {/* SINGLE BUTTON */}
+          {/* {showOtpBox ? (
+            <button
+              type="button"
+              onClick={verifyOTP}
+              disabled={
+                loading ||
+                otp.length !==
+                  6
+              }
+              className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white"
+            >
+              {loading
+                ? "Verifying..."
+                : "Verify & Submit"}
+            </button>
+          ) : ( */}
           <button
             type="submit"
-            disabled={loading || showOtpBox}
-            className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
+            disabled={loading}
+            className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white"
           >
-            {loading
-              ? "Loading..."
-              : showOtpBox
-              ? "OTP Sent"
-              : "Send Message"}
+            {loading ? "Loading..." : "Get Wholesale Price List & Catalogue"}
           </button>
+          {/* )} */}
 
           {successMessage && (
-            <p
-              className={`text-center font-medium text-lg ${
-                successMessage.startsWith("✅")
-                  ? "text-green-700"
-                  : "text-red-600"
-              }`}
-            >
+            <p className="text-center text-green-700">
               {successMessage}
             </p>
           )}
         </form>
       ) : (
-        <p className="text-center font-medium text-lg text-green-700">
-          {successMessage}
-        </p>
+        <div className="text-center py-10">
+          <h2 className="text-3xl font-bold">
+            🎉 Thank You!
+          </h2>
+
+          <p className="mt-3 text-gray-600">
+            {successMessage}
+          </p>
+        </div>
       )}
     </>
   );

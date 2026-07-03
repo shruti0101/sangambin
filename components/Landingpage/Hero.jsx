@@ -1,74 +1,64 @@
 "use client";
 
-import { useEffect, useState, memo } from "react";
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-const desktopImages = [
-  "/hero2.webp",
-  "/hero2.jpeg",
-];
+const desktopImages = ["/hero2.webp", "/hero2.jpeg"];
+const mobileImages = ["/mobbanner1.png" ,"/mobbanner2.jpeg"]; 
 
-const mobileImages = [
-  "/mobbanner1.png",
-  "/mobbanner2.jpeg",
-];
+export default function Hero() {
+  const [index, setIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
-function Hero() {
-  const [current, setCurrent] = useState(0);
+  // detect screen size
+  useEffect(() => {
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
 
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
+
+  // slider timer
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrent((prev) => prev + 1);
+      setIndex((prev) => prev + 1);
     }, 15000);
 
     return () => clearInterval(timer);
   }, []);
 
-  return (
-    <>
-      {/* Desktop */}
-   <section className="relative hidden md:block mt-28 h-screen overflow-hidden z-0 isolate">
-        {desktopImages.map((image, index) => (
-          <Image
-            key={image}
-            src={image}
-            alt={`Hero ${index + 1}`}
-            fill
-            priority={index === 0}
-            fetchPriority={index === 0 ? "high" : "auto"}
-            loading={index === 0 ? "eager" : "lazy"}
-            sizes="100vw"
-            className={`absolute inset-0 object-cover transition-opacity duration-1000 ease-in-out ${
-              current % desktopImages.length === index
-                ? "opacity-100"
-                : "opacity-0"
-            }`}
-          />
-        ))}
-      </section>
+  const images = isMobile ? mobileImages : desktopImages;
 
-      {/* Mobile */}
-      <section className="relative md:hidden mt-22 h-[60vh] overflow-visible">
-        {mobileImages.map((image, index) => (
+  return (
+    <section
+      className="
+        w-full overflow-hidden
+        h-full xl:h-[100vh] mt-25
+      "
+    >
+      <AnimatePresence mode="sync">
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, scale: 1.02 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+        >
           <Image
-            key={image}
-            src={image}
-            alt={`Mobile Hero ${index + 1}`}
-            fill
-            priority={index === 0}
-            fetchPriority={index === 0 ? "high" : "auto"}
-            loading={index === 0 ? "eager" : "lazy"}
-            sizes="100vw"
-            className={`absolute inset-0 object-cover transition-opacity duration-1000 ease-in-out ${
-              current % mobileImages.length === index
-                ? "opacity-100"
-                : "opacity-0"
-            }`}
+            src={images[index % images.length]}
+            alt="Hero banner"
+            width={2500}
+            height={1500}
+            className="max-w-full h-auto object-cover"
+            priority
           />
-        ))}
-      </section>
-    </>
+        </motion.div>
+      </AnimatePresence>
+    </section>
   );
 }
-
-export default memo(Hero);
