@@ -47,7 +47,7 @@ const About = () => {
 
 
     {/* about us */}
-      <section className="bg-[#DBF0F7] blueprint-bg py-5 md:py-10 relative">
+      <section className="bg-[#DBF0F7] blueprint-bg py-5  md:py-10 relative">
         <div className="w-full  mx-auto px-5 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
           <Image
             alt="gif"

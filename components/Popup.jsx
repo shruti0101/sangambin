@@ -35,13 +35,40 @@ export default function ContactForm() {
   const recaptchaId = "popup-contact-recaptcha";
 
   // OPEN POPUP
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 10000);
+useEffect(() => {
+  // Don't show again during this browser session
+  if (sessionStorage.getItem("popupShown")) return;
 
-    return () => clearTimeout(timer);
-  }, []);
+  const handleScroll = () => {
+    const scrollableHeight =
+      document.documentElement.scrollHeight - window.innerHeight;
+
+    // If page isn't scrollable enough
+    if (scrollableHeight <= 0) return;
+
+    const scrolled = window.scrollY;
+
+    // Show popup after 30% of total scrollable page
+    if (scrolled >= scrollableHeight * 0.3) {
+      setIsOpen(true);
+
+      sessionStorage.setItem("popupShown", "true");
+
+      window.removeEventListener("scroll", handleScroll);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll, {
+    passive: true,
+  });
+
+  // Check once in case the page is already scrolled
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   // INITIALIZE RECAPTCHA
   useEffect(() => {
