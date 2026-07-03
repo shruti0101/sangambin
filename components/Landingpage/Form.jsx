@@ -35,13 +35,23 @@ export default function ContactForm() {
   const recaptchaId = "popup-contact-recaptcha";
 
   // OPEN POPUP
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsOpen(true);
-    }, 10000);
+useEffect(() => {
+  const handleScroll = () => {
+    const scrollHeight =
+      document.documentElement.scrollHeight - window.innerHeight;
 
-    return () => clearTimeout(timer);
-  }, []);
+    if (window.scrollY >= scrollHeight * 0.3) {
+      setIsOpen(true);
+      window.removeEventListener("scroll", handleScroll);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   // INITIALIZE RECAPTCHA
   useEffect(() => {
@@ -227,7 +237,7 @@ Contact: ${phone}`;
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-100 backdrop-blur-sm p-4">
+    <div className="fixed inset-0  flex items-center justify-center bg-black/50 z-9999 backdrop-blur-sm p-4">
       <div className="relative w-full max-w-3xl md:max-w-5xl h-auto flex flex-col md:flex-row rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-white/90 to-white/80">
 
         <button
@@ -249,7 +259,7 @@ Contact: ${phone}`;
         <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col justify-center bg-white/90 backdrop-blur-sm relative z-30 overflow-y-auto">
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-2">
-            Get In Touch With Ussss
+            Get In Touch With Us
           </h2>
 
           <div className="w-20 h-[3px] bg-[#F7C600] mx-auto mb-6 rounded-full"></div>
