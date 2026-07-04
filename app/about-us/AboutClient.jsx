@@ -217,7 +217,7 @@ const AboutPage = () => {
 
 {/* CTA SECTION */}
 <section
-  style={{ backgroundImage: "url(/ctaimg.png)" }}
+  style={{ backgroundImage: "url(/ctaimg.webp)" }}
   className="bg-center bg-fixed bg-cover py-8 md:py-16 sm:py-20 px-4 sm:px-6 relative"
 >
   <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/75"></div>

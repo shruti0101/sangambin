@@ -400,7 +400,7 @@ export default function Inquiry() {
         <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 lg:gap-12 gap-5 items-center">
           <div className="relative">
             <img
-              src="/ctaimg.png"
+              src="/ctaimg.webp"
               alt="Polywell Manufacturing"
               className="w-full lg:h-[450px] object-cover rounded-2xl shadow-lg"
             />

@@ -226,8 +226,8 @@ Contact: ${phone}`;
   };
 
   return (
-    <div className="fixed inset-0  flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
-      <div className="relative rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-8 md:p-10 w-[350px] md:w-[560px] bg-white">
+    <div className="fixed inset-0  flex items-center justify-center bg-black/40 backdrop-blur-sm z-9999">
+      <div className="relative rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-4 md:p-10 w-[350px] md:w-[560px] bg-white">
 
         <button
           className="absolute top-4 right-5 text-gray-400 hover:text-red-500 text-xl transition"

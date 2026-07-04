@@ -61,7 +61,7 @@ const Whychoose = () => {
             {/* RIGHT IMAGE */}
             <div className="relative w-full h-[520px] rounded-md overflow-hidden ">
               <Image
-                src="/360_F_1609953401_6dWzA4dA2akHJqMVSa2zDakv1etq8w3R.jpg"
+                src="/360_F_1609953401_6dWzA4dA2akHJqMVSa2zDakv1etq8w3R.webp"
                 alt="Procurement Challenges"
                 fill
                 className="object-cover"

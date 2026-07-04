@@ -99,7 +99,7 @@ export default async function BlogDetail({ params }) {
             className="relative bg-cover bg-center h-[60vh] md:h-[80vh] flex flex-col items-center justify-center text-center overflow-hidden"
             style={{
               backgroundImage:
-                "url('ctaimg.png')",
+                "url('ctaimg.webp')",
             }}
           >
             {/* Overlay Gradient */}

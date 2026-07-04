@@ -1,19 +1,17 @@
 "use client";
 
 import { useEffect, useState, memo } from "react";
+import Enquiry from "@/components/Enquiry";
+
 import Image from "next/image";
 
-const desktopImages = [
-  "/hero2.webp",
-  "/hero2.jpeg",
-];
+const desktopImages = ["/hero2.webp", "/hero2222.webp"];
 
-const mobileImages = [
-  "/mobbanner1.png",
-  "/mobbanner2.jpeg",
-];
+const mobileImages = ["/plastic banner.webp"];
 
 function Hero() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -51,6 +49,7 @@ function Hero() {
       <section className="relative md:hidden mt-20 h-[48vh] overflow-visible">
         {mobileImages.map((image, index) => (
           <Image
+          onClick={() => setIsFormOpen(true)}
             key={image}
             src={image}
             alt={`Mobile Hero ${index + 1}`}
@@ -67,6 +66,10 @@ function Hero() {
           />
         ))}
       </section>
+
+      {isFormOpen && (
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
     </>
   );
 }

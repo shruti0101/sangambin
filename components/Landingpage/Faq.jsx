@@ -73,7 +73,7 @@ export default function FAQSection() {
 
   return (
     <section
-      style={{ backgroundImage: "url(/ctaimg.png)" }}
+      style={{ backgroundImage: "url(/ctaimg.webp)" }}
       className="py-12 md:py-20 relative bg-center bg-cover bg-fixed overflow-hidden"
     >
       {/* Dark gradient overlay for better readability */}

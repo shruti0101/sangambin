@@ -254,7 +254,7 @@ export default function HomePage() {
       <section
         className="relative h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url(/ctaimg.png)",
+          backgroundImage: "url(/ctaimg.webp)",
         }}
       >
         {/* overlay */}
@@ -630,7 +630,7 @@ export default function HomePage() {
       </section>
 
       <section
-        style={{ backgroundImage: "url(/ctaimg.png)" }}
+        style={{ backgroundImage: "url(/ctaimg.webp)" }}
         className="py-12 md:py-20 relative bg-center bg-cover bg-fixed overflow-hidden"
       >
         {/* Dark gradient overlay for better readability */}

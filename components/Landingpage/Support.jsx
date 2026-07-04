@@ -19,7 +19,7 @@ export default function OneStopWasteSolutionSection() {
             className="relative w-full h-[260px] sm:h-[340px] md:h-[420px] md:h-[520px]"
           >
             <Image
-              src="/Biomedical-Waste-collection-solution-scaled.jpg"
+              src="/Biomedical-Waste-collection-solution-scaled.webp"
               alt="Waste Management"
               fill
               className="object-contain rounded-[12px]"
