@@ -101,7 +101,7 @@ export default function CategoryPage({ params }) {
               </div>
 
               {/* PRODUCT GRID */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              <div className="grid grid-cols-1 grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 {category.products.map((product, index) => (
                   <Link
                     key={product.id}
@@ -129,11 +129,11 @@ export default function CategoryPage({ params }) {
                         title={product.name}
                         width={800}
                         height={800}
-                        className="w-full h-[320px] sm:h-[250px] object-cover"
+                        className="w-full md:h-[320px] h-[150px] object-cover"
                       />
                     </div>
 
-                    <div className="p-5 sm:p-6">
+                    <div className="md:p-5 p-3">
                       <h2 className="text-base sm:text-lg font-semibold text-[#0B2545]">
                         {product.name}
                       </h2>

@@ -34,7 +34,7 @@ export default function ProductPage({ params }) {
         />
       </Head>
 
-      <section className="bg-[#F6F6F8] py-10 mt-24 px-4 sm:px-6">
+      <section className="bg-[#F6F6F8] py-10 mt-20 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto space-y-12">
           {/* BREADCRUMB */}
           <div className="text-sm md:mt-5 sm:text-base text-gray-600">
@@ -124,7 +124,7 @@ export default function ProductPage({ params }) {
               </ul>
 
               {/* BUTTONS */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+              <div className="grid md:grid-cols-3 grid-cols-2 gap-3 md:gap-4 mt-8">
                 <a
                   href="tel:+918810422935"
                   className="text-center px-5 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition"
@@ -145,11 +145,20 @@ export default function ProductPage({ params }) {
 
                 <button
                   onClick={() => setIsFormOpen(true)}
-                  className="text-center px-5 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition"
+                  className="hidden md:block text-center px-5 py-3 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition"
                 >
                   Enquire Now
                 </button>
+                
               </div>
+              <div className="flex md:hidden justify-center w-full mx-auto items-center">
+                  <button
+                  onClick={() => setIsFormOpen(true)}
+                  className="  text-center px-9 py-3.5 bg-indigo-600 text-white rounded-xl font-semibold hover:bg-indigo-700 transition"
+                >
+                  Enquire Now
+                </button>
+                </div>
             </div>
           </div>
         </div>

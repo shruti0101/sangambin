@@ -48,7 +48,7 @@ function Hero() {
       </section>
 
       {/* Mobile */}
-      <section className="relative md:hidden mt-22 h-[60vh] overflow-visible">
+      <section className="relative md:hidden mt-20 h-[48vh] overflow-visible">
         {mobileImages.map((image, index) => (
           <Image
             key={image}

@@ -79,9 +79,9 @@ export default function Navbar() {
             <div className="flex items-center gap-2 lg:hidden">
               <button
                 onClick={translateToHindi}
-                className="px-2 sm:px-3 bg-red-500 hover:bg-red-600 text-white py-2 rounded-lg font-semibold whitespace-nowrap text-xs sm:text-sm"
+                className="px-2 sm:px-3 bg-red-500 hover:bg-red-600 text-white py-2 rounded-lg font-semibold whitespace-nowrap text-base sm:text-sm"
               >
-                हिंदी
+                हिंदी में देखें
               </button>
 
               <button onClick={() => setMobileNavOpen(true)}>
@@ -220,7 +220,7 @@ export default function Navbar() {
                   width={140}
                   height={60}
                   alt="Logo"
-                  className="object-contain h-auto"
+                  className="object-contain bg-green-800 h-auto"
                 />
 
                 <button onClick={() => setMobileNavOpen(false)}>
