@@ -23,6 +23,7 @@ export default function Form() {
   const [product, setProduct] = useState("");
   const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
+  const [company, setCompany] = useState("");
 
   // OTP
   // const [otp, setOtp] = useState("");
@@ -133,82 +134,70 @@ export default function Form() {
       setLoading(true);
 
       const formData = {
-        platform:
-          "Plastic Dustbin Manufacturer Landing Page Form",
-        platformEmail:
-          "shaanpolywell@gmail.com",
+        platform: "Plastic Dustbin Manufacturer Landing Page Form",
+        platformEmail: "shaanpolywell@gmail.com",
         name,
         phone,
         place,
         email,
         product,
-        message,
+        message: `Company Name: ${company || "N/A"} ,"Message :"
+
+${message}`,
       };
 
-      const { data } =
-        await axios.post(
-          "https://brandbnalo.com/api/form/add",
-          formData
-        );
+      const { data } = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        formData,
+      );
 
       if (!data?.success) {
         throw new Error();
       }
 
       setSubmitted(true);
+      setSuccessMessage("✅ Your enquiry has been submitted successfully!");
 
-      setSuccessMessage(
-        "✅ Your enquiry has been submitted successfully!"
-      );
-
-      toast.success(
-        "Form Submitted Successfully"
-      );
+      toast.success("Form Submitted Successfully");
 
       const whatsappText = `Hi, I am ${name}
+
+Company Name: ${company || "N/A"}
 
 Email: ${email}
 Product: ${product}
 
 Message: ${message}
 
+Location: ${place}
+
 Contact: ${phone}`;
 
       setTimeout(() => {
         window.open(
-          `https://wa.me/918810422935?text=${encodeURIComponent(
-            whatsappText
-          )}`,
-          "_blank"
+          `https://wa.me/918810422935?text=${encodeURIComponent(whatsappText)}`,
+          "_blank",
         );
       }, 1000);
 
-      // RESET
+      // Reset form
       setName("");
+      setCompany("");
       setPhone("");
+      setPlace("");
       setEmail("");
       setProduct("");
       setMessage("");
-      setPlace("");
-      // setOtp("");
-
-      // setShowOtpBox(false);
-      // setConfirmationResult(null);
 
       setTimeout(() => {
         setSubmitted(false);
         setSuccessMessage("");
       }, 4000);
     } catch (error) {
-      console.log(error);
+      console.error(error);
 
-      setSuccessMessage(
-        "❌ Server error. Try again later."
-      );
-
-      toast.error(
-        "Failed to submit form"
-      );
+      setSuccessMessage("❌ Server error. Try again later.");
+      toast.error("Failed to submit form");
     } finally {
       setLoading(false);
     }
@@ -255,16 +244,8 @@ Contact: ${phone}`;
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (
-      !name ||
-      !phone ||
-      !email ||
-      !product ||
-      !message
-    ) {
-      toast.error(
-        "Please fill all fields"
-      );
+    if (!name || !phone || !email || !product || !message) {
+      toast.error("Please fill all fields");
 
       return;
     }
@@ -276,67 +257,52 @@ Contact: ${phone}`;
   return (
     <>
       {!submitted ? (
-        <form
-          className="space-y-5"
-          onSubmit={handleSubmit}
-        >
+        <form className="space-y-5" onSubmit={handleSubmit}>
           {/* NAME */}
           <input
             type="text"
             value={name}
-            onChange={(e) =>
-              setName(e.target.value)
-            }
+            onChange={(e) => setName(e.target.value)}
             placeholder="Your Name"
             required
-            disabled={
-              loading
-            }
+            disabled={loading}
             className="w-full p-3 rounded-lg border"
           />
-
-
 
           {/* PHONE */}
-          <input
-            type="tel"
-            maxLength={10}
-            value={phone}
-            onChange={(e) =>
-              setPhone(
-                e.target.value.replace(
-                  /\D/g,
-                  ""
-                )
-              )
-            }
-            placeholder="Phone Number"
-            required
-            disabled={
-              loading
-            }
-            className="w-full p-3 rounded-lg border"
-          />
+          <div className="flex justify-between gap-5">
+            {" "}
+            <input
+              type="tel"
+              maxLength={10}
+              value={phone}
+              onChange={(e) => setPhone(e.target.value.replace(/\D/g, ""))}
+              placeholder="Phone Number"
+              required
+              disabled={loading}
+              className="w-full p-3 rounded-lg border"
+            />
+            <input
+              type="text"
+              value={company}
+              onChange={(e) => setCompany(e.target.value)}
+              placeholder="Company"
+              required
+              disabled={loading}
+              className="w-full p-3 rounded-lg border"
+            />
+          </div>
 
           {/* PRODUCT */}
           <div className="flex justify-between gap-5">
             <select
               value={product}
-              onChange={(e) =>
-                setProduct(
-                  e.target.value
-                )
-              }
+              onChange={(e) => setProduct(e.target.value)}
               required
-              disabled={
-                loading
-              }
+              disabled={loading}
               className="w-full p-3 rounded-lg border"
             >
-              <option
-                value=""
-                disabled
-              >
+              <option value="" disabled>
                 Select Product
               </option>
 
@@ -353,10 +319,7 @@ Contact: ${phone}`;
                 "Outdoor Dustbin",
                 "Plastic Dustbin",
               ].map((item) => (
-                <option
-                  key={item}
-                  value={item}
-                >
+                <option key={item} value={item}>
                   {item}
                 </option>
               ))}
@@ -366,11 +329,7 @@ Contact: ${phone}`;
             <input
               type="place"
               value={place}
-              onChange={(e) =>
-                setPlace(
-                  e.target.value
-                )
-              }
+              onChange={(e) => setPlace(e.target.value)}
               placeholder="Place"
               required
               disabled={loading}
@@ -382,32 +341,20 @@ Contact: ${phone}`;
           <input
             type="email"
             value={email}
-            onChange={(e) =>
-              setEmail(
-                e.target.value
-              )
-            }
+            onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
             required
-            disabled={
-              loading
-            }
+            disabled={loading}
             className="w-full p-3 rounded-lg border"
           />
 
           {/* MESSAGE */}
           <textarea
             value={message}
-            onChange={(e) =>
-              setMessage(
-                e.target.value
-              )
-            }
+            onChange={(e) => setMessage(e.target.value)}
             placeholder="Your Message"
             required
-            disabled={
-              loading
-            }
+            disabled={loading}
             className="w-full p-3 rounded-lg border h-28"
           />
 
@@ -462,20 +409,14 @@ Contact: ${phone}`;
           {/* )} */}
 
           {successMessage && (
-            <p className="text-center text-green-700">
-              {successMessage}
-            </p>
+            <p className="text-center text-green-700">{successMessage}</p>
           )}
         </form>
       ) : (
         <div className="text-center py-10">
-          <h2 className="text-3xl font-bold">
-            🎉 Thank You!
-          </h2>
+          <h2 className="text-3xl font-bold">🎉 Thank You!</h2>
 
-          <p className="mt-3 text-gray-600">
-            {successMessage}
-          </p>
+          <p className="mt-3 text-gray-600">{successMessage}</p>
         </div>
       )}
     </>

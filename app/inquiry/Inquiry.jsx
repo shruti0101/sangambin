@@ -232,7 +232,8 @@ export default function Inquiry() {
             href="https://wa.link/5alazl"
             className="mr-2 ml-1 items-center gap-3 text-white animate-pulse px-2 py-3 font-bold text-center transition-all duration-300 border rounded-lg bg-green-600 md:hidden text-sm lg:hidden"
           >
-            Get Instant Quote <br/>in 2 Mins
+            Get Instant Quote <br />
+            in 2 Mins
           </a>
 
           {/* Mobile Menu Button */}
@@ -312,7 +313,8 @@ export default function Inquiry() {
 
           <div className="bg-gray-50 border border-2 border-green-500 lg:p-8 p-4 rounded-2xl shadow-lg">
             <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
-              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए ,<br/>Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए ,<br />
+              Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>
@@ -471,7 +473,7 @@ export default function Inquiry() {
             </button>
             <div className=" md:hidden mt-7 flex justify-center items-center">
               <Link
-            href="https://wa.link/5alazl"
+                href="https://wa.link/5alazl"
                 className="bg-green-500 py-3 text-lg bg-gray-50 text-white whitespace-nowrap px-12  font-semibold rounded-full shadow hover:bg-green-600  transition hover:border "
               >
                 Ask Our Dustbin Expert
@@ -658,13 +660,12 @@ export default function Inquiry() {
           </p>
 
           <div className="flex justify-center items-center">
-
-          <button
-            onClick={() => setIsOpen(true)}
-            className="bg-white hidden md:block text-[#0A3A49] font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
-          >
-            Let’s Begin a Conversation
-          </button>
+            <button
+              onClick={() => setIsOpen(true)}
+              className="bg-white hidden md:block text-[#0A3A49] font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition"
+            >
+              Let’s Begin a Conversation
+            </button>
           </div>
           <Link
             href="https://wa.link/5alazl"
@@ -786,7 +787,8 @@ export default function Inquiry() {
         <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-5 items-center  ">
           <div className="bg-white p-4 md:p-8 rounded-2xl shadow-lg border-2 border-green-500">
             <h2 className="text-[15px] md:text-xl font-bold mb-4 text-center">
-              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए <br/> Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
+              हॉस्पिटल, फैक्ट्री, सोसाइटी, पार्क, रिटेलर्स etc. के लिए <br />{" "}
+              Plastic Dustbins — डायरेक्ट फैक्ट्री रेट पर!
             </h2>
             <Form />
           </div>
@@ -812,42 +814,40 @@ export default function Inquiry() {
 
               {/* ICON + TEXT ROW */}
               <div className="flex sm:flex-row items-center justify-center md:justify-center gap-2 md:gap-4 mt-5">
+                {/* Phone */}
+                <a href="tel:+918810422935">
+                  <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-green-500 flex items-center justify-center shadow-lg shrink-0">
+                    <PhoneCall className="w-6 h-6 md:w-7 md:h-7 text-white" />
+                  </div>
+                </a>
 
-  {/* Phone */}
-  <a href="tel:+918810422935">
-    <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-green-500 flex items-center justify-center shadow-lg shrink-0">
-      <PhoneCall className="w-6 h-6 md:w-7 md:h-7 text-white" />
-    </div>
-  </a>
+                {/* Text */}
+                <span className="text-base hidden md:block sm:text-xl md:text-3xl whitespace-nowrap font-bold text-center">
+                  👉 ASK OUR DUSTBIN EXPERT 👈
+                </span>
 
-  {/* Text */}
-  <span className="text-base hidden md:block sm:text-xl md:text-3xl whitespace-nowrap font-bold text-center">
-    👉 ASK OUR DUSTBIN EXPERT 👈
-  </span>
+                <span className="text-base md:hidden sm:text-xl md:text-3xl whitespace-nowrap font-bold text-center">
+                  ASK OUR DUSTBIN EXPERT
+                </span>
 
-  <span className="text-base md:hidden sm:text-xl md:text-3xl whitespace-nowrap font-bold text-center">
-    ASK OUR DUSTBIN EXPERT
-  </span>
-
-  {/* WhatsApp */}
-  <a
-            href="https://wa.link/5alazl"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-green-500 flex items-center justify-center shadow-lg shrink-0">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 32 32"
-        fill="white"
-        className="w-6 h-6 md:w-7 md:h-7"
-      >
-        <path d="M16.01 3C8.83 3 3 8.82 3 16c0 2.53.74 4.98 2.13 7.08L3 29l6.11-2.03A12.93 12.93 0 0 0 16.01 29C23.18 29 29 23.18 29 16S23.18 3 16.01 3zm0 23.67c-2.13 0-4.22-.57-6.05-1.66l-.43-.25-3.63 1.2 1.18-3.54-.28-.45A10.6 10.6 0 0 1 5.34 16c0-5.88 4.79-10.67 10.67-10.67S26.68 10.12 26.68 16 21.89 26.67 16.01 26.67zm5.85-7.96c-.32-.16-1.9-.94-2.19-1.05-.29-.11-.5-.16-.71.16s-.82 1.05-1 1.27c-.18.21-.37.24-.69.08-.32-.16-1.34-.49-2.55-1.56-.94-.84-1.58-1.87-1.76-2.18-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.71-.97-2.34-.26-.62-.52-.53-.71-.54h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64s1.13 3.06 1.29 3.27c.16.21 2.22 3.39 5.38 4.75.75.32 1.34.51 1.79.65.75.24 1.43.21 1.97.13.6-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z" />
-      </svg>
-    </div>
-  </a>
-
-</div>
+                {/* WhatsApp */}
+                <a
+                  href="https://wa.link/5alazl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-green-500 flex items-center justify-center shadow-lg shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      fill="white"
+                      className="w-6 h-6 md:w-7 md:h-7"
+                    >
+                      <path d="M16.01 3C8.83 3 3 8.82 3 16c0 2.53.74 4.98 2.13 7.08L3 29l6.11-2.03A12.93 12.93 0 0 0 16.01 29C23.18 29 29 23.18 29 16S23.18 3 16.01 3zm0 23.67c-2.13 0-4.22-.57-6.05-1.66l-.43-.25-3.63 1.2 1.18-3.54-.28-.45A10.6 10.6 0 0 1 5.34 16c0-5.88 4.79-10.67 10.67-10.67S26.68 10.12 26.68 16 21.89 26.67 16.01 26.67zm5.85-7.96c-.32-.16-1.9-.94-2.19-1.05-.29-.11-.5-.16-.71.16s-.82 1.05-1 1.27c-.18.21-.37.24-.69.08-.32-.16-1.34-.49-2.55-1.56-.94-.84-1.58-1.87-1.76-2.18-.18-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.71-1.71-.97-2.34-.26-.62-.52-.53-.71-.54h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.08-1.11 2.64s1.13 3.06 1.29 3.27c.16.21 2.22 3.39 5.38 4.75.75.32 1.34.51 1.79.65.75.24 1.43.21 1.97.13.6-.09 1.9-.78 2.17-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37z" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
 
               <p className="mt-4 text-xs sm:text-sm md:text-lg text-gray-200 tracking-wide">
                 GET WHOLESALE QUOTE IN 2 MINUTES
@@ -866,7 +866,7 @@ export default function Inquiry() {
 
       <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
 
-              <FooterInquiry/>
+      <FooterInquiry />
     </>
   );
 }

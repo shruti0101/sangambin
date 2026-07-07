@@ -19,6 +19,7 @@ export default function ContactForm({ isOpen, onClose }) {
   const [product, setProduct] = useState("");
   const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
+  const [company, setCompany] = useState("");
 
   // OTP STATES
   // const [otp, setOtp] = useState("");
@@ -147,7 +148,9 @@ export default function ContactForm({ isOpen, onClose }) {
         email,
         place: place,
         product,
-        message,
+        message: `Company Name: ${company || "N/A"} ,"Message :"
+
+${message}`
       };
 
       const { data } = await axios.post(
@@ -187,6 +190,7 @@ Contact: ${phone}`;
         setProduct("");
         setMessage("");
         setPlace("");
+        setCompany("");
         // setOtp("");
 
         // setShowOtpBox(false);
@@ -370,6 +374,15 @@ Contact: ${phone}`;
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Email Address"
+              className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              required
+              disabled={loading}
+            />
+            <input
+              type="text"
+              value={company}
+              onChange={(e) => setCompany(e.target.value)}
+              placeholder="Company Name"
               className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
               required
               disabled={loading}
