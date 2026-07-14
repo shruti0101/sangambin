@@ -5,12 +5,12 @@ import Image from "next/image";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-import {
-  RecaptchaVerifier,
-  signInWithPhoneNumber,
-} from "firebase/auth";
+// import {
+//   RecaptchaVerifier,
+//   signInWithPhoneNumber,
+// } from "firebase/auth";
 
-import { auth } from "@/utils/firebase";
+// import { auth } from "@/utils/firebase";
 
 export default function ContactForm() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,15 +24,16 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
+  const [location, setLocation] = useState("");
 
   // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [showOtpBox, setShowOtpBox] = useState(false);
-  const [confirmationResult, setConfirmationResult] =
-    useState(null);
+  // const [otp, setOtp] = useState("");
+  // const [showOtpBox, setShowOtpBox] = useState(false);
+  // const [confirmationResult, setConfirmationResult] =
+    // useState(null);
 
   // CAPTCHA ID
-  const recaptchaId = "popup-contact-recaptcha";
+  // const recaptchaId = "popup-contact-recaptcha";
 
   // OPEN POPUP
 useEffect(() => {
@@ -57,25 +58,25 @@ useEffect(() => {
   useEffect(() => {
     if (!isOpen) return;
 
-    const setupRecaptcha = async () => {
-      try {
-        if (
-          typeof window !== "undefined" &&
-          !window.recaptchaVerifier
-        ) {
-          window.recaptchaVerifier =
-            new RecaptchaVerifier(auth, recaptchaId, {
-              size: "invisible",
-            });
+    // const setupRecaptcha = async () => {
+    //   try {
+    //     if (
+    //       typeof window !== "undefined" &&
+    //       !window.recaptchaVerifier
+    //     ) {
+    //       window.recaptchaVerifier =
+    //         new RecaptchaVerifier(auth, recaptchaId, {
+    //           size: "invisible",
+    //         });
 
-          await window.recaptchaVerifier.render();
-        }
-      } catch (error) {
-        console.log(error);
-      }
-    };
+    //       await window.recaptchaVerifier.render();
+    //     }
+    //   } catch (error) {
+    //     console.log(error);
+    //   }
+    // };
 
-    setupRecaptcha();
+    // setupRecaptcha();
   }, [isOpen]);
 
   if (!isOpen) return null;
@@ -86,43 +87,43 @@ useEffect(() => {
   };
 
   // SEND OTP
-  const sendOTP = async () => {
-    try {
-      setLoading(true);
+  // const sendOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!phone || phone.length !== 10) {
-        toast.error("Enter Valid Phone Number");
-        return;
-      }
+  //     if (!phone || phone.length !== 10) {
+  //       toast.error("Enter Valid Phone Number");
+  //       return;
+  //     }
 
-      const appVerifier = window.recaptchaVerifier;
+  //     const appVerifier = window.recaptchaVerifier;
 
-      if (!appVerifier) {
-        toast.error("Captcha not ready. Try again.");
-        return;
-      }
+  //     if (!appVerifier) {
+  //       toast.error("Captcha not ready. Try again.");
+  //       return;
+  //     }
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        `+91${phone}`,
-        appVerifier
-      );
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       `+91${phone}`,
+  //       appVerifier
+  //     );
 
-      setConfirmationResult(result);
+  //     setConfirmationResult(result);
 
-      setShowOtpBox(true);
+  //     setShowOtpBox(true);
 
-      toast.success("OTP Sent Successfully");
-    } catch (error) {
-      console.log(error);
+  //     toast.success("OTP Sent Successfully");
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error(
-        error?.message || "Failed To Send OTP"
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error(
+  //       error?.message || "Failed To Send OTP"
+  //     );
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -135,7 +136,7 @@ useEffect(() => {
         name,
         phone,
         email,
-        place: "N/A",
+        place: location || "NA",
         product,
         message,
       };
@@ -176,9 +177,10 @@ Contact: ${phone}`;
         setEmail("");
         setProduct("");
         setMessage("");
-        setOtp("");
+        setLocation("");
+        // setOtp("");
 
-        setShowOtpBox(false);
+        // setShowOtpBox(false);
 
         setTimeout(() => {
           setIsOpen(false);
@@ -200,29 +202,29 @@ Contact: ${phone}`;
   };
 
   // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      setLoading(true);
+  // const verifyOTP = async () => {
+  //   try {
+  //     setLoading(true);
 
-      if (!otp) {
-        toast.error("Enter OTP");
-        return;
-      }
+  //     if (!otp) {
+  //       toast.error("Enter OTP");
+  //       return;
+  //     }
 
-      await confirmationResult.confirm(otp);
+  //     await confirmationResult.confirm(otp);
 
-      toast.success("Phone Verified Successfully");
+  //     toast.success("Phone Verified Successfully");
 
-      // DIRECT SUBMIT
-      await submitForm();
-    } catch (error) {
-      console.log(error);
+  //     // DIRECT SUBMIT
+  //     await submitForm();
+  //   } catch (error) {
+  //     console.log(error);
 
-      toast.error("Invalid OTP");
-    } finally {
-      setLoading(false);
-    }
-  };
+  //     toast.error("Invalid OTP");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   // HANDLE SUBMIT
   const handleSubmit = async (e) => {
@@ -233,7 +235,8 @@ Contact: ${phone}`;
       return;
     }
 
-    await sendOTP();
+    // await sendOTP();
+    await submitForm();
   };
 
   return (
@@ -349,7 +352,8 @@ Contact: ${phone}`;
                 </option>
               </select>
             </div>
-
+            
+             <div className="flex flex-col sm:flex-row gap-3">
             <input
               type="tel"
               maxLength={10}
@@ -366,12 +370,25 @@ Contact: ${phone}`;
               }
               disabled={loading}
             />
+            <input
+              type="text"
+              
+              placeholder="Location"
+              className="w-full p-3 rounded-lg text-black text-sm border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none bg-white/90 shadow-sm transition"
+              
+              value={location}
+              onChange={(e) =>
+                setLocation(e.target.value)
+              }
+              disabled={loading}
+            />
+            </div>
 
             {/* RECAPTCHA */}
-            <div id={recaptchaId}></div>
+            {/* <div id={recaptchaId}></div> */}
 
             {/* OTP BOX */}
-            {showOtpBox && (
+            {/* {showOtpBox && (
               <div className="space-y-3">
 
                 <input
@@ -394,7 +411,7 @@ Contact: ${phone}`;
                     : "Verify OTP"}
                 </button>
               </div>
-            )}
+            )} */}
 
             <input
               type="email"
@@ -425,10 +442,7 @@ Contact: ${phone}`;
               className="w-full py-3 bg-gradient-to-r from-[#F7C600] to-[#F7A400] hover:opacity-90 transition rounded-lg font-semibold text-white text-sm shadow-lg"
             >
               {loading
-                ? "Loading..."
-                : !showOtpBox
-                ? "Send OTP"
-                : "Enter OTP Above"}
+                ? "Loading...": "Submit Enquiry"}
             </button>
 
             {status && (
