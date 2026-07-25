@@ -11,7 +11,9 @@ export default function LayoutWrapper({ children }) {
   const hideLayout =
     pathname.startsWith("/studio") ||
     pathname.startsWith("/login") ||
-    pathname.startsWith("/inquiry");
+    pathname.startsWith("/inquiry") ||
+    pathname.startsWith("/bulk-inquiry");
+
   return (
     <>
       {!hideLayout && <Navbar />}
