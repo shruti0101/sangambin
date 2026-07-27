@@ -5,7 +5,7 @@ import Enquiry from "@/components/Enquiry";
 
 import Image from "next/image";
 
-const desktopImages = ["/hero2.webp", "/hero2222.webp"];
+const desktopImages = ["/hero2222.webp"];
 
 const mobileImages = ["/plastic banner.webp"];
 
