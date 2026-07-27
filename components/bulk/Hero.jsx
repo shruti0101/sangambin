@@ -1,9 +1,15 @@
+"use client";
 import { Phone, MessageCircle, ArrowDown } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
+import { useState } from "react";
+import ContactForm from "../Enquiry";
+import EnquiryBulkForm from "./EnquiryBulkForm";
 
 export default function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <section className="bg-[#F5F6EF] py-8 lg:py-24">
+    <section className="bg-[#F5F6EF] py-8 lg:py-14">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid items-center gap-14 lg:grid-cols-2">
           {/* Left Content */}
@@ -34,7 +40,7 @@ export default function Hero() {
             <div className="mt-10 rounded-xl border border-neutral-300 bg-white shadow-sm">
               <div className="border-l-4 border-lime-700 p-4 lg:p-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-100 text-xl">
+                  <div className="flex h-10 w-10 items-center p-2 justify-center rounded-lg bg-amber-100 text-xl">
                     📦
                   </div>
 
@@ -54,15 +60,21 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <button className="flex items-center justify-center gap-2 rounded-lg bg-lime-700 px-8 py-4 font-semibold uppercase tracking-wider text-white transition hover:bg-lime-900">
+              <button
+                onClick={() => setIsOpen(true)}
+                className="flex items-center justify-center gap-2 rounded-lg bg-lime-700 px-8 py-4 font-semibold uppercase tracking-wider text-white transition hover:bg-lime-900"
+              >
                 Get Bulk Pricing
                 <ArrowDown size={18} />
               </button>
 
-              <button className="flex items-center justify-center gap-2 rounded-lg bg-[#16241F] px-8 py-4 font-semibold uppercase tracking-wider text-white transition hover:bg-[#23362f]">
+              <a
+                href="https://wa.link/5alazl"
+                className="flex items-center justify-center gap-2 rounded-lg bg-[#16241F] px-8 py-4 font-semibold uppercase tracking-wider text-white transition hover:bg-[#23362f]"
+              >
                 WhatsApp Bulk
                 <SiWhatsapp size={18} />
-              </button>
+              </a>
             </div>
           </div>
 
@@ -81,6 +93,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <EnquiryBulkForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </section>
   );
 }

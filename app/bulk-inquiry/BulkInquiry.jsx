@@ -1,3 +1,4 @@
+import BulkCTA from '@/components/bulk/BulkCTA'
 import BulkEnquiry from '@/components/bulk/BulkEnquiry'
 import Header from '@/components/bulk/Header'
 import Hero from '@/components/bulk/Hero'
@@ -16,12 +17,13 @@ export default function BulkInquiry() {
     <Header/>
     <Hero/>
     <StatsSection/>
+    <Certificates/>
     <ProductsSection/>
     <WhyChoose/>
     <BulkEnquiry/>
     <WhyChoose2/>
-    <Certificates/>
     <TestimonialsModern/>
+    <BulkCTA/>
     <FooterInquiry />
     </>
   )

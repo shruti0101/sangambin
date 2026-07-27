@@ -1,26 +1,34 @@
 "use client";
 
+import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useState } from "react";
 import { toast } from "react-toastify";
 
-export default function BulkEnquiry() {
-  const [company, setCompany] = useState("");
-  const [businessType, setBusinessType] = useState("");
-  const [product, setProduct] = useState("");
-  const [quantity, setQuantity] = useState("");
-  const [place, setPlace] = useState("");
+
+export default function EnquiryBulkForm({ isOpen, onClose }) {
+  const [submitted, setSubmitted] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  // FORM STATES
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
+  const [product, setProduct] = useState("");
+  const [place, setPlace] = useState("");
   const [message, setMessage] = useState("");
+  const [company, setCompany] = useState("");
 
-   const [submitted, setSubmitted] = useState(false);
-    const [successMessage, setSuccessMessage] = useState("");
+  const [businessType, setBusinessType] = useState("");
+  const [quantity, setQuantity] = useState("");
 
-  const [loading, setLoading] = useState(false);
 
-  const submitForm = async () => {
+
+  if (!isOpen) return null;
+
+
+  // SUBMIT FORM
+   const submitForm = async () => {
     try {
       setLoading(true);
 
@@ -94,38 +102,35 @@ export default function BulkEnquiry() {
       setLoading(false);
     }
   };
+
+  // HANDLE SUBMIT
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!phone || phone.length !== 10) {
+      return toast.error("Enter Valid Phone Number");
+    }
+
+   
+    await submitForm();
+  };
+
   return (
-    <section className="bg-[#0f5d3f] py-12 px-4 md:px-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        {/* LEFT CONTENT */}
-        <div className="text-white">
-          <p className="text-orange-400 tracking-widest text-sm mb-4">
-            — BULK SUPPLY ENQUIRY
-          </p>
-
-          <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-            Tell us what you need. We'll quote it at scale.
-          </h2>
-
-          <p className="text-white mb-6">
-            Share your requirement and our bulk order team will respond with
-            factory-direct pricing, lead times and tender documentation —
-            usually within one business day.
-          </p>
-
-          <ul className="space-y-3 text-sm md:text-base">
-            <li>✔ Slab-wise pricing on every quantity tier</li>
-            <li>✔ Tender-ready documentation on request</li>
-            <li>✔ Pan-India dispatch & logistics support</li>
-          </ul>
-        </div>
-
-        {/* RIGHT FORM */}
-        <div className="bg-white rounded-2xl p-6 md:p-8 shadow-lg">
-          <div className="flex justify-between items-center mb-6">
-            <h3 className="font-semibold text-xl tracking-wide">
+    <div onClick={onClose} className="fixed inset-0  flex items-center justify-center bg-black/40 backdrop-blur-sm z-9999">
+    <div onClick={(e)=>{e.stopPropagation()}} className="bg-white max-w-90 md:max-w-3xl rounded-2xl p-6 md:p-8 shadow-lg">
+          <div className="relative flex justify-between items-center mb-6">
+            <h3 className="font-semibold text-xl text-center tracking-wide">
               BULK SUPPLY ENQUIRY
             </h3>
+
+            <button
+          className=" absolute top-0 right-5 text-black hover:text-red-500 text-xl transition"
+          onClick={onClose}
+        >
+          ✕
+        </button>
+
+            
           </div>
 
           <form
@@ -135,6 +140,8 @@ export default function BulkEnquiry() {
               submitForm();
             }}
           >
+            
+        
             {/* Company */}
             <div>
               <label className="text-xs text-gray-500">
@@ -310,8 +317,15 @@ export default function BulkEnquiry() {
               responds within one business day.
             </p>
           </form>
+
+           {submitted && (
+  <p className="text-green-600 text-sm text-center mt-2 font-medium">
+    {successMessage}
+  </p>
+)}
         </div>
-      </div>
-    </section>
+
+       
+    </div>
   );
 }

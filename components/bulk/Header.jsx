@@ -1,12 +1,28 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { LuPhoneCall } from "react-icons/lu";
+import ContactForm from "../Enquiry";
+import { LiaWhatsapp } from "react-icons/lia";
+import EnquiryBulkForm from "./EnquiryBulkForm";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const [showPopup, setShowPopup] = useState(false);
+
+
+  useEffect(() => {
+  const timer = setTimeout(() => {
+    setShowPopup(true);
+  }, 10000); // 10 seconds
+
+  return () => clearTimeout(timer); // cleanup
+}, []);
+
   return (
     <header className="bg-[#0F5D3F] py-3">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-        
         {/* Logo */}
         <Image
           src="/logo.webp"
@@ -17,8 +33,7 @@ export default function Header() {
         />
 
         {/* Right Side */}
-        <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
-          
+        <div className="flex items-center gap-2  md:gap-3">
           {/* Phone */}
           <a
             href="tel:+918810422935"
@@ -49,19 +64,36 @@ export default function Header() {
             href="tel:+918810422935"
             className="sm:hidden bg-white p-2 rounded-xl text-[#0F5D3F]"
           >
-          <LuPhoneCall size={20} />
+            <LuPhoneCall size={20} />
+          </a>
+          <a
+            href="https://wa.link/5alazl"
+            className="sm:hidden bg-white p-2 rounded-xl text-[#0F5D3F]"
+          >
+            <LiaWhatsapp size={22} />
+          </a>
 
+          <a
+            href="https://wa.link/5alazl"
+            className="hidden md:block bg-white p-2 rounded-xl text-[#0F5D3F]"
+          >
+            <LiaWhatsapp size={26} />
           </a>
 
           {/* Button */}
-          <a
-            href="#"
-            className="bg-lime-400 text-[#0F5D3F] px-4 py-2 sm:px-6 sm:py-2.5 md:px-8 md:py-3 rounded-md sm:rounded-lg uppercase font-semibold tracking-wider text-xs sm:text-sm md:text-base hover:bg-white transition whitespace-nowrap"
+          <button
+            onClick={() => setIsOpen(true)}
+            className="bg-lime-400 text-[#0F5D3F] px-4 py-2 sm:px-6 sm:py-2.5 md:px-5 md:py-3 rounded-md sm:rounded-lg uppercase font-semibold tracking-wider text-xs sm:text-sm md:text-base hover:bg-white transition whitespace-nowrap"
           >
             Get Quote
-          </a>
+          </button>
         </div>
       </div>
+
+      <EnquiryBulkForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
+
+        {showPopup &&       <EnquiryBulkForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
+ }
     </header>
   );
 }

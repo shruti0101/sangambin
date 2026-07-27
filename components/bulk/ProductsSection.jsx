@@ -9,6 +9,7 @@ import { SiWhatsapp } from "react-icons/si";
 import Link from "next/link";
 import ContactForm from "../Enquiry";
 import { useState } from "react";
+import EnquiryBulkForm from "./EnquiryBulkForm";
 
 const products = [
   {
@@ -27,9 +28,9 @@ const products = [
     image: "/new/4.webp",
   },
   {
-    title: "Garbage Bins",
-    desc: "Strong, durable bins for everyday waste management use.",
-    image: "/Garbage-Bag.webp",
+    title: "Plastic Dustbin",
+    desc: "Strong, durable dustbin for everyday waste management use.",
+    image: "/new/plastic.webp",
   },
   {
     title: "50L Red Plastic Pedal Dustbin",
@@ -40,6 +41,44 @@ const products = [
     title: "Biomedical Waste Bin (Roto)",
     desc: "Safe, hygienic bin for biomedical waste disposal use.",
     image: "/new/5.webp",
+  },
+];
+const products2 = [
+  
+ 
+ 
+ 
+  {
+    title: "Biomedical Waste Bin (Roto)",
+    desc: "Safe, hygienic bin for biomedical waste disposal use.",
+    image: "/new/5.webp",
+  },
+
+
+  {
+    title: "Pedel Dustbins",
+    desc: "65L high-capacity, hands-free waste management solution.",
+    image: "/new/pedel.webp",
+  },
+   {
+    title: "60 L Foot Operated Dustbin",
+    desc: "60L hands-free dustbin for clean, hygienic waste disposal.",
+    image: "/new/foot.webp",
+  },
+   {
+    title: "Garbage Stations (Roto)",
+    desc: "Durable roto-moulded stations for efficient waste segregation.",
+    image: "/new/4.webp",
+  },
+   {
+    title: "Plastic Dustbin",
+    desc: "Strong, durable dustbin for everyday waste management use.",
+    image: "/new/plastic.webp",
+  },
+  {
+    title: "50L Red Plastic Pedal Dustbin",
+    desc: "50L pedal bin for hygienic, hands-free waste disposal.",
+    image: "/new/red.webp",
   },
 ];
 export default function ProductsSection() {
@@ -74,7 +113,24 @@ export default function ProductsSection() {
               disableOnInteraction: false,
             }}
           >
-            {products.map((item, i) => (
+            {products?.map((item, i) => (
+              <SwiperSlide key={i}>
+                <Card item={item} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={12}
+            loop={true}
+            modules={[Autoplay]}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            className="mt-5"
+          >
+            {products2?.map((item, i) => (
               <SwiperSlide key={i}>
                 <Card item={item} />
               </SwiperSlide>
@@ -113,7 +169,7 @@ function Card({ item }) {
               {item.title}
             </h3>
 
-            <p className="hidden md:block text-xs md:text-sm text-white mb-3 md:mb-4">
+            <p className="hidden md:block text-sm md:text-sm text-white mb-3 md:mb-4">
               {item.desc}
             </p>
           </div>
@@ -127,14 +183,14 @@ function Card({ item }) {
   target="_blank"
   rel="noopener noreferrer"
    onClick={(e) => e.stopPropagation()}
-  className="flex justify-evenly md:justify-between items-center md:gap-2 text-[10px] md:text-sm font-bold border px-2 py-1 md:px-3 md:py-1 rounded-full"
+  className="flex bg-green-500 justify-evenly md:justify-between items-center md:gap-2 text-[10px] md:text-sm font-bold border px-2 py-1 md:px-3 md:py-1 rounded-full"
 >
   WhatsApp Now <SiWhatsapp size={18} />
 </a>
           </div>
         </div>
       </div>
-      <ContactForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
+      <EnquiryBulkForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </>
   );
 }

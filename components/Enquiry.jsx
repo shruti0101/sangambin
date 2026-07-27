@@ -4,8 +4,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-// import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
-// import { auth } from "@/utils/firebase";
 
 export default function ContactForm({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
@@ -21,119 +19,9 @@ export default function ContactForm({ isOpen, onClose }) {
   const [message, setMessage] = useState("");
   const [company, setCompany] = useState("");
 
-  // OTP STATES
-  // const [otp, setOtp] = useState("");
-  // const [showOtpBox, setShowOtpBox] = useState(false);
-  // const [confirmationResult, setConfirmationResult] = useState(null);
-  // const [isPhoneVerified, setIsPhoneVerified] = useState(false);
-
-  // UNIQUE CAPTCHA ID
-  // const recaptchaId = "popup-recaptcha-container";
-
-  // FIREBASE RECAPTCHA
-  //   useEffect(() => {
-  //     if (!isOpen) return;
-
-  //     const initializeRecaptcha = async () => {
-  //       try {
-  //         if (
-  //           typeof window !== "undefined" &&
-  //           !window[recaptchaId]
-  //         ) {
-  //         const verifier = new RecaptchaVerifier(auth, recaptchaId, {
-  //   size: "invisible",
-  // });
-
-  // await verifier.render();
-
-  // window[recaptchaId] = verifier;
-
-  //           await window[recaptchaId].render();
-  //         }
-  //       } catch (error) {
-  //         console.log(error);
-  //       }
-  //     };
-
-  //     initializeRecaptcha();
-
-  //  return () => {
-  //   try {
-  //     if (
-  //       window[recaptchaId] &&
-  //       typeof window[recaptchaId].clear === "function"
-  //     ) {
-  //       window[recaptchaId].clear();
-  //     }
-
-  //     window[recaptchaId] = null;
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-  //   }, [isOpen]);
 
   if (!isOpen) return null;
 
-  // SEND OTP
-  // const sendOTP = async () => {
-  //   try {
-  //     setLoading(true);
-
-  //     if (!phone || phone.length !== 10) {
-  //       toast.error("Enter Valid Phone Number");
-  //       return;
-
-  //     }
-
-  //     const appVerifier = window[recaptchaId];
-
-  //     const result = await signInWithPhoneNumber(
-  //       auth,
-  //       `+91${phone}`,
-  //       appVerifier
-
-  //     );
-
-  //     setConfirmationResult(result);
-
-  //     setShowOtpBox(true);
-
-  //     toast.success("OTP Sent Successfully");
-  //   } catch (error) {
-  //     console.log(error);
-
-  //     toast.error(error.message || "Failed to Send OTP");
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
-
-  // VERIFY OTP
-  // const verifyOTP = async () => {
-  //   try {
-  //     setLoading(true);
-
-  //     if (!otp) {
-  //       toast.error("Enter OTP");
-  //       return;
-  //     }
-
-  //     await confirmationResult.confirm(otp);
-
-  //     setIsPhoneVerified(true);
-
-  //     toast.success("Phone Verified Successfully");
-
-  //     await submitForm();
-  //   } catch (error) {
-  //     console.log(error);
-
-  //     toast.error("Invalid OTP");
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
 
   // SUBMIT FORM
   const submitForm = async () => {
@@ -220,12 +108,7 @@ Contact: ${phone}`;
       return toast.error("Enter Valid Phone Number");
     }
 
-    // if (isPhoneVerified) {
-    //   await submitForm();
-    //   return;
-    // }
-
-    // await sendOTP();
+   
     await submitForm();
   };
 
@@ -343,31 +226,6 @@ Contact: ${phone}`;
                 disabled={loading}
               />
             </div>
-
-            {/* RECAPTCHA */}
-            {/* <div id={recaptchaId}></div> */}
-
-            {/* OTP BOX */}
-            {/* {showOtpBox && !isPhoneVerified && (
-              <div className="space-y-3">
-
-                <input
-                  type="text"
-                  placeholder="Enter OTP"
-                  value={otp}
-                  onChange={(e) => setOtp(e.target.value)}
-                  className="w-full p-3 rounded-lg text-gray-800 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-
-                <button
-                  type="button"
-                  onClick={verifyOTP}
-                  className="w-full py-3 bg-green-700 hover:bg-green-800 transition rounded-lg font-semibold text-white text-md tracking-wide shadow-sm"
-                >
-                  {loading ? "Verifying..." : "Verify OTP"}
-                </button>
-              </div>
-            )} */}
 
             <input
               type="email"

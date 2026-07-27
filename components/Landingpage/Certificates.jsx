@@ -89,15 +89,15 @@ const Certificates = () => {
           },
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
-          1024: { slidesPerView: 5 },
+          1024: { slidesPerView: 4 },
         }}
         className="py-5"
       >
         {certificates.map((cert) => (
           <SwiperSlide key={cert.id}>
             <div className="flex justify-center">
-              <div className="bg-white p-1 rounded-2xl shadow-lg border border-gray-200 transition duration-300 hover:shadow-2xl hover:border-yellow-400 hover:scale-105 w-full max-w-xs sm:max-w-sm md:max-w-md">
-                <div className="relative w-full h-64">
+              <div className="bg-white p-1 rounded-2xl shadow-lg border border-gray-200 transition duration-300 hover:shadow-2xl hover:border-yellow-400 hover:scale-110 w-full max-w-xs sm:max-w-sm md:max-w-md">
+                <div className="relative w-full h-60 md:h-100">
                   <Image
                     src={cert.src}
                     alt={cert.alt}

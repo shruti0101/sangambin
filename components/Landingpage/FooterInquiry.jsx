@@ -13,14 +13,14 @@ import {
 } from "lucide-react";
 
 const products = [
-  { name: "Plastic Dustbins", href: "/categories/plastic-dustbin" },
+  { name: "Plastic Dustbins", href: "#" },
 
-  { name: "Plastic Pedal Bins", href: "/categories/pedal-dustbin" },
-  { name: "Bio-Medical Bins", href: "/categories/bio-medical-waste-bins" },
-  { name: "Wheeled Bins", href: "/categories/wheeled-dustbin" },
-  { name: "Plastic Pallets", href: "/categories/plastic-pallets" },
-  { name: "Bio Bins", href: "/categories/bio-bins" },
-  { name: "Garbage Dustbins", href: "/categories/garbage-dustbin" },
+  { name: "Plastic Pedal Bins", href: "#" },
+  { name: "Bio-Medical Bins", href: "#" },
+  { name: "Wheeled Bins", href: "#" },
+  { name: "Plastic Pallets", href: "#" },
+  { name: "Bio Bins", href: "#" },
+  { name: "Garbage Dustbins", href: "#" },
 ];
 
 const FooterInquiry = () => {
@@ -66,11 +66,11 @@ const FooterInquiry = () => {
             </h3>
             <ul className="space-y-2 text-base md:text-lg text-white">
               {[
-                { name: "Home", href: "/" },
-                { name: "About Us", href: "/about-us" },
-                { name: "Our Products", href: "/products" },
-                { name: "Our Blog", href: "/blogs" },
-                { name: "Contact Us", href: "/contact-us" },
+                { name: "Home", href: "#" },
+                { name: "About Us", href: "#" },
+                { name: "Our Products", href: "#" },
+                { name: "Our Blog", href: "#" },
+                { name: "Contact Us", href: "#" },
               ].map((link, i) => (
                 <li key={i}>
                   <Link
